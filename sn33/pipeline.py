@@ -249,6 +249,26 @@ class Config:
     # penalties (LlmLib.py:194-200, NoPenaltyGroundTruthTagSimilarityScoring),
     # so composites are legal there and ONLY there. OFF by default for the A/B.
     ner_combos: bool = False
+    # --- RCA fixes 2026-08-11 (each independently flag-gated for A/B/C/D/E) ---
+    # D: one salvage pass when the embed batch fails. Incidence measured 2/127
+    # tasks/day (silent empty-vectors -> source=pool at ~0.32-0.48 vs cohorts
+    # ~0.67). Retry runs only when >=1.5s of budget remains.
+    embed_retry: bool = False
+    # B: enrichment-first truncation fallback. All 3 pool losses in the RCA
+    # shipped 0/N enrichment-line coverage against an ~88%-enrichment GT while
+    # rep.enrichment_tags (per-line, already computed) sat unused. Interim
+    # answer becomes round-robin per-line tags (one vote per line, mirroring
+    # the validator's combine) + pool fill. Zero added LLM calls.
+    fallback_enrichment: bool = False
+    # C: value-based slot allocation (canary-only; offline instruments proved
+    # unable to rank allocators). Lines earn slots by their own tags' cosine to
+    # the target; junk lines (best < line_min_cos) earn none; unanchored
+    # (window-only) tags capped. Post-pass over compose output, preserving the
+    # verbatim insurance and the screen-safe floor.
+    value_alloc: bool = False
+    value_line_min_cos: float = 0.35
+    value_line_max_slots: int = 6
+    value_window_cap: int = 2
     use_cache: bool = False            # bench turns this on; production leaves it off
 
 
@@ -386,6 +406,94 @@ def apply_line_quota(
             have.add(add)
             protected = protected | {add}
     return out
+
+
+def allocate_value_based(
+    final: List[str],
+    per_line: Sequence[Sequence[str]],
+    vectors: Dict[str, Sequence[float]],
+    target,
+    enrich_vocab: set,
+    protected: Optional[set] = None,
+    screen_floor: int = 0,
+    target_tags: int = 20,
+    line_min_cos: float = 0.35,
+    line_max_slots: int = 6,
+    window_cap: int = 2,
+) -> List[str]:
+    """Value-based slot allocation (RCA cause 2, user-proposed policy).
+
+    Differences from the fixed quota:
+      * a line's slot budget SCALES with its strength (best own-tag cosine to
+        the target), so strong lines may take up to ``line_max_slots`` and a
+        junk line (best < ``line_min_cos``, e.g. a Wikipedia-disambiguation
+        snippet) takes ZERO - no slots wasted satisfying a quota;
+      * tags lexically unanchored in ANY enrichment line ("window-only") are
+        capped at ``window_cap`` - the window supplies ~10% of GT but consumed
+        6 slots on two RCA losses.
+    Post-pass over compose output: verbatim insurance (``protected``) and the
+    screen-safe floor survive by construction. Pure CPU on existing vectors.
+    """
+    protected = protected or set()
+
+    def cos(t) -> float:
+        v = vectors.get(t)
+        if v is None or not len(v) or target is None:
+            return -1.0
+        return cosine(np.asarray(v, dtype=np.float32), target)
+
+    # per-line strength and slot budget
+    lines = [[t for t in s if t] for s in per_line if s]
+    strengths = [max((cos(t) for t in s), default=-1.0) for s in lines]
+    active = [(s, st_) for s, st_ in zip(lines, strengths) if st_ >= line_min_cos]
+    if not active:
+        return final
+    total = sum(st_ for _, st_ in active)
+    budgets = []
+    for s, st_ in active:
+        share = max(1, round(target_tags * (st_ / total))) if total > 0 else 1
+        budgets.append((s, min(line_max_slots, share)))
+
+    def anchored(tag: str) -> bool:
+        return tag in protected or any(w in enrich_vocab for w in tag.split())
+
+    picked: List[str] = []
+    have = set()
+    # 1. each active line claims its budget from its OWN tags, best first
+    for s, budget in budgets:
+        own = sorted((t for t in s if t not in have and cos(t) >= 0), key=cos, reverse=True)
+        for t in own[:budget]:
+            if len(picked) >= target_tags:
+                break
+            picked.append(t)
+            have.add(t)
+    # 2. fill remaining slots in compose's order (keeps verbatims/floor bias),
+    #    capping unanchored (window-only) tags
+    window_used = 0
+    for t in final:
+        if len(picked) >= target_tags:
+            break
+        if t in have:
+            continue
+        if not anchored(t):
+            if window_used >= window_cap and t not in protected:
+                continue
+            window_used += 1
+        picked.append(t)
+        have.add(t)
+    # 3. protected tags must never be dropped by this pass
+    for t in final:
+        if t in protected and t not in have and picked:
+            weakest = min((x for x in picked if x not in protected), key=cos, default=None)
+            if weakest is not None:
+                picked[picked.index(weakest)] = t
+                have.add(t)
+    # 4. screen-safe floor guard: if the reallocation dropped below the floor,
+    #    it is not safe to ship - fall back to compose's original answer.
+    if screen_floor and sum(1 for t in picked if screen_safe(t)) < min(
+            screen_floor, sum(1 for t in final if screen_safe(t))):
+        return final
+    return picked if len(picked) >= 3 else final
 
 
 def _stem(w: str) -> str:
@@ -945,6 +1053,36 @@ async def mine(
                 res.tags = promoted
                 res.source = "replica"
 
+        # B: enrichment-first fallback interim. The pool prompt sees mostly
+        # window text, so a truncated answer used to ship window vocabulary
+        # against a GT that is ~88% enrichment (three RCA losses at 0/4
+        # enrichment-line coverage, gaps -0.427/-0.247/-0.088). The per-line
+        # replica extractions are already in hand at this point; round-robin
+        # one tag per line per pass - each line is one combine vote - then fill
+        # with pool paraphrases. Ranked output still overwrites this whenever
+        # stage 2 completes, so the flag ONLY changes what a truncation ships.
+        if (cfg.fallback_enrichment and enrich_by_line
+                and kind in ("conversation_tagging", "webpage_metadata_generation")):
+            per_line_norm = [normalize_all(s)[:6] for s in enrich_by_line if s]
+            rr: List[str] = []
+            depth = 0
+            while len(rr) < target_tags and depth < 6:
+                added = False
+                for s in per_line_norm:
+                    if depth < len(s) and s[depth] not in rr:
+                        rr.append(s[depth])
+                        added = True
+                        if len(rr) >= target_tags:
+                            break
+                if not added:
+                    break
+                depth += 1
+            fill = [t for t in normalize_all(pool_tags) if t not in rr]
+            interim = (rr + fill)[:target_tags]
+            if len(interim) >= profile["min_tags"]:
+                res.tags = interim
+                res.source = "fallback_enrich"
+
         # ---- stage 2: rank every candidate against the estimated target ----
         anchors = vocab.anchors_for(kind, limit=cfg.anchor_pool) if cfg.use_anchors else []
         # Lexical variants of the predicted ground truth are the strongest
@@ -1053,7 +1191,11 @@ async def mine(
 
         to_embed = list(dict.fromkeys(candidates + centroid_tags))
         vectors = await asyncio.wait_for(
-            llm.embed(to_embed, timeout=min(4.0, dl.left()), use_cache=cfg.use_cache),
+            llm.embed(to_embed, timeout=min(4.0, dl.left()), use_cache=cfg.use_cache,
+                      # D: one salvage pass on a failed batch, only when enough
+                      # budget remains that the retry cannot cause an overrun.
+                      retry_timeout=(min(2.5, dl.left() - 1.0)
+                                     if cfg.embed_retry and dl.left() > 1.5 else 0.0)),
             timeout=max(0.1, dl.left()),
         )
 
@@ -1166,6 +1308,22 @@ async def mine(
             final = apply_head_cap(
                 final, ranked, cfg.head_cap,
                 protected=set(normalize_all(predicted_gt)),
+            )
+        # C: value-based allocation (canary-only flag). Mutually exclusive with
+        # the fixed quota by convention - enable one, not both, per arm.
+        if (cfg.value_alloc and enrich_by_line and kind == "conversation_tagging"
+                and len(final) >= profile["min_tags"]):
+            ev = {w for s in enrich_by_line for t in s for w in t.split()}
+            for line in enrichment or []:
+                ev.update(safe_tag(str(line)).split())
+            final = allocate_value_based(
+                final, enrich_by_line, vectors, target, ev,
+                protected=set(normalize_all(predicted_gt)),
+                screen_floor=SCREEN_SAFE_FLOOR if profile["penalties"] else 0,
+                target_tags=target_tags,
+                line_min_cos=cfg.value_line_min_cos,
+                line_max_slots=cfg.value_line_max_slots,
+                window_cap=cfg.value_window_cap,
             )
         if len(final) >= profile["min_tags"]:
             res.tags = final

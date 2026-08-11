@@ -29,6 +29,7 @@ EMBED_MODEL = "text-embedding-3-small"
 EMBED_DIMS = 1536
 
 _client: Optional[AsyncOpenAI] = None
+_chat_client: Optional[AsyncOpenAI] = None
 
 
 def client() -> AsyncOpenAI:
@@ -40,6 +41,37 @@ def client() -> AsyncOpenAI:
         # Keep connections warm; a cold TLS handshake is ~100-200ms we cannot spare.
         _client = AsyncOpenAI(api_key=api_key, max_retries=0)
     return _client
+
+
+def chat_client() -> AsyncOpenAI:
+    """Client for CHAT completions only.
+
+    Offline evaluation runs route chat through OpenRouter (exact model ids like
+    ``openai/gpt-5.2`` pass through to the same upstream model), so testing
+    never drains the OpenAI balance the live miner depends on - a credit outage
+    cost a production zero on 2026-08-10. Embeddings cannot move (OpenRouter
+    has no embeddings endpoint) and always use ``client()``.
+
+    Env (set ONLY in test shells, never in the miner's .env):
+      SN33_CHAT_BASE_URL      e.g. https://openrouter.ai/api/v1
+      SN33_CHAT_API_KEY       key for that endpoint
+      SN33_CHAT_MODEL_PREFIX  e.g. "openai/" - prepended to model names
+    """
+    global _chat_client
+    base = os.environ.get("SN33_CHAT_BASE_URL")
+    if not base:
+        return client()
+    if _chat_client is None:
+        key = os.environ.get("SN33_CHAT_API_KEY") or os.environ.get("OPENAI_API_KEY")
+        _chat_client = AsyncOpenAI(api_key=key, base_url=base, max_retries=0)
+    return _chat_client
+
+
+def _chat_model(model: str) -> str:
+    prefix = os.environ.get("SN33_CHAT_MODEL_PREFIX", "")
+    if prefix and not model.startswith(prefix):
+        return prefix + model
+    return model
 
 
 class Usage:
@@ -111,13 +143,15 @@ async def chat(
     if tier:
         params["service_tier"] = tier
 
+    params["model"] = _chat_model(params["model"])
+
     last_exc = None
     attempt = 0
     total = max(1, attempts)
     while attempt < total:
         try:
             resp = await asyncio.wait_for(
-                client().chat.completions.create(**params), timeout=timeout
+                chat_client().chat.completions.create(**params), timeout=timeout
             )
             text = resp.choices[0].message.content or ""
             try:
@@ -154,6 +188,7 @@ async def embed(
     timeout: float = 6.0,
     use_cache: bool = True,
     batch_size: int = 256,
+    retry_timeout: float = 0.0,   # >0: one salvage pass for failed texts, with this timeout
 ) -> Dict[str, List[float]]:
     """Embed many strings in as few HTTP calls as possible.
 
@@ -178,7 +213,10 @@ async def embed(
     if not todo:
         return out
 
-    async def _one_batch(batch: List[str]) -> None:
+    fail: Dict[str, int] = {"n": 0}
+    last_err: Dict[str, str] = {"e": ""}
+
+    async def _one_batch(batch: List[str], tmo: float) -> None:
         try:
             resp = await asyncio.wait_for(
                 client().embeddings.create(
@@ -186,11 +224,11 @@ async def embed(
                     model=EMBED_MODEL,
                     dimensions=EMBED_DIMS,
                 ),
-                timeout=timeout,
+                timeout=tmo,
             )
         except Exception as e:  # noqa: BLE001
-            if os.environ.get("SN33_DEBUG"):
-                print(f"[sn33.llm] embed failed: {type(e).__name__}: {e}")
+            fail["n"] += len(batch)
+            last_err["e"] = f"{type(e).__name__}: {e}"
             return
         try:
             Usage.embed_calls += 1
@@ -204,7 +242,24 @@ async def embed(
                 cache.put(cache.key_for("emb", EMBED_MODEL, EMBED_DIMS, text), item.embedding)
 
     batches = [todo[i : i + batch_size] for i in range(0, len(todo), batch_size)]
-    await asyncio.gather(*[_one_batch(b) for b in batches])
+    await asyncio.gather(*[_one_batch(b, timeout) for b in batches])
+
+    # A failed batch used to vanish silently (visible only under SN33_DEBUG).
+    # In production that surfaced as source=pool with degraded=False and NO log
+    # line - two tasks on 2026-08-11 (13:13, 16:05) scored ~0.32-0.48 against
+    # cohorts at 0.67 with nothing to debug from. Failures now ALWAYS log, and
+    # the caller may grant ONE salvage pass for the missing texts.
+    if fail["n"]:
+        print(f"[sn33.llm] embed FAILED for {fail['n']}/{len(todo)} texts "
+              f"({last_err['e'][:120]}) retry_timeout={retry_timeout}")
+        if retry_timeout and retry_timeout > 0.2:
+            missing = [t for t in todo if t not in out]
+            if missing:
+                fail["n"] = 0
+                rb = [missing[i : i + batch_size] for i in range(0, len(missing), batch_size)]
+                await asyncio.gather(*[_one_batch(b, retry_timeout) for b in rb])
+                got = len([t for t in missing if t in out])
+                print(f"[sn33.llm] embed retry: recovered {got}/{len(missing)} texts")
     return out
 
 

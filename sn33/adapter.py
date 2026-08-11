@@ -91,6 +91,16 @@ def config_from_env() -> Config:
         cfg.demote_agree_cut = _f("SN33_DEMOTE_AGREE_CUT", 0.18)
     if os.environ.get("SN33_HEAD_CAP"):
         cfg.head_cap = _i("SN33_HEAD_CAP", 0)
+    # RCA fixes 2026-08-11, each its own experiment arm:
+    if os.environ.get("SN33_EMBED_RETRY", "0") != "0":
+        cfg.embed_retry = True                      # D
+    if os.environ.get("SN33_FALLBACK_ENRICH", "0") != "0":
+        cfg.fallback_enrichment = True              # B
+    if os.environ.get("SN33_VALUE_ALLOC", "0") != "0":
+        cfg.value_alloc = True                      # C (canary-only)
+        cfg.value_line_min_cos = _f("SN33_VALUE_LINE_MIN_COS", 0.35)
+        cfg.value_line_max_slots = _i("SN33_VALUE_LINE_MAX_SLOTS", 6)
+        cfg.value_window_cap = _i("SN33_VALUE_WINDOW_CAP", 2)
     return cfg
 
 

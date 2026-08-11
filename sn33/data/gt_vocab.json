@@ -1,0 +1,2007 @@
+{
+ "source": "ReadyAi/5000-podcast-conversations dataset, conversations_to_tags.parquet",
+ "conversations": 4888,
+ "note": "document frequency = distinct conversations containing the tag",
+ "tags": [
+  {
+   "tag": "podcast",
+   "doc_freq": 4522,
+   "share": 0.9251
+  },
+  {
+   "tag": "communication",
+   "doc_freq": 4414,
+   "share": 0.903
+  },
+  {
+   "tag": "relationships",
+   "doc_freq": 4228,
+   "share": 0.865
+  },
+  {
+   "tag": "technology",
+   "doc_freq": 4179,
+   "share": 0.855
+  },
+  {
+   "tag": "conversation",
+   "doc_freq": 4065,
+   "share": 0.8316
+  },
+  {
+   "tag": "work",
+   "doc_freq": 4048,
+   "share": 0.8282
+  },
+  {
+   "tag": "personal growth",
+   "doc_freq": 3897,
+   "share": 0.7973
+  },
+  {
+   "tag": "family",
+   "doc_freq": 3893,
+   "share": 0.7964
+  },
+  {
+   "tag": "podcasts",
+   "doc_freq": 3869,
+   "share": 0.7915
+  },
+  {
+   "tag": "personal development",
+   "doc_freq": 3862,
+   "share": 0.7901
+  },
+  {
+   "tag": "podcasting",
+   "doc_freq": 3798,
+   "share": 0.777
+  },
+  {
+   "tag": "business",
+   "doc_freq": 3797,
+   "share": 0.7768
+  },
+  {
+   "tag": "career",
+   "doc_freq": 3764,
+   "share": 0.77
+  },
+  {
+   "tag": "sales",
+   "doc_freq": 3727,
+   "share": 0.7625
+  },
+  {
+   "tag": "self improvement",
+   "doc_freq": 3695,
+   "share": 0.7559
+  },
+  {
+   "tag": "interests",
+   "doc_freq": 3650,
+   "share": 0.7467
+  },
+  {
+   "tag": "motivation",
+   "doc_freq": 3640,
+   "share": 0.7447
+  },
+  {
+   "tag": "marketing",
+   "doc_freq": 3606,
+   "share": 0.7377
+  },
+  {
+   "tag": "education",
+   "doc_freq": 3538,
+   "share": 0.7238
+  },
+  {
+   "tag": "success",
+   "doc_freq": 3466,
+   "share": 0.7091
+  },
+  {
+   "tag": "entertainment",
+   "doc_freq": 3439,
+   "share": 0.7036
+  },
+  {
+   "tag": "leadership",
+   "doc_freq": 3412,
+   "share": 0.698
+  },
+  {
+   "tag": "growth",
+   "doc_freq": 3312,
+   "share": 0.6776
+  },
+  {
+   "tag": "advice",
+   "doc_freq": 3280,
+   "share": 0.671
+  },
+  {
+   "tag": "networking",
+   "doc_freq": 3277,
+   "share": 0.6704
+  },
+  {
+   "tag": "learning",
+   "doc_freq": 3273,
+   "share": 0.6696
+  },
+  {
+   "tag": "sports",
+   "doc_freq": 3268,
+   "share": 0.6686
+  },
+  {
+   "tag": "travel",
+   "doc_freq": 3265,
+   "share": 0.668
+  },
+  {
+   "tag": "emotions",
+   "doc_freq": 3264,
+   "share": 0.6678
+  },
+  {
+   "tag": "experience",
+   "doc_freq": 3261,
+   "share": 0.6671
+  },
+  {
+   "tag": "personal experiences",
+   "doc_freq": 3235,
+   "share": 0.6618
+  },
+  {
+   "tag": "support",
+   "doc_freq": 3226,
+   "share": 0.66
+  },
+  {
+   "tag": "music",
+   "doc_freq": 3204,
+   "share": 0.6555
+  },
+  {
+   "tag": "challenges",
+   "doc_freq": 3153,
+   "share": 0.645
+  },
+  {
+   "tag": "personal interests",
+   "doc_freq": 3134,
+   "share": 0.6412
+  },
+  {
+   "tag": "personal",
+   "doc_freq": 3134,
+   "share": 0.6412
+  },
+  {
+   "tag": "health",
+   "doc_freq": 3128,
+   "share": 0.6399
+  },
+  {
+   "tag": "life",
+   "doc_freq": 3124,
+   "share": 0.6391
+  },
+  {
+   "tag": "psychology",
+   "doc_freq": 3112,
+   "share": 0.6367
+  },
+  {
+   "tag": "social media",
+   "doc_freq": 3103,
+   "share": 0.6348
+  },
+  {
+   "tag": "storytelling",
+   "doc_freq": 3079,
+   "share": 0.6299
+  },
+  {
+   "tag": "teamwork",
+   "doc_freq": 3069,
+   "share": 0.6279
+  },
+  {
+   "tag": "personal experience",
+   "doc_freq": 3030,
+   "share": 0.6199
+  },
+  {
+   "tag": "culture",
+   "doc_freq": 3009,
+   "share": 0.6156
+  },
+  {
+   "tag": "productivity",
+   "doc_freq": 2976,
+   "share": 0.6088
+  },
+  {
+   "tag": "training",
+   "doc_freq": 2974,
+   "share": 0.6084
+  },
+  {
+   "tag": "friendship",
+   "doc_freq": 2972,
+   "share": 0.608
+  },
+  {
+   "tag": "humor",
+   "doc_freq": 2960,
+   "share": 0.6056
+  },
+  {
+   "tag": "lifestyle",
+   "doc_freq": 2933,
+   "share": 0.6
+  },
+  {
+   "tag": "history",
+   "doc_freq": 2932,
+   "share": 0.5998
+  },
+  {
+   "tag": "relationship",
+   "doc_freq": 2923,
+   "share": 0.598
+  },
+  {
+   "tag": "mindset",
+   "doc_freq": 2900,
+   "share": 0.5933
+  },
+  {
+   "tag": "reflection",
+   "doc_freq": 2894,
+   "share": 0.5921
+  },
+  {
+   "tag": "coaching",
+   "doc_freq": 2893,
+   "share": 0.5919
+  },
+  {
+   "tag": "performance",
+   "doc_freq": 2891,
+   "share": 0.5914
+  },
+  {
+   "tag": "promotion",
+   "doc_freq": 2889,
+   "share": 0.591
+  },
+  {
+   "tag": "self reflection",
+   "doc_freq": 2811,
+   "share": 0.5751
+  },
+  {
+   "tag": "hobbies",
+   "doc_freq": 2802,
+   "share": 0.5732
+  },
+  {
+   "tag": "books",
+   "doc_freq": 2800,
+   "share": 0.5728
+  },
+  {
+   "tag": "skills",
+   "doc_freq": 2791,
+   "share": 0.571
+  },
+  {
+   "tag": "mental health",
+   "doc_freq": 2786,
+   "share": 0.57
+  },
+  {
+   "tag": "community",
+   "doc_freq": 2784,
+   "share": 0.5696
+  },
+  {
+   "tag": "questions",
+   "doc_freq": 2782,
+   "share": 0.5691
+  },
+  {
+   "tag": "strategy",
+   "doc_freq": 2779,
+   "share": 0.5685
+  },
+  {
+   "tag": "management",
+   "doc_freq": 2778,
+   "share": 0.5683
+  },
+  {
+   "tag": "research",
+   "doc_freq": 2764,
+   "share": 0.5655
+  },
+  {
+   "tag": "entrepreneurship",
+   "doc_freq": 2762,
+   "share": 0.5651
+  },
+  {
+   "tag": "inspiration",
+   "doc_freq": 2732,
+   "share": 0.5589
+  },
+  {
+   "tag": "movies",
+   "doc_freq": 2730,
+   "share": 0.5585
+  },
+  {
+   "tag": "gratitude",
+   "doc_freq": 2727,
+   "share": 0.5579
+  },
+  {
+   "tag": "decision making",
+   "doc_freq": 2722,
+   "share": 0.5569
+  },
+  {
+   "tag": "parenting",
+   "doc_freq": 2713,
+   "share": 0.555
+  },
+  {
+   "tag": "development",
+   "doc_freq": 2707,
+   "share": 0.5538
+  },
+  {
+   "tag": "self awareness",
+   "doc_freq": 2706,
+   "share": 0.5536
+  },
+  {
+   "tag": "interview",
+   "doc_freq": 2696,
+   "share": 0.5516
+  },
+  {
+   "tag": "engagement",
+   "doc_freq": 2689,
+   "share": 0.5501
+  },
+  {
+   "tag": "perspective",
+   "doc_freq": 2682,
+   "share": 0.5487
+  },
+  {
+   "tag": "experiences",
+   "doc_freq": 2664,
+   "share": 0.545
+  },
+  {
+   "tag": "food",
+   "doc_freq": 2656,
+   "share": 0.5434
+  },
+  {
+   "tag": "confidence",
+   "doc_freq": 2642,
+   "share": 0.5405
+  },
+  {
+   "tag": "media",
+   "doc_freq": 2637,
+   "share": 0.5395
+  },
+  {
+   "tag": "empathy",
+   "doc_freq": 2626,
+   "share": 0.5372
+  },
+  {
+   "tag": "socializing",
+   "doc_freq": 2589,
+   "share": 0.5297
+  },
+  {
+   "tag": "understanding",
+   "doc_freq": 2588,
+   "share": 0.5295
+  },
+  {
+   "tag": "time management",
+   "doc_freq": 2580,
+   "share": 0.5278
+  },
+  {
+   "tag": "goals",
+   "doc_freq": 2567,
+   "share": 0.5252
+  },
+  {
+   "tag": "connection",
+   "doc_freq": 2556,
+   "share": 0.5229
+  },
+  {
+   "tag": "collaboration",
+   "doc_freq": 2548,
+   "share": 0.5213
+  },
+  {
+   "tag": "competition",
+   "doc_freq": 2537,
+   "share": 0.519
+  },
+  {
+   "tag": "feedback",
+   "doc_freq": 2493,
+   "share": 0.51
+  },
+  {
+   "tag": "behavior",
+   "doc_freq": 2469,
+   "share": 0.5051
+  },
+  {
+   "tag": "television",
+   "doc_freq": 2452,
+   "share": 0.5016
+  },
+  {
+   "tag": "sharing",
+   "doc_freq": 2451,
+   "share": 0.5014
+  },
+  {
+   "tag": "friends",
+   "doc_freq": 2450,
+   "share": 0.5012
+  },
+  {
+   "tag": "creativity",
+   "doc_freq": 2420,
+   "share": 0.4951
+  },
+  {
+   "tag": "time",
+   "doc_freq": 2416,
+   "share": 0.4943
+  },
+  {
+   "tag": "impact",
+   "doc_freq": 2390,
+   "share": 0.489
+  },
+  {
+   "tag": "appreciation",
+   "doc_freq": 2373,
+   "share": 0.4855
+  },
+  {
+   "tag": "planning",
+   "doc_freq": 2368,
+   "share": 0.4845
+  },
+  {
+   "tag": "interaction",
+   "doc_freq": 2346,
+   "share": 0.48
+  },
+  {
+   "tag": "science",
+   "doc_freq": 2338,
+   "share": 0.4783
+  },
+  {
+   "tag": "identity",
+   "doc_freq": 2334,
+   "share": 0.4775
+  },
+  {
+   "tag": "personal life",
+   "doc_freq": 2328,
+   "share": 0.4763
+  },
+  {
+   "tag": "preferences",
+   "doc_freq": 2327,
+   "share": 0.4761
+  },
+  {
+   "tag": "career development",
+   "doc_freq": 2316,
+   "share": 0.4738
+  },
+  {
+   "tag": "celebrities",
+   "doc_freq": 2314,
+   "share": 0.4734
+  },
+  {
+   "tag": "fashion",
+   "doc_freq": 2312,
+   "share": 0.473
+  },
+  {
+   "tag": "discussion",
+   "doc_freq": 2307,
+   "share": 0.472
+  },
+  {
+   "tag": "efficiency",
+   "doc_freq": 2307,
+   "share": 0.472
+  },
+  {
+   "tag": "analysis",
+   "doc_freq": 2304,
+   "share": 0.4714
+  },
+  {
+   "tag": "interviews",
+   "doc_freq": 2302,
+   "share": 0.4709
+  },
+  {
+   "tag": "pop culture",
+   "doc_freq": 2301,
+   "share": 0.4707
+  },
+  {
+   "tag": "change",
+   "doc_freq": 2298,
+   "share": 0.4701
+  },
+  {
+   "tag": "future",
+   "doc_freq": 2291,
+   "share": 0.4687
+  },
+  {
+   "tag": "opinions",
+   "doc_freq": 2287,
+   "share": 0.4679
+  },
+  {
+   "tag": "positivity",
+   "doc_freq": 2285,
+   "share": 0.4675
+  },
+  {
+   "tag": "tv shows",
+   "doc_freq": 2273,
+   "share": 0.465
+  },
+  {
+   "tag": "progress",
+   "doc_freq": 2272,
+   "share": 0.4648
+  },
+  {
+   "tag": "personality",
+   "doc_freq": 2271,
+   "share": 0.4646
+  },
+  {
+   "tag": "team",
+   "doc_freq": 2265,
+   "share": 0.4634
+  },
+  {
+   "tag": "opportunity",
+   "doc_freq": 2250,
+   "share": 0.4603
+  },
+  {
+   "tag": "politics",
+   "doc_freq": 2235,
+   "share": 0.4572
+  },
+  {
+   "tag": "comedy",
+   "doc_freq": 2227,
+   "share": 0.4556
+  },
+  {
+   "tag": "advertising",
+   "doc_freq": 2226,
+   "share": 0.4554
+  },
+  {
+   "tag": "events",
+   "doc_freq": 2222,
+   "share": 0.4546
+  },
+  {
+   "tag": "basketball",
+   "doc_freq": 2219,
+   "share": 0.454
+  },
+  {
+   "tag": "strategies",
+   "doc_freq": 2212,
+   "share": 0.4525
+  },
+  {
+   "tag": "fitness",
+   "doc_freq": 2211,
+   "share": 0.4523
+  },
+  {
+   "tag": "conversations",
+   "doc_freq": 2200,
+   "share": 0.4501
+  },
+  {
+   "tag": "perception",
+   "doc_freq": 2189,
+   "share": 0.4478
+  },
+  {
+   "tag": "people",
+   "doc_freq": 2173,
+   "share": 0.4446
+  },
+  {
+   "tag": "interest",
+   "doc_freq": 2170,
+   "share": 0.4439
+  },
+  {
+   "tag": "tools",
+   "doc_freq": 2136,
+   "share": 0.437
+  },
+  {
+   "tag": "wellness",
+   "doc_freq": 2134,
+   "share": 0.4366
+  },
+  {
+   "tag": "money",
+   "doc_freq": 2129,
+   "share": 0.4356
+  },
+  {
+   "tag": "resilience",
+   "doc_freq": 2129,
+   "share": 0.4356
+  },
+  {
+   "tag": "memories",
+   "doc_freq": 2126,
+   "share": 0.4349
+  },
+  {
+   "tag": "philosophy",
+   "doc_freq": 2124,
+   "share": 0.4345
+  },
+  {
+   "tag": "product",
+   "doc_freq": 2117,
+   "share": 0.4331
+  },
+  {
+   "tag": "love",
+   "doc_freq": 2113,
+   "share": 0.4323
+  },
+  {
+   "tag": "reading",
+   "doc_freq": 2112,
+   "share": 0.4321
+  },
+  {
+   "tag": "industry",
+   "doc_freq": 2104,
+   "share": 0.4304
+  },
+  {
+   "tag": "introspection",
+   "doc_freq": 2093,
+   "share": 0.4282
+  },
+  {
+   "tag": "social",
+   "doc_freq": 2084,
+   "share": 0.4264
+  },
+  {
+   "tag": "writing",
+   "doc_freq": 2076,
+   "share": 0.4247
+  },
+  {
+   "tag": "influence",
+   "doc_freq": 2074,
+   "share": 0.4243
+  },
+  {
+   "tag": "innovation",
+   "doc_freq": 2069,
+   "share": 0.4233
+  },
+  {
+   "tag": "personal preferences",
+   "doc_freq": 2066,
+   "share": 0.4227
+  },
+  {
+   "tag": "process",
+   "doc_freq": 2059,
+   "share": 0.4212
+  },
+  {
+   "tag": "nostalgia",
+   "doc_freq": 2059,
+   "share": 0.4212
+  },
+  {
+   "tag": "topic interests",
+   "doc_freq": 2049,
+   "share": 0.4192
+  },
+  {
+   "tag": "activities",
+   "doc_freq": 2046,
+   "share": 0.4186
+  },
+  {
+   "tag": "recommendations",
+   "doc_freq": 2045,
+   "share": 0.4184
+  },
+  {
+   "tag": "emotional",
+   "doc_freq": 2026,
+   "share": 0.4145
+  },
+  {
+   "tag": "curiosity",
+   "doc_freq": 2024,
+   "share": 0.4141
+  },
+  {
+   "tag": "art",
+   "doc_freq": 2012,
+   "share": 0.4116
+  },
+  {
+   "tag": "knowledge",
+   "doc_freq": 2009,
+   "share": 0.411
+  },
+  {
+   "tag": "exercise",
+   "doc_freq": 2003,
+   "share": 0.4098
+  },
+  {
+   "tag": "listening",
+   "doc_freq": 1992,
+   "share": 0.4075
+  },
+  {
+   "tag": "questioning",
+   "doc_freq": 1989,
+   "share": 0.4069
+  },
+  {
+   "tag": "personal anecdotes",
+   "doc_freq": 1976,
+   "share": 0.4043
+  },
+  {
+   "tag": "introduction",
+   "doc_freq": 1967,
+   "share": 0.4024
+  },
+  {
+   "tag": "fear",
+   "doc_freq": 1965,
+   "share": 0.402
+  },
+  {
+   "tag": "awareness",
+   "doc_freq": 1964,
+   "share": 0.4018
+  },
+  {
+   "tag": "problem solving",
+   "doc_freq": 1962,
+   "share": 0.4014
+  },
+  {
+   "tag": "mindfulness",
+   "doc_freq": 1961,
+   "share": 0.4012
+  },
+  {
+   "tag": "excitement",
+   "doc_freq": 1957,
+   "share": 0.4004
+  },
+  {
+   "tag": "fun",
+   "doc_freq": 1953,
+   "share": 0.3995
+  },
+  {
+   "tag": "improvement",
+   "doc_freq": 1950,
+   "share": 0.3989
+  },
+  {
+   "tag": "childhood",
+   "doc_freq": 1946,
+   "share": 0.3981
+  },
+  {
+   "tag": "school",
+   "doc_freq": 1941,
+   "share": 0.3971
+  },
+  {
+   "tag": "future plans",
+   "doc_freq": 1940,
+   "share": 0.3969
+  },
+  {
+   "tag": "products",
+   "doc_freq": 1938,
+   "share": 0.3965
+  },
+  {
+   "tag": "service",
+   "doc_freq": 1924,
+   "share": 0.3936
+  },
+  {
+   "tag": "personal relationships",
+   "doc_freq": 1924,
+   "share": 0.3936
+  },
+  {
+   "tag": "routine",
+   "doc_freq": 1920,
+   "share": 0.3928
+  },
+  {
+   "tag": "social interactions",
+   "doc_freq": 1918,
+   "share": 0.3924
+  },
+  {
+   "tag": "finance",
+   "doc_freq": 1906,
+   "share": 0.3899
+  },
+  {
+   "tag": "jobs",
+   "doc_freq": 1904,
+   "share": 0.3895
+  },
+  {
+   "tag": "perseverance",
+   "doc_freq": 1904,
+   "share": 0.3895
+  },
+  {
+   "tag": "mentorship",
+   "doc_freq": 1895,
+   "share": 0.3877
+  },
+  {
+   "tag": "production",
+   "doc_freq": 1893,
+   "share": 0.3873
+  },
+  {
+   "tag": "journey",
+   "doc_freq": 1886,
+   "share": 0.3858
+  },
+  {
+   "tag": "self care",
+   "doc_freq": 1883,
+   "share": 0.3852
+  },
+  {
+   "tag": "audience",
+   "doc_freq": 1883,
+   "share": 0.3852
+  },
+  {
+   "tag": "news",
+   "doc_freq": 1881,
+   "share": 0.3848
+  },
+  {
+   "tag": "football",
+   "doc_freq": 1881,
+   "share": 0.3848
+  },
+  {
+   "tag": "uncertainty",
+   "doc_freq": 1878,
+   "share": 0.3842
+  },
+  {
+   "tag": "social interaction",
+   "doc_freq": 1877,
+   "share": 0.384
+  },
+  {
+   "tag": "answers",
+   "doc_freq": 1875,
+   "share": 0.3836
+  },
+  {
+   "tag": "show",
+   "doc_freq": 1874,
+   "share": 0.3834
+  },
+  {
+   "tag": "cooking",
+   "doc_freq": 1874,
+   "share": 0.3834
+  },
+  {
+   "tag": "encouragement",
+   "doc_freq": 1868,
+   "share": 0.3822
+  },
+  {
+   "tag": "presentation",
+   "doc_freq": 1862,
+   "share": 0.3809
+  },
+  {
+   "tag": "statistics",
+   "doc_freq": 1856,
+   "share": 0.3797
+  },
+  {
+   "tag": "language",
+   "doc_freq": 1855,
+   "share": 0.3795
+  },
+  {
+   "tag": "recovery",
+   "doc_freq": 1852,
+   "share": 0.3789
+  },
+  {
+   "tag": "literature",
+   "doc_freq": 1849,
+   "share": 0.3783
+  },
+  {
+   "tag": "intelligence",
+   "doc_freq": 1845,
+   "share": 0.3775
+  },
+  {
+   "tag": "current events",
+   "doc_freq": 1841,
+   "share": 0.3766
+  },
+  {
+   "tag": "privacy",
+   "doc_freq": 1838,
+   "share": 0.376
+  },
+  {
+   "tag": "career aspirations",
+   "doc_freq": 1838,
+   "share": 0.376
+  },
+  {
+   "tag": "power",
+   "doc_freq": 1834,
+   "share": 0.3752
+  },
+  {
+   "tag": "human behavior",
+   "doc_freq": 1833,
+   "share": 0.375
+  },
+  {
+   "tag": "happiness",
+   "doc_freq": 1832,
+   "share": 0.3748
+  },
+  {
+   "tag": "goal setting",
+   "doc_freq": 1831,
+   "share": 0.3746
+  },
+  {
+   "tag": "children",
+   "doc_freq": 1830,
+   "share": 0.3744
+  },
+  {
+   "tag": "software",
+   "doc_freq": 1821,
+   "share": 0.3725
+  },
+  {
+   "tag": "passion",
+   "doc_freq": 1819,
+   "share": 0.3721
+  },
+  {
+   "tag": "communication skills",
+   "doc_freq": 1815,
+   "share": 0.3713
+  },
+  {
+   "tag": "vacation",
+   "doc_freq": 1810,
+   "share": 0.3703
+  },
+  {
+   "tag": "job",
+   "doc_freq": 1807,
+   "share": 0.3697
+  },
+  {
+   "tag": "society",
+   "doc_freq": 1795,
+   "share": 0.3672
+  },
+  {
+   "tag": "thinking",
+   "doc_freq": 1793,
+   "share": 0.3668
+  },
+  {
+   "tag": "emotion",
+   "doc_freq": 1792,
+   "share": 0.3666
+  },
+  {
+   "tag": "action",
+   "doc_freq": 1790,
+   "share": 0.3662
+  },
+  {
+   "tag": "nutrition",
+   "doc_freq": 1784,
+   "share": 0.365
+  },
+  {
+   "tag": "stories",
+   "doc_freq": 1781,
+   "share": 0.3644
+  },
+  {
+   "tag": "artificial intelligence",
+   "doc_freq": 1771,
+   "share": 0.3623
+  },
+  {
+   "tag": "video games",
+   "doc_freq": 1769,
+   "share": 0.3619
+  },
+  {
+   "tag": "authenticity",
+   "doc_freq": 1767,
+   "share": 0.3615
+  },
+  {
+   "tag": "achievement",
+   "doc_freq": 1767,
+   "share": 0.3615
+  },
+  {
+   "tag": "ethics",
+   "doc_freq": 1766,
+   "share": 0.3613
+  },
+  {
+   "tag": "traveling",
+   "doc_freq": 1766,
+   "share": 0.3613
+  },
+  {
+   "tag": "empowerment",
+   "doc_freq": 1765,
+   "share": 0.3611
+  },
+  {
+   "tag": "gaming",
+   "doc_freq": 1762,
+   "share": 0.3605
+  },
+  {
+   "tag": "professional development",
+   "doc_freq": 1760,
+   "share": 0.3601
+  },
+  {
+   "tag": "celebrity",
+   "doc_freq": 1759,
+   "share": 0.3599
+  },
+  {
+   "tag": "location",
+   "doc_freq": 1758,
+   "share": 0.3597
+  },
+  {
+   "tag": "schedule",
+   "doc_freq": 1754,
+   "share": 0.3588
+  },
+  {
+   "tag": "mentoring",
+   "doc_freq": 1752,
+   "share": 0.3584
+  },
+  {
+   "tag": "social dynamics",
+   "doc_freq": 1748,
+   "share": 0.3576
+  },
+  {
+   "tag": "emotional intelligence",
+   "doc_freq": 1745,
+   "share": 0.357
+  },
+  {
+   "tag": "safety",
+   "doc_freq": 1741,
+   "share": 0.3562
+  },
+  {
+   "tag": "age",
+   "doc_freq": 1741,
+   "share": 0.3562
+  },
+  {
+   "tag": "diet",
+   "doc_freq": 1740,
+   "share": 0.356
+  },
+  {
+   "tag": "aspirations",
+   "doc_freq": 1737,
+   "share": 0.3554
+  },
+  {
+   "tag": "feelings",
+   "doc_freq": 1729,
+   "share": 0.3537
+  },
+  {
+   "tag": "advertisement",
+   "doc_freq": 1728,
+   "share": 0.3535
+  },
+  {
+   "tag": "projects",
+   "doc_freq": 1725,
+   "share": 0.3529
+  },
+  {
+   "tag": "stress",
+   "doc_freq": 1725,
+   "share": 0.3529
+  },
+  {
+   "tag": "skill",
+   "doc_freq": 1722,
+   "share": 0.3523
+  },
+  {
+   "tag": "startup",
+   "doc_freq": 1721,
+   "share": 0.3521
+  },
+  {
+   "tag": "work life balance",
+   "doc_freq": 1719,
+   "share": 0.3517
+  },
+  {
+   "tag": "topics",
+   "doc_freq": 1715,
+   "share": 0.3509
+  },
+  {
+   "tag": "programming",
+   "doc_freq": 1707,
+   "share": 0.3492
+  },
+  {
+   "tag": "spirituality",
+   "doc_freq": 1706,
+   "share": 0.349
+  },
+  {
+   "tag": "photography",
+   "doc_freq": 1705,
+   "share": 0.3488
+  },
+  {
+   "tag": "weather",
+   "doc_freq": 1705,
+   "share": 0.3488
+  },
+  {
+   "tag": "habits",
+   "doc_freq": 1701,
+   "share": 0.348
+  },
+  {
+   "tag": "trust",
+   "doc_freq": 1700,
+   "share": 0.3478
+  },
+  {
+   "tag": "audience engagement",
+   "doc_freq": 1687,
+   "share": 0.3451
+  },
+  {
+   "tag": "professional",
+   "doc_freq": 1684,
+   "share": 0.3445
+  },
+  {
+   "tag": "favorite teams",
+   "doc_freq": 1683,
+   "share": 0.3443
+  },
+  {
+   "tag": "self discovery",
+   "doc_freq": 1682,
+   "share": 0.3441
+  },
+  {
+   "tag": "therapy",
+   "doc_freq": 1680,
+   "share": 0.3437
+  },
+  {
+   "tag": "content",
+   "doc_freq": 1680,
+   "share": 0.3437
+  },
+  {
+   "tag": "deal",
+   "doc_freq": 1668,
+   "share": 0.3412
+  },
+  {
+   "tag": "personal stories",
+   "doc_freq": 1664,
+   "share": 0.3404
+  },
+  {
+   "tag": "meeting",
+   "doc_freq": 1662,
+   "share": 0.34
+  },
+  {
+   "tag": "concerts",
+   "doc_freq": 1661,
+   "share": 0.3398
+  },
+  {
+   "tag": "well being",
+   "doc_freq": 1660,
+   "share": 0.3396
+  },
+  {
+   "tag": "recognition",
+   "doc_freq": 1658,
+   "share": 0.3392
+  },
+  {
+   "tag": "interactions",
+   "doc_freq": 1657,
+   "share": 0.339
+  },
+  {
+   "tag": "pets",
+   "doc_freq": 1650,
+   "share": 0.3376
+  },
+  {
+   "tag": "opportunities",
+   "doc_freq": 1650,
+   "share": 0.3376
+  },
+  {
+   "tag": "biology",
+   "doc_freq": 1646,
+   "share": 0.3367
+  },
+  {
+   "tag": "environment",
+   "doc_freq": 1641,
+   "share": 0.3357
+  },
+  {
+   "tag": "vision",
+   "doc_freq": 1640,
+   "share": 0.3355
+  },
+  {
+   "tag": "expectations",
+   "doc_freq": 1636,
+   "share": 0.3347
+  },
+  {
+   "tag": "beliefs",
+   "doc_freq": 1625,
+   "share": 0.3324
+  },
+  {
+   "tag": "comparison",
+   "doc_freq": 1623,
+   "share": 0.332
+  },
+  {
+   "tag": "games",
+   "doc_freq": 1618,
+   "share": 0.331
+  },
+  {
+   "tag": "company",
+   "doc_freq": 1616,
+   "share": 0.3306
+  },
+  {
+   "tag": "restaurants",
+   "doc_freq": 1614,
+   "share": 0.3302
+  },
+  {
+   "tag": "memory",
+   "doc_freq": 1611,
+   "share": 0.3296
+  },
+  {
+   "tag": "organization",
+   "doc_freq": 1609,
+   "share": 0.3292
+  },
+  {
+   "tag": "dynamics",
+   "doc_freq": 1608,
+   "share": 0.329
+  },
+  {
+   "tag": "soccer",
+   "doc_freq": 1606,
+   "share": 0.3286
+  },
+  {
+   "tag": "book",
+   "doc_freq": 1598,
+   "share": 0.3269
+  },
+  {
+   "tag": "software development",
+   "doc_freq": 1597,
+   "share": 0.3267
+  },
+  {
+   "tag": "communications",
+   "doc_freq": 1589,
+   "share": 0.3251
+  },
+  {
+   "tag": "baseball",
+   "doc_freq": 1588,
+   "share": 0.3249
+  },
+  {
+   "tag": "frustration",
+   "doc_freq": 1588,
+   "share": 0.3249
+  },
+  {
+   "tag": "personal history",
+   "doc_freq": 1586,
+   "share": 0.3245
+  },
+  {
+   "tag": "respect",
+   "doc_freq": 1586,
+   "share": 0.3245
+  },
+  {
+   "tag": "determination",
+   "doc_freq": 1584,
+   "share": 0.3241
+  },
+  {
+   "tag": "shopping",
+   "doc_freq": 1583,
+   "share": 0.3239
+  },
+  {
+   "tag": "anxiety",
+   "doc_freq": 1581,
+   "share": 0.3234
+  },
+  {
+   "tag": "peace",
+   "doc_freq": 1580,
+   "share": 0.3232
+  },
+  {
+   "tag": "energy",
+   "doc_freq": 1580,
+   "share": 0.3232
+  },
+  {
+   "tag": "responsibility",
+   "doc_freq": 1579,
+   "share": 0.323
+  },
+  {
+   "tag": "injuries",
+   "doc_freq": 1578,
+   "share": 0.3228
+  },
+  {
+   "tag": "nature",
+   "doc_freq": 1574,
+   "share": 0.322
+  },
+  {
+   "tag": "employment",
+   "doc_freq": 1574,
+   "share": 0.322
+  },
+  {
+   "tag": "actors",
+   "doc_freq": 1573,
+   "share": 0.3218
+  },
+  {
+   "tag": "coding",
+   "doc_freq": 1572,
+   "share": 0.3216
+  },
+  {
+   "tag": "players",
+   "doc_freq": 1571,
+   "share": 0.3214
+  },
+  {
+   "tag": "market",
+   "doc_freq": 1571,
+   "share": 0.3214
+  },
+  {
+   "tag": "hiking",
+   "doc_freq": 1570,
+   "share": 0.3212
+  },
+  {
+   "tag": "conversation analysis",
+   "doc_freq": 1566,
+   "share": 0.3204
+  },
+  {
+   "tag": "confusion",
+   "doc_freq": 1565,
+   "share": 0.3202
+  },
+  {
+   "tag": "focus",
+   "doc_freq": 1565,
+   "share": 0.3202
+  },
+  {
+   "tag": "teams",
+   "doc_freq": 1564,
+   "share": 0.32
+  },
+  {
+   "tag": "opinion",
+   "doc_freq": 1562,
+   "share": 0.3196
+  },
+  {
+   "tag": "predictions",
+   "doc_freq": 1555,
+   "share": 0.3181
+  },
+  {
+   "tag": "leisure",
+   "doc_freq": 1554,
+   "share": 0.3179
+  },
+  {
+   "tag": "connections",
+   "doc_freq": 1550,
+   "share": 0.3171
+  },
+  {
+   "tag": "admiration",
+   "doc_freq": 1544,
+   "share": 0.3159
+  },
+  {
+   "tag": "data analysis",
+   "doc_freq": 1541,
+   "share": 0.3153
+  },
+  {
+   "tag": "healing",
+   "doc_freq": 1538,
+   "share": 0.3146
+  },
+  {
+   "tag": "acceptance",
+   "doc_freq": 1536,
+   "share": 0.3142
+  },
+  {
+   "tag": "career goals",
+   "doc_freq": 1536,
+   "share": 0.3142
+  },
+  {
+   "tag": "mastery",
+   "doc_freq": 1534,
+   "share": 0.3138
+  },
+  {
+   "tag": "selling",
+   "doc_freq": 1532,
+   "share": 0.3134
+  },
+  {
+   "tag": "joy",
+   "doc_freq": 1532,
+   "share": 0.3134
+  },
+  {
+   "tag": "positive",
+   "doc_freq": 1526,
+   "share": 0.3122
+  },
+  {
+   "tag": "mental",
+   "doc_freq": 1522,
+   "share": 0.3114
+  },
+  {
+   "tag": "commitment",
+   "doc_freq": 1522,
+   "share": 0.3114
+  },
+  {
+   "tag": "techniques",
+   "doc_freq": 1521,
+   "share": 0.3112
+  },
+  {
+   "tag": "markets",
+   "doc_freq": 1521,
+   "share": 0.3112
+  },
+  {
+   "tag": "criticism",
+   "doc_freq": 1517,
+   "share": 0.3104
+  },
+  {
+   "tag": "toolbox",
+   "doc_freq": 1517,
+   "share": 0.3104
+  },
+  {
+   "tag": "consulting",
+   "doc_freq": 1515,
+   "share": 0.3099
+  },
+  {
+   "tag": "conflict",
+   "doc_freq": 1514,
+   "share": 0.3097
+  },
+  {
+   "tag": "reminiscing",
+   "doc_freq": 1513,
+   "share": 0.3095
+  },
+  {
+   "tag": "transformation",
+   "doc_freq": 1512,
+   "share": 0.3093
+  },
+  {
+   "tag": "diversity",
+   "doc_freq": 1511,
+   "share": 0.3091
+  },
+  {
+   "tag": "accountability",
+   "doc_freq": 1504,
+   "share": 0.3077
+  },
+  {
+   "tag": "self perception",
+   "doc_freq": 1501,
+   "share": 0.3071
+  },
+  {
+   "tag": "tech",
+   "doc_freq": 1499,
+   "share": 0.3067
+  },
+  {
+   "tag": "information",
+   "doc_freq": 1498,
+   "share": 0.3065
+  },
+  {
+   "tag": "television shows",
+   "doc_freq": 1496,
+   "share": 0.3061
+  },
+  {
+   "tag": "content creation",
+   "doc_freq": 1495,
+   "share": 0.3059
+  },
+  {
+   "tag": "machine learning",
+   "doc_freq": 1492,
+   "share": 0.3052
+  },
+  {
+   "tag": "optimism",
+   "doc_freq": 1487,
+   "share": 0.3042
+  },
+  {
+   "tag": "values",
+   "doc_freq": 1486,
+   "share": 0.304
+  },
+  {
+   "tag": "agreement",
+   "doc_freq": 1486,
+   "share": 0.304
+  },
+  {
+   "tag": "public speaking",
+   "doc_freq": 1482,
+   "share": 0.3032
+  },
+  {
+   "tag": "story",
+   "doc_freq": 1482,
+   "share": 0.3032
+  },
+  {
+   "tag": "robotics",
+   "doc_freq": 1481,
+   "share": 0.303
+  },
+  {
+   "tag": "family dynamics",
+   "doc_freq": 1476,
+   "share": 0.302
+  },
+  {
+   "tag": "surprise",
+   "doc_freq": 1475,
+   "share": 0.3018
+  },
+  {
+   "tag": "creative",
+   "doc_freq": 1475,
+   "share": 0.3018
+  },
+  {
+   "tag": "college",
+   "doc_freq": 1471,
+   "share": 0.3009
+  },
+  {
+   "tag": "interpersonal relationships",
+   "doc_freq": 1470,
+   "share": 0.3007
+  },
+  {
+   "tag": "life experiences",
+   "doc_freq": 1469,
+   "share": 0.3005
+  },
+  {
+   "tag": "economic",
+   "doc_freq": 1468,
+   "share": 0.3003
+  },
+  {
+   "tag": "balance",
+   "doc_freq": 1466,
+   "share": 0.2999
+  },
+  {
+   "tag": "painting",
+   "doc_freq": 1465,
+   "share": 0.2997
+  },
+  {
+   "tag": "scheduling",
+   "doc_freq": 1462,
+   "share": 0.2991
+  },
+  {
+   "tag": "agenda",
+   "doc_freq": 1457,
+   "share": 0.2981
+  },
+  {
+   "tag": "teaching",
+   "doc_freq": 1457,
+   "share": 0.2981
+  },
+  {
+   "tag": "introductions",
+   "doc_freq": 1456,
+   "share": 0.2979
+  },
+  {
+   "tag": "exploration",
+   "doc_freq": 1455,
+   "share": 0.2977
+  },
+  {
+   "tag": "careers",
+   "doc_freq": 1454,
+   "share": 0.2975
+  },
+  {
+   "tag": "workout",
+   "doc_freq": 1447,
+   "share": 0.296
+  },
+  {
+   "tag": "nba",
+   "doc_freq": 1444,
+   "share": 0.2954
+  },
+  {
+   "tag": "past experiences",
+   "doc_freq": 1443,
+   "share": 0.2952
+  },
+  {
+   "tag": "pressure",
+   "doc_freq": 1438,
+   "share": 0.2942
+  },
+  {
+   "tag": "trade",
+   "doc_freq": 1428,
+   "share": 0.2921
+  },
+  {
+   "tag": "self help",
+   "doc_freq": 1424,
+   "share": 0.2913
+  },
+  {
+   "tag": "upcoming games",
+   "doc_freq": 1424,
+   "share": 0.2913
+  },
+  {
+   "tag": "evolution",
+   "doc_freq": 1421,
+   "share": 0.2907
+  },
+  {
+   "tag": "smartphones",
+   "doc_freq": 1418,
+   "share": 0.2901
+  },
+  {
+   "tag": "human",
+   "doc_freq": 1418,
+   "share": 0.2901
+  },
+  {
+   "tag": "craft",
+   "doc_freq": 1417,
+   "share": 0.2899
+  },
+  {
+   "tag": "team dynamics",
+   "doc_freq": 1414,
+   "share": 0.2893
+  },
+  {
+   "tag": "profit",
+   "doc_freq": 1407,
+   "share": 0.2878
+  },
+  {
+   "tag": "relaxation",
+   "doc_freq": 1397,
+   "share": 0.2858
+  },
+  {
+   "tag": "value",
+   "doc_freq": 1397,
+   "share": 0.2858
+  },
+  {
+   "tag": "building",
+   "doc_freq": 1389,
+   "share": 0.2842
+  },
+  {
+   "tag": "favorite players",
+   "doc_freq": 1384,
+   "share": 0.2831
+  },
+  {
+   "tag": "tennis",
+   "doc_freq": 1381,
+   "share": 0.2825
+  },
+  {
+   "tag": "leads",
+   "doc_freq": 1379,
+   "share": 0.2821
+  },
+  {
+   "tag": "space",
+   "doc_freq": 1378,
+   "share": 0.2819
+  },
+  {
+   "tag": "team loyalty",
+   "doc_freq": 1375,
+   "share": 0.2813
+  },
+  {
+   "tag": "personal reflection",
+   "doc_freq": 1374,
+   "share": 0.2811
+  },
+  {
+   "tag": "portfolio",
+   "doc_freq": 1374,
+   "share": 0.2811
+  },
+  {
+   "tag": "control",
+   "doc_freq": 1369,
+   "share": 0.2801
+  },
+  {
+   "tag": "basketball players",
+   "doc_freq": 1364,
+   "share": 0.2791
+  },
+  {
+   "tag": "wealth",
+   "doc_freq": 1360,
+   "share": 0.2782
+  },
+  {
+   "tag": "dialogue",
+   "doc_freq": 1358,
+   "share": 0.2778
+  },
+  {
+   "tag": "coping mechanisms",
+   "doc_freq": 1356,
+   "share": 0.2774
+  },
+  {
+   "tag": "trends",
+   "doc_freq": 1355,
+   "share": 0.2772
+  },
+  {
+   "tag": "career advice",
+   "doc_freq": 1348,
+   "share": 0.2758
+  },
+  {
+   "tag": "social activities",
+   "doc_freq": 1334,
+   "share": 0.2729
+  },
+  {
+   "tag": "anecdotes",
+   "doc_freq": 1334,
+   "share": 0.2729
+  },
+  {
+   "tag": "observation",
+   "doc_freq": 1325,
+   "share": 0.2711
+  },
+  {
+   "tag": "dedication",
+   "doc_freq": 1320,
+   "share": 0.27
+  },
+  {
+   "tag": "dating",
+   "doc_freq": 1319,
+   "share": 0.2698
+  },
+  {
+   "tag": "practice",
+   "doc_freq": 1316,
+   "share": 0.2692
+  },
+  {
+   "tag": "business strategy",
+   "doc_freq": 1315,
+   "share": 0.269
+  },
+  {
+   "tag": "basketball teams",
+   "doc_freq": 1312,
+   "share": 0.2684
+  },
+  {
+   "tag": "event",
+   "doc_freq": 1311,
+   "share": 0.2682
+  },
+  {
+   "tag": "episode",
+   "doc_freq": 1310,
+   "share": 0.268
+  },
+  {
+   "tag": "data privacy",
+   "doc_freq": 1308,
+   "share": 0.2676
+  },
+  {
+   "tag": "honesty",
+   "doc_freq": 1308,
+   "share": 0.2676
+  },
+  {
+   "tag": "topic",
+   "doc_freq": 1306,
+   "share": 0.2672
+  },
+  {
+   "tag": "discovery",
+   "doc_freq": 1303,
+   "share": 0.2666
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+Generate 18 short topic tags for this conversation. Every tag must be DIRECTLY ABOUT the conversation's subject matter.
+
+CRITICAL RULE — ZERO TANGENTS:
+Every tag must be something a person reading this conversation would describe it with. If a tag isn't directly tied to what's being discussed, REMOVE it.
+
+GOOD examples (for a conversation about "redux state management"):
+  redux, state management, frontend development, javascript, react, store design, reducers, actions, middleware, redux toolkit, application state, store updates, time travel debugging, redux devtools, single source of truth, predictable state, immutable state, async actions
+
+BAD examples (tangential — DO NOT include):
+  music recommendations, weather, geopolitics, life advice, random examples mentioned briefly
+
+GUIDELINES:
+- 18 tags total
+- Each must be semantically close to the conversation's main topic
+- Include: main subject, sub-topics, related techniques, named tools/products, technical terms, related concepts within the same field
+- Mix specific (named tools, exact terms) with general (concepts, processes)
+- Cover the full topic landscape WITHOUT venturing into unrelated territory
+
+Tag rules:
+- 1 to 3 words each
+- Lowercase only
+- No punctuation, hyphens, underscores, duplicates
+- Common English dictionary words
+- No participant names, greetings, pronouns, or filler
+
+Self-check before output: For each tag, would someone reading the conversation say "yes, this is about that"? If not, replace it.
+
+Return ONLY a comma-delimited list of 18 tags, no commentary.
+
+Conversation (XML format, <p0> and <p1> are participants):
+
+{{ conversation_to_analyze }}

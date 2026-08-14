@@ -25,6 +25,7 @@ class LlmOpenAI(LlmLib):
             "model": self.model,
             "messages": [{"role": "user", "content": prompt}],
             "response_format": api_format,
+            "temperature": 0,
         }
         # The installed openai SDK (1.30.3) predates first-class typed support
         # for reasoning_effort/service_tier and rejects them as unexpected
@@ -40,12 +41,21 @@ class LlmOpenAI(LlmLib):
             completion_params["extra_body"] = extra_body
 
         try:
-            response = self.client.chat.completions.create(**completion_params)
+            try:
+                response = self.client.chat.completions.create(**completion_params)
+            except Exception as e:
+                # Reasoning-family models (e.g. gpt-5.6-luna) reject any
+                # non-default temperature with a 400. Upstream hardcodes
+                # temperature=0 here, which silently killed the whole
+                # skill_coverage chain. Retry once without it.
+                if "temperature" in str(e) and "temperature" in completion_params:
+                    completion_params.pop("temperature")
+                    response = self.client.chat.completions.create(**completion_params)
+                else:
+                    raise
             return response.choices[0].message.content or ""
         except Exception as e:
-            print(f"OpenAI Completion Error")
-            # Uncomment the line below for debugging purposes
-            # print(e)
+            print(f"OpenAI Completion Error: {e}")
             return None
 
     def get_vector_embeddings(self, tag: str, dimensions=1536) -> List[float]|None:

@@ -15,8 +15,12 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 # DEALINGS IN THE SOFTWARE.
 
+import json
+import os
 import time
+import traceback
 import typing
+from pathlib import Path
 
 # Bittensor
 import bittensor as bt
@@ -29,6 +33,20 @@ from conversationgenome.task import Task
 from conversationgenome.task.task_factory import parse_task
 from conversationgenome.utils.Utils import Utils
 
+# Replay corpus: every (task, response) we see, appended to JSONL for later analysis.
+# Same schema as the historical /root/miner_logs/tasks.jsonl so existing tools work.
+TASK_LOG_PATH = Path(os.environ.get("MINER_TASK_LOG", "/root/miner_logs/tasks_v2.jsonl"))
+
+
+def _log_task(record: dict) -> None:
+    """Append a single record to the JSONL replay corpus. Best-effort: never raises."""
+    try:
+        TASK_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with TASK_LOG_PATH.open("a") as f:
+            f.write(json.dumps(record, default=str) + "\n")
+    except Exception as e:
+        bt.logging.warning(f"task log write failed: {e}")
+
 
 class Miner(BaseMinerNeuron):
     verbose = False
@@ -36,6 +54,19 @@ class Miner(BaseMinerNeuron):
     def __init__(self, config=None):
         super(Miner, self).__init__(config=config)
         c.set("system", "netuid", self.config.netuid)
+
+        # Load the local extractor now rather than inside the first request.
+        # spaCy's first call loads a model (~2.8s on a 4-core VM), and paying
+        # that inside a 12s synapse cost us the whole LLM budget on the first
+        # real task - it fell back to local-only tags.
+        try:
+            from sn33 import extract
+
+            t0 = time.time()
+            if extract.warm():
+                bt.logging.info(f"[sn33] local extractor warm in {time.time() - t0:.2f}s")
+        except Exception as e:
+            bt.logging.warning(f"[sn33] local extractor unavailable: {e}")
 
     async def forward(self, synapse: CgSynapse) -> CgSynapse:
         """
@@ -49,16 +80,52 @@ class Miner(BaseMinerNeuron):
 
         """
         ml = MinerLib()
+        start_ts = time.time()
+        validator_hotkey = getattr(synapse.dendrite, "hotkey", None)
+        task_raw = None
+        task_type = None
+        result = None
+        error = None
 
         try:
-            task: Task = parse_task(synapse.cgp_input[0]["task"])
+            task_raw = synapse.cgp_input[0]["task"]
+            task: Task = parse_task(task_raw)
+            task_type = task.type
 
             bt.logging.info(f"Miner received task of type {task.type}")
             result = await ml.do_mining(task=task)
         except Exception as e:
-            bt.logging.error(f"Error extracting task from synapse")
-            
-        synapse.cgp_output = [result]
+            error = f"{type(e).__name__}: {e}"
+            bt.logging.error(f"Error extracting/mining task: {error}")
+            bt.logging.debug(traceback.format_exc())
+
+        duration = time.time() - start_ts
+
+        # Only publish an output when we actually produced one.
+        #
+        # Setting cgp_output = [None] on failure looks harmless but guarantees a
+        # zero: the validator checks `has_output = bool(response.cgp_output)`
+        # (neurons/validator.py:291) and [None] is truthy, so it treats the
+        # response as successful, skips the retry it grants to failed calls, and
+        # scores an empty answer. Leaving the field unset means the response
+        # counts as a failure and earns one same-synapse retry against a
+        # refreshed axon - a second chance instead of a certain zero.
+        if result is not None:
+            synapse.cgp_output = [result]
+        else:
+            bt.logging.error("No mining result; leaving cgp_output unset so the validator retries")
+
+        # Best-effort replay log. Never let logging block the response.
+        _log_task({
+            "timestamp": start_ts,
+            "duration_sec": duration,
+            "validator_hotkey": validator_hotkey,
+            "task_type": task_type,
+            "task_raw": task_raw,
+            "result": result,
+            "error": error,
+        })
+
         return synapse
 
     async def blacklist(self, synapse: CgSynapse) -> typing.Tuple[bool, str]:

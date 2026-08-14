@@ -1,3 +1,4 @@
+import asyncio
 import json
 from typing import List
 from typing import Literal
@@ -34,22 +35,23 @@ class NamedEntitiesExtractionTask(Task):
         if not len(self.input.data.window):
             bt.logging.warning('Received empty window in miner, returning no tags')
             return {"tags": []}
-        
+
         try:
-            all_tags = []
-            # Process each line in the window
-            for idx, (line_idx, content) in enumerate(self.input.data.window):
+            # Build per-window-item tasks; first item is the main transcript,
+            # rest are enrichment. Run them all concurrently in a thread pool
+            # so that N sequential ~3-5s LLM calls collapse to ~one call's worth.
+            def _call(idx: int, content: str):
                 if idx == 0:
-                    # First line is always the main transcript content
-                    result = llml.raw_transcript_to_named_entities(content, generateEmbeddings=False)
-                else:
-                    # Subsequent lines are enrichment content
-                    result = llml.enrichment_to_NER(content, generateEmbeddings=False)
+                    return llml.raw_transcript_to_named_entities(content, generateEmbeddings=False)
+                return llml.enrichment_to_NER(content, generateEmbeddings=False)
 
-                if result and result.tags:
-                    all_tags.append(result.tags)
+            results = await asyncio.gather(*[
+                asyncio.to_thread(_call, idx, content)
+                for idx, (_line_idx, content) in enumerate(self.input.data.window)
+            ])
 
-            # Combine all tags from transcript and enrichment content
+            all_tags = [r.tags for r in results if r and r.tags]
+
             if all_tags:
                 combined_result = llml.combine_named_entities(all_tags, generateEmbeddings=False)
                 output = {"tags": combined_result.tags if combined_result else [], "vectors": combined_result.vectors if combined_result else None}

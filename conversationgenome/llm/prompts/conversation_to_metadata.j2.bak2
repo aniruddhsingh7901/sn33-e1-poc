@@ -1,0 +1,5 @@
+Analyze the following conversation in terms of topic interests of the participants. Generate 10 to 15 short, general topic tags in lowercase that a semantic embedding model would consider close in meaning to the overall conversation theme. Favor broad, reusable topic words over rare compound phrases. Include the obvious subject-matter tags that anyone reading the full conversation would write. Tags should be 1 to 3 words each, lowercase, no punctuation, no hyphens, no underscores, no duplicates, and use common English dictionary words only (no abbreviations, invented compounds, or typos). Do not include participant names, greetings, pronouns, or filler words. Return ONLY a comma-delimited list of tags with no commentary.
+
+Conversation (XML format, <p0> and <p1> are participants):
+
+{{ conversation_to_analyze }}

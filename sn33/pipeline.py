@@ -158,6 +158,13 @@ class Config:
     anchor_min_cos: float = 0.42  # an anchor below this is off-topic; never submit it
     target_tags: Optional[int] = None  # override the per-task default
     insurance: Optional[int] = None
+    # Conversation-ONLY insurance override. Measured 2026-08-15 (cross-draw,
+    # n=107): ins 6->14 is a variance swap - p10 0.332->0.425, sub-0.4 tasks
+    # 17->6, per-task sd 0.128->0.099, bottom-quartile +0.070 for top-quartile
+    # -0.014. Peak is 14-16; >=18 declines; 20 (all-verbatim) collapses. Kept
+    # separate from `insurance` because that field is GLOBAL and would force
+    # verbatim tags into NER (profile insurance 0) and webpage.
+    insurance_conv: Optional[int] = None
     # Above 3 this forces _swap_in to replace high-cosine tags with lower-cosine
     # paraphrases. CLAUDE.md config D shipped 5 and measured final 0.4878 (n=10)
     # against config A's 0.5523 (n=28). Exposed so it can be A/B'd, not guessed.
@@ -919,6 +926,8 @@ async def mine(
     profile = TASK_PROFILE.get(kind, TASK_PROFILE["conversation_tagging"])
     target_tags = cfg.target_tags if cfg.target_tags is not None else profile["target_tags"]
     insurance = cfg.insurance if cfg.insurance is not None else profile["insurance"]
+    if kind == "conversation_tagging" and cfg.insurance_conv is not None:
+        insurance = cfg.insurance_conv
     dl = Deadline(cfg.deadline_s)
     res = Result()
 

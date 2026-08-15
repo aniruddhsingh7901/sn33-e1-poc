@@ -60,6 +60,8 @@ def config_from_env() -> Config:
         cfg.target_tags = _i("SN33_TARGET_TAGS", 12)
     if os.environ.get("SN33_INSURANCE"):
         cfg.insurance = _i("SN33_INSURANCE", 2)
+    if os.environ.get("SN33_INSURANCE_CONV"):
+        cfg.insurance_conv = _i("SN33_INSURANCE_CONV", 14)
     # Deeper per-enrichment-line extraction, sourcing more high-cosine unique
     # candidates for the wider 18-tag lists. Env-toggled so it can be turned off
     # without a redeploy if the extra ~1.2-1.6s pushes the source=pool

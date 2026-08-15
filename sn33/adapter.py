@@ -62,6 +62,8 @@ def config_from_env() -> Config:
         cfg.insurance = _i("SN33_INSURANCE", 2)
     if os.environ.get("SN33_INSURANCE_CONV"):
         cfg.insurance_conv = _i("SN33_INSURANCE_CONV", 14)
+    if os.environ.get("SN33_INSURANCE_WEB"):
+        cfg.insurance_web = _i("SN33_INSURANCE_WEB", 14)
     # Deeper per-enrichment-line extraction, sourcing more high-cosine unique
     # candidates for the wider 18-tag lists. Env-toggled so it can be turned off
     # without a redeploy if the extra ~1.2-1.6s pushes the source=pool
@@ -128,6 +130,31 @@ def _enrichment(task) -> Optional[List[str]]:
 async def mine(task) -> Optional[dict]:
     """Return the miner payload for ``task``, or None to fall back to upstream."""
     kind = getattr(task, "type", None)
+
+    if kind == "skill_coverage_evaluation":
+        # Optimized closed-loop miner (local exact-score selection). Env-gated;
+        # any failure returns None -> MinerLib falls back to stock task.mine().
+        if os.environ.get("SN33_SKILLCOV_OPT", "0") == "0":
+            return None
+        try:
+            from sn33 import skillcov
+            data = getattr(getattr(task, "input", None), "data", None)
+            seed = getattr(data, "seed", "") or ""
+            section_map = getattr(data, "section_map", None) or []
+            if not seed or not section_map:
+                return None
+            t0 = time.perf_counter()
+            out = await skillcov.mine(seed, section_map,
+                                      deadline_left=_f("SN33_DEADLINE_S", 11.0))
+            if out:
+                n = sum(len(v) for v in out["section_tests"].values())
+                _log(f"skill_coverage_evaluation: {n} tests in "
+                     f"{time.perf_counter()-t0:.2f}s source=skillcov_opt degraded=False timings={{}}")
+            return out
+        except Exception as e:
+            _log(f"skillcov optimizer failed, stock fallback: {e}")
+            return None
+
     if kind not in pipeline.TASK_PROFILE:
         return None
 

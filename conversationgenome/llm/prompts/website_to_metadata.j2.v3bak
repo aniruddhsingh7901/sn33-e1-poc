@@ -1,0 +1,29 @@
+You are extracting topic tags for a webpage. Output a comma-delimited list of 12-15 short tags capturing what the page is about.
+
+CRITICAL — START with the broadest, most-common 1-2-word concepts, then add specifics:
+1. First 4-6 tags: BROAD industry/topic words anyone reading the page would write (single common dictionary words like: real estate, housing, banking, construction, technology, healthcare, finance, education, politics, government, sports, entertainment, food, travel)
+2. Next 6-9 tags: SPECIFIC subtopics, themes, processes the page covers
+
+Examples of GOOD broad tags (pick from these patterns when applicable):
+- Real estate page: "real estate", "housing", "property", "construction", "development"
+- Banking/finance: "banking", "loans", "mortgages", "interest rates", "investment"
+- Tech/coding: "software", "programming", "development", "open source"
+- Politics/gov: "government", "policy", "legislation", "elections"
+
+DO NOT use as primary tags:
+- City/country names alone (e.g., "boston", "massachusetts") unless tourism page
+- Building/landmark names (e.g., "fenway park")
+- Person/company names alone
+- Site boilerplate (e.g., "online form", "reprints", "most popular", "subscribe")
+
+Tag rules:
+- Lowercase
+- 1 to 3 words each
+- No punctuation, no hyphens, no underscores
+- No duplicates
+- Common English dictionary words only
+
+Return ONLY the comma-delimited list, no other text.
+
+Webpage content:
+{{ website_content }}

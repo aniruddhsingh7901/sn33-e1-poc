@@ -1,0 +1,424 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 60 tasks from data/bench/sample_baseline.jsonl
+
+==============================================================================================================
+
+[0] webpage_metadata_generation  final=0.4088 adj=0.4542
+     raw miner tags (20): ['energy efficiency', 'building performance', 'greenhouse gas emissions', 'city policy', 'climate policy', 'building standards', 'building efficiency', 'energy performance']
+     after validate_tag_set (19): ['lease agreements', 'waste reduction', 'tenants', 'energy efficiency', 'carbon limits', 'city policy', 'building performance', 'commercial real estate']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction information']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['lease agreements', 'waste reduction', 'tenants', 'energy efficiency', 'carbon limits', 'city policy']  (19 total)
+     max cosine sim: 0.493
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[1] webpage_metadata_generation  final=0.4455 adj=0.4455
+     raw miner tags (20): ['zoning', 'land use', 'urban planning', 'adaptive reuse', 'parking requirements', 'zoning reform', 'building permits', 'permitting']
+     after validate_tag_set (20): ['overlay district', 'land use', 'regulatory compliance', 'zoning amendment', 'vacant buildings', 'infill development', 'permitting', 'urban planning']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'transaction information', 'massachusetts']
+     BOTH (matching): ['massachusetts']  (1 total)
+     UNIQUE (not in GT): ['overlay district', 'land use', 'regulatory compliance', 'zoning amendment', 'vacant buildings', 'infill development']  (19 total)
+     max cosine sim: 0.485
+     PENALTIES: none
+
+[2] webpage_metadata_generation  final=0.4921 adj=0.4921
+     raw miner tags (20): ['boston', 'downtown boston', 'cambridge', 'massachusetts', 'rhode island', 'new england', 'east providence', 'bellingham']
+     after validate_tag_set (19): ['class a office', 'bellingham', 'cambridge', 'commercial real estate', 'boston', 'east providence', 'downtown boston', 'rhode island']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction information']
+     BOTH (matching): ['rhode island', 'massachusetts']  (2 total)
+     UNIQUE (not in GT): ['bank branches', 'east providence', 'class a office', 'downtown boston', 'vacancy rate', 'office vacancy']  (17 total)
+     max cosine sim: 0.562
+     PENALTIES: none
+
+[3] webpage_metadata_generation  final=0.4970 adj=0.4970
+     raw miner tags (20): ['wetlands', 'environmental regulation', 'permitting', 'application forms', 'wetlands protection act', 'massachusetts', 'waterways', 'dredging']
+     after validate_tag_set (20): ['application forms', 'land use', 'habitat protection', 'coastal projects', 'property data', 'dredging', 'wetlands protection act', 'permitting']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['massachusetts', 'real estate', 'property data']  (3 total)
+     UNIQUE (not in GT): ['environmental regulation', 'project budgeting', 'application forms', 'waterways', 'land use', 'habitat protection']  (17 total)
+     max cosine sim: 0.613
+     PENALTIES: none
+
+[4] webpage_metadata_generation  final=0.4653 adj=0.4653
+     raw miner tags (21): ['massachusetts', 'building permits', 'permit application', 'plan review', 'building inspection', 'permit fees', 'fee schedule', 'permitting process']
+     after validate_tag_set (20): ['plan review', 'labor market', 'construction industry', 'pay trends', 'construction permits', 'fee schedule', 'labor costs', 'permit fees']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['massachusetts']  (1 total)
+     UNIQUE (not in GT): ['plan review', 'labor market', 'construction industry', 'pay trends', 'construction permits', 'fee schedule']  (19 total)
+     max cosine sim: 0.526
+     PENALTIES: none
+
+[5] webpage_metadata_generation  final=0.4586 adj=0.4586
+     raw miner tags (21): ['union labor', 'construction industry', 'labor costs', 'collective bargaining', 'wage trends', 'skilled labor', 'labor shortage', 'workforce']
+     after validate_tag_set (19): ['code compliance', 'hiring', 'inspections', 'construction projects', 'labor market', 'plan review', 'construction industry', 'labor costs']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['massachusetts']  (1 total)
+     UNIQUE (not in GT): ['labor shortage', 'code compliance', 'hiring', 'labor costs', 'permit fees', 'building permits']  (18 total)
+     max cosine sim: 0.491
+     PENALTIES: none
+
+[6] webpage_metadata_generation  final=0.5383 adj=0.5383
+     raw miner tags (20): ['construction loans', 'bridge loans', 'project financing', 'real estate finance', 'property development', 'commercial real estate', 'interest rates', 'investment returns']
+     after validate_tag_set (20): ['investment returns', 'property valuation', 'market uncertainty', 'property development', 'commercial lending', 'residential construction', 'single family homes', 'interest rates']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'transaction information', 'massachusetts']
+     BOTH (matching): ['market trends']  (1 total)
+     UNIQUE (not in GT): ['investment returns', 'property valuation', 'market uncertainty', 'property development', 'commercial lending', 'residential construction']  (19 total)
+     max cosine sim: 0.590
+     PENALTIES: none
+
+[7] webpage_metadata_generation  final=0.5290 adj=0.5290
+     raw miner tags (20): ['risk management', 'hedging', 'downside risk', 'asset allocation', 'derivatives', 'portfolio management', 'volatility', 'trading strategies']
+     after validate_tag_set (19): ['trading strategies', 'portfolio volatility', 'investment portfolio', 'wealth management', 'downside risk', 'volatility', 'finance', 'tail risk']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction information']
+     BOTH (matching): ['finance', 'banking', 'real estate']  (3 total)
+     UNIQUE (not in GT): ['investment portfolio', 'trading strategies', 'wealth management', 'downside risk', 'derivatives', 'portfolio volatility']  (16 total)
+     max cosine sim: 0.630
+     PENALTIES: none
+
+[8] webpage_metadata_generation  final=0.5236 adj=0.5236
+     raw miner tags (20): ['real estate', 'banking', 'finance', 'property data', 'transaction records', 'market trends', 'reo properties', 'foreclosure']
+     after validate_tag_set (18): ['foreclosure', 'transaction records', 'mortgage loans', 'wholesale pricing', 'santander bank', 'bulk sales', 'finance', 'providence rhode island']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['transaction records', 'finance', 'market trends', 'banking', 'real estate', 'property data']  (7 total)
+     UNIQUE (not in GT): ['foreclosure', 'mortgage loans', 'wholesale pricing', 'bulk sales', 'providence rhode island', 'secondary market']  (11 total)
+     max cosine sim: 0.645
+     PENALTIES: none
+
+[9] webpage_metadata_generation  final=0.4858 adj=0.4858
+     raw miner tags (21): ['leed', 'energy star', 'rhode island', 'real estate law', 'property disclosure', 'disclosure requirements', 'buyer rights', 'home inspection']
+     after validate_tag_set (18): ['building certification', 'property value', 'public agency', 'sustainable construction', 'sales agreement', 'real estate law', 'psychologically impacted property', 'rhode island']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['rhode island']  (1 total)
+     UNIQUE (not in GT): ['building certification', 'property value', 'public agency', 'sustainable construction', 'sales agreement', 'real estate law']  (17 total)
+     max cosine sim: 0.523
+     PENALTIES: none
+
+[10] webpage_metadata_generation  final=0.5443 adj=0.5443
+     raw miner tags (20): ['commercial real estate', 'real estate investment', 'market trends', 'rhode island', 'leasing', 'property sales', 'office market', 'market analysis']
+     after validate_tag_set (19): ['quarterly reports', 'property sales', 'office space', 'northeast united states', 'market trends', 'commercial real estate', 'real estate trends', 'boston']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction information']
+     BOTH (matching): ['market trends', 'rhode island', 'massachusetts']  (3 total)
+     UNIQUE (not in GT): ['property market', 'market report', 'market analysis', 'northeast united states', 'office market', 'industrial property']  (16 total)
+     max cosine sim: 0.590
+     PENALTIES: none
+
+[11] webpage_metadata_generation  final=0.5330 adj=0.5330
+     raw miner tags (20): ['boston', 'real estate', 'rental market', 'multifamily housing', 'property investment', 'housing demand', 'market report', 'property sales']
+     after validate_tag_set (19): ['construction projects', 'rental market', 'city center', 'property development', 'property sales', 'urban core', 'metropolitan area', 'housing demand']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction information']
+     BOTH (matching): ['market trends', 'real estate']  (2 total)
+     UNIQUE (not in GT): ['urban core', 'market report', 'development finance', 'multifamily housing', 'metropolitan area', 'housing demand']  (17 total)
+     max cosine sim: 0.595
+     PENALTIES: none
+
+[12] webpage_metadata_generation  final=0.5487 adj=0.5487
+     raw miner tags (20): ['real estate', 'property data', 'foreclosure', 'housing market', 'mortgage', 'sheriff sale', 'auction', 'property listings']
+     after validate_tag_set (20): ['mortgage', 'data provider', 'property data', 'finance', 'home buying', 'banking', 'housing market', 'sales history']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['finance', 'banking', 'real estate', 'property data', 'massachusetts']  (5 total)
+     UNIQUE (not in GT): ['foreclosure', 'mortgage history', 'investment property', 'middlesex county', 'mortgage', 'boston']  (15 total)
+     max cosine sim: 0.645
+     PENALTIES: none
+
+[13] webpage_metadata_generation  final=0.4880 adj=0.4880
+     raw miner tags (20): ['affordable housing', 'low-income housing', 'housing development', 'massachusetts', 'inclusionary zoning', 'zoning law', 'housing policy', 'land use']
+     after validate_tag_set (19): ['application deadlines', 'zoning law', 'housing finance', 'compliance requirements', 'land use', 'expedited approval', 'development incentives', 'federal tax credit']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['massachusetts']  (1 total)
+     UNIQUE (not in GT): ['application deadlines', 'inclusionary zoning', 'housing development', 'housing finance', 'zoning law', 'development incentives']  (18 total)
+     max cosine sim: 0.555
+     PENALTIES: none
+
+[14] webpage_metadata_generation  final=0.4529 adj=0.4529
+     raw miner tags (17): ['affordable housing', 'low-income housing', 'inclusionary zoning', 'housing development', 'housing policy', 'zoning law', 'zoning policy', 'land use']
+     after validate_tag_set (16): ['inclusionary zoning', 'housing development', 'housing finance', 'zoning law', 'urban planning', 'fair housing', 'tax credits', 'land use']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property data', 'market trends', 'business intelligence', 'lead generation', 'transaction records']
+     BOTH (matching): ['massachusetts']  (1 total)
+     UNIQUE (not in GT): ['inclusionary zoning', 'housing development', 'zoning law', 'housing finance', 'housing law', 'fair housing']  (15 total)
+     max cosine sim: 0.505
+     PENALTIES: none
+
+[15] named_entities_extraction  final=0.5788 adj=0.5788
+     raw miner tags (18): ['seattle city council', 'human services labor and economic development committee', 'seattle city hall', 'councilmember alexis mercedes rinck', 'councilmember dionne foster', 'councilmember debora juarez', 'councilmember rob saka', 'councilmember joy hollingsworth']
+     after validate_tag_set (18): ['ctl financing', 'human services labor and economic development committee', 'councilmember rob saka', 'councilmember alexis mercedes rinck', 'credit tenant lease', 'councilmember joy hollingsworth', 'appt 03474', 'ryan patrick devlin']
+     GT tags (26): ['seattle council committee report', 'human services labor and economic development committee', 'city council', 'council chamber', 'city hall', 'friday april 17 2026', '9:30 am', '600 4th avenue']
+     BOTH (matching): ['human services labor and economic development committee', 'councilmember alexis mercedes rinck', 'appt 03474', 'ryan patrick devlin', 'seattle music commission', 'inf 2878']  (6 total)
+     UNIQUE (not in GT): ['ctl financing', 'councilmember rob saka', 'credit tenant lease', 'councilmember joy hollingsworth', 'quora', 'councilmember dionne foster']  (12 total)
+     max cosine sim: 0.651
+     PENALTIES: none
+
+[16] named_entities_extraction  final=0.5425 adj=0.5425
+     raw miner tags (12): ['seattle city council', 'seattle city hall', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (12): ['seattle city charter', 'dionne foster', 'debora juarez', 'seattle city hall', 'robert kettle', 'joy hollingsworth', 'eddie lin', 'alexis mercedes rinck']
+     GT tags (31): ['seattle city council', 'city hall', 'council chamber', '600 fourth ave. 2nd floor', '600 4th avenue', 'seattle', 'wa 98104', 'journal of the proceedings of the seattle city council']
+     BOTH (matching): ['seattle city council']  (1 total)
+     UNIQUE (not in GT): ['seattle city charter', 'dionne foster', 'seattle city hall', 'debora juarez', 'robert kettle', 'joy hollingsworth']  (11 total)
+     max cosine sim: 0.718
+     PENALTIES: none
+
+[17] named_entities_extraction  final=0.5329 adj=0.5329
+     raw miner tags (15): ['seattle city council', 'city of seattle', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (15): ['city of seattle', 'dionne foster', 'debora juarez', 'robert kettle', 'maritza rivera', 'joy hollingsworth', 'eddie lin', 'alexis mercedes rinck']
+     GT tags (30): ['seattle city council', '600 fourth ave. 2nd floor', 'seattle wa 98104', 'journal of the proceedings of the seattle city council', 'tuesday april 28 2026', '2:00 pm', 'public hearing', 'council chamber']
+     BOTH (matching): ['city charter', 'seattle city council']  (2 total)
+     UNIQUE (not in GT): ['city of seattle', 'dionne foster', 'robert kettle', 'debora juarez', 'maritza rivera', 'joy hollingsworth']  (13 total)
+     max cosine sim: 0.705
+     PENALTIES: none
+
+[18] named_entities_extraction  final=0.5614 adj=0.5614
+     raw miner tags (20): ['seattle city council', 'city hall', 'council chamber', '600 4th avenue seattle wa 98104', 'seattle', 'washington', 'the city of seattle', 'city charter']
+     after validate_tag_set (20): ['600 4th avenue seattle wa 98104', 'the city of seattle', 'public hearing', 'journal of the proceedings of the seattle city council', 'seattle city council', 'debora juarez', 'maritza rivera', 'robert kettle']
+     GT tags (32): ['seattle city council', '600 fourth ave. 2nd floor', 'seattle', 'wa 98104', 'journal of the proceedings of the seattle city council', 'tuesday', 'april 28', '2026']
+     BOTH (matching): ['council president joy hollingsworth', 'journal of the proceedings of the seattle city council', 'city hall', 'city charter', 'seattle city council', 'public hearing']  (8 total)
+     UNIQUE (not in GT): ['dionne foster', 'the city of seattle', 'debora juarez', 'maritza rivera', 'rob saka', 'robert kettle']  (12 total)
+     max cosine sim: 0.715
+     PENALTIES: none
+
+[19] named_entities_extraction  final=0.6170 adj=0.6170
+     raw miner tags (12): ['city of oakland', 'oakland city council', 'community and economic development committee', 'oakland city hall', 'city council chamber', '1 frank h. ogawa plaza', 'oakland california', 'rowena brown']
+     after validate_tag_set (12): ['city council chamber', 'oakland california', 'city of oakland', 'oakland city council', 'rowena brown', '1 frank h ogawa plaza', 'carroll fife', 'community and economic development committee']
+     GT tags (29): ['city of oakland', 'city of oakland office of the city clerk', 'oakland city hall', '1 frank h. ogawa plaza', 'room 201', 'oakland california 94612', 'community and economic development committee', 'oakland city council community and economic development committee']
+     BOTH (matching): ['city council chamber', 'city of oakland', 'community and economic development committee', 'councilmember houston', 'oakland city hall']  (5 total)
+     UNIQUE (not in GT): ['rowena brown', 'oakland california', 'oakland city council', 'carroll fife', '1 frank h ogawa plaza', 'janani ramachandran']  (7 total)
+     max cosine sim: 0.745
+     PENALTIES: none
+
+[20] named_entities_extraction  final=0.5778 adj=0.5778
+     raw miner tags (9): ['city of oakland', 'oakland city hall', 'oakland city council rules and legislation committee', 'councilmember carroll fife', 'janani ramachandran', 'rowena brown', 'kevin jenkins', 'oakland california']
+     after validate_tag_set (9): ['councilmember carroll fife', 'oakland city council rules and legislation committee', 'rowena brown', 'city of oakland', 'kevin jenkins', 'oakland california', '1 frank h ogawa plaza', 'janani ramachandran']
+     GT tags (29): ['city of oakland office of the city clerk', 'oakland city hall', '1 frank h. ogawa plaza', 'room 201', 'oakland california 94612', 'rules and legislation committee', 'city of oakland website', 'http://www.oaklandca.gov']
+     BOTH (matching): ['councilmember carroll fife', 'rowena brown', 'kevin jenkins', 'janani ramachandran', 'oakland city hall']  (5 total)
+     UNIQUE (not in GT): ['oakland city council rules and legislation committee', 'oakland california', 'city of oakland', '1 frank h ogawa plaza']  (4 total)
+     max cosine sim: 0.658
+     PENALTIES: none
+
+[21] named_entities_extraction  final=0.5765 adj=0.5765
+     raw miner tags (16): ['seattle city council', 'city of seattle', 'seattle city hall', 'king county', 'seattle', 'washington', 'joy hollingsworth', 'dionne foster']
+     after validate_tag_set (16): ['city of seattle', 'seattle city charter', 'dionne foster', 'seattle city hall', 'debora juarez', 'robert kettle', 'joy hollingsworth', 'king county']
+     GT tags (29): ['seattle city council', '600 fourth ave. 2nd floor', 'seattle wa 98104', 'journal of the proceedings of the seattle city council', 'tuesday march 10 2026', '2:00 pm', 'council chamber', 'city hall']
+     BOTH (matching): ['seattle city council']  (1 total)
+     UNIQUE (not in GT): ['city of seattle', 'seattle city charter', 'dionne foster', 'debora juarez', 'seattle city hall', 'robert kettle']  (15 total)
+     max cosine sim: 0.740
+     PENALTIES: none
+
+[22] named_entities_extraction  final=0.5100 adj=0.5100
+     raw miner tags (14): ['seattle city council', 'city of seattle', 'seattle washington', 'seattle city hall', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle']
+     after validate_tag_set (14): ['city of seattle', 'seattle washington', 'dionne foster', 'seattle city hall', 'debora juarez', 'robert kettle', 'joy hollingsworth', 'eddie lin']
+     GT tags (31): ['seattle city council', 'city of seattle', 'seattle city charter', 'journal of the proceedings of the seattle city council', 'city council meeting minutes april 14 2026', 'tuesday april 14 2026', '2:00 pm', '2:04 pm']
+     BOTH (matching): ['city of seattle', 'seattle city hall', 'seattle city council']  (3 total)
+     UNIQUE (not in GT): ['seattle washington', 'dionne foster', 'robert kettle', 'debora juarez', 'maritza rivera', 'joy hollingsworth']  (11 total)
+     max cosine sim: 0.769
+     PENALTIES: none
+
+[23] named_entities_extraction  final=0.4960 adj=0.4960
+     raw miner tags (20): ['seattle city council', 'city of seattle', 'bruce harrell', 'office of the mayor', 'joy hollingsworth', 'alexis mercedes rinck', 'bob kettle', 'maritza rivera']
+     after validate_tag_set (20): ['2026 budget proposal', 'city of seattle', '2026 budget', 'hud', 'office of the mayor', 'maritza rivera', 'bob kettle', 'seattle city council']
+     GT tags (28): ['seattle council committee report', 'libraries education and neighborhoods committee', 'council chamber', 'city hall', 'thursday april 9 2026', '3:00 pm', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['joy hollingsworth', 'alexis mercedes rinck', 'libraries education and neighborhoods committee']  (3 total)
+     UNIQUE (not in GT): ['city of seattle', 'pioneer square', '11 1 million', '2026 budget proposal', 'bruce harrell', 'hud']  (17 total)
+     max cosine sim: 0.582
+     PENALTIES: none
+
+[24] named_entities_extraction  final=0.5553 adj=0.5553
+     raw miner tags (15): ['south platte river committee', 'jamie torres', 'sarah parady', 'flor alvidrez', 'kevin flynn', 'chris hinds', 'amanda sandoval', 'darrell watson']
+     after validate_tag_set (15): ['sarah parady', 'kevin flynn', 'hurley place commercial metropolitan district', 'agenda item 26 0567', 'city council', 'first amendment to service plan', 'darrell watson', 'city and county of denver']
+     GT tags (24): ['south platte river committee', 'wednesday april 29 2026', '1:30 pm', 'chair jamie torres', 'vice chair sarah parady', 'flor alvidrez', 'kevin flynn', 'chris hinds']
+     BOTH (matching): ['hurley place commercial metropolitan district', 'kevin flynn', 'city council', 'first amendment to service plan', 'city and county of denver', 'amanda sandoval']  (11 total)
+     UNIQUE (not in GT): ['sarah parady', 'council resolution 26 0567', 'agenda item 26 0567', 'jamie torres']  (4 total)
+     max cosine sim: 0.642
+     PENALTIES: none
+
+[25] named_entities_extraction  final=0.5802 adj=0.5802
+     raw miner tags (13): ['seattle city council', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck', 'maritza rivera']
+     after validate_tag_set (13): ['seattle city charter', 'dionne foster', 'robert kettle', 'debora juarez', 'maritza rivera', 'joy hollingsworth', 'eddie lin', 'alexis mercedes rinck']
+     GT tags (37): ['seattle city council', '600 fourth ave. 2nd floor', 'seattle', 'wa 98104', 'journal of the proceedings of the seattle city council', 'tuesday', 'april 21', '2026']
+     BOTH (matching): ['seattle city council']  (1 total)
+     UNIQUE (not in GT): ['seattle city charter', 'dionne foster', 'debora juarez', 'robert kettle', 'maritza rivera', 'joy hollingsworth']  (12 total)
+     max cosine sim: 0.742
+     PENALTIES: none
+
+[26] named_entities_extraction  final=0.5417 adj=0.5417
+     raw miner tags (19): ['seattle city council', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck', 'maritza rivera']
+     after validate_tag_set (19): ['seattle washington', 'cdt realty', 'minneapolis', 'city hall seattle', 'rob saka', 'joy hollingsworth', 'eddie lin', 'seattle city charter']
+     GT tags (31): ['seattle city council', 'city of seattle', 'seattle city charter', 'journal of the proceedings of the seattle city council', 'city council meeting minutes april 14 2026', 'tuesday april 14 2026', 'april 14 2026', '2:00 pm']
+     BOTH (matching): ['seattle city charter', 'dionne foster', 'robert kettle', 'maritza rivera', 'rob saka', 'joy hollingsworth']  (11 total)
+     UNIQUE (not in GT): ['seattle washington', 'the minnesota star tribune', 'cdt realty', 'minneapolis', 'city hall seattle', 'youtube']  (8 total)
+     max cosine sim: 0.699
+     PENALTIES: none
+
+[27] named_entities_extraction  final=0.5541 adj=0.5541
+     raw miner tags (14): ['amanda sawyer', 'paul kashmann', 'kevin flynn', 'stacie gilmore', 'serena gonzales-gutierrez', 'amanda sandoval', 'jamie torres', 'anne wallace']
+     after validate_tag_set (14): ['jamie torres', 'paul kashmann', 'council resolution 26 0385', 'council resolution 26 0384', 'anne wallace', 'stacie gilmore', 'kevin flynn', 'amanda sawyer']
+     GT tags (22): ['governance and intergovernmental relations committee', 'tuesday march 31 2026', '10:30 am', 'chair amanda sawyer', 'vice-chair paul kashmann', 'kevin flynn', 'stacie gilmore', 'serena gonzales-gutierrez']
+     BOTH (matching): ['stacie gilmore', 'kevin flynn', 'michael mahon', 'amanda sandoval', 'denver community corrections board', 'jamie torres']  (6 total)
+     UNIQUE (not in GT): ['paul kashmann', 'council resolution 26 0385', 'council resolution 26 0384', 'anne wallace', 'amanda sawyer', 'cecelia espenoza']  (8 total)
+     max cosine sim: 0.603
+     PENALTIES: none
+
+[28] named_entities_extraction  final=0.6239 adj=0.6239
+     raw miner tags (21): ['city of boston', 'boston city council', 'boston city hall', 'christopher a. iannella chamber', 'president breadon', 'councilor coletta zapata', 'councilor culpepper', 'councilor durkan']
+     after validate_tag_set (20): ['city of boston', 'councilor flynn', 'councilor fitzgerald', 'christopher a iannella chamber', 'boston city hall', 'councilor coletta zapata', 'president breadon', 'bethel pentecostal church']
+     GT tags (31): ['february 11 2026', 'city council of the city of boston', 'city hall', 'christopher a. iannella chamber', 'wednesday february 11 2026 12:11 pm', 'president breadon', 'councilor coletta zapata', 'councilor culpepper']
+     BOTH (matching): ['councilor culpepper', 'councilor murphy', 'councilor santana', 'councilor louijeune', 'councilor weber', 'president breadon']  (14 total)
+     UNIQUE (not in GT): ['city of boston', 'councilor pep n', 'boston city council', 'fy25 port security grant program 577', 'boston city hall', 'christopher a iannella chamber']  (6 total)
+     max cosine sim: 0.725
+     PENALTIES: none
+
+[29] named_entities_extraction  final=0.5328 adj=0.5328
+     raw miner tags (20): ['darrell watson', 'kevin flynn', 'serena gonzales-gutierrez', 'sarah parady', 'amanda sandoval', 'amanda sawyer', 'jamie torres', 'anne wallace']
+     after validate_tag_set (20): ['darrell watson', 'jamie torres', 'sarah parady', 'automatic license plate recognition alpr system', 'anne wallace', 'kevin flynn', 'axon enterprise inc', '000 00']
+     GT tags (30): ['health and safety', 'minutes', 'wednesday march 18 2026', '10:30 am', 'chair darrell watson', 'vice chair kevin flynn', 'serena gonzales-gutierrez', 'sarah parady']
+     BOTH (matching): ['lewis', 'sarah parady', 'amanda sawyer', 'romero campbell', '5280 forensic pathology pllc', 'kashmann']  (8 total)
+     UNIQUE (not in GT): ['council resolution 26 0246', '150', 'anne wallace', 'kevin flynn', 'action items 26 0246', 'axon enterprise inc']  (12 total)
+     max cosine sim: 0.574
+     PENALTIES: none
+
+[30] conversation_tagging  final=0.5573 adj=0.5573
+     raw miner tags (15): ['lottery', 'gambling', 'jackpots', 'ticket sales', 'prize money', 'government revenue', 'taxes', 'fraud']
+     after validate_tag_set (15): ['lottery', 'conspiracy', 'taxes', 'ticket sales', 'gambling', 'film reference', 'jackpots', 'organized crime']
+     GT tags (15): ['lottery', 'gambling', 'jackpot', 'ticket sales', 'government revenue', 'taxes', 'fraud', 'corruption']
+     BOTH (matching): ['lottery', 'conspiracy', 'taxes', 'ticket sales', 'gambling', 'organized crime']  (9 total)
+     UNIQUE (not in GT): ['film reference', 'jackpots', 'scams', 'jeffrey epstein', 'whitey bulger', 'prize money']  (6 total)
+     max cosine sim: 0.685
+     PENALTIES: none
+
+[31] conversation_tagging  final=0.5967 adj=0.5967
+     raw miner tags (15): ['cult abuse', 'religious fundamentalism', 'sexual abuse', 'predatory behavior', 'victim blaming', 'forgiveness', 'patriarchy', 'women rights']
+     after validate_tag_set (15): ['victim blaming', 'women rights', 'forgiveness', 'power dynamics', 'accountability', 'cult abuse', 'divorce', 'predatory behavior']
+     GT tags (15): ['cult abuse', 'religious fundamentalism', 'sexual abuse', 'victim blaming', 'forgiveness', 'patriarchy', 'women rights', 'power control']
+     BOTH (matching): ['victim blaming', 'women rights', 'forgiveness', 'accountability', 'cult abuse', 'isolation']  (9 total)
+     UNIQUE (not in GT): ['power dynamics', 'domestic violence', 'divorce', 'coercive control', 'shame', 'predatory behavior']  (6 total)
+     max cosine sim: 0.718
+     PENALTIES: none
+
+[32] conversation_tagging  final=0.5637 adj=0.5637
+     raw miner tags (13): ['mixed martial arts', 'ufc', 'fighting styles', 'martial arts', 'jiu jitsu', 'grappling', 'combat sports', 'early tournaments']
+     after validate_tag_set (9): ['martial arts', 'early tournaments', 'mixed martial arts', 'grappling', 'fighters', 'combat sports', 'fighting styles', 'fight strategy']
+     GT tags (15): ['mixed martial arts', 'ufc', 'fighting styles', 'martial arts', 'jiu jitsu', 'grappling', 'combat sports', 'fighters']
+     BOTH (matching): ['martial arts', 'mixed martial arts', 'grappling', 'fighters', 'combat sports', 'fighting styles']  (6 total)
+     UNIQUE (not in GT): ['early tournaments', 'match fixing', 'fight strategy']  (3 total)
+     max cosine sim: 0.763
+     PENALTIES: none
+
+[33] conversation_tagging  final=0.5997 adj=0.5997
+     raw miner tags (15): ['software engineering', 'code quality', 'readability', 'documentation', 'api design', 'reliability', 'thread safety', 'concurrency']
+     after validate_tag_set (14): ['thread safety', 'code quality', 'lock free programming', 'multithreading', 'readability', 'parallel computing', 'concurrency', 'synchronization']
+     GT tags (15): ['software quality', 'readability', 'documentation', 'api design', 'reliability', 'thread safety', 'concurrency', 'parallel computing']
+     BOTH (matching): ['thread safety', 'programming languages', 'readability', 'parallel computing', 'concurrency', 'synchronization']  (9 total)
+     UNIQUE (not in GT): ['code quality', 'lock free programming', 'multithreading', 'hardware performance', 'software engineering']  (5 total)
+     max cosine sim: 0.638
+     PENALTIES: none
+
+[34] conversation_tagging  final=0.5397 adj=0.5397
+     raw miner tags (15): ['immigration', 'border crossing', 'deportation', 'travel restrictions', 'discrimination', 'identity', 'family separation', 'mexico']
+     after validate_tag_set (15): ['wall', 'travel restrictions', 'customs enforcement', 'discrimination', 'daily work', 'mexico', 'immigration', 'identity']
+     GT tags (15): ['immigration', 'border crossing', 'deportation', 'discrimination', 'travel restrictions', 'mexico united states border', 'indigenous community', 'family separation']
+     BOTH (matching): ['wall', 'travel restrictions', 'discrimination', 'immigration', 'identity', 'border crossing']  (9 total)
+     UNIQUE (not in GT): ['customs enforcement', 'daily work', 'mexico', 'border town', 'social inequality', 'united states']  (6 total)
+     max cosine sim: 0.682
+     PENALTIES: none
+
+[35] conversation_tagging  final=0.6397 adj=0.6397
+     raw miner tags (15): ['artificial intelligence', 'daily news', 'podcast', 'email subscription', 'newsletter', 'updates', 'technology', 'media']
+     after validate_tag_set (15): ['online links', 'updates', 'brief summary', 'news stories', 'artificial intelligence', 'episode bio', 'website', 'email subscription']
+     GT tags (12): ['artificial intelligence', 'daily news', 'podcast', 'email subscription', 'technology updates', 'news brief', 'media', 'online links']
+     BOTH (matching): ['online links', 'artificial intelligence', 'email subscription', 'daily news', 'media', 'podcast']  (6 total)
+     UNIQUE (not in GT): ['updates', 'news stories', 'episode bio', 'website', 'newsletter', 'audio content']  (9 total)
+     max cosine sim: 0.730
+     PENALTIES: none
+
+[36] conversation_tagging  final=0.6816 adj=0.6816
+     raw miner tags (15): ['software testing', 'test automation', 'automation infrastructure', 'continuous integration', 'continuous delivery', 'release management', 'quality assurance', 'testing strategy']
+     after validate_tag_set (15): ['automation infrastructure', 'continuous integration', 'test automation', 'testing strategy', 'continuous delivery', 'scaling systems', 'test execution', 'quality assurance']
+     GT tags (15): ['software testing', 'test automation', 'quality assurance', 'automation infrastructure', 'continuous integration', 'continuous delivery', 'release management', 'test execution']
+     BOTH (matching): ['automation infrastructure', 'continuous integration', 'test automation', 'continuous delivery', 'test execution', 'quality assurance']  (10 total)
+     UNIQUE (not in GT): ['testing strategy', 'scaling systems', 'device testing', 'server components', 'client applications']  (5 total)
+     max cosine sim: 0.796
+     PENALTIES: none
+
+[37] conversation_tagging  final=0.5529 adj=0.5529
+     raw miner tags (15): ['medical tourism', 'dental care', 'border towns', 'mexico tourism', 'tourist safety', 'policing', 'street vendors', 'local workers']
+     after validate_tag_set (15): ['border towns', 'tourist safety', 'drug cartels', 'cultural performance', 'mexico tourism', 'social control', 'competition', 'tourism industry']
+     GT tags (15): ['medical tourism', 'border towns', 'mexico', 'tourism industry', 'police', 'public safety', 'violence', 'drug cartel']
+     BOTH (matching): ['border towns', 'social control', 'cultural performance', 'competition', 'tourism industry', 'violence']  (9 total)
+     UNIQUE (not in GT): ['tourist safety', 'drug cartels', 'mexico tourism', 'american visitors', 'policing', 'local workers']  (6 total)
+     max cosine sim: 0.581
+     PENALTIES: none
+
+[38] conversation_tagging  final=0.5086 adj=0.5086
+     raw miner tags (15): ['jeffrey epstein', 'epstein files', 'podcast', 'comedy', 'stand up', 'improv', 'west palm beach', 'celebrity']
+     after validate_tag_set (14): ['lottery', 'conspiracy', 'corporation', 'comedy', 'financial crime', 'improv', 'west palm beach', 'celebrity']
+     GT tags (14): ['epstein', 'epstein files', 'conspiracy', 'scandal', 'crime', 'lottery', 'money', 'trust']
+     BOTH (matching): ['lottery', 'conspiracy', 'corporation', 'comedy', 'improv', 'celebrity']  (8 total)
+     UNIQUE (not in GT): ['accusations', 'financial crime', 'west palm beach', 'jeffrey epstein', 'trust fund', 'stand up']  (6 total)
+     max cosine sim: 0.669
+     PENALTIES: none
+
+[39] conversation_tagging  final=0.5354 adj=0.5354
+     raw miner tags (15): ['lottery', 'gambling', 'jackpot', 'payout', 'corporate finance', 'crime', 'fraud', 'corruption']
+     after validate_tag_set (15): ['lottery', 'payout', 'corporate finance', 'underage', 'gambling', 'sex crimes', 'crime', 'legal system']
+     GT tags (15): ['lottery', 'gambling', 'jackpot', 'payout', 'corporate finance', 'fraud', 'corruption', 'crime']
+     BOTH (matching): ['lottery', 'payout', 'corporate finance', 'underage', 'gambling', 'crime']  (12 total)
+     UNIQUE (not in GT): ['probability', 'sex crimes', 'legal system']  (3 total)
+     max cosine sim: 0.735
+     PENALTIES: none
+
+[40] conversation_tagging  final=0.6259 adj=0.6259
+     raw miner tags (14): ['martial arts', 'boxing', 'combat sports', 'mixed martial arts', 'gym training', 'coaching', 'sparring', 'boxing champions']
+     after validate_tag_set (14): ['martial arts', 'mixed martial arts', 'sparring', 'los angeles', 'boxing champions', 'training camp', 'sports history', 'fighters']
+     GT tags (14): ['boxing', 'martial arts', 'gym training', 'coaching', 'fighters', 'training camp', 'championship', 'combat sports']
+     BOTH (matching): ['martial arts', 'sparring', 'los angeles', 'training camp', 'sports history', 'fighters']  (10 total)
+     UNIQUE (not in GT): ['boxing champions', 'professional sports', 'mixed martial arts', 'athletic conditioning']  (4 total)
+     max cosine sim: 0.724
+     PENALTIES: none
+
+[41] conversation_tagging  final=0.5637 adj=0.5637
+     raw miner tags (14): ['warhammer', 'tabletop gaming', 'tournament play', 'army lists', 'strategy', 'detachment rules', 'space marines', 'chaos marines']
+     after validate_tag_set (11): ['detachment rules', 'tactics', 'matchup analysis', 'sisters of battle', 'vehicles', 'competitive meta', 'tabletop gaming', 'army lists']
+     GT tags (14): ['warhammer', 'tabletop gaming', 'tournament', 'army list', 'strategy', 'competitive play', 'chaos marines', 'space marines']
+     BOTH (matching): ['strategy', 'sisters of battle', 'vehicles', 'tabletop gaming']  (4 total)
+     UNIQUE (not in GT): ['detachment rules', 'tactics', 'matchup analysis', 'competitive meta', 'army lists', 'tournament play']  (7 total)
+     max cosine sim: 0.590
+     PENALTIES: none
+
+[42] conversation_tagging  final=0.4349 adj=0.4578
+     raw miner tags (14): ['politics', 'economy', 'united states', 'trump', 'government', 'immigration', 'tariffs', 'trade']
+     after validate_tag_set (13): ['stock market', 'government', 'trade', 'military', 'economy', 'immigration', 'politics', 'tariffs']
+     GT tags (15): ['politics', 'economy', 'government', 'trump', 'immigration', 'foreign policy', 'military', 'trade']
+     BOTH (matching): ['stock market', 'government', 'trade', 'military', 'economy', 'immigration']  (11 total)
+     UNIQUE (not in GT): ['industry', 'united states']  (2 total)
+     max cosine sim: 0.700
+     PENALTIES: ['less_than_3_unique (×0.95)']
+
+[43] conversation_tagging  final=0.3384 adj=0.3760
+     raw miner tags (15): ['martial arts', 'combat sports', 'fighting', 'training', 'sparring', 'competition', 'boxing', 'wrestling']
+     after validate_tag_set (13): ['martial arts', 'sparring', 'skill development', 'humility', 'competition', 'kickboxing', 'combat sports', 'fighting']
+     GT tags (14): ['martial arts', 'combat sports', 'fighting', 'sparring', 'wrestling', 'boxing', 'kickboxing', 'muay thai']
+     BOTH (matching): ['martial arts', 'muay thai', 'sparring', 'humility', 'competition', 'kickboxing']  (12 total)
+     UNIQUE (not in GT): ['skill development']  (1 total)
+     max cosine sim: 0.761
+     PENALTIES: ['less_than_2_unique (×0.9)']
+
+[44] conversation_tagging  final=0.6472 adj=0.6472
+     raw miner tags (15): ['react', 'react hooks', 'class components', 'functional components', 'javascript', 'web development', 'frontend development', 'user interface']
+     after validate_tag_set (15): ['react', 'error tracking', 'react hooks', 'component state', 'functional components', 'software tooling', 'javascript', 'class components']
+     GT tags (15): ['react', 'react hooks', 'class components', 'function components', 'javascript', 'web development', 'frontend', 'state management']
+     BOTH (matching): ['react', 'error tracking', 'react hooks', 'class components', 'user interface', 'web development']  (9 total)
+     UNIQUE (not in GT): ['component state', 'functional components', 'software tooling', 'frontend development', 'developer workflow', 'lifecycle methods']  (6 total)
+     max cosine sim: 0.691
+     PENALTIES: none
+[45] survey_tagging: couldn't generate GT, skipping
+[46] survey_tagging: couldn't generate GT, skipping
+[47] survey_tagging: couldn't generate GT, skipping
+[48] survey_tagging: couldn't generate GT, skipping
+[49] survey_tagging: couldn't generate GT, skipping
+[50] survey_tagging: couldn't generate GT, skipping
+[51] survey_tagging: couldn't generate GT, skipping
+[52] survey_tagging: couldn't generate GT, skipping
+[53] survey_tagging: couldn't generate GT, skipping
+[54] survey_tagging: couldn't generate GT, skipping
+[55] survey_tagging: couldn't generate GT, skipping
+[56] survey_tagging: couldn't generate GT, skipping
+[57] survey_tagging: couldn't generate GT, skipping
+[58] survey_tagging: couldn't generate GT, skipping
+[59] survey_tagging: couldn't generate GT, skipping

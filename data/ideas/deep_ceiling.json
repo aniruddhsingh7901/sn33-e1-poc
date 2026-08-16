@@ -1,0 +1,8574 @@
+{
+ "summary": {
+  "n": 120,
+  "n_cross": 118,
+  "deep_only_per_task_mean": 75.43333333333334,
+  "same_A_mean": 0.6303524522696139,
+  "same_B_mean": 0.6196274219433211,
+  "same_delta": {
+   "n": 120,
+   "mean": 0.010725030326292875,
+   "median": 0.008009008067033918,
+   "p10": 4.683802389593428e-05,
+   "p90": 0.02315224798478077
+  },
+  "same_improved": 101,
+  "same_degraded": 0,
+  "cross_A_mean": 0.5537492047546838,
+  "cross_B_mean": 0.558917336688879,
+  "cross_delta": {
+   "n": 118,
+   "mean": -0.005168131934195255,
+   "median": -0.0019117601827164377,
+   "p10": -0.032248534171393506,
+   "p90": 0.017400356400216754
+  },
+  "cross_improved": 42,
+  "cross_degraded": 65,
+  "worst_cross": -0.06687499701008925,
+  "best_cross": 0.06944017869688784,
+  "lifted_ge_002": 9,
+  "lifted_idx": [
+   17,
+   20,
+   32,
+   46,
+   64,
+   73,
+   76,
+   79,
+   267
+  ],
+  "deep_picked_same_mean": 4.675
+ },
+ "rows": [
+  {
+   "map_idx": 0,
+   "n_pool": 251,
+   "n_deep_only": 82,
+   "same_A": 0.687397467769011,
+   "same_B": 0.6787489210882636,
+   "same_delta": 0.008648546680747438,
+   "deep_in_same_oracle": [
+    "affordable housing policy",
+    "affordable housing compliance",
+    "housing credits",
+    "housing incentives",
+    "housing subsidies"
+   ],
+   "cross_A": 0.6162733933814375,
+   "cross_B": 0.6438776270017832,
+   "cross_delta": -0.027604233620345697,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing compliance",
+     "cos": 0.6729,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "affordable housing policy",
+     "cos": 0.7038,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "housing access",
+     "cos": 0.6487,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.6725,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing incentives",
+     "cos": 0.672,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6412,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing subsidies",
+     "cos": 0.6681,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "local housing policy",
+     "cos": 0.6562,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 1,
+   "n_pool": 202,
+   "n_deep_only": 58,
+   "same_A": 0.6388831235662219,
+   "same_B": 0.6272470624504521,
+   "same_delta": 0.011636061115769758,
+   "deep_in_same_oracle": [
+    "machine learning based autoscaling",
+    "autoscaling techniques review",
+    "scalability",
+    "scalable ai infrastructure",
+    "elastic scaling",
+    "cluster management"
+   ],
+   "cross_A": 0.6158850132186005,
+   "cross_B": 0.6060791525872988,
+   "cross_delta": 0.009805860631301622,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "autoscaling techniques review",
+     "cos": 0.6267,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "cloud native computing",
+     "cos": 0.5941,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "cluster management",
+     "cos": 0.5994,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "elastic scaling",
+     "cos": 0.5995,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "machine learning based autoscaling",
+     "cos": 0.6338,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "scalability",
+     "cos": 0.6191,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "scalable ai infrastructure",
+     "cos": 0.6035,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 2,
+   "n_pool": 211,
+   "n_deep_only": 57,
+   "same_A": 0.7541075562844135,
+   "same_B": 0.7404462884016269,
+   "same_delta": 0.013661267882786654,
+   "deep_in_same_oracle": [
+    "rental housing",
+    "housing vacancy",
+    "state specific rent laws",
+    "rental demand",
+    "rent increase rules"
+   ],
+   "cross_A": 0.698352201099104,
+   "cross_B": 0.7286375524627469,
+   "cross_delta": -0.030285351363642854,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "housing vacancy",
+     "cos": 0.7505,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "rent increase rules",
+     "cos": 0.7052,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "rent stabilization",
+     "cos": 0.7042,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "rental agreement",
+     "cos": 0.6894,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "rental demand",
+     "cos": 0.7142,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "rental housing",
+     "cos": 0.7735,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state specific rent laws",
+     "cos": 0.7163,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "tenant protections",
+     "cos": 0.6903,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 3,
+   "n_pool": 263,
+   "n_deep_only": 92,
+   "same_A": 0.5859291590387292,
+   "same_B": 0.5830544037491736,
+   "same_delta": 0.0028747552895556083,
+   "deep_in_same_oracle": [
+    "middle east real estate"
+   ],
+   "cross_A": 0.543091293666073,
+   "cross_B": 0.550061338565683,
+   "cross_delta": -0.006970044899609951,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "dubai property market",
+     "cos": 0.4313,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "india economy",
+     "cos": 0.4177,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "middle east real estate",
+     "cos": 0.5164,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "uae real estate",
+     "cos": 0.3985,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 4,
+   "n_pool": 238,
+   "n_deep_only": 77,
+   "same_A": 0.6721795161549117,
+   "same_B": 0.6643776044362695,
+   "same_delta": 0.007801911718642196,
+   "deep_in_same_oracle": [
+    "tax credit projects",
+    "affordable housing incentives",
+    "housing tax credits",
+    "state housing programs",
+    "affordable housing policy",
+    "state housing finance agencies"
+   ],
+   "cross_A": 0.5297852856093634,
+   "cross_B": 0.5351538579034559,
+   "cross_delta": -0.0053685722940924885,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing incentives",
+     "cos": 0.6756,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "affordable housing policy",
+     "cos": 0.649,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "affordable housing projects",
+     "cos": 0.6343,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "allocation criteria",
+     "cos": 0.5837,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "application criteria",
+     "cos": 0.5572,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing tax credits",
+     "cos": 0.6702,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "north carolina housing finance agency",
+     "cos": 0.5903,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing finance agencies",
+     "cos": 0.6397,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "state housing programs",
+     "cos": 0.6519,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state legislation",
+     "cos": 0.5104,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "tax credit projects",
+     "cos": 0.678,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 5,
+   "n_pool": 222,
+   "n_deep_only": 68,
+   "same_A": 0.7027582699303024,
+   "same_B": 0.6865661702875029,
+   "same_delta": 0.01619209964279955,
+   "deep_in_same_oracle": [
+    "housing credits",
+    "housing incentives",
+    "affordable housing compliance",
+    "housing development incentives",
+    "housing subsidies"
+   ],
+   "cross_A": 0.5997388558153529,
+   "cross_B": 0.6521720287993807,
+   "cross_delta": -0.05243317298402783,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing compliance",
+     "cos": 0.6863,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.7222,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing development incentives",
+     "cos": 0.6802,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing finance agency",
+     "cos": 0.6358,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing incentives",
+     "cos": 0.6966,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6621,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing stock redistribution",
+     "cos": 0.6233,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "state housing programs",
+     "cos": 0.6565,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 6,
+   "n_pool": 201,
+   "n_deep_only": 61,
+   "same_A": 0.6039926869392996,
+   "same_B": 0.6038061129877179,
+   "same_delta": 0.00018657395158172552,
+   "deep_in_same_oracle": [
+    "node js microservices",
+    "frontend architecture"
+   ],
+   "cross_A": 0.5202932432418486,
+   "cross_B": 0.5281312918774763,
+   "cross_delta": -0.007838048635627759,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "frontend architecture",
+     "cos": 0.5553,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "ingress gateway",
+     "cos": 0.485,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "node js microservices",
+     "cos": 0.5621,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 7,
+   "n_pool": 223,
+   "n_deep_only": 70,
+   "same_A": 0.6001375697396144,
+   "same_B": 0.6001375697396144,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.556285096050098,
+   "cross_B": 0.5583350812177248,
+   "cross_delta": -0.0020499851676267777,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "uniform transfers to minors act",
+     "cos": 0.3385,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 8,
+   "n_pool": 257,
+   "n_deep_only": 92,
+   "same_A": 0.5728771918249028,
+   "same_B": 0.5539575908614799,
+   "same_delta": 0.018919600963422933,
+   "deep_in_same_oracle": [
+    "saudi arabia",
+    "gulf region",
+    "middle east tensions",
+    "middle east geopolitics"
+   ],
+   "cross_A": 0.5326790324309936,
+   "cross_B": 0.5265861674633947,
+   "cross_delta": 0.0060928649675988655,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "gulf region",
+     "cos": 0.5601,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "middle east geopolitics",
+     "cos": 0.5518,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "middle east tensions",
+     "cos": 0.5559,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "saudi arabia",
+     "cos": 0.6011,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 9,
+   "n_pool": 226,
+   "n_deep_only": 73,
+   "same_A": 0.7354233532212895,
+   "same_B": 0.7312734068318157,
+   "same_delta": 0.0041499463894737465,
+   "deep_in_same_oracle": [
+    "cloud compliance",
+    "cloud operations",
+    "cloud security",
+    "cloud management platform"
+   ],
+   "cross_A": 0.6994291032891389,
+   "cross_B": 0.7031819533931388,
+   "cross_delta": -0.0037528501039999496,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "application migration",
+     "cos": 0.6016,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "cloud compliance",
+     "cos": 0.735,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "cloud management platform",
+     "cos": 0.72,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "cloud operations",
+     "cos": 0.7228,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "cloud risk management",
+     "cos": 0.6737,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "cloud security",
+     "cos": 0.721,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "cloud vendor management",
+     "cos": 0.6722,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 10,
+   "n_pool": 233,
+   "n_deep_only": 72,
+   "same_A": 0.6573992731541197,
+   "same_B": 0.6476392483258632,
+   "same_delta": 0.009760024828256553,
+   "deep_in_same_oracle": [
+    "offshore trusts",
+    "private wealth management",
+    "trust administration",
+    "asset management",
+    "wealth structuring",
+    "private wealth advisory",
+    "trust services"
+   ],
+   "cross_A": 0.605409425605793,
+   "cross_B": 0.6125241415551334,
+   "cross_delta": -0.007114715949340322,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset management",
+     "cos": 0.6318,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "fiduciary services",
+     "cos": 0.6074,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "international wealth structuring",
+     "cos": 0.6198,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "investment strategy",
+     "cos": 0.5815,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "investment vehicle",
+     "cos": 0.5934,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "multi family office",
+     "cos": 0.6195,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "offshore trusts",
+     "cos": 0.6475,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "private wealth advisory",
+     "cos": 0.6306,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "private wealth management",
+     "cos": 0.6385,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "single family office",
+     "cos": 0.6187,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "trust administration",
+     "cos": 0.6319,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "trust services",
+     "cos": 0.6225,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "wealth structuring",
+     "cos": 0.6311,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 11,
+   "n_pool": 292,
+   "n_deep_only": 121,
+   "same_A": 0.5395056234775157,
+   "same_B": 0.5392313460088627,
+   "same_delta": 0.00027427746865305025,
+   "deep_in_same_oracle": [
+    "dubai property market",
+    "us real estate"
+   ],
+   "cross_A": 0.46209949010812806,
+   "cross_B": 0.48639801659644266,
+   "cross_delta": -0.024298526488314598,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "cyprus property portal",
+     "cos": 0.4575,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "downtown dubai properties",
+     "cos": 0.4087,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "dubai property market",
+     "cos": 0.4663,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "living in cyprus",
+     "cos": 0.4193,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "mt5 platform",
+     "cos": 0.4589,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "us real estate",
+     "cos": 0.4645,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 12,
+   "n_pool": 190,
+   "n_deep_only": 41,
+   "same_A": 0.538266976303026,
+   "same_B": 0.538266976303026,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.4421451458365342,
+   "cross_B": 0.4421451458365342,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 13,
+   "n_pool": 235,
+   "n_deep_only": 83,
+   "same_A": 0.657572670228187,
+   "same_B": 0.6432525905887809,
+   "same_delta": 0.01432007963940607,
+   "deep_in_same_oracle": [
+    "houston multifamily",
+    "austin multifamily",
+    "multifamily starts",
+    "multifamily properties",
+    "texas multifamily market",
+    "multifamily investment",
+    "apartment development"
+   ],
+   "cross_A": 0.5828164053845859,
+   "cross_B": 0.603546987803958,
+   "cross_delta": -0.02073058241937209,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "apartment development",
+     "cos": 0.6223,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6593,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "government grants",
+     "cos": 0.5131,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.6762,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "multifamily properties",
+     "cos": 0.6307,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "multifamily starts",
+     "cos": 0.6308,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate development",
+     "cos": 0.6134,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.6306,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 14,
+   "n_pool": 171,
+   "n_deep_only": 47,
+   "same_A": 0.6403838604769392,
+   "same_B": 0.6100557728910456,
+   "same_delta": 0.03032808758589356,
+   "deep_in_same_oracle": [
+    "cloud architecture",
+    "cloud native",
+    "container orchestration",
+    "docker containers",
+    "infrastructure as code",
+    "serverless",
+    "microservices",
+    "vm vs containers"
+   ],
+   "cross_A": 0.6114580401405554,
+   "cross_B": 0.6007052349516516,
+   "cross_delta": 0.010752805188903758,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "cloud architecture",
+     "cos": 0.6581,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "cloud native",
+     "cos": 0.6337,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "container orchestration",
+     "cos": 0.6269,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "docker containers",
+     "cos": 0.6146,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "infrastructure as code",
+     "cos": 0.6133,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "kubernetes cluster management",
+     "cos": 0.5603,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "microservices",
+     "cos": 0.5966,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "serverless",
+     "cos": 0.597,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 15,
+   "n_pool": 183,
+   "n_deep_only": 53,
+   "same_A": 0.6381889433889436,
+   "same_B": 0.6154201173521419,
+   "same_delta": 0.022768826036801748,
+   "deep_in_same_oracle": [
+    "fairness in ai",
+    "confidential ai",
+    "confidential computing",
+    "fairness auditing",
+    "fairness trade offs",
+    "privacy guarantees"
+   ],
+   "cross_A": 0.5430389564983867,
+   "cross_B": 0.5600871053042047,
+   "cross_delta": -0.017048148805817953,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "ai security",
+     "cos": 0.5101,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "confidential ai",
+     "cos": 0.6516,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "confidential computing",
+     "cos": 0.5978,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "distributed machine learning",
+     "cos": 0.5484,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "fairness auditing",
+     "cos": 0.5863,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "fairness in ai",
+     "cos": 0.6573,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "fairness trade offs",
+     "cos": 0.5837,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "privacy preserving inference",
+     "cos": 0.5762,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "secure ai systems",
+     "cos": 0.569,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "secure multi party computation",
+     "cos": 0.532,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "secure training",
+     "cos": 0.5704,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 16,
+   "n_pool": 250,
+   "n_deep_only": 91,
+   "same_A": 0.661325523996179,
+   "same_B": 0.6448738726369123,
+   "same_delta": 0.01645165135926674,
+   "deep_in_same_oracle": [
+    "portfolio management",
+    "portfolio optimization",
+    "risk modeling",
+    "investment analytics",
+    "risk measurement",
+    "real estate risk modeling",
+    "asset allocation"
+   ],
+   "cross_A": 0.4677235613180484,
+   "cross_B": 0.46159900699277756,
+   "cross_delta": 0.0061245543252708146,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset allocation",
+     "cos": 0.6637,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "capital modeling",
+     "cos": 0.6151,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "investment analysis",
+     "cos": 0.6067,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "investment strategy",
+     "cos": 0.5984,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "portfolio diversification",
+     "cos": 0.5847,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "portfolio management",
+     "cos": 0.6743,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "portfolio optimization",
+     "cos": 0.6604,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate analytics",
+     "cos": 0.5431,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate correlations",
+     "cos": 0.5534,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate market analysis",
+     "cos": 0.5371,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate risk modeling",
+     "cos": 0.6257,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "risk measurement",
+     "cos": 0.6337,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "risk modeling",
+     "cos": 0.6537,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "wealth management",
+     "cos": 0.6133,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 17,
+   "n_pool": 289,
+   "n_deep_only": 110,
+   "same_A": 0.6304061393184252,
+   "same_B": 0.6251842761847705,
+   "same_delta": 0.005221863133654692,
+   "deep_in_same_oracle": [
+    "affordable housing incentives",
+    "state housing programs",
+    "state housing finance agencies",
+    "north carolina housing finance agency",
+    "affordable housing projects"
+   ],
+   "cross_A": 0.5017965529794705,
+   "cross_B": 0.47420303199224956,
+   "cross_delta": 0.0275935209872209,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing incentives",
+     "cos": 0.6371,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "affordable housing projects",
+     "cos": 0.6098,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing tax credits",
+     "cos": 0.6031,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "montana",
+     "cos": 0.5738,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "north carolina housing finance agency",
+     "cos": 0.6118,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "state housing finance agencies",
+     "cos": 0.6223,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing programs",
+     "cos": 0.624,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "state level housing laws",
+     "cos": 0.5982,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "state local relations",
+     "cos": 0.5264,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 18,
+   "n_pool": 244,
+   "n_deep_only": 83,
+   "same_A": 0.541119946910419,
+   "same_B": 0.5396548795654543,
+   "same_delta": 0.0014650673449646545,
+   "deep_in_same_oracle": [
+    "government trust",
+    "federal government australia"
+   ],
+   "cross_A": 0.4160983505918555,
+   "cross_B": 0.4608609067785685,
+   "cross_delta": -0.04476255618671299,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "australian national retailers association",
+     "cos": 0.4529,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "democratic governance",
+     "cos": 0.4378,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "esg preferences",
+     "cos": 0.398,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "federal government australia",
+     "cos": 0.4617,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "viral political content",
+     "cos": 0.3758,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 19,
+   "n_pool": 209,
+   "n_deep_only": 56,
+   "same_A": 0.5020256870198448,
+   "same_B": 0.5020256870198448,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.46130735883082574,
+   "cross_B": 0.46130735883082574,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 20,
+   "n_pool": 273,
+   "n_deep_only": 114,
+   "same_A": 0.6179356499960269,
+   "same_B": 0.5775811729168553,
+   "same_delta": 0.04035447707917161,
+   "deep_in_same_oracle": [
+    "new zealand jobs",
+    "immigration new zealand",
+    "bringing students to new zealand",
+    "australian immigration",
+    "australian education providers",
+    "new zealand green list"
+   ],
+   "cross_A": 0.5292045806760732,
+   "cross_B": 0.4597644019791854,
+   "cross_delta": 0.06944017869688784,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "australian education providers",
+     "cos": 0.4869,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "australian immigration",
+     "cos": 0.5103,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "bringing students to new zealand",
+     "cos": 0.5326,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "immigration new zealand",
+     "cos": 0.6087,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "new zealand green list",
+     "cos": 0.6775,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "new zealand jobs",
+     "cos": 0.6496,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 21,
+   "n_pool": 203,
+   "n_deep_only": 59,
+   "same_A": 0.6058964271197784,
+   "same_B": 0.6054195750375637,
+   "same_delta": 0.0004768520822147071,
+   "deep_in_same_oracle": [
+    "resiliency",
+    "cloud resource management"
+   ],
+   "cross_A": 0.5770495047066877,
+   "cross_B": 0.5791571036768071,
+   "cross_delta": -0.002107598970119362,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "cloud engineering",
+     "cos": 0.5716,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "cloud resource management",
+     "cos": 0.5757,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "disaster recovery planning",
+     "cos": 0.537,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "resiliency",
+     "cos": 0.5825,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 22,
+   "n_pool": 261,
+   "n_deep_only": 105,
+   "same_A": 0.6763534028385322,
+   "same_B": 0.6557442271069844,
+   "same_delta": 0.020609175731547746,
+   "deep_in_same_oracle": [
+    "usa housing",
+    "houston multifamily",
+    "multifamily",
+    "affordable housing",
+    "austin multifamily",
+    "rental housing",
+    "multifamily properties",
+    "apartment development"
+   ],
+   "cross_A": 0.6408516974466141,
+   "cross_B": 0.6302692728847964,
+   "cross_delta": 0.010582424561817683,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing",
+     "cos": 0.6628,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "apartment development",
+     "cos": 0.6596,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6489,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.677,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "multifamily",
+     "cos": 0.663,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multifamily properties",
+     "cos": 0.6448,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "rental housing",
+     "cos": 0.645,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "residential development",
+     "cos": 0.6347,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.6319,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "usa housing",
+     "cos": 0.6983,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 23,
+   "n_pool": 230,
+   "n_deep_only": 72,
+   "same_A": 0.5497273030225985,
+   "same_B": 0.5495771429815501,
+   "same_delta": 0.0001501600410483972,
+   "deep_in_same_oracle": [
+    "indian capital markets"
+   ],
+   "cross_A": 0.5039942169516465,
+   "cross_B": 0.504243659771863,
+   "cross_delta": -0.00024944282021654995,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "direct reit investment",
+     "cos": 0.4653,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate securities",
+     "cos": 0.4644,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 24,
+   "n_pool": 163,
+   "n_deep_only": 44,
+   "same_A": 0.6268469556901124,
+   "same_B": 0.6181170026619376,
+   "same_delta": 0.008729953028174808,
+   "deep_in_same_oracle": [
+    "model training",
+    "generative ai",
+    "training neural networks"
+   ],
+   "cross_A": 0.6181974584971421,
+   "cross_B": 0.6193931625883281,
+   "cross_delta": -0.0011957040911859673,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "generative ai",
+     "cos": 0.6085,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "model training",
+     "cos": 0.6209,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "training neural networks",
+     "cos": 0.6026,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 25,
+   "n_pool": 198,
+   "n_deep_only": 44,
+   "same_A": 0.7081649078309321,
+   "same_B": 0.7004882931222025,
+   "same_delta": 0.007676614708729601,
+   "deep_in_same_oracle": [
+    "housing credits",
+    "federal housing policy",
+    "housing programs",
+    "housing affordability",
+    "housing regulation"
+   ],
+   "cross_A": 0.6394723789978427,
+   "cross_B": 0.6318322742623542,
+   "cross_delta": 0.007640104735488484,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "federal housing policy",
+     "cos": 0.6758,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing affordability",
+     "cos": 0.6673,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.7145,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing finance",
+     "cos": 0.6632,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6683,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing regulation",
+     "cos": 0.6653,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing supply",
+     "cos": 0.6437,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 26,
+   "n_pool": 192,
+   "n_deep_only": 40,
+   "same_A": 0.6450095761142755,
+   "same_B": 0.6406725187825549,
+   "same_delta": 0.0043370573317205174,
+   "deep_in_same_oracle": [
+    "affordable housing compliance",
+    "housing law",
+    "housing regulation",
+    "low income housing",
+    "below market rate housing"
+   ],
+   "cross_A": 0.586239780549912,
+   "cross_B": 0.6031423939947228,
+   "cross_delta": -0.01690261344481081,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing compliance",
+     "cos": 0.6281,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "below market rate housing",
+     "cos": 0.6059,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing incentives",
+     "cos": 0.5959,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing law",
+     "cos": 0.6219,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing regulation",
+     "cos": 0.6213,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing subsidies",
+     "cos": 0.5832,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "low income housing",
+     "cos": 0.6152,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "michigan housing development authority",
+     "cos": 0.5836,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 27,
+   "n_pool": 232,
+   "n_deep_only": 80,
+   "same_A": 0.5242953204034095,
+   "same_B": 0.5138916908213755,
+   "same_delta": 0.010403629582034002,
+   "deep_in_same_oracle": [
+    "new york times",
+    "new york fish market",
+    "delhi azadpur market"
+   ],
+   "cross_A": 0.4064176265408982,
+   "cross_B": 0.4103862006834116,
+   "cross_delta": -0.0039685741425133925,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "delhi azadpur market",
+     "cos": 0.5085,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "india wholesale market",
+     "cos": 0.4523,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "new york fish market",
+     "cos": 0.4742,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "new york times",
+     "cos": 0.5349,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 28,
+   "n_pool": 261,
+   "n_deep_only": 94,
+   "same_A": 0.5680171254973885,
+   "same_B": 0.5626808365496699,
+   "same_delta": 0.005336288947718537,
+   "deep_in_same_oracle": [
+    "warehouse real estate",
+    "uk commercial property",
+    "logistics property market",
+    "industrial warehouses"
+   ],
+   "cross_A": 0.4699616394652927,
+   "cross_B": 0.4932973586079298,
+   "cross_delta": -0.0233357191426371,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "industrial real estate outlook",
+     "cos": 0.5118,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "industrial rent canada",
+     "cos": 0.4883,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "industrial vacancy rates",
+     "cos": 0.4863,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "logistics facilities",
+     "cos": 0.4988,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "logistics investments",
+     "cos": 0.5214,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "logistics property",
+     "cos": 0.5088,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "logistics property market",
+     "cos": 0.5403,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "uk commercial property",
+     "cos": 0.5517,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "uk industrial vacancy rate",
+     "cos": 0.5052,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "warehouse market",
+     "cos": 0.5113,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.5687,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 29,
+   "n_pool": 227,
+   "n_deep_only": 71,
+   "same_A": 0.6414463354331938,
+   "same_B": 0.6196619725837764,
+   "same_delta": 0.021784362849417427,
+   "deep_in_same_oracle": [
+    "interest rate hedging",
+    "mortgage hedging",
+    "financial risk management",
+    "financing risk",
+    "financial hedges",
+    "structured finance",
+    "financial contracts",
+    "real estate lending",
+    "investment risk",
+    "loan pricing"
+   ],
+   "cross_A": 0.5603165390836163,
+   "cross_B": 0.5777582445053526,
+   "cross_delta": -0.017441705421736287,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset liability management",
+     "cos": 0.5934,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "debt financing",
+     "cos": 0.5958,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "financial contracts",
+     "cos": 0.6236,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "financial hedges",
+     "cos": 0.6295,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "financial risk management",
+     "cos": 0.6372,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "financing risk",
+     "cos": 0.637,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "financing transactions",
+     "cos": 0.608,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "interest rate hedging",
+     "cos": 0.6436,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "investment risk",
+     "cos": 0.6203,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "investment risk management",
+     "cos": 0.5931,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "leverage management",
+     "cos": 0.5849,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "loan pricing",
+     "cos": 0.6191,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "mortgage hedging",
+     "cos": 0.6411,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate lending",
+     "cos": 0.6212,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "structured finance",
+     "cos": 0.6252,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 30,
+   "n_pool": 203,
+   "n_deep_only": 56,
+   "same_A": 0.6045005046146104,
+   "same_B": 0.5975345806721344,
+   "same_delta": 0.006965923942475971,
+   "deep_in_same_oracle": [
+    "noticias de venezuela",
+    "argentina"
+   ],
+   "cross_A": 0.5530134437043408,
+   "cross_B": 0.5579035452118748,
+   "cross_delta": -0.004890101507533995,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "argentina",
+     "cos": 0.5578,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "departamentos",
+     "cos": 0.4751,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "noticias de venezuela",
+     "cos": 0.5952,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "portal de noticias",
+     "cos": 0.4985,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "remaju",
+     "cos": 0.4106,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 31,
+   "n_pool": 199,
+   "n_deep_only": 58,
+   "same_A": 0.5324656983956886,
+   "same_B": 0.5324656983956886,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.3555457954645167,
+   "cross_B": 0.36125554345400335,
+   "cross_delta": -0.0057097479894866465,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "multifamily",
+     "cos": 0.4066,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "residential real estate",
+     "cos": 0.3348,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "us census housing data",
+     "cos": 0.3183,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 32,
+   "n_pool": 273,
+   "n_deep_only": 107,
+   "same_A": 0.5564957175060697,
+   "same_B": 0.5415859272237168,
+   "same_delta": 0.014909790282352953,
+   "deep_in_same_oracle": [
+    "snappy compression",
+    "parquet reader",
+    "spark",
+    "compression",
+    "parquet file viewer",
+    "pii scanning",
+    "encoding",
+    "orq ai"
+   ],
+   "cross_A": 0.45638241533234103,
+   "cross_B": 0.4234416029407033,
+   "cross_delta": 0.03294081239163771,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "auto compression",
+     "cos": 0.4905,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "compressed parquet",
+     "cos": 0.4877,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "compression",
+     "cos": 0.5196,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "encoding",
+     "cos": 0.5072,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "hive",
+     "cos": 0.5,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "lyrsense website",
+     "cos": 0.4655,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "object compression",
+     "cos": 0.496,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "orq ai",
+     "cos": 0.623,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "parquet file format",
+     "cos": 0.4772,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "parquet file viewer",
+     "cos": 0.5142,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "parquet reader",
+     "cos": 0.5401,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "pii scanning",
+     "cos": 0.5102,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "snappy compression",
+     "cos": 0.5449,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "spark",
+     "cos": 0.522,
+     "lines": [
+      "deep_line_5"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 33,
+   "n_pool": 273,
+   "n_deep_only": 104,
+   "same_A": 0.5505462918287131,
+   "same_B": 0.5338401790477596,
+   "same_delta": 0.016706112780953464,
+   "deep_in_same_oracle": [
+    "pii scanning",
+    "encoding",
+    "object compression",
+    "data inspection",
+    "compression",
+    "finops best practices",
+    "parquet reader",
+    "orq ai"
+   ],
+   "cross_A": 0.47075104073262963,
+   "cross_B": 0.471173257468278,
+   "cross_delta": -0.00042221673564835083,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "analytics storage",
+     "cos": 0.5128,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "compression",
+     "cos": 0.5289,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "data inspection",
+     "cos": 0.5296,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "data tooling",
+     "cos": 0.5122,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "encoding",
+     "cos": 0.5531,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "finops best practices",
+     "cos": 0.5265,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "object compression",
+     "cos": 0.5378,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "orq ai",
+     "cos": 0.5868,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "parquet file format",
+     "cos": 0.4903,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "parquet reader",
+     "cos": 0.525,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "pii scanning",
+     "cos": 0.5565,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "privacy compliance",
+     "cos": 0.5142,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "snappy compression",
+     "cos": 0.5103,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 34,
+   "n_pool": 221,
+   "n_deep_only": 71,
+   "same_A": 0.6496173009205306,
+   "same_B": 0.6333016905926073,
+   "same_delta": 0.01631561032792328,
+   "deep_in_same_oracle": [
+    "monitoring and observability",
+    "logs",
+    "performance monitoring",
+    "monitoring and alerting",
+    "operational monitoring",
+    "infrastructure monitoring",
+    "end to end monitoring"
+   ],
+   "cross_A": 0.6263867745863156,
+   "cross_B": 0.6206943291522762,
+   "cross_delta": 0.0056924454340394615,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "end to end monitoring",
+     "cos": 0.6149,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "incident management",
+     "cos": 0.6127,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "infrastructure monitoring",
+     "cos": 0.6188,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "logs",
+     "cos": 0.6504,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "monitoring and alerting",
+     "cos": 0.6324,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "monitoring and observability",
+     "cos": 0.6592,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "operational monitoring",
+     "cos": 0.6223,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "performance monitoring",
+     "cos": 0.6442,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 35,
+   "n_pool": 213,
+   "n_deep_only": 59,
+   "same_A": 0.6551079007657541,
+   "same_B": 0.6478187951984121,
+   "same_delta": 0.007289105567341969,
+   "deep_in_same_oracle": [
+    "real estate depreciation",
+    "investment property",
+    "real estate tax strategy",
+    "wealth transfer",
+    "tax advantages",
+    "tax reporting"
+   ],
+   "cross_A": 0.6198931673168622,
+   "cross_B": 0.6178629620747339,
+   "cross_delta": 0.002030205242128269,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "accounting for depreciation",
+     "cos": 0.5989,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "business transition planning",
+     "cos": 0.6086,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "family business succession planning",
+     "cos": 0.6092,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "investment property",
+     "cos": 0.6353,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate accounting",
+     "cos": 0.6101,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate depreciation",
+     "cos": 0.6456,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate tax strategy",
+     "cos": 0.6308,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "tax reporting",
+     "cos": 0.613,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 36,
+   "n_pool": 171,
+   "n_deep_only": 39,
+   "same_A": 0.6521905285176978,
+   "same_B": 0.6521905285176978,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.6054797415710677,
+   "cross_B": 0.6069876326252526,
+   "cross_delta": -0.0015078910541849178,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "middle east dynamics",
+     "cos": 0.5338,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 37,
+   "n_pool": 190,
+   "n_deep_only": 47,
+   "same_A": 0.5823029929495579,
+   "same_B": 0.5704462546643951,
+   "same_delta": 0.01185673828516276,
+   "deep_in_same_oracle": [
+    "hospitality reit",
+    "quarterly earnings",
+    "adjusted ebitda",
+    "hotel occupancy",
+    "lodging revenue growth",
+    "hotel industry report",
+    "ffo"
+   ],
+   "cross_A": 0.46654632997447676,
+   "cross_B": 0.46031112582724654,
+   "cross_delta": 0.006235204147230222,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "adjusted ebitda",
+     "cos": 0.5421,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "ffo",
+     "cos": 0.5638,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "financial results",
+     "cos": 0.5254,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "hospitality reit",
+     "cos": 0.5857,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "hotel demand",
+     "cos": 0.5194,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel industry report",
+     "cos": 0.5301,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel market forecast",
+     "cos": 0.5023,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel occupancy",
+     "cos": 0.5385,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel performance",
+     "cos": 0.4969,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel room demand",
+     "cos": 0.5029,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hotel room supply",
+     "cos": 0.487,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "quarterly earnings",
+     "cos": 0.5535,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 38,
+   "n_pool": 222,
+   "n_deep_only": 72,
+   "same_A": 0.5971580702015945,
+   "same_B": 0.5971580702015945,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.5673668233853482,
+   "cross_B": 0.5673668233853482,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 39,
+   "n_pool": 234,
+   "n_deep_only": 81,
+   "same_A": 0.582188713785563,
+   "same_B": 0.5771674880056155,
+   "same_delta": 0.005021225779947569,
+   "deep_in_same_oracle": [
+    "austin multifamily",
+    "houston multifamily",
+    "texas multifamily market"
+   ],
+   "cross_A": 0.4675028550165329,
+   "cross_B": 0.49036794557948427,
+   "cross_delta": -0.022865090562951385,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "austin multifamily",
+     "cos": 0.5456,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.5235,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.49,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 40,
+   "n_pool": 274,
+   "n_deep_only": 104,
+   "same_A": 0.5678280963675496,
+   "same_B": 0.566597936731775,
+   "same_delta": 0.0012301596357745526,
+   "deep_in_same_oracle": [
+    "california multifamily market",
+    "political markets",
+    "multifamily deals",
+    "biggerpockets"
+   ],
+   "cross_A": 0.5230558182167641,
+   "cross_B": 0.5280372052948148,
+   "cross_delta": -0.004981387078050736,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "biggerpockets",
+     "cos": 0.558,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "california multifamily market",
+     "cos": 0.5296,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multifamily deals",
+     "cos": 0.5229,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "multifamily homes",
+     "cos": 0.4782,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multifamily investing",
+     "cos": 0.5029,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "political markets",
+     "cos": 0.5232,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 41,
+   "n_pool": 265,
+   "n_deep_only": 99,
+   "same_A": 0.6774504283143747,
+   "same_B": 0.6559085203209747,
+   "same_delta": 0.021541907993400056,
+   "deep_in_same_oracle": [
+    "project feasibility",
+    "feasibility report",
+    "retail feasibility analysis",
+    "business planning",
+    "retail planning",
+    "feasibility analysis",
+    "project proposal",
+    "market feasibility",
+    "project selection"
+   ],
+   "cross_A": 0.5834194480424555,
+   "cross_B": 0.6122991549996556,
+   "cross_delta": -0.028879706957200102,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "business case",
+     "cos": 0.6225,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "business planning",
+     "cos": 0.6535,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "feasibility analysis",
+     "cos": 0.6485,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "feasibility assessment",
+     "cos": 0.6458,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "feasibility report",
+     "cos": 0.6608,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "project feasibility",
+     "cos": 0.7119,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "project governance",
+     "cos": 0.6281,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "project proposal",
+     "cos": 0.6471,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "retail feasibility analysis",
+     "cos": 0.655,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "retail operations",
+     "cos": 0.593,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "retail planning",
+     "cos": 0.6488,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "retail project finance",
+     "cos": 0.6314,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "retail site selection",
+     "cos": 0.6,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "retail strategy",
+     "cos": 0.5779,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 42,
+   "n_pool": 166,
+   "n_deep_only": 37,
+   "same_A": 0.6775375796376917,
+   "same_B": 0.6715063764719267,
+   "same_delta": 0.006031203165764998,
+   "deep_in_same_oracle": [
+    "dynamic content streaming",
+    "content delivery",
+    "modern web rendering",
+    "cdn"
+   ],
+   "cross_A": 0.6308265554908696,
+   "cross_B": 0.6426670993290707,
+   "cross_delta": -0.0118405438382011,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "cdn",
+     "cos": 0.6345,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "content delivery",
+     "cos": 0.652,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "dynamic content streaming",
+     "cos": 0.6651,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "fallback rendering",
+     "cos": 0.5983,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "modern web rendering",
+     "cos": 0.6397,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "runtime rendering",
+     "cos": 0.6107,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "scheduled rendering",
+     "cos": 0.6335,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 43,
+   "n_pool": 201,
+   "n_deep_only": 59,
+   "same_A": 0.5121817671689342,
+   "same_B": 0.5108118404598082,
+   "same_delta": 0.001369926709125946,
+   "deep_in_same_oracle": [
+    "latino marketing"
+   ],
+   "cross_A": 0.39905518779090754,
+   "cross_B": 0.4322896197389084,
+   "cross_delta": -0.03323443194800085,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "ad campaign performance",
+     "cos": 0.4464,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "advertising roi",
+     "cos": 0.4181,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "brand marketing",
+     "cos": 0.3989,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hispanic social media marketing",
+     "cos": 0.4407,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "inclusive marketing",
+     "cos": 0.4228,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "latino marketing",
+     "cos": 0.4957,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "roi measurement",
+     "cos": 0.4378,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 44,
+   "n_pool": 268,
+   "n_deep_only": 92,
+   "same_A": 0.7165552448761939,
+   "same_B": 0.6997886143255257,
+   "same_delta": 0.016766630550668182,
+   "deep_in_same_oracle": [
+    "portfolio management",
+    "investment management",
+    "risk profiling",
+    "risk capacity"
+   ],
+   "cross_A": 0.6831696244071321,
+   "cross_B": 0.6712897790574694,
+   "cross_delta": 0.011879845349662688,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "credit risk",
+     "cos": 0.5926,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "debt investing",
+     "cos": 0.6257,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "investment management",
+     "cos": 0.7226,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multi asset portfolios",
+     "cos": 0.6369,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "portfolio management",
+     "cos": 0.7278,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "risk capacity",
+     "cos": 0.6416,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "risk profiling",
+     "cos": 0.6466,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 45,
+   "n_pool": 260,
+   "n_deep_only": 93,
+   "same_A": 0.6166230273897234,
+   "same_B": 0.6166230273897234,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.56937793308083,
+   "cross_B": 0.571151468278636,
+   "cross_delta": -0.0017735351978060976,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "rmsea",
+     "cos": 0.4249,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "srmr",
+     "cos": 0.3902,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 46,
+   "n_pool": 250,
+   "n_deep_only": 97,
+   "same_A": 0.5937065411922408,
+   "same_B": 0.5709194532705679,
+   "same_delta": 0.022787087921672833,
+   "deep_in_same_oracle": [
+    "integration testing",
+    "production testing",
+    "transcription performance testing",
+    "speech analytics",
+    "automated testing",
+    "robustness testing",
+    "failure simulation"
+   ],
+   "cross_A": 0.5421991030620656,
+   "cross_B": 0.5199656854084785,
+   "cross_delta": 0.022233417653587106,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "ai transcription",
+     "cos": 0.5366,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "automated testing",
+     "cos": 0.5733,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "developer tools",
+     "cos": 0.5364,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "integration testing",
+     "cos": 0.614,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "production testing",
+     "cos": 0.5874,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "service mesh",
+     "cos": 0.5034,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "speech analytics",
+     "cos": 0.5755,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "transcription performance testing",
+     "cos": 0.5828,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "transcription quality assurance",
+     "cos": 0.516,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "transcription validation",
+     "cos": 0.4967,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 47,
+   "n_pool": 192,
+   "n_deep_only": 62,
+   "same_A": 0.7280118072631921,
+   "same_B": 0.7183608756194171,
+   "same_delta": 0.009650931643775063,
+   "deep_in_same_oracle": [
+    "node autoscaling",
+    "kubernetes scaling",
+    "application scaling",
+    "cluster management",
+    "workload scaling"
+   ],
+   "cross_A": 0.7030782956856774,
+   "cross_B": 0.7058321544868371,
+   "cross_delta": -0.0027538588011597476,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "application scaling",
+     "cos": 0.6831,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "cloud operations",
+     "cos": 0.6262,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "cluster management",
+     "cos": 0.6632,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "container orchestration",
+     "cos": 0.5972,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "deployment",
+     "cos": 0.6215,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "kubernetes scaling",
+     "cos": 0.6925,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "node autoscaling",
+     "cos": 0.7152,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "workload scaling",
+     "cos": 0.658,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 48,
+   "n_pool": 250,
+   "n_deep_only": 98,
+   "same_A": 0.718487999503881,
+   "same_B": 0.6890720730853178,
+   "same_delta": 0.029415926418563165,
+   "deep_in_same_oracle": [
+    "investment risk",
+    "financial risk management",
+    "financial risk",
+    "portfolio risk",
+    "investor liquidity management",
+    "reit liquidity",
+    "loan portfolio management",
+    "refinancing risk",
+    "private real estate funds",
+    "financial risk mitigation"
+   ],
+   "cross_A": 0.5785330164591604,
+   "cross_B": 0.6267766704273472,
+   "cross_delta": -0.04824365396818675,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "financial risk",
+     "cos": 0.72,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "financial risk management",
+     "cos": 0.7293,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "financial risk mitigation",
+     "cos": 0.6887,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "investment risk",
+     "cos": 0.7327,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "investor liquidity management",
+     "cos": 0.7024,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "loan portfolio management",
+     "cos": 0.6947,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "open end private equity real estate funds",
+     "cos": 0.6637,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "portfolio risk",
+     "cos": 0.7046,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "private real estate funds",
+     "cos": 0.6888,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "rate hedging",
+     "cos": 0.6697,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate capital markets",
+     "cos": 0.6825,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate investing",
+     "cos": 0.6367,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate investment trusts",
+     "cos": 0.6177,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate investment vehicles",
+     "cos": 0.6475,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "refinancing risk",
+     "cos": 0.6891,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "reit liquidity",
+     "cos": 0.6959,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 49,
+   "n_pool": 252,
+   "n_deep_only": 72,
+   "same_A": 0.5634140820204495,
+   "same_B": 0.5603473173842464,
+   "same_delta": 0.0030667646362031453,
+   "deep_in_same_oracle": [
+    "issb"
+   ],
+   "cross_A": 0.4722740255110339,
+   "cross_B": 0.49309046312196214,
+   "cross_delta": -0.020816437610928218,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "india climate finance",
+     "cos": 0.4709,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "issb",
+     "cos": 0.5557,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 50,
+   "n_pool": 240,
+   "n_deep_only": 79,
+   "same_A": 0.7200416584569163,
+   "same_B": 0.7099106280851979,
+   "same_delta": 0.010131030371718364,
+   "deep_in_same_oracle": [
+    "affordable housing incentives",
+    "affordable housing projects",
+    "housing tax credits",
+    "state housing finance agencies"
+   ],
+   "cross_A": 0.6620209216270303,
+   "cross_B": 0.6551752602215875,
+   "cross_delta": 0.006845661405442849,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing incentives",
+     "cos": 0.7358,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "affordable housing projects",
+     "cos": 0.7127,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing tax credits",
+     "cos": 0.6902,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "north carolina housing finance agency",
+     "cos": 0.6598,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing agencies",
+     "cos": 0.633,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "state housing finance agencies",
+     "cos": 0.6806,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "state housing programs",
+     "cos": 0.6698,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 51,
+   "n_pool": 235,
+   "n_deep_only": 81,
+   "same_A": 0.7524369597738795,
+   "same_B": 0.7293209090844404,
+   "same_delta": 0.023116050689439116,
+   "deep_in_same_oracle": [
+    "affordable housing policy",
+    "affordable housing incentives",
+    "affordable housing projects",
+    "housing tax credits",
+    "housing subsidy programs"
+   ],
+   "cross_A": 0.6696443801665166,
+   "cross_B": 0.6582385447872232,
+   "cross_delta": 0.011405835379293405,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing incentives",
+     "cos": 0.7685,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "affordable housing policy",
+     "cos": 0.769,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "affordable housing projects",
+     "cos": 0.732,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing finance regulation",
+     "cos": 0.6574,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing market regulation",
+     "cos": 0.6566,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6934,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing subsidy programs",
+     "cos": 0.6999,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing tax credits",
+     "cos": 0.7292,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "low income housing development",
+     "cos": 0.6938,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "state housing finance agencies",
+     "cos": 0.642,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 52,
+   "n_pool": 219,
+   "n_deep_only": 69,
+   "same_A": 0.5804711979728021,
+   "same_B": 0.5804711979728021,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.5259398416936389,
+   "cross_B": 0.5259398416936389,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 53,
+   "n_pool": 206,
+   "n_deep_only": 66,
+   "same_A": 0.5303692623505533,
+   "same_B": 0.5288328702232639,
+   "same_delta": 0.0015363921272893988,
+   "deep_in_same_oracle": [
+    "financial institutions",
+    "online investing",
+    "retail investors",
+    "severe economic downturn"
+   ]
+  },
+  {
+   "map_idx": 54,
+   "n_pool": 236,
+   "n_deep_only": 76,
+   "same_A": 0.6846667342750938,
+   "same_B": 0.6766516733630372,
+   "same_delta": 0.008015060912056615,
+   "deep_in_same_oracle": [
+    "united states housing policy",
+    "federal housing policy",
+    "state level housing laws",
+    "housing programs",
+    "local housing policy"
+   ],
+   "cross_A": 0.6537945581919162,
+   "cross_B": 0.6518243635308817,
+   "cross_delta": 0.001970194661034541,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "federal housing policy",
+     "cos": 0.6712,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing access",
+     "cos": 0.6397,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.6362,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6423,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing regulation",
+     "cos": 0.6419,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "local housing policy",
+     "cos": 0.7254,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state level housing laws",
+     "cos": 0.6568,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "united states housing policy",
+     "cos": 0.6832,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 55,
+   "n_pool": 202,
+   "n_deep_only": 53,
+   "same_A": 0.6191717593204534,
+   "same_B": 0.612382433907558,
+   "same_delta": 0.006789325412895453,
+   "deep_in_same_oracle": [
+    "industrial warehouses",
+    "warehouse real estate",
+    "logistics facilities",
+    "supply chain real estate",
+    "logistics property",
+    "logistics parks",
+    "logistics warehouses uk"
+   ],
+   "cross_A": 0.5600212009077767,
+   "cross_B": 0.5769348698521268,
+   "cross_delta": -0.01691366894435009,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "industrial warehouses",
+     "cos": 0.602,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics facilities",
+     "cos": 0.5865,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics infrastructure",
+     "cos": 0.5645,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "logistics parks",
+     "cos": 0.5731,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "logistics property",
+     "cos": 0.5836,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "supply chain real estate",
+     "cos": 0.5847,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.5975,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 56,
+   "n_pool": 233,
+   "n_deep_only": 78,
+   "same_A": 0.7389669476256542,
+   "same_B": 0.7218145904048379,
+   "same_delta": 0.017152357220816317,
+   "deep_in_same_oracle": [
+    "audit independence",
+    "accountability in ai",
+    "audit process",
+    "external audits",
+    "accountability",
+    "accountability frameworks",
+    "auditing the auditors",
+    "auditor oversight",
+    "ai governance"
+   ],
+   "cross_A": 0.7185135782746523,
+   "cross_B": 0.7011132218744356,
+   "cross_delta": 0.017400356400216754,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "accountability",
+     "cos": 0.6849,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "accountability frameworks",
+     "cos": 0.6758,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "accountability in ai",
+     "cos": 0.7037,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "ai governance",
+     "cos": 0.697,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "audit independence",
+     "cos": 0.7047,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "audit process",
+     "cos": 0.6906,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "auditor access",
+     "cos": 0.6303,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "auditor oversight",
+     "cos": 0.729,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "external audits",
+     "cos": 0.6856,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "transparency in ai",
+     "cos": 0.6542,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 57,
+   "n_pool": 238,
+   "n_deep_only": 76,
+   "same_A": 0.5842228894440062,
+   "same_B": 0.5810876788898194,
+   "same_delta": 0.0031352105541868625,
+   "deep_in_same_oracle": [
+    "cpi",
+    "uk economy",
+    "price changes",
+    "us economy"
+   ],
+   "cross_A": 0.5333614286684555,
+   "cross_B": 0.5301418919000715,
+   "cross_delta": 0.003219536768383935,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "cpi",
+     "cos": 0.5307,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "dollar purchasing power",
+     "cos": 0.4416,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "price changes",
+     "cos": 0.5203,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "uk economy",
+     "cos": 0.5277,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "us economy",
+     "cos": 0.5061,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 58,
+   "n_pool": 252,
+   "n_deep_only": 86,
+   "same_A": 0.5948677060471411,
+   "same_B": 0.5899336140781406,
+   "same_delta": 0.00493409196900052,
+   "deep_in_same_oracle": [
+    "logistics real estate",
+    "maritime shipping",
+    "freight forwarding",
+    "red sea shipping"
+   ],
+   "cross_A": 0.47280220320107874,
+   "cross_B": 0.4820920883778581,
+   "cross_delta": -0.009289885176779367,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "freight forwarding",
+     "cos": 0.5783,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "global trade",
+     "cos": 0.5844,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "lease negotiation",
+     "cos": 0.5572,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "lease security",
+     "cos": 0.5561,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "logistics real estate",
+     "cos": 0.5942,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "red sea shipping",
+     "cos": 0.5656,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "shipping industry",
+     "cos": 0.5585,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "shipping risk assessment",
+     "cos": 0.5628,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "tenant credit",
+     "cos": 0.5547,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 59,
+   "n_pool": 219,
+   "n_deep_only": 69,
+   "same_A": 0.5685213615074435,
+   "same_B": 0.5584174970544726,
+   "same_delta": 0.010103864452970845,
+   "deep_in_same_oracle": [
+    "iran news",
+    "geely lineup",
+    "iranian military",
+    "used toyota tacoma",
+    "toyota"
+   ],
+   "cross_A": 0.5412215663968368,
+   "cross_B": 0.549526197074272,
+   "cross_delta": -0.008304630677435143,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "geely lineup",
+     "cos": 0.5375,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "iran news",
+     "cos": 0.5492,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "iranian military",
+     "cos": 0.5196,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "iranian state media",
+     "cos": 0.4782,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "toyota",
+     "cos": 0.6182,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "used toyota tacoma",
+     "cos": 0.5085,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 60,
+   "n_pool": 283,
+   "n_deep_only": 117,
+   "same_A": 0.5514891007729475,
+   "same_B": 0.5514891007729475,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.5301601069497877,
+   "cross_B": 0.5311711502732381,
+   "cross_delta": -0.0010110433234504779,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "commonwealth bank of australia",
+     "cos": 0.4105,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 61,
+   "n_pool": 228,
+   "n_deep_only": 73,
+   "same_A": 0.6585450271795213,
+   "same_B": 0.6537020893045494,
+   "same_delta": 0.00484293787497192,
+   "deep_in_same_oracle": [
+    "us senate",
+    "us politics",
+    "us congress",
+    "government",
+    "washington dc"
+   ],
+   "cross_A": 0.6493895622912854,
+   "cross_B": 0.6459267188777826,
+   "cross_delta": 0.003462843413502781,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "government",
+     "cos": 0.5291,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "us congress",
+     "cos": 0.5529,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "us politics",
+     "cos": 0.5534,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "us senate",
+     "cos": 0.5549,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "washington dc",
+     "cos": 0.5225,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 62,
+   "n_pool": 279,
+   "n_deep_only": 116,
+   "same_A": 0.5237603717651662,
+   "same_B": 0.5237603717651662,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.4359489924417513,
+   "cross_B": 0.4387193871608905,
+   "cross_delta": -0.002770394719139202,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "belgian startup ecosystem",
+     "cos": 0.4129,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "foss",
+     "cos": 0.4187,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "wikipedia",
+     "cos": 0.4481,
+     "lines": [
+      "deep_line_5"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 63,
+   "n_pool": 190,
+   "n_deep_only": 47,
+   "same_A": 0.6435544217574026,
+   "same_B": 0.6411487715851427,
+   "same_delta": 0.00240565017225991,
+   "deep_in_same_oracle": [
+    "authentication",
+    "privileged remote access",
+    "secure access"
+   ],
+   "cross_A": 0.5716333092960997,
+   "cross_B": 0.5742528759051397,
+   "cross_delta": -0.0026195666090400582,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "access governance",
+     "cos": 0.6165,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "authentication",
+     "cos": 0.6427,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "cloud security",
+     "cos": 0.6159,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "privileged remote access",
+     "cos": 0.6351,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "secure access",
+     "cos": 0.629,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "secure remote access",
+     "cos": 0.5964,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 64,
+   "n_pool": 254,
+   "n_deep_only": 84,
+   "same_A": 0.6063182214616605,
+   "same_B": 0.5831659734768797,
+   "same_delta": 0.02315224798478077,
+   "deep_in_same_oracle": [
+    "singapore hospitality reits",
+    "singapore stock market",
+    "singapore listed reits",
+    "sgx",
+    "transportation security",
+    "tsa data portal"
+   ],
+   "cross_A": 0.5615506900982057,
+   "cross_B": 0.540453521343644,
+   "cross_delta": 0.02109716875456169,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "sgx",
+     "cos": 0.5945,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "singapore hospitality reits",
+     "cos": 0.6146,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "singapore listed reits",
+     "cos": 0.6032,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "singapore stock market",
+     "cos": 0.6083,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "transportation security",
+     "cos": 0.5485,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "tsa data portal",
+     "cos": 0.5256,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 65,
+   "n_pool": 232,
+   "n_deep_only": 72,
+   "same_A": 0.7144013109898903,
+   "same_B": 0.706347546074934,
+   "same_delta": 0.008053764914956352,
+   "deep_in_same_oracle": [
+    "local housing policy",
+    "housing credits",
+    "united states housing policy",
+    "housing access",
+    "state level housing laws",
+    "local rent control ordinances"
+   ],
+   "cross_A": 0.6011221524440629,
+   "cross_B": 0.6284106971665511,
+   "cross_delta": -0.027288544722488206,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "federal housing policy",
+     "cos": 0.653,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing access",
+     "cos": 0.6698,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.6773,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6501,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "local housing policy",
+     "cos": 0.715,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "local rent control ordinances",
+     "cos": 0.6707,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state level housing laws",
+     "cos": 0.6609,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "united states housing policy",
+     "cos": 0.6747,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "zoning policy",
+     "cos": 0.6175,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 66,
+   "n_pool": 223,
+   "n_deep_only": 69,
+   "same_A": 0.7335208070967594,
+   "same_B": 0.7246917809050282,
+   "same_delta": 0.008829026191731204,
+   "deep_in_same_oracle": [
+    "zoning regulations",
+    "zoning application",
+    "zoning applications",
+    "zoning use permit",
+    "zoning exceptions",
+    "zoning administration",
+    "zoning implementation"
+   ],
+   "cross_A": 0.6923515181746742,
+   "cross_B": 0.6766035588414467,
+   "cross_delta": 0.01574795933322748,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "zoning administration",
+     "cos": 0.7164,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "zoning application",
+     "cos": 0.724,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "zoning applications",
+     "cos": 0.7214,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "zoning exceptions",
+     "cos": 0.717,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "zoning implementation",
+     "cos": 0.7063,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "zoning regulations",
+     "cos": 0.7261,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "zoning use permit",
+     "cos": 0.7177,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 67,
+   "n_pool": 253,
+   "n_deep_only": 97,
+   "same_A": 0.7339446496852803,
+   "same_B": 0.7208064857997927,
+   "same_delta": 0.013138163885487608,
+   "deep_in_same_oracle": [
+    "portfolio liquidity",
+    "financing risk",
+    "real estate investment products",
+    "real estate portfolio risk",
+    "us real estate funds",
+    "financial risk management",
+    "investment risk management",
+    "loan portfolio management",
+    "real estate lending"
+   ],
+   "cross_A": 0.6601108011379464,
+   "cross_B": 0.66672728742546,
+   "cross_delta": -0.0066164862875135455,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "financial risk management",
+     "cos": 0.6944,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "financing risk",
+     "cos": 0.73,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "interest rate hedging",
+     "cos": 0.6689,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "loan portfolio management",
+     "cos": 0.6922,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "portfolio liquidity",
+     "cos": 0.7554,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "private equity real estate",
+     "cos": 0.6802,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "real estate investment products",
+     "cos": 0.6993,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "real estate lending",
+     "cos": 0.7113,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate portfolio risk",
+     "cos": 0.698,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "refinancing risk",
+     "cos": 0.6699,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "us real estate funds",
+     "cos": 0.6971,
+     "lines": [
+      "deep_line_5"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 68,
+   "n_pool": 243,
+   "n_deep_only": 87,
+   "same_A": 0.5797364020110892,
+   "same_B": 0.5729103442002486,
+   "same_delta": 0.006826057810840669,
+   "deep_in_same_oracle": [
+    "online gambling",
+    "casino games",
+    "online pokies",
+    "mobile gambling"
+   ],
+   "cross_A": 0.4731910824838208,
+   "cross_B": 0.500720807148379,
+   "cross_delta": -0.027529724664558164,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "australian gambling",
+     "cos": 0.5117,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "casino games",
+     "cos": 0.5551,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "mobile gambling",
+     "cos": 0.5506,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "online gambling",
+     "cos": 0.5945,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "online pokies",
+     "cos": 0.551,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "online slots australia",
+     "cos": 0.5077,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "plinko",
+     "cos": 0.5234,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "the beast plinko",
+     "cos": 0.5051,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 69,
+   "n_pool": 248,
+   "n_deep_only": 87,
+   "same_A": 0.5718438029196081,
+   "same_B": 0.5648376641800179,
+   "same_delta": 0.0070061387395902175,
+   "deep_in_same_oracle": [
+    "zoning and entitlements",
+    "planning and zoning",
+    "zoning regulations",
+    "development approvals",
+    "zoning compliance"
+   ],
+   "cross_A": 0.5233017883271196,
+   "cross_B": 0.5164592837740842,
+   "cross_delta": 0.006842504553035367,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "development approvals",
+     "cos": 0.548,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "development planning",
+     "cos": 0.5104,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "entitlement approval",
+     "cos": 0.5215,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "planning and zoning",
+     "cos": 0.5579,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate planning",
+     "cos": 0.4999,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "zoning and entitlements",
+     "cos": 0.5767,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "zoning compliance",
+     "cos": 0.5472,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 70,
+   "n_pool": 205,
+   "n_deep_only": 69,
+   "same_A": 0.6570277931386709,
+   "same_B": 0.6462997148540414,
+   "same_delta": 0.010728078284629516,
+   "deep_in_same_oracle": [
+    "app analytics",
+    "digital analytics",
+    "user journey mapping",
+    "user interaction tracking",
+    "session analytics",
+    "usage heatmap tools",
+    "user research"
+   ],
+   "cross_A": 0.5910144350517379,
+   "cross_B": 0.6151912506727002,
+   "cross_delta": -0.0241768156209623,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "app analytics",
+     "cos": 0.6413,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "digital analytics",
+     "cos": 0.6166,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "feature adoption",
+     "cos": 0.5989,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "session analytics",
+     "cos": 0.6066,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "usage heatmap tools",
+     "cos": 0.6034,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "user engagement",
+     "cos": 0.5955,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "user interaction tracking",
+     "cos": 0.6074,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "user journey mapping",
+     "cos": 0.6093,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "user research",
+     "cos": 0.6025,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 71,
+   "n_pool": 248,
+   "n_deep_only": 90,
+   "same_A": 0.6851102374485205,
+   "same_B": 0.6800625121748481,
+   "same_delta": 0.0050477252736723655,
+   "deep_in_same_oracle": [
+    "public housing",
+    "housing affordability",
+    "low income housing",
+    "housing finance",
+    "new deal on housing"
+   ],
+   "cross_A": 0.6272953408524947,
+   "cross_B": 0.6382300077730896,
+   "cross_delta": -0.01093466692059486,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "housing affordability",
+     "cos": 0.6727,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing crisis",
+     "cos": 0.6396,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing demand",
+     "cos": 0.6398,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing finance",
+     "cos": 0.6478,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing taxes",
+     "cos": 0.6355,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "income tax",
+     "cos": 0.5134,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "new deal on housing",
+     "cos": 0.6934,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "public housing",
+     "cos": 0.6815,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "tax credits",
+     "cos": 0.5612,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "tax deductions",
+     "cos": 0.5336,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 72,
+   "n_pool": 208,
+   "n_deep_only": 62,
+   "same_A": 0.6890297660937905,
+   "same_B": 0.6669148179621596,
+   "same_delta": 0.02211494813163095,
+   "deep_in_same_oracle": [
+    "affordable housing policy",
+    "housing tax credits",
+    "housing programs",
+    "housing development incentives",
+    "united states housing policy",
+    "state housing finance agencies"
+   ],
+   "cross_A": 0.6304653391538271,
+   "cross_B": 0.6312519655504603,
+   "cross_delta": -0.0007866263966331832,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing policy",
+     "cos": 0.7299,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing development incentives",
+     "cos": 0.6379,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.6519,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing supply",
+     "cos": 0.6228,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing tax credits",
+     "cos": 0.6801,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "local rent control ordinances",
+     "cos": 0.6152,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "regional housing markets",
+     "cos": 0.5999,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing finance agencies",
+     "cos": 0.6469,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "state level housing laws",
+     "cos": 0.6192,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "subsidized housing",
+     "cos": 0.6216,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "united states housing policy",
+     "cos": 0.633,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 73,
+   "n_pool": 234,
+   "n_deep_only": 78,
+   "same_A": 0.6731387664804211,
+   "same_B": 0.6594201000275773,
+   "same_delta": 0.013718666452843808,
+   "deep_in_same_oracle": [
+    "austin multifamily",
+    "houston multifamily",
+    "texas multifamily market"
+   ],
+   "cross_A": 0.5333578327407991,
+   "cross_B": 0.5055671818919496,
+   "cross_delta": 0.027790650848849463,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6434,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.6303,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "matthews real estate",
+     "cos": 0.4322,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.586,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 74,
+   "n_pool": 267,
+   "n_deep_only": 103,
+   "same_A": 0.6553838149389113,
+   "same_B": 0.6383531569822812,
+   "same_delta": 0.017030657956630058,
+   "deep_in_same_oracle": [
+    "affordable housing",
+    "houston multifamily",
+    "urban housing",
+    "housing development",
+    "austin multifamily",
+    "multifamily"
+   ],
+   "cross_A": 0.579571862686976,
+   "cross_B": 0.5940378280964638,
+   "cross_delta": -0.014465965409487747,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing",
+     "cos": 0.6691,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6292,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "canada housing supply",
+     "cos": 0.5698,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "canada mortgage and housing corporation",
+     "cos": 0.5458,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "city planning",
+     "cos": 0.6029,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing development",
+     "cos": 0.637,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.6656,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "multifamily",
+     "cos": 0.6212,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "urban housing",
+     "cos": 0.6543,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 75,
+   "n_pool": 250,
+   "n_deep_only": 99,
+   "same_A": 0.5885985014589759,
+   "same_B": 0.5727535851997076,
+   "same_delta": 0.015844916259268205,
+   "deep_in_same_oracle": [
+    "usa housing",
+    "multifamily investment",
+    "multifamily operations",
+    "multifamily industry",
+    "multifamily operating expenses"
+   ],
+   "cross_A": 0.5031669624519896,
+   "cross_B": 0.5222730639000804,
+   "cross_delta": -0.019106101448090884,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "housing economics",
+     "cos": 0.5198,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "major expenses",
+     "cos": 0.5005,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "multifamily financial performance",
+     "cos": 0.5265,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multifamily industry",
+     "cos": 0.5543,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "multifamily investment",
+     "cos": 0.5741,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "multifamily operating expenses",
+     "cos": 0.546,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "multifamily operations",
+     "cos": 0.5711,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "multifamily underwriting",
+     "cos": 0.5363,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "urban housing",
+     "cos": 0.5353,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "usa housing",
+     "cos": 0.6244,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 76,
+   "n_pool": 268,
+   "n_deep_only": 113,
+   "same_A": 0.7554923339909069,
+   "same_B": 0.6876728771982252,
+   "same_delta": 0.06781945679268164,
+   "deep_in_same_oracle": [
+    "rugby world cup",
+    "rugby video",
+    "rugby federation",
+    "international rugby",
+    "rugby organization",
+    "rugby results",
+    "rugby rules",
+    "rugby development",
+    "rugby regulations",
+    "rugby administration",
+    "world rugby rankings"
+   ],
+   "cross_A": 0.7030248987988239,
+   "cross_B": 0.6481479630208853,
+   "cross_delta": 0.05487693577793862,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "international rugby",
+     "cos": 0.739,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby administration",
+     "cos": 0.6992,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby contacts",
+     "cos": 0.679,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby development",
+     "cos": 0.7066,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby federation",
+     "cos": 0.7414,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby governing body",
+     "cos": 0.6809,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby organization",
+     "cos": 0.7266,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby player rankings",
+     "cos": 0.6745,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby regulations",
+     "cos": 0.7055,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby results",
+     "cos": 0.7163,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby rules",
+     "cos": 0.7125,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby sevens",
+     "cos": 0.6868,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby tournaments",
+     "cos": 0.6947,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby union governance",
+     "cos": 0.6528,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby video",
+     "cos": 0.7442,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rugby world cup",
+     "cos": 0.7458,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "world rugby rankings",
+     "cos": 0.7262,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 77,
+   "n_pool": 212,
+   "n_deep_only": 64,
+   "same_A": 0.5958536932343245,
+   "same_B": 0.5917147971320444,
+   "same_delta": 0.004138896102280021,
+   "deep_in_same_oracle": [
+    "cloud security",
+    "application logging",
+    "authentication",
+    "automated monitoring",
+    "log aggregation"
+   ],
+   "cross_A": 0.5130170394090825,
+   "cross_B": 0.5523917585687741,
+   "cross_delta": -0.039374719159691596,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "alignment",
+     "cos": 0.5187,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "application logging",
+     "cos": 0.5745,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "cloud security",
+     "cos": 0.5831,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "device security",
+     "cos": 0.5252,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "lan security",
+     "cos": 0.5492,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "log aggregation",
+     "cos": 0.5511,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "monitoring",
+     "cos": 0.5488,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 78,
+   "n_pool": 216,
+   "n_deep_only": 63,
+   "same_A": 0.579208023252847,
+   "same_B": 0.5536605441985434,
+   "same_delta": 0.025547479054303657,
+   "deep_in_same_oracle": [
+    "us real estate funds",
+    "real estate funds",
+    "strata corporation",
+    "reserve fund",
+    "strata finance",
+    "alternative investments",
+    "isda master agreement"
+   ],
+   "cross_A": 0.49738996170516303,
+   "cross_B": 0.5240044023214943,
+   "cross_delta": -0.026614440616331225,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "alternative investments",
+     "cos": 0.5434,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "capital markets",
+     "cos": 0.518,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "elevator upgrade",
+     "cos": 0.4781,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "isda master agreement",
+     "cos": 0.5426,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "open end fund structure",
+     "cos": 0.5185,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate funds",
+     "cos": 0.5901,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate investment products",
+     "cos": 0.5342,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "reserve fund",
+     "cos": 0.5538,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "strata corporation",
+     "cos": 0.5562,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "strata fees",
+     "cos": 0.4948,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "strata finance",
+     "cos": 0.5467,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "us real estate funds",
+     "cos": 0.593,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 79,
+   "n_pool": 169,
+   "n_deep_only": 33,
+   "same_A": 0.7452350398957818,
+   "same_B": 0.7228300069808364,
+   "same_delta": 0.022405032914945333,
+   "deep_in_same_oracle": [
+    "real estate investment",
+    "real estate income investing",
+    "real estate portfolio",
+    "commercial property sales",
+    "real estate returns",
+    "investment property"
+   ],
+   "cross_A": 0.6797774739729256,
+   "cross_B": 0.6588331007481198,
+   "cross_delta": 0.0209443732248058,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "commercial property sales",
+     "cos": 0.6749,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "crowdfunding real estate",
+     "cos": 0.6659,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "investment property",
+     "cos": 0.7644,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "private real estate",
+     "cos": 0.666,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate income investing",
+     "cos": 0.712,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate investment",
+     "cos": 0.7669,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate marketplace",
+     "cos": 0.6587,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate platform",
+     "cos": 0.6574,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate portfolio",
+     "cos": 0.7064,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate returns",
+     "cos": 0.6711,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 80,
+   "n_pool": 245,
+   "n_deep_only": 85,
+   "same_A": 0.5277417407595514,
+   "same_B": 0.5026042822335857,
+   "same_delta": 0.025137458525965717,
+   "deep_in_same_oracle": [
+    "affordable housing contributions",
+    "development fees",
+    "tfl",
+    "transportation funding",
+    "transit payment",
+    "housing development",
+    "affordable housing"
+   ],
+   "cross_A": 0.4123904492464382,
+   "cross_B": 0.4021126232220088,
+   "cross_delta": 0.010277826024429393,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing",
+     "cos": 0.5387,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "affordable housing contributions",
+     "cos": 0.5447,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "development fees",
+     "cos": 0.5434,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "florida impact fees",
+     "cos": 0.4218,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing development",
+     "cos": 0.4886,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "permitting and approvals",
+     "cos": 0.4752,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "residential development",
+     "cos": 0.4726,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "state by state impact fees",
+     "cos": 0.4442,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "tfl",
+     "cos": 0.5199,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "ticketing",
+     "cos": 0.4853,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "transit payment",
+     "cos": 0.4941,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "uk transport",
+     "cos": 0.4701,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 81,
+   "n_pool": 265,
+   "n_deep_only": 90,
+   "same_A": 0.6475849143616524,
+   "same_B": 0.6444947441145139,
+   "same_delta": 0.003090170247138535,
+   "deep_in_same_oracle": [
+    "non resident taxation",
+    "uk property tax",
+    "property disposal tax",
+    "estate tax"
+   ],
+   "cross_A": 0.5590971470694432,
+   "cross_B": 0.5574898708861542,
+   "cross_delta": 0.0016072761832890414,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "mortgage finance",
+     "cos": 0.5018,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "non resident taxation",
+     "cos": 0.6105,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "property disposal tax",
+     "cos": 0.5903,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "property value gains",
+     "cos": 0.5475,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "uk property tax",
+     "cos": 0.5965,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "uk tax law",
+     "cos": 0.5371,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 82,
+   "n_pool": 166,
+   "n_deep_only": 41,
+   "same_A": 0.5910491868623302,
+   "same_B": 0.5910491868623302,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.5506755351454696,
+   "cross_B": 0.5506755351454696,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 83,
+   "n_pool": 212,
+   "n_deep_only": 65,
+   "same_A": 0.6544971165795291,
+   "same_B": 0.6254207575286675,
+   "same_delta": 0.02907635905086159,
+   "deep_in_same_oracle": [
+    "asset management",
+    "fund management",
+    "portfolio liquidity",
+    "liquidity planning",
+    "fund liquidity",
+    "investor outreach",
+    "funding liquidity",
+    "capital markets"
+   ],
+   "cross_A": 0.6159024052472313,
+   "cross_B": 0.5980276064016142,
+   "cross_delta": 0.017874798845617046,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset liability management",
+     "cos": 0.6059,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "asset management",
+     "cos": 0.6679,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "fund liquidity",
+     "cos": 0.6234,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "fund management",
+     "cos": 0.6529,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "fund risk management",
+     "cos": 0.5944,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "funding liquidity",
+     "cos": 0.609,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "investor outreach",
+     "cos": 0.6224,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "liquidity planning",
+     "cos": 0.6288,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "liquidity risk management",
+     "cos": 0.6049,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "portfolio liquidity",
+     "cos": 0.6481,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 84,
+   "n_pool": 183,
+   "n_deep_only": 38,
+   "same_A": 0.6323320180931525,
+   "same_B": 0.6236223542479047,
+   "same_delta": 0.00870966384524785,
+   "deep_in_same_oracle": [
+    "affordable housing compliance",
+    "below market rate housing",
+    "michigan housing development authority",
+    "housing incentives"
+   ],
+   "cross_A": 0.5615029195027744,
+   "cross_B": 0.5896168561333908,
+   "cross_delta": -0.028113936630616343,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing compliance",
+     "cos": 0.6435,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "below market rate housing",
+     "cos": 0.6357,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing incentives",
+     "cos": 0.6001,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing program guidelines",
+     "cos": 0.5643,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "michigan housing development authority",
+     "cos": 0.6049,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "supportive housing units",
+     "cos": 0.5617,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 85,
+   "n_pool": 204,
+   "n_deep_only": 55,
+   "same_A": 0.5992675133248676,
+   "same_B": 0.5942935645804986,
+   "same_delta": 0.004973948744368961,
+   "deep_in_same_oracle": [
+    "supply chain real estate",
+    "warehouse real estate",
+    "e commerce logistics",
+    "logistics property",
+    "industrial warehouses"
+   ],
+   "cross_A": 0.49049062458241555,
+   "cross_B": 0.5003727736699254,
+   "cross_delta": -0.00988214908750984,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "e commerce boom",
+     "cos": 0.4892,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "e commerce logistics",
+     "cos": 0.5717,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "industrial warehouses",
+     "cos": 0.5446,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics property",
+     "cos": 0.5471,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "supply chain real estate",
+     "cos": 0.5875,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.575,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 86,
+   "n_pool": 220,
+   "n_deep_only": 84,
+   "same_A": 0.6098035628031189,
+   "same_B": 0.585498642731513,
+   "same_delta": 0.024304920071605896,
+   "deep_in_same_oracle": [
+    "llm prompting",
+    "prompt evaluation",
+    "ai benchmarking",
+    "language model benchmarking",
+    "automatic evaluation",
+    "language model assessment",
+    "llms",
+    "llm benchmarking"
+   ],
+   "cross_A": 0.5484990329350057,
+   "cross_B": 0.5496638356435648,
+   "cross_delta": -0.0011648027085591206,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "ai benchmarking",
+     "cos": 0.6007,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "ai model assessment",
+     "cos": 0.5774,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "automatic evaluation",
+     "cos": 0.5955,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "language model assessment",
+     "cos": 0.5848,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "language model benchmarking",
+     "cos": 0.5958,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "llm benchmarking",
+     "cos": 0.6604,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "llm prompting",
+     "cos": 0.6197,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "llms",
+     "cos": 0.5788,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "prompt evaluation",
+     "cos": 0.6045,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 87,
+   "n_pool": 210,
+   "n_deep_only": 60,
+   "same_A": 0.7009581584494105,
+   "same_B": 0.6842827758029344,
+   "same_delta": 0.016675382646476056,
+   "deep_in_same_oracle": [
+    "loan portfolio management",
+    "refinancing risk",
+    "reit liquidity",
+    "financial risk management",
+    "lender repayment risk",
+    "liquidity risk",
+    "bank liquidity planning",
+    "financial risk mitigation"
+   ],
+   "cross_A": 0.5862216598974699,
+   "cross_B": 0.6067921860489984,
+   "cross_delta": -0.020570526151528545,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "bank liquidity planning",
+     "cos": 0.68,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "financial risk management",
+     "cos": 0.6933,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "lender repayment risk",
+     "cos": 0.6843,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "liquidity buffers",
+     "cos": 0.6212,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "liquidity contingency planning",
+     "cos": 0.6681,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "liquidity risk",
+     "cos": 0.6812,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "loan portfolio management",
+     "cos": 0.72,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "private real estate funds",
+     "cos": 0.6339,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "rate hedging",
+     "cos": 0.6659,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate lending",
+     "cos": 0.6615,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "refinancing risk",
+     "cos": 0.6978,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "reit liquidity",
+     "cos": 0.6946,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 88,
+   "n_pool": 238,
+   "n_deep_only": 80,
+   "same_A": 0.572089252719448,
+   "same_B": 0.5686140084673449,
+   "same_delta": 0.0034752442521031046,
+   "deep_in_same_oracle": [
+    "office building retrofit",
+    "investment property",
+    "adaptive reuse",
+    "building renovation",
+    "office obsolescence"
+   ],
+   "cross_A": 0.5117670742832197,
+   "cross_B": 0.5038617682131943,
+   "cross_delta": 0.007905306070025375,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "adaptive reuse",
+     "cos": 0.5372,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "building renovation",
+     "cos": 0.5683,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "investment property",
+     "cos": 0.5487,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "office building retrofit",
+     "cos": 0.5732,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "office buildings",
+     "cos": 0.5471,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "office obsolescence",
+     "cos": 0.5523,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "property renovation",
+     "cos": 0.5177,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 89,
+   "n_pool": 238,
+   "n_deep_only": 81,
+   "same_A": 0.668066093632075,
+   "same_B": 0.6485170468371948,
+   "same_delta": 0.01954904679488023,
+   "deep_in_same_oracle": [
+    "investment property",
+    "building renovation",
+    "property income",
+    "real estate investment",
+    "office building retrofit",
+    "property renovation",
+    "property management"
+   ],
+   "cross_A": 0.6031879754206035,
+   "cross_B": 0.5842245386474373,
+   "cross_delta": 0.018963436773166253,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "building renovation",
+     "cos": 0.6586,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "cash on cash return",
+     "cos": 0.5757,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "investment property",
+     "cos": 0.6949,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "office building retrofit",
+     "cos": 0.6393,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "office buildings",
+     "cos": 0.5788,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "property income",
+     "cos": 0.6544,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "property management",
+     "cos": 0.6457,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "property renovation",
+     "cos": 0.6712,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate development",
+     "cos": 0.6295,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate investment",
+     "cos": 0.6505,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 91,
+   "n_pool": 193,
+   "n_deep_only": 61,
+   "same_A": 0.6586213908820479,
+   "same_B": 0.6364395354318351,
+   "same_delta": 0.022181855450212784,
+   "deep_in_same_oracle": [
+    "reserve fund",
+    "reit liquidity",
+    "private real estate funds",
+    "investment risk management",
+    "asset protection",
+    "strata finance"
+   ],
+   "cross_A": 0.5578557623603051,
+   "cross_B": 0.5446188835245,
+   "cross_delta": 0.013236878835805044,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset protection",
+     "cos": 0.6359,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "financing risk",
+     "cos": 0.599,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "investment risk management",
+     "cos": 0.6418,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "liquidity buffers",
+     "cos": 0.5437,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "private real estate funds",
+     "cos": 0.6427,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate investment trusts",
+     "cos": 0.6113,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "reit liquidity",
+     "cos": 0.6573,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "reserve fund",
+     "cos": 0.6898,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "share repurchases",
+     "cos": 0.5758,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "strata finance",
+     "cos": 0.6296,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 92,
+   "n_pool": 225,
+   "n_deep_only": 72,
+   "same_A": 0.6195671987517684,
+   "same_B": 0.618369168105047,
+   "same_delta": 0.0011980306467213042,
+   "deep_in_same_oracle": [
+    "secure networking",
+    "git hosting",
+    "vpn"
+   ],
+   "cross_A": 0.5120288721565797,
+   "cross_B": 0.5508689340830233,
+   "cross_delta": -0.038840061926443625,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "configuration management",
+     "cos": 0.5526,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "dependency automation",
+     "cos": 0.5519,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "dependency security",
+     "cos": 0.5539,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "devsecops",
+     "cos": 0.5522,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "git hosting",
+     "cos": 0.5826,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "secure networking",
+     "cos": 0.5991,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "vpn",
+     "cos": 0.6228,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 177,
+   "n_pool": 253,
+   "n_deep_only": 101,
+   "same_A": 0.571175499620945,
+   "same_B": 0.5694408673744329,
+   "same_delta": 0.0017346322465121577,
+   "deep_in_same_oracle": [
+    "austin multifamily",
+    "houston multifamily",
+    "usa housing"
+   ],
+   "cross_A": 0.5124357101856323,
+   "cross_B": 0.5178958216644054,
+   "cross_delta": -0.005460111478773122,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "austin multifamily",
+     "cos": 0.504,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.4947,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "pew charitable trusts",
+     "cos": 0.4955,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 182,
+   "n_pool": 210,
+   "n_deep_only": 68,
+   "same_A": 0.7430368138118575,
+   "same_B": 0.7356362652590498,
+   "same_delta": 0.007400548552807695,
+   "deep_in_same_oracle": [
+    "coastal development",
+    "coastal management",
+    "california coastal communities",
+    "beachfront property"
+   ],
+   "cross_A": 0.6364396273885602,
+   "cross_B": 0.6686881615599537,
+   "cross_delta": -0.032248534171393506,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "beachfront property",
+     "cos": 0.6235,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "california coastal communities",
+     "cos": 0.6477,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "coastal development",
+     "cos": 0.7071,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "coastal management",
+     "cos": 0.6687,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "coastal zone management",
+     "cos": 0.5987,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "luxury real estate",
+     "cos": 0.5486,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "property investment",
+     "cos": 0.5827,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate market trends",
+     "cos": 0.5624,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "residential real estate",
+     "cos": 0.5788,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "shoreline change",
+     "cos": 0.5985,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 183,
+   "n_pool": 177,
+   "n_deep_only": 44,
+   "same_A": 0.6741004902039089,
+   "same_B": 0.6635056739478679,
+   "same_delta": 0.010594816256041084,
+   "deep_in_same_oracle": [
+    "analytics architecture",
+    "metadata management",
+    "configuration management",
+    "api integration"
+   ],
+   "cross_A": 0.5929659023909657,
+   "cross_B": 0.582396768994247,
+   "cross_delta": 0.010569133396718722,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "analytics architecture",
+     "cos": 0.6881,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "api integration",
+     "cos": 0.6133,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "configuration management",
+     "cos": 0.6548,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "data governance",
+     "cos": 0.609,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "metadata management",
+     "cos": 0.6381,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 185,
+   "n_pool": 205,
+   "n_deep_only": 64,
+   "same_A": 0.5259778070483742,
+   "same_B": 0.5255657074530992,
+   "same_delta": 0.00041209959527499507,
+   "deep_in_same_oracle": [
+    "presidential election",
+    "us courts",
+    "trump supporters"
+   ],
+   "cross_A": 0.4828536222984486,
+   "cross_B": 0.48772849403911905,
+   "cross_delta": -0.004874871740670472,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "judicial rulings",
+     "cos": 0.4525,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "pennsylvania case",
+     "cos": 0.4836,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "political news",
+     "cos": 0.4829,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "presidential election",
+     "cos": 0.4953,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "trump supporters",
+     "cos": 0.4849,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "us courts",
+     "cos": 0.485,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "vote counting",
+     "cos": 0.4668,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "voter fraud allegations",
+     "cos": 0.4574,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 187,
+   "n_pool": 244,
+   "n_deep_only": 89,
+   "same_A": 0.633392058092844,
+   "same_B": 0.617994304726607,
+   "same_delta": 0.015397753366237055,
+   "deep_in_same_oracle": [
+    "developer tooling",
+    "application security",
+    "integration architecture",
+    "patch management",
+    "developer productivity",
+    "automation tooling",
+    "automation tools",
+    "continuous integration"
+   ],
+   "cross_A": 0.5393792209205766,
+   "cross_B": 0.541849885784237,
+   "cross_delta": -0.0024706648636604323,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "api best practices",
+     "cos": 0.5569,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "api integration",
+     "cos": 0.6005,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "api lifecycle management",
+     "cos": 0.5927,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "application security",
+     "cos": 0.6411,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "automation tooling",
+     "cos": 0.6126,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "automation tools",
+     "cos": 0.6091,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "continuous integration",
+     "cos": 0.6271,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "dependency hygiene",
+     "cos": 0.5917,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "dependency scanning",
+     "cos": 0.6016,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "developer tooling",
+     "cos": 0.6438,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "devops",
+     "cos": 0.5939,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "integration architecture",
+     "cos": 0.6246,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "semantic versioning",
+     "cos": 0.5984,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 188,
+   "n_pool": 203,
+   "n_deep_only": 56,
+   "same_A": 0.65835432805892,
+   "same_B": 0.648537132113918,
+   "same_delta": 0.009817195945002077,
+   "deep_in_same_oracle": [
+    "agile best practices",
+    "agile transformation",
+    "lean agile",
+    "sprint project management",
+    "agile delivery",
+    "sprint methodology",
+    "agile teams"
+   ],
+   "cross_A": 0.5757632680554247,
+   "cross_B": 0.5970049630685323,
+   "cross_delta": -0.021241695013107686,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "agile best practices",
+     "cos": 0.6644,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "agile teams",
+     "cos": 0.6305,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "agile transformation",
+     "cos": 0.649,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "change management",
+     "cos": 0.5798,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "lean agile",
+     "cos": 0.6478,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "sprint methodology",
+     "cos": 0.6331,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "sprint project management",
+     "cos": 0.647,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 189,
+   "n_pool": 227,
+   "n_deep_only": 69,
+   "same_A": 0.8152510247606052,
+   "same_B": 0.7845759691239848,
+   "same_delta": 0.03067505563662043,
+   "deep_in_same_oracle": [
+    "islamic financial services board",
+    "islamic financial institutions",
+    "islamic finance",
+    "islamic banking",
+    "financial services regulation"
+   ]
+  },
+  {
+   "map_idx": 191,
+   "n_pool": 260,
+   "n_deep_only": 104,
+   "same_A": 0.6118203493736473,
+   "same_B": 0.5797380373751881,
+   "same_delta": 0.03208231199845912,
+   "deep_in_same_oracle": [
+    "usa housing",
+    "houston multifamily",
+    "affordable housing",
+    "austin multifamily",
+    "texas multifamily market",
+    "multifamily properties",
+    "property management industry",
+    "apartment development"
+   ],
+   "cross_A": 0.5497566290895916,
+   "cross_B": 0.5497330371582937,
+   "cross_delta": 2.3591931297861635e-05,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing",
+     "cos": 0.6045,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "apartment development",
+     "cos": 0.5693,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "apartment management",
+     "cos": 0.5389,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6009,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.6174,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "property management industry",
+     "cos": 0.5738,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.5861,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "usa housing",
+     "cos": 0.6407,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 192,
+   "n_pool": 208,
+   "n_deep_only": 63,
+   "same_A": 0.6143705519962934,
+   "same_B": 0.612510156626759,
+   "same_delta": 0.0018603953695344178,
+   "deep_in_same_oracle": [
+    "developer platforms",
+    "discord applications",
+    "developer hub"
+   ],
+   "cross_A": 0.5818867180425017,
+   "cross_B": 0.5833146495315795,
+   "cross_delta": -0.0014279314890778272,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "developer hub",
+     "cos": 0.5725,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "developer platforms",
+     "cos": 0.5887,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "discord api",
+     "cos": 0.5797,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "discord applications",
+     "cos": 0.5813,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "discord bots",
+     "cos": 0.5233,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 197,
+   "n_pool": 221,
+   "n_deep_only": 82,
+   "same_A": 0.6824910416938033,
+   "same_B": 0.6529959196579032,
+   "same_delta": 0.0294951220359001,
+   "deep_in_same_oracle": [
+    "hiv prevention access framework",
+    "prevention planning",
+    "openapi",
+    "combination prevention",
+    "hiv programs"
+   ],
+   "cross_A": 0.586665270169606,
+   "cross_B": 0.5807825813028353,
+   "cross_delta": 0.00588268886677068,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "api specification",
+     "cos": 0.5196,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "combination prevention",
+     "cos": 0.5719,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hiv policy",
+     "cos": 0.5478,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hiv prevention access framework",
+     "cos": 0.7466,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hiv programs",
+     "cos": 0.5612,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "hiv services",
+     "cos": 0.5141,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "infectious disease prevention",
+     "cos": 0.5361,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "openapi",
+     "cos": 0.5719,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "prevention planning",
+     "cos": 0.583,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "rest api",
+     "cos": 0.5131,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "spring framework",
+     "cos": 0.5453,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 201,
+   "n_pool": 228,
+   "n_deep_only": 75,
+   "same_A": 0.6095729016009153,
+   "same_B": 0.602077362587381,
+   "same_delta": 0.00749553901353428,
+   "deep_in_same_oracle": [
+    "property investment",
+    "warehouse real estate",
+    "logistics investments",
+    "real estate investment fund",
+    "property market",
+    "uk commercial property"
+   ],
+   "cross_A": 0.5760161784720494,
+   "cross_B": 0.5693177521846959,
+   "cross_delta": 0.006698426287353509,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "capital markets",
+     "cos": 0.5417,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "logistics investments",
+     "cos": 0.6032,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "property investment",
+     "cos": 0.6112,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate investment fund",
+     "cos": 0.5811,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "supply chain real estate",
+     "cos": 0.5565,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.6041,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 202,
+   "n_pool": 222,
+   "n_deep_only": 78,
+   "same_A": 0.6467796865056974,
+   "same_B": 0.6411668444952948,
+   "same_delta": 0.0056128420104025745,
+   "deep_in_same_oracle": [
+    "houston multifamily",
+    "canadian real estate",
+    "canada mortgage and housing corporation",
+    "austin multifamily"
+   ],
+   "cross_A": 0.587732193552005,
+   "cross_B": 0.6049783127663741,
+   "cross_delta": -0.017246119214369138,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "austin multifamily",
+     "cos": 0.5659,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "canada housing supply",
+     "cos": 0.5608,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "canada mortgage and housing corporation",
+     "cos": 0.5726,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "canadian real estate",
+     "cos": 0.5774,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.605,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.563,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 208,
+   "n_pool": 238,
+   "n_deep_only": 78,
+   "same_A": 0.6518096719133146,
+   "same_B": 0.6481176017735606,
+   "same_delta": 0.0036920701397540334,
+   "deep_in_same_oracle": [
+    "warehouse real estate",
+    "industrial warehouses",
+    "logistics property market",
+    "supply chain real estate",
+    "logistics warehouses uk"
+   ],
+   "cross_A": 0.5788565075498224,
+   "cross_B": 0.6146892114625543,
+   "cross_delta": -0.035832703912731856,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "distribution centers",
+     "cos": 0.5921,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "industrial warehouses",
+     "cos": 0.6244,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics facilities",
+     "cos": 0.6038,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics property",
+     "cos": 0.5915,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "logistics property market",
+     "cos": 0.6138,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "logistics warehouses uk",
+     "cos": 0.6049,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "supply chain real estate",
+     "cos": 0.6078,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.6296,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 212,
+   "n_pool": 247,
+   "n_deep_only": 86,
+   "same_A": 0.7268098845491778,
+   "same_B": 0.7210762427725893,
+   "same_delta": 0.005733641776588527,
+   "deep_in_same_oracle": [
+    "state housing programs",
+    "affordable housing projects",
+    "local housing policy",
+    "housing credits",
+    "affordable housing compliance"
+   ],
+   "cross_A": 0.5746921812147183,
+   "cross_B": 0.6276582596866662,
+   "cross_delta": -0.0529660784719479,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing compliance",
+     "cos": 0.7016,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "affordable housing projects",
+     "cos": 0.7234,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "housing credits",
+     "cos": 0.7047,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing incentives",
+     "cos": 0.6783,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing programs",
+     "cos": 0.688,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing subsidies",
+     "cos": 0.6812,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "local housing policy",
+     "cos": 0.7122,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "public funding for housing",
+     "cos": 0.69,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing agencies",
+     "cos": 0.6497,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "state housing programs",
+     "cos": 0.7292,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "state level housing laws",
+     "cos": 0.6489,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 220,
+   "n_pool": 234,
+   "n_deep_only": 89,
+   "same_A": 0.6052759225874538,
+   "same_B": 0.5951075181256011,
+   "same_delta": 0.010168404461852631,
+   "deep_in_same_oracle": [
+    "multifamily",
+    "multifamily investment",
+    "residential real estate",
+    "rental housing"
+   ],
+   "cross_A": 0.49735630809167786,
+   "cross_B": 0.5252077856022679,
+   "cross_delta": -0.027851477510590028,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "construction activity",
+     "cos": 0.4905,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "construction permits",
+     "cos": 0.4938,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing policy",
+     "cos": 0.5428,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "major expenses",
+     "cos": 0.5103,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "multifamily",
+     "cos": 0.6291,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "multifamily investment",
+     "cos": 0.5829,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "private housing",
+     "cos": 0.5561,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "rental housing",
+     "cos": 0.5717,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "residential real estate",
+     "cos": 0.5775,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 221,
+   "n_pool": 227,
+   "n_deep_only": 85,
+   "same_A": 0.6499520737217305,
+   "same_B": 0.638687517251837,
+   "same_delta": 0.011264556469893439,
+   "deep_in_same_oracle": [
+    "residential real estate",
+    "property expenses",
+    "rental housing",
+    "property development",
+    "residential buildings"
+   ],
+   "cross_A": 0.5778534801073656,
+   "cross_B": 0.6120676351166409,
+   "cross_delta": -0.03421415500927527,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "multifamily operating expenses",
+     "cos": 0.6017,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "property development",
+     "cos": 0.6257,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "property expenses",
+     "cos": 0.6474,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "real estate investment",
+     "cos": 0.6035,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate operating costs",
+     "cos": 0.6023,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "rental housing",
+     "cos": 0.6363,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "residential buildings",
+     "cos": 0.6099,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "residential development",
+     "cos": 0.6037,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "residential real estate",
+     "cos": 0.6633,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "residential structures",
+     "cos": 0.5623,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 222,
+   "n_pool": 239,
+   "n_deep_only": 84,
+   "same_A": 0.6257945074684788,
+   "same_B": 0.6257945074684788,
+   "same_delta": 0.0,
+   "deep_in_same_oracle": [],
+   "cross_A": 0.6060137761530362,
+   "cross_B": 0.6060137761530362,
+   "cross_delta": 0.0,
+   "deep_in_cross_oracle": []
+  },
+  {
+   "map_idx": 224,
+   "n_pool": 243,
+   "n_deep_only": 83,
+   "same_A": 0.6902413667143676,
+   "same_B": 0.6748388087275304,
+   "same_delta": 0.015402557986837206,
+   "deep_in_same_oracle": [
+    "warehouse real estate",
+    "industrial real estate outlook",
+    "office real estate",
+    "supply chain real estate",
+    "real estate outlook 2026"
+   ],
+   "cross_A": 0.5828836719922826,
+   "cross_B": 0.6169974150314994,
+   "cross_delta": -0.03411374303921677,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "2025 real estate forecast",
+     "cos": 0.6065,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "e commerce logistics",
+     "cos": 0.5532,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "industrial real estate outlook",
+     "cos": 0.6848,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "office real estate",
+     "cos": 0.6788,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "office space demand",
+     "cos": 0.6367,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate market data",
+     "cos": 0.6286,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "real estate outlook 2026",
+     "cos": 0.6611,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "real estate outlook report",
+     "cos": 0.6289,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "real estate statistics",
+     "cos": 0.6426,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "supply chain real estate",
+     "cos": 0.6666,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "warehouse real estate",
+     "cos": 0.7159,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 228,
+   "n_pool": 260,
+   "n_deep_only": 98,
+   "same_A": 0.5905234159234319,
+   "same_B": 0.5898518066256558,
+   "same_delta": 0.000671609297776099,
+   "deep_in_same_oracle": [
+    "standardized building plans",
+    "permitting reform"
+   ],
+   "cross_A": 0.3673657156415071,
+   "cross_B": 0.3620825539560255,
+   "cross_delta": 0.005283161685481597,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "construction permits data",
+     "cos": 0.5027,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "development approvals",
+     "cos": 0.5336,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "government grants",
+     "cos": 0.541,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "permitting reform",
+     "cos": 0.5458,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "pew charitable trusts",
+     "cos": 0.56,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "property development",
+     "cos": 0.5317,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "standardized building plans",
+     "cos": 0.5602,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 229,
+   "n_pool": 220,
+   "n_deep_only": 74,
+   "same_A": 0.6450069145291264,
+   "same_B": 0.6370467049761654,
+   "same_delta": 0.00796020955296095,
+   "deep_in_same_oracle": [
+    "residential real estate",
+    "multifamily",
+    "residential development",
+    "urban housing"
+   ],
+   "cross_A": 0.548725689058635,
+   "cross_B": 0.5476425177971875,
+   "cross_delta": 0.0010831712614474132,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "apartment expense analysis",
+     "cos": 0.5337,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "building permits",
+     "cos": 0.5589,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "multifamily",
+     "cos": 0.6314,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "per unit utility costs",
+     "cos": 0.5105,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "property expenses",
+     "cos": 0.5858,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "property operating budgets",
+     "cos": 0.5463,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "residential development",
+     "cos": 0.6136,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "residential real estate",
+     "cos": 0.6616,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "urban housing",
+     "cos": 0.6024,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "utilities costs",
+     "cos": 0.528,
+     "lines": [
+      "deep_line_3"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 253,
+   "n_pool": 178,
+   "n_deep_only": 43,
+   "same_A": 0.6305048797934348,
+   "same_B": 0.6225405553596769,
+   "same_delta": 0.007964324433757941,
+   "deep_in_same_oracle": [
+    "capital markets",
+    "investment opportunities",
+    "real estate economics",
+    "asset pricing"
+   ],
+   "cross_A": 0.5015984602454333,
+   "cross_B": 0.4974050795119037,
+   "cross_delta": 0.004193380733529595,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "asset pricing",
+     "cos": 0.6077,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "capital markets",
+     "cos": 0.6449,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "commercial mortgages",
+     "cos": 0.592,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "investment opportunities",
+     "cos": 0.6187,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "investment strategy",
+     "cos": 0.5924,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "lease rates",
+     "cos": 0.5957,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate economics",
+     "cos": 0.6103,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "real estate trends",
+     "cos": 0.5699,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "supply chain infrastructure",
+     "cos": 0.5047,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "warehouse market",
+     "cos": 0.5396,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 257,
+   "n_pool": 204,
+   "n_deep_only": 58,
+   "same_A": 0.6695961229726216,
+   "same_B": 0.6615931677506104,
+   "same_delta": 0.008002955222011221,
+   "deep_in_same_oracle": [
+    "employment recession",
+    "tech hiring pullback",
+    "job market trends",
+    "technology employment",
+    "job openings",
+    "it hiring decline",
+    "hiring trends"
+   ],
+   "cross_A": 0.6197053254381137,
+   "cross_B": 0.6154566602118005,
+   "cross_delta": 0.004248665226313286,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "employment recession",
+     "cos": 0.6762,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "hiring trends",
+     "cos": 0.668,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "it hiring decline",
+     "cos": 0.6328,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "job market downturn",
+     "cos": 0.6313,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "job market trends",
+     "cos": 0.6511,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "job openings",
+     "cos": 0.6426,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "labor market trends",
+     "cos": 0.6266,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "tech hiring pullback",
+     "cos": 0.6595,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "tech job postings",
+     "cos": 0.6202,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "tech sector",
+     "cos": 0.6034,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "technology employment",
+     "cos": 0.6506,
+     "lines": [
+      "deep_line_2"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 258,
+   "n_pool": 216,
+   "n_deep_only": 66,
+   "same_A": 0.5544826014695924,
+   "same_B": 0.5533608982304912,
+   "same_delta": 0.0011217032391012127,
+   "deep_in_same_oracle": [
+    "national flood insurance program",
+    "flood hazard",
+    "special flood hazard area",
+    "community flood maps"
+   ],
+   "cross_A": 0.4763814623422295,
+   "cross_B": 0.4806986684546777,
+   "cross_delta": -0.00431720611244818,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "flood hazard",
+     "cos": 0.5237,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "national flood insurance program",
+     "cos": 0.5348,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "special flood hazard area",
+     "cos": 0.5158,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 260,
+   "n_pool": 290,
+   "n_deep_only": 122,
+   "same_A": 0.5517262049035707,
+   "same_B": 0.5373634243876462,
+   "same_delta": 0.014362780515924545,
+   "deep_in_same_oracle": [
+    "office space",
+    "downtown redevelopment",
+    "capital investment",
+    "central district",
+    "real estate development"
+   ],
+   "cross_A": 0.49631787583890796,
+   "cross_B": 0.4923749450717271,
+   "cross_delta": 0.0039429307671808855,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "affordable housing",
+     "cos": 0.5037,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "capital investment",
+     "cos": 0.5234,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "central district",
+     "cos": 0.5173,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "downtown redevelopment",
+     "cos": 0.5525,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "housing policy",
+     "cos": 0.4709,
+     "lines": [
+      "deep_line_5"
+     ]
+    },
+    {
+     "tag": "office space",
+     "cos": 0.5671,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "office to residential conversion",
+     "cos": 0.5055,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "real estate development",
+     "cos": 0.5125,
+     "lines": [
+      "deep_line_5"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 261,
+   "n_pool": 259,
+   "n_deep_only": 91,
+   "same_A": 0.5247930341265127,
+   "same_B": 0.5247461961026167,
+   "same_delta": 4.683802389593428e-05,
+   "deep_in_same_oracle": [
+    "ai risk management"
+   ],
+   "cross_A": 0.4510482655383604,
+   "cross_B": 0.4517531093533249,
+   "cross_delta": -0.0007048438149644953,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "ai risk management",
+     "cos": 0.4689,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "clinical ai",
+     "cos": 0.436,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "commercial contracts",
+     "cos": 0.4494,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "construction law",
+     "cos": 0.4458,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "health law firm",
+     "cos": 0.4531,
+     "lines": [
+      "deep_line_4"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 265,
+   "n_pool": 212,
+   "n_deep_only": 56,
+   "same_A": 0.6103073028028005,
+   "same_B": 0.6060326173930632,
+   "same_delta": 0.0042746854097373,
+   "deep_in_same_oracle": [
+    "green building",
+    "building energy efficiency",
+    "residential energy efficiency",
+    "energy efficiency incentives",
+    "energy efficiency standards",
+    "building energy upgrades"
+   ],
+   "cross_A": 0.3753800969380279,
+   "cross_B": 0.3613587151660143,
+   "cross_delta": 0.014021381772013564,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "building energy upgrades",
+     "cos": 0.5025,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "california energy programs",
+     "cos": 0.469,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "energy efficiency incentives",
+     "cos": 0.5082,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "energy efficiency standards",
+     "cos": 0.5035,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "energy retrofits",
+     "cos": 0.4804,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "energy savings",
+     "cos": 0.4829,
+     "lines": [
+      "deep_line_2"
+     ]
+    },
+    {
+     "tag": "green building",
+     "cos": 0.5278,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "investment properties",
+     "cos": 0.4441,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "multifamily buildings",
+     "cos": 0.4579,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "residential energy efficiency",
+     "cos": 0.5176,
+     "lines": [
+      "deep_line_1"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 266,
+   "n_pool": 251,
+   "n_deep_only": 101,
+   "same_A": 0.6576237076169091,
+   "same_B": 0.6433509333396054,
+   "same_delta": 0.014272774277303779,
+   "deep_in_same_oracle": [
+    "usa housing",
+    "houston multifamily",
+    "austin multifamily",
+    "texas multifamily market"
+   ],
+   "cross_A": 0.5436439470468326,
+   "cross_B": 0.6105189440569219,
+   "cross_delta": -0.06687499701008925,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "apartment buildings",
+     "cos": 0.6237,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "apartment development",
+     "cos": 0.6122,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "apartment expense analysis",
+     "cos": 0.5618,
+     "lines": [
+      "deep_line_3"
+     ]
+    },
+    {
+     "tag": "apartment industry",
+     "cos": 0.5804,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "austin multifamily",
+     "cos": 0.6333,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "houston multifamily",
+     "cos": 0.6554,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "multifamily properties",
+     "cos": 0.6193,
+     "lines": [
+      "deep_line_4"
+     ]
+    },
+    {
+     "tag": "texas multifamily market",
+     "cos": 0.6319,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "usa housing",
+     "cos": 0.6788,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  },
+  {
+   "map_idx": 267,
+   "n_pool": 211,
+   "n_deep_only": 60,
+   "same_A": 0.6170735630194246,
+   "same_B": 0.6049669135360202,
+   "same_delta": 0.012106649483404452,
+   "deep_in_same_oracle": [
+    "salary issues australia",
+    "wage policy australia",
+    "australian wages",
+    "labor market australia",
+    "minimum wage australia",
+    "housing affordability",
+    "labor market outcomes"
+   ],
+   "cross_A": 0.507640147003703,
+   "cross_B": 0.4823433944776414,
+   "cross_delta": 0.02529675252606156,
+   "deep_in_cross_oracle": [
+    {
+     "tag": "australian wages",
+     "cos": 0.6145,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "employment australia",
+     "cos": 0.5799,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "housing affordability",
+     "cos": 0.594,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "housing affordability australia",
+     "cos": 0.5886,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "labor market australia",
+     "cos": 0.6124,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "minimum wage australia",
+     "cos": 0.5985,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "minimum wage challenges",
+     "cos": 0.5545,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "rental market australia",
+     "cos": 0.5621,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "salary issues australia",
+     "cos": 0.63,
+     "lines": [
+      "deep_line_0"
+     ]
+    },
+    {
+     "tag": "urban economics",
+     "cos": 0.5776,
+     "lines": [
+      "deep_line_1"
+     ]
+    },
+    {
+     "tag": "wage policy australia",
+     "cos": 0.619,
+     "lines": [
+      "deep_line_0"
+     ]
+    }
+   ]
+  }
+ ]
+}

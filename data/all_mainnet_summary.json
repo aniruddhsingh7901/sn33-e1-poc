@@ -1,0 +1,79 @@
+{
+ "total_mainnet": 879,
+ "scored": 301,
+ "coverage_pct": 34.2,
+ "uid_unidentified": 0,
+ "ambiguous": 0,
+ "eras": {
+  "137": {
+   "tasks": 118,
+   "unscored": 77,
+   "conversation_tagging": 85,
+   "skill_generation": 4,
+   "scored": 41,
+   "webpage_metadata_generation": 9,
+   "survey_tagging": 4,
+   "named_entities_extraction": 16
+  },
+  "120": {
+   "tasks": 144,
+   "unscored": 118,
+   "skill_generation": 9,
+   "survey_tagging": 13,
+   "scored": 26,
+   "conversation_tagging": 93,
+   "named_entities_extraction": 11,
+   "webpage_metadata_generation": 18
+  },
+  "33": {
+   "tasks": 157,
+   "unscored": 102,
+   "conversation_tagging": 38,
+   "webpage_metadata_generation": 33,
+   "skill_generation": 2,
+   "named_entities_extraction": 82,
+   "scored": 55,
+   "survey_tagging": 2
+  },
+  "69": {
+   "tasks": 145,
+   "unscored": 89,
+   "webpage_metadata_generation": 39,
+   "scored": 56,
+   "named_entities_extraction": 33,
+   "conversation_tagging": 65,
+   "skill_generation": 5,
+   "survey_tagging": 3
+  },
+  "24": {
+   "tasks": 134,
+   "unscored": 83,
+   "conversation_tagging": 49,
+   "scored": 51,
+   "skill_generation": 6,
+   "webpage_metadata_generation": 26,
+   "survey_tagging": 10,
+   "named_entities_extraction": 43
+  },
+  "12": {
+   "tasks": 141,
+   "unscored": 84,
+   "named_entities_extraction": 31,
+   "scored": 57,
+   "webpage_metadata_generation": 17,
+   "conversation_tagging": 75,
+   "skill_generation": 9,
+   "survey_tagging": 9
+  },
+  "91": {
+   "tasks": 40,
+   "scored": 15,
+   "conversation_tagging": 21,
+   "unscored": 25,
+   "webpage_metadata_generation": 4,
+   "named_entities_extraction": 9,
+   "survey_tagging": 5,
+   "skill_generation": 1
+  }
+ }
+}

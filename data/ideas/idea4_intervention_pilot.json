@@ -1,0 +1,785 @@
+{
+ "summary": {
+  "n": 15,
+  "delta": -0.0042,
+  "ci95": [
+   -0.0147,
+   0.0041
+  ],
+  "improved": 8,
+  "degraded": 7,
+  "worst": -0.065,
+  "best": 0.0275,
+  "median": 0.0003,
+  "mech_add_beats_drop": "13/29"
+ },
+ "pairs": [
+  {
+   "i": 22,
+   "dup": 0,
+   "rel_live": -0.28660513448011227,
+   "era": "uid69",
+   "A": 0.4368,
+   "B": 0.4309,
+   "delta": -0.006,
+   "adjA": 0.4368,
+   "adjB": 0.4309,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "mixed use project",
+     "multi building developments"
+    ],
+    "sources": [
+     "mixed use projects",
+     "multi building development"
+    ],
+    "drops": [
+     "china",
+     "united kingdom"
+    ],
+    "cos_sources": [
+     0.595,
+     0.582
+    ],
+    "cos_drops": [
+     0.127,
+     0.142
+    ],
+    "med": 0.491
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.378,
+     0.382
+    ],
+    "drop_cos_judge": [
+     0.62,
+     0.617
+    ],
+    "src_cos_judge": [
+     0.353,
+     0.386
+    ]
+   }
+  },
+  {
+   "i": 47,
+   "dup": 0,
+   "rel_live": -0.18579343728774672,
+   "era": "uid69",
+   "A": 0.3941,
+   "B": 0.3893,
+   "delta": -0.0048,
+   "adjA": 0.3941,
+   "adjB": 0.3893,
+   "penA": [],
+   "penB": [],
+   "n_gt": 17,
+   "meta": {
+    "adds": [
+     "multifamily market trend",
+     "orange county rental markets"
+    ],
+    "sources": [
+     "multifamily market trends",
+     "orange county rental market"
+    ],
+    "drops": [
+     "japan",
+     "united states"
+    ],
+    "cos_sources": [
+     0.631,
+     0.566
+    ],
+    "cos_drops": [
+     0.107,
+     0.145
+    ],
+    "med": 0.483
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.301,
+     0.381
+    ],
+    "drop_cos_judge": [
+     0.625,
+     0.647
+    ],
+    "src_cos_judge": [
+     0.28,
+     0.38
+    ]
+   }
+  },
+  {
+   "i": 48,
+   "dup": 0,
+   "rel_live": -0.06171271845626758,
+   "era": "uid69",
+   "A": 0.4625,
+   "B": 0.49,
+   "delta": 0.0275,
+   "adjA": 0.4625,
+   "adjB": 0.49,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "microsoft supports",
+     "checking accounts"
+    ],
+    "sources": [
+     "microsoft support",
+     "checking account"
+    ],
+    "drops": [
+     "cross river bank",
+     "authentication"
+    ],
+    "cos_sources": [
+     0.432,
+     0.431
+    ],
+    "cos_drops": [
+     0.225,
+     0.237
+    ],
+    "med": 0.377
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.595,
+     0.377
+    ],
+    "drop_cos_judge": [
+     0.55,
+     0.45
+    ],
+    "src_cos_judge": [
+     0.577,
+     0.387
+    ]
+   }
+  },
+  {
+   "i": 8,
+   "dup": 0,
+   "rel_live": 0.02810685753845865,
+   "era": "uid69",
+   "A": 0.6156,
+   "B": 0.6165,
+   "delta": 0.0009,
+   "adjA": 0.6156,
+   "adjB": 0.6165,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "multifamily constructions",
+     "multifamily markets"
+    ],
+    "sources": [
+     "multifamily construction",
+     "multifamily market"
+    ],
+    "drops": [
+     "houston",
+     "realpage"
+    ],
+    "cos_sources": [
+     0.673,
+     0.657
+    ],
+    "cos_drops": [
+     0.25,
+     0.274
+    ],
+    "med": 0.529
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.581,
+     0.589
+    ],
+    "drop_cos_judge": [
+     0.586,
+     0.512
+    ],
+    "src_cos_judge": [
+     0.585,
+     0.593
+    ]
+   }
+  },
+  {
+   "i": 45,
+   "dup": 0,
+   "rel_live": -0.018561482023811582,
+   "era": "uid69",
+   "A": 0.6677,
+   "B": 0.6697,
+   "delta": 0.002,
+   "adjA": 0.6677,
+   "adjB": 0.6697,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "green lease leader",
+     "green building operation"
+    ],
+    "sources": [
+     "green lease leaders",
+     "green building operations"
+    ],
+    "drops": [
+     "tenant agreements",
+     "tenant engagement"
+    ],
+    "cos_sources": [
+     0.64,
+     0.547
+    ],
+    "cos_drops": [
+     0.416,
+     0.419
+    ],
+    "med": 0.53
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.606,
+     0.648
+    ],
+    "drop_cos_judge": [
+     0.564,
+     0.602
+    ],
+    "src_cos_judge": [
+     0.595,
+     0.657
+    ]
+   }
+  },
+  {
+   "i": 30,
+   "dup": 0,
+   "rel_live": -0.03076780094177256,
+   "era": "uid69",
+   "A": 0.5931,
+   "B": 0.597,
+   "delta": 0.0039,
+   "adjA": 0.5931,
+   "adjB": 0.597,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "financial risk mitigations",
+     "risk managements"
+    ],
+    "sources": [
+     "financial risk mitigation",
+     "risk management"
+    ],
+    "drops": [
+     "life sciences",
+     "enterprise digital transformation"
+    ],
+    "cos_sources": [
+     0.645,
+     0.561
+    ],
+    "cos_drops": [
+     0.166,
+     0.19
+    ],
+    "med": 0.469
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.573,
+     0.566
+    ],
+    "drop_cos_judge": [
+     0.388,
+     0.506
+    ],
+    "src_cos_judge": [
+     0.607,
+     0.584
+    ]
+   }
+  },
+  {
+   "i": 25,
+   "dup": 0,
+   "rel_live": -0.04603594777021175,
+   "era": "uid69",
+   "A": 0.3154,
+   "B": 0.3172,
+   "delta": 0.0018,
+   "adjA": 0.3505,
+   "adjB": 0.3525,
+   "penA": [
+    "no_both_tags"
+   ],
+   "penB": [
+    "no_both_tags"
+   ],
+   "n_gt": 18,
+   "meta": {
+    "adds": [
+     "warehouse rents",
+     "real estate statistic"
+    ],
+    "sources": [
+     "warehouse rent",
+     "real estate statistics"
+    ],
+    "drops": [
+     "property market",
+     "property investment"
+    ],
+    "cos_sources": [
+     0.517,
+     0.514
+    ],
+    "cos_drops": [
+     0.418,
+     0.421
+    ],
+    "med": 0.502
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.33,
+     0.337
+    ],
+    "drop_cos_judge": [
+     0.31,
+     0.31
+    ],
+    "src_cos_judge": [
+     0.339,
+     0.315
+    ]
+   }
+  },
+  {
+   "i": 29,
+   "dup": 0,
+   "rel_live": -0.007776715491053299,
+   "era": "uid69",
+   "A": 0.6766,
+   "B": 0.6764,
+   "delta": -0.0001,
+   "adjA": 0.6766,
+   "adjB": 0.6764,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "engineering roadmaps",
+     "engineering manager frameworks"
+    ],
+    "sources": [
+     "engineering roadmap",
+     "engineering manager framework"
+    ],
+    "drops": [
+     "strategic planning",
+     "product development"
+    ],
+    "cos_sources": [
+     0.611,
+     0.588
+    ],
+    "cos_drops": [
+     0.395,
+     0.417
+    ],
+    "med": 0.499
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.638,
+     0.627
+    ],
+    "drop_cos_judge": [
+     0.64,
+     0.635
+    ],
+    "src_cos_judge": [
+     0.69,
+     0.645
+    ]
+   }
+  },
+  {
+   "i": 62,
+   "dup": 0,
+   "rel_live": -0.12693920512332268,
+   "era": "uid24",
+   "A": 0.4876,
+   "B": 0.4686,
+   "delta": -0.019,
+   "adjA": 0.4876,
+   "adjB": 0.4686,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "commercial rental",
+     "united states rental markets"
+    ],
+    "sources": [
+     "commercial rentals",
+     "united states rental market"
+    ],
+    "drops": [
+     "persian gulf",
+     "bahrain"
+    ],
+    "cos_sources": [
+     0.489,
+     0.489
+    ],
+    "cos_drops": [
+     0.127,
+     0.13
+    ],
+    "med": 0.387
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.35,
+     0.469
+    ],
+    "drop_cos_judge": [
+     0.546,
+     0.61
+    ],
+    "src_cos_judge": [
+     0.354,
+     0.46
+    ]
+   }
+  },
+  {
+   "i": 52,
+   "dup": 0,
+   "rel_live": -0.10854195959236346,
+   "era": "uid24",
+   "A": 0.4403,
+   "B": 0.4331,
+   "delta": -0.0072,
+   "adjA": 0.4403,
+   "adjB": 0.4331,
+   "penA": [],
+   "penB": [],
+   "n_gt": 9,
+   "meta": {
+    "adds": [
+     "residential construction trend",
+     "multifamily completion"
+    ],
+    "sources": [
+     "residential construction trends",
+     "multifamily completions"
+    ],
+    "drops": [
+     "saturday night live",
+     "coldplay"
+    ],
+    "cos_sources": [
+     0.43,
+     0.404
+    ],
+    "cos_drops": [
+     0.124,
+     0.162
+    ],
+    "med": 0.338
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.271,
+     0.317
+    ],
+    "drop_cos_judge": [
+     0.566,
+     0.482
+    ],
+    "src_cos_judge": [
+     0.252,
+     0.313
+    ]
+   }
+  },
+  {
+   "i": 11,
+   "dup": 0,
+   "rel_live": -0.0007925024077845011,
+   "era": "uid69",
+   "A": 0.678,
+   "B": 0.6778,
+   "delta": -0.0001,
+   "adjA": 0.678,
+   "adjB": 0.6778,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "eeg classifications"
+    ],
+    "sources": [
+     "eeg classification"
+    ],
+    "drops": [
+     "signal processing"
+    ],
+    "cos_sources": [
+     0.601
+    ],
+    "cos_drops": [
+     0.407
+    ],
+    "med": 0.556
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.607
+    ],
+    "drop_cos_judge": [
+     0.617
+    ],
+    "src_cos_judge": [
+     0.615
+    ]
+   }
+  },
+  {
+   "i": 1,
+   "dup": 1,
+   "rel_live": -0.007123842943632441,
+   "era": "uid69",
+   "A": 0.414,
+   "B": 0.349,
+   "delta": -0.065,
+   "adjA": 0.46,
+   "adjB": 0.3878,
+   "penA": [
+    "no_both_tags"
+   ],
+   "penB": [
+    "no_both_tags"
+   ],
+   "n_gt": 9,
+   "meta": {
+    "adds": [
+     "tech hiring slowdowns",
+     "tech layoff"
+    ],
+    "sources": [
+     "tech hiring slowdown",
+     "tech layoffs"
+    ],
+    "drops": [
+     "signal messenger",
+     "it hiring"
+    ],
+    "cos_sources": [
+     0.69,
+     0.619
+    ],
+    "cos_drops": [
+     0.121,
+     0.409
+    ],
+    "med": 0.544
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.264,
+     0.351
+    ],
+    "drop_cos_judge": [
+     0.648,
+     0.378
+    ],
+    "src_cos_judge": [
+     0.255,
+     0.35
+    ]
+   }
+  },
+  {
+   "i": 24,
+   "dup": 1,
+   "rel_live": 0.005141731328547006,
+   "era": "uid69",
+   "A": 0.6653,
+   "B": 0.6656,
+   "delta": 0.0003,
+   "adjA": 0.6653,
+   "adjB": 0.6656,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "real estate feasibility studies",
+     "mixed finance developments"
+    ],
+    "sources": [
+     "real estate feasibility study",
+     "mixed finance development"
+    ],
+    "drops": [
+     "budgeting",
+     "financial analysis"
+    ],
+    "cos_sources": [
+     0.565,
+     0.552
+    ],
+    "cos_drops": [
+     0.38,
+     0.421
+    ],
+    "med": 0.513
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.608,
+     0.626
+    ],
+    "drop_cos_judge": [
+     0.635,
+     0.573
+    ],
+    "src_cos_judge": [
+     0.604,
+     0.643
+    ]
+   }
+  },
+  {
+   "i": 21,
+   "dup": 1,
+   "rel_live": 0.024696753325925913,
+   "era": "uid69",
+   "A": 0.7388,
+   "B": 0.7412,
+   "delta": 0.0024,
+   "adjA": 0.7388,
+   "adjB": 0.7412,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "organized retail thefts",
+     "retail analytic"
+    ],
+    "sources": [
+     "organized retail theft",
+     "retail analytics"
+    ],
+    "drops": [
+     "shoplifting",
+     "retail property"
+    ],
+    "cos_sources": [
+     0.623,
+     0.588
+    ],
+    "cos_drops": [
+     0.417,
+     0.455
+    ],
+    "med": 0.561
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.75,
+     0.65
+    ],
+    "drop_cos_judge": [
+     0.661,
+     0.611
+    ],
+    "src_cos_judge": [
+     0.77,
+     0.64
+    ]
+   }
+  },
+  {
+   "i": 17,
+   "dup": 1,
+   "rel_live": -0.021650392323855683,
+   "era": "uid69",
+   "A": 0.6513,
+   "B": 0.6522,
+   "delta": 0.0009,
+   "adjA": 0.6513,
+   "adjB": 0.6522,
+   "penA": [],
+   "penB": [],
+   "n_gt": 20,
+   "meta": {
+    "adds": [
+     "budget result",
+     "draft budgetary plans"
+    ],
+    "sources": [
+     "budget results",
+     "draft budgetary plan"
+    ],
+    "drops": [
+     "fiscal policy",
+     "fiscal deficit"
+    ],
+    "cos_sources": [
+     0.526,
+     0.509
+    ],
+    "cos_drops": [
+     0.324,
+     0.358
+    ],
+    "med": 0.468
+   },
+   "mech": {
+    "add_cos_judge": [
+     0.627,
+     0.599
+    ],
+    "drop_cos_judge": [
+     0.559,
+     0.595
+    ],
+    "src_cos_judge": [
+     0.63,
+     0.604
+    ]
+   }
+  }
+ ],
+ "stopped": null,
+ "cost_usd": 0.2502
+}

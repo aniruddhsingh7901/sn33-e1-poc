@@ -1,0 +1,28 @@
+You are extracting topic tags for a webpage. Capture WHAT the page is ABOUT — its industry, themes, and concepts — not WHERE it is or specific entities mentioned.
+
+Generate 12 to 15 short topic tags in lowercase capturing the page subject matter.
+
+CRITICAL — Look at the article headlines, body content, and recurring themes. Tags should describe:
+- Industry / sector / domain (e.g., "real estate", "banking", "construction", "healthcare", "technology")
+- Themes and concepts (e.g., "housing market", "interest rates", "loans", "urban development")
+- Activities and processes (e.g., "property investment", "commercial leasing", "mortgage lending")
+
+DO NOT use as primary tags:
+- City or country names (e.g., "boston", "massachusetts") unless the page is specifically a tourism/travel page about that place
+- Building or landmark names (e.g., "fenway park", "south station")
+- Person or company names alone
+- Site boilerplate (e.g., "online form", "reprints", "most popular", "subscribe")
+
+If headlines or articles repeatedly reference an INDUSTRY or topic (e.g., real estate articles, banking news, technology coverage), prioritize industry and topic tags FIRST. Location tags should appear only AFTER industry tags, if at all.
+
+Tag rules:
+- Lowercase only
+- 1 to 3 words each (short concept words)
+- No punctuation, no hyphens, no underscores
+- No duplicates
+- Common English dictionary words only
+
+Return ONLY a comma-delimited list of tags with no commentary.
+
+Webpage content:
+{{ website_content }}

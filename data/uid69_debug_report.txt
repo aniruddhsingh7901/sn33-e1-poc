@@ -1,0 +1,256 @@
+====================================================================================================
+[ 1] 05:52 UTC  webpage_metadata_generation  US=0.721  cohort=0.724  beat=1/5  narrow-loss
+     elapsed=9.82s source=ranked  top50-in-cohort: #27:0.737
+     TAGS: ['investment management', 'market investments', 'investment solutions', 'investment vehicles', 'private market investments', 'wealth management market', 'institutional investing', 'investment advisory', 'investment managements', 'capital markets', 'private market investment', 'wealth management', 'institutional investors', 'institutional investor', 'private markets', 'investment consulting', 'alternative investments', 'asset management', 'investment partners', 'investment trends']
+====================================================================================================
+[ 2] 05:58 UTC  webpage_metadata_generation  US=0.607  cohort=0.669  beat=0/5  loss
+     elapsed=9.26s source=ranked  top50-in-cohort: -
+     TAGS: ['tenant credit risk', 'tenant credit analysis', 'investment risk', 'alternative investments', 'tenant credit analysises', 'tenant financial health', 'credit analysis', 'investor tools', 'tenant credit', 'credit analytics', 'tenant credit evaluation', 'investment strategies', 'investment advisory', 'credit risk assessment', 'tenant financial analysis', 'investment consulting', 'risk management', 'corporate credit analysis', 'portfolio construction', 'investment strategy']
+====================================================================================================
+[ 3] 05:59 UTC  named_entities_extraction    US=0.701  cohort=0.697  beat=1/5  above-cohort
+     elapsed=6.32s source=ranked  top50-in-cohort: -
+     TAGS: ['boston public schools', 'boston latin academy boston police department', 'boston latin academy boston public schools', 'boston latin academy boston fire department', 'boston fire department boston latin academy', 'boston fire department boston public schools', 'boston police department boston latin academy', 'boston public schools boston police department', 'boston public schools boston fire department', 'boston police department boston public schools']
+====================================================================================================
+[ 4] 06:05 UTC  named_entities_extraction    US=0.71  cohort=0.682  beat=5/5  FULL-WIN
+     elapsed=7.36s source=ranked  top50-in-cohort: #4:0.682, #35:0.682, #49:0.682
+     TAGS: ['seattle city council united states maritza rivera', 'seattle city hall united states maritza rivera', 'seattle city council united states debora juarez', 'city of seattle united states debora juarez', 'city of seattle united states maritza rivera', 'united states seattle city council', 'seattle city hall united states debora juarez', 'seattle city council united states', 'seattle washington united states maritza rivera', 'debora juarez city of seattle']
+====================================================================================================
+[ 5] 06:11 UTC  named_entities_extraction    US=0.732  cohort=0.735  beat=1/5  narrow-loss
+     elapsed=7.63s source=ranked  top50-in-cohort: #14:0.762, #40:0.762
+     TAGS: ['boston city council', 'councilor breadon boston city hall', 'boston city hall boston gov councilor worrell', 'boston gov boston city council', 'councilor breadon city of boston', 'councilor murphy boston city hall', 'boston city hall city of boston councilor worrell', 'boston city hall councilor worrell', 'boston city hall boston gov councilor murphy', 'councilor worrell boston city hall']
+====================================================================================================
+[ 6] 06:11 UTC  named_entities_extraction    US=0.788  cohort=0.762  beat=5/5  FULL-WIN
+     elapsed=9.3s source=ranked  top50-in-cohort: #33:0.762
+     TAGS: ['boston city hall', 'boston gov city hall', 'boston city council', 'city hall boston', 'boston government', 'city of boston', 'boston city council city hall', 'city hall boston gov', 'city hall meet boston', 'city of boston city hall']
+====================================================================================================
+[ 7] 06:22 UTC  webpage_metadata_generation  US=0.318  cohort=0.352  beat=0/5  COHORT-DIED
+     elapsed=10.46s source=ranked  top50-in-cohort: -
+     TAGS: ['multifamily market', 'tri cities multifamily market', 'property listings', 'real estate market', 'multifamily real estate', 'apartment market', 'real estate trends', 'commercial real estates', 'real estate', 'housing market', 'residential real estate', 'real estate vacancy', 'commercial real estate', 'regional real estate trends', 'sitemap', 'multifamily investment', 'multifamily housing', 'tri cities', 'spokane', 'crawl delay']
+====================================================================================================
+[ 8] 06:44 UTC  named_entities_extraction    US=0.591  cohort=0.529  beat=5/5  FULL-WIN
+     elapsed=6.84s source=ranked  top50-in-cohort: #28:0.532
+     TAGS: ['boston city hall fitzgerald', 'boston', 'boston city hall flynn', 'city of boston fitzgerald', 'city council of the city of boston fitzgerald', 'breadon city of boston', 'city of boston flynn', 'breadon boston', 'city hall boston', 'city of boston fitzgerald murphy']
+====================================================================================================
+[ 9] 06:49 UTC  webpage_metadata_generation  US=0.549  cohort=0.508  beat=1/5  above-cohort
+     elapsed=10.78s source=ranked  top50-in-cohort: #48:0.634
+     TAGS: ['iso compliance', 'soc compliance', 'soc 2 compliance', 'building energy compliance', 'gdpr', 'gdpr compliance', 'security standards', 'security compliance', 'privacy compliance', 'energy benchmarking', 'pci dss', 'real time compliance', 'regulatory compliance', 'performance standards', 'energy reporting', 'hipaa compliance', 'security metrics', 'iso 27001', 'building performance standards', 'soc 2']
+====================================================================================================
+[10] 07:02 UTC  named_entities_extraction    US=0.643  cohort=0.585  beat=5/5  FULL-WIN
+     elapsed=9.13s source=ranked  top50-in-cohort: #22:0.586
+     TAGS: ['darrell watson csahr 202369573 stacie gilmore', 'darrell watson csahr 202684774 01 amanda sawyer', 'darrell watson csahr 202369573 jamie torres', 'darrell watson csahr 202684774 01 stacie gilmore', 'darrell watson csahr 202369573 amanda sawyer', 'darrell watson jamie torres stacie gilmore', 'darrell watson csahr 202684774 01 melissa mata', 'darrell watson jamie torres amanda sawyer', 'darrell watson csahr 202684774 01 jamie torres', 'csahr 202684774 01 amanda sawyer']
+====================================================================================================
+[11] 07:07 UTC  named_entities_extraction    US=0.578  cohort=0.577  beat=1/5  above-cohort
+     elapsed=9.85s source=ranked  top50-in-cohort: #18:0.604
+     TAGS: ['amanda sandoval council bill 26 0832 chapter 11', 'amanda sandoval council bill 26 0852 chapter 11', 'amanda sandoval council bill 26 0832 chapter 32', 'amanda sandoval council bill 26 0852 chapter 32', 'council bill 26 0852 anne wallace amanda sawyer', 'council bill 26 0852 darrell watson amanda sawyer', 'council bill 26 0852 amanda sawyer', 'council bill 26 0832 amanda sawyer', 'council bill 26 0852 anne wallace chapter 32', 'amanda sandoval darrell watson chapter 11']
+====================================================================================================
+[12] 07:09 UTC  webpage_metadata_generation  US=0.527  cohort=0.534  beat=2/5  narrow-loss
+     elapsed=8.15s source=ranked  top50-in-cohort: -
+     TAGS: ['wealth management', 'portfolio management', 'investment management', 'family office governance', 'wealth managements', 'estate planning', 'family governance', 'family office advisory', 'family legacy planning', 'family office operations', 'financial planning', 'best practices', 'family office', 'family business succession', 'investment strategy', 'family offices', 'succession planning', 'fiduciary planning', 'spelling', 'investment managements']
+====================================================================================================
+[13] 07:18 UTC  webpage_metadata_generation  US=0.658  cohort=0.672  beat=0/5  narrow-loss
+     elapsed=10.39s source=ranked  top50-in-cohort: #27:0.671
+     TAGS: ['common raven', 'corvids', 'corvid', 'common birds', 'common ravens', 'crows', 'corvidae', 'american crow', 'fish crow', 'bird species', 'crow species', 'north american birds', 'bird behavior', 'corvus brachyrhynchos', 'corvus', 'bird family', 'songbirds', 'backyard birds', 'bird calls', 'ravens']
+====================================================================================================
+[14] 07:19 UTC  webpage_metadata_generation  US=0.652  cohort=0.62  beat=5/5  FULL-WIN
+     elapsed=10.87s source=ranked  top50-in-cohort: -
+     TAGS: ['common raven', 'corvids', 'common birds', 'corvid', 'wild birds', 'corvidae', 'common ravens', 'bird species', 'american crow', 'crows', 'fish crow', 'bird behavior', 'bird family corvidae', 'north american birds', 'bird calls', 'corvus brachyrhynchos', 'crow species', 'songbirds', 'corvus', 'bird vocalizations']
+====================================================================================================
+[15] 07:19 UTC  named_entities_extraction    US=0.675  cohort=0.626  beat=5/5  FULL-WIN
+     elapsed=7.62s source=ranked  top50-in-cohort: -
+     TAGS: ['raise roxbury resilient grant boston city hall', 'boston city council 000 grant', 'boston city council boston city hall 000 grant', 'raise roxbury resilient grant boston city council', 'roxbury united states department of transportation', 'boston city hall roxbury 000 grant', 'boston city hall 000 grant', 'boston city council', 'boston city council roxbury 000 grant', 'roxbury boston city hall']
+====================================================================================================
+[16] 07:31 UTC  named_entities_extraction    US=0.754  cohort=0.749  beat=4/5  above-cohort
+     elapsed=8.21s source=ranked  top50-in-cohort: -
+     TAGS: ['councilor weber city council of the city of boston', 'council president', 'city council of the city of boston councilor weber', 'councilor murphy', 'councilor weber councilor murphy', 'councilor weber councilor santana', 'councilor weber councilor breadon', 'councilor weber', 'councilor worrell', 'councilor breadon']
+====================================================================================================
+[17] 07:56 UTC  webpage_metadata_generation  US=0.568  cohort=0.672  beat=0/5  BLOWOUT-LOSS
+     elapsed=9.67s source=ranked  top50-in-cohort: #43:0.679
+     TAGS: ['climate risk', 'climate risks', 'flood risk', 'flood risks', 'disaster insurance', 'housing resilience', 'risk management', 'property insurance', 'insurance affordability', 'climate risk analysis', 'climate risk analysises', 'bushfire risk', 'climate risk modeling', 'construction risk', 'insurance costs', 'wildfire insurance crisis', 'wildfire risk', 'insurance coverage', 'insurance market', 'underwriting risk']
+====================================================================================================
+[18] 08:08 UTC  named_entities_extraction    US=0.713  cohort=0.747  beat=1/5  loss
+     elapsed=8.82s source=ranked  top50-in-cohort: #46:0.766, #48:0.766
+     TAGS: ['boston city hall worrell', 'city of boston worrell', 'boston city hall', 'boston city council salem massachusetts worrell', 'boston city council building department worrell', 'boston city council worrell', 'boston city hall boston city council worrell', 'boston city council', 'worrell boston city hall', 'boston city hall salem massachusetts worrell']
+====================================================================================================
+[19] 08:16 UTC  webpage_metadata_generation  US=0.722  cohort=0.739  beat=0/5  narrow-loss
+     elapsed=8.61s source=ranked  top50-in-cohort: #34:0.74, #38:0.74, #43:0.74
+     TAGS: ['real estate market', 'home sales', 'retail real estate', 'retail leases', 'housing inventory', 'rental properties', 'office leasing', 'retail leasing', 'property listings', 'residential real estate', 'commercial leasing', 'real estate investing', 'property sale', 'estate investing', 'real estate contracts', 'commercial real estate', 'property rental', 'commercial subleases', 'real estate', 'commercial property market trends']
+====================================================================================================
+[20] 08:31 UTC  named_entities_extraction    US=0.602  cohort=0.592  beat=1/5  above-cohort
+     elapsed=7.39s source=ranked  top50-in-cohort: #19:0.631, #30:0.631
+     TAGS: ['cmbs denver transitional grant area', 'denver transitional grant area special servicing', 'denver transitional grant area cmbs', 'special servicing denver transitional grant area', 'colorado department of human services cmbs', 'cmbs council bill 26 1010 street engagement team', 'cmbs', 'cmbs council bill 26 1010', 'street engagement team cmbs', 'cmbs colorado department of human services']
+====================================================================================================
+[21] 08:52 UTC  named_entities_extraction    US=0.667  cohort=0.712  beat=0/5  loss
+     elapsed=8.64s source=ranked  top50-in-cohort: -
+     TAGS: ['boston fire department boston gov', 'boston city hall', 'city of boston', 'boston city council', 'boston gov boston fire department', 'boston fire department boston city hall', 'boston city hall boston fire department', 'boston government', 'boston city hall boston gov', 'boston gov boston city hall boston fire department']
+====================================================================================================
+[22] 08:52 UTC  named_entities_extraction    US=0.715  cohort=0.688  beat=5/5  FULL-WIN
+     elapsed=10.08s source=ranked  top50-in-cohort: #22:0.685
+     TAGS: ['boston city hall', 'city of boston', 'boston city council', 'boston massachusetts', 'boston', 'massachusetts', 'massachusetts government', 'united states department', 'city hall', 'mayor office']
+====================================================================================================
+[23] 08:57 UTC  named_entities_extraction    US=0.666  cohort=0.652  beat=5/5  FULL-WIN
+     elapsed=7.4s source=ranked  top50-in-cohort: #35:0.652
+     TAGS: ['oakland city hall california carroll fife', 'carroll fife oakland city hall', 'oakland california', 'oakland city council', 'oakland city hall carroll fife', 'oakland city council california', 'oakland city hall', 'oakland', 'oakland city council california carroll fife', 'oakland city council oakland city hall']
+====================================================================================================
+[24] 09:27 UTC  webpage_metadata_generation  US=0.439  cohort=0.614  beat=0/5  BLOWOUT-LOSS
+     elapsed=7.94s source=ranked  top50-in-cohort: -
+     TAGS: ['custom embroidery', 'custom embroideries', 'embroidered keepsakes', 'fabric embroidery', 'personalized embroidery', 'personalized embroidered gifts', 'embroidery for gifts', 'embroidered merchandise', 'embroidered gifts', 'embroidery supplies', 'embroidered apparel', 'embroidery kits', 'stitched gifts', 'diy embroidery', 'hand embroidery', 'embrolly usa', 'amazon', 'post consumer brands', 'etsy', 'name embroidery kit']
+====================================================================================================
+[25] 09:49 UTC  survey_tagging               US=0.372  cohort=0.371  beat=1/5  COHORT-DIED
+     elapsed=5.63s source=pool  top50-in-cohort: -
+     TAGS: ['help getting credit', 'credit assistance', 'support to obtain credit', 'help obtaining a loan', 'loan assistance', 'easy credit approval', 'easier loan approval', 'fast credit approval', 'quick loan approval', 'credit facilitation', 'loan facilitation', 'credit support']
+====================================================================================================
+[26] 09:53 UTC  named_entities_extraction    US=0.677  cohort=0.65  beat=5/5  FULL-WIN
+     elapsed=8.58s source=ranked  top50-in-cohort: -
+     TAGS: ['seattle city hall portland northgate subarea plan', 'seattle city hall portland downtown subarea plan', 'seattle city council', 'seattle city council portland', 'seattle city council downtown subarea plan', 'seattle city council portland council chamber', 'seattle city council seattle city hall portland', 'portland northgate subarea plan council chamber', 'portland downtown subarea plan council chamber', 'downtown subarea plan seattle city council']
+====================================================================================================
+[27] 10:03 UTC  webpage_metadata_generation  US=0.55  cohort=0.65  beat=0/5  BLOWOUT-LOSS
+     elapsed=11.06s source=ranked  top50-in-cohort: #1:0.642, #7:0.654, #27:0.654, #41:0.654
+     TAGS: ['income investing', 'wealth management', 'investment strategies', 'investment portfolio', 'investment strategy', 'asset allocations', 'portfolio management', 'estate investing', 'wealth preservation', 'investment trusts', 'asset allocation', 'real estate investment', 'retirement investing', 'conservative investing', 'wealth managements', 'property investment', 'stocks', 'real estate investment trusts', 'capital preservation', 'real estate investing']
+====================================================================================================
+[28] 10:13 UTC  webpage_metadata_generation  US=0.717  cohort=0.694  beat=5/5  FULL-WIN
+     elapsed=8.13s source=ranked  top50-in-cohort: #11:0.71
+     TAGS: ['network security', 'dns security', 'secure network architecture', 'dns management', 'secure dns deployments', 'protocol security', 'security resilience', 'secure dns deployment', 'secure dns', 'dns infrastructure', 'dns strategy', 'dns', 'infrastructure security', 'dns misuse mitigation', 'dns resilience', 'security hardening', 'security best practices', 'tenant architecture', 'dns governance', 'dnssec']
+====================================================================================================
+[29] 10:14 UTC  webpage_metadata_generation  US=0.6  cohort=0.639  beat=0/5  loss
+     elapsed=9.8s source=ranked  top50-in-cohort: #20:0.637, #21:0.648
+     TAGS: ['real estate finance', 'real estate investment', 'real estate financing', 'commercial real estates', 'commercial lending', 'commercial real estate', 'real estate developments', 'real estate lending', 'real estate', 'real estate investments', 'real estate development', 'commercial real estate transactions', 'commercial real estate loans', 'real estate capital provider', 'construction financing', 'capital markets', 'estate financing', 'debt financing', 'debt and equity financing', 'loan servicing']
+====================================================================================================
+[30] 10:15 UTC  webpage_metadata_generation  US=0.608  cohort=0.598  beat=2/5  above-cohort
+     elapsed=9.01s source=ranked  top50-in-cohort: #36:0.636
+     TAGS: ['complex real estate deals', 'commercial real estates', 'real estate developments', 'capital solutions', 'commercial real estate deals', 'real estate capital markets', 'real estate investment', 'real estate finance', 'commercial real estate', 'real estate financing', 'real estate development', 'real estate', 'capital markets', 'bridge loans', 'real estate lending', 'loan servicing', 'construction financing', 'commercial real estate financing', 'web crawling', 'diffbot']
+====================================================================================================
+[31] 10:32 UTC  named_entities_extraction    US=0.716  cohort=0.632  beat=5/5  FULL-WIN
+     elapsed=8.84s source=ranked  top50-in-cohort: -
+     TAGS: ['oakland city hall state of california', 'oakland california', 'oakland city council state of california', 'oakland city council california', 'state of california oakland city hall', 'california oakland city hall', 'state of california oakland city council', 'state of california oakland california', 'state of california city of oakland', 'city of oakland california']
+====================================================================================================
+[32] 10:38 UTC  webpage_metadata_generation  US=0.676  cohort=0.554  beat=1/5  above-cohort
+     elapsed=9.85s source=ranked  top50-in-cohort: #2:0.691, #27:0.691, #37:0.697
+     TAGS: ['distributed architecture', 'cloud architecture', 'cloud architectures', 'tenant architecture', 'api gateway', 'cloud infrastructure', 'platform engineering', 'api gateways', 'service meshes', 'microservices', 'microservices architecture', 'network architecture', 'architecture patterns', 'gateway apis', 'service mesh', 'client integration', 'multi tenant architecture', 'saas architecture', 'microservice', 'multi tenant architectures']
+====================================================================================================
+[33] 10:42 UTC  webpage_metadata_generation  US=0.661  cohort=0.668  beat=0/5  narrow-loss
+     elapsed=8.21s source=ranked  top50-in-cohort: #9:0.668, #45:0.667
+     TAGS: ['logistics real estate', 'property leasing', 'business leasing', 'logistics real estates', 'commercial real estates', 'commercial real estate', 'real estate investment', 'lease', 'space leasing', 'real estate', 'office space leasing', 'institutional real estate', 'industrial real estate', 'corporate real estate', 'tenant', 'renting', 'estate investment', 'industrial real estates', 'commercial property', 'business space rental']
+====================================================================================================
+[34] 10:53 UTC  named_entities_extraction    US=0.83  cohort=0.809  beat=5/5  FULL-WIN
+     elapsed=7.85s source=ranked  top50-in-cohort: #44:0.809
+     TAGS: ['east bay oakland city hall', 'oakland city hall alameda county east bay', 'oakland city council alameda county', 'oakland city hall', 'city of oakland', 'oakland city council oakland city hall', 'oakland city council city of oakland', 'oakland city council alameda county east bay', 'oakland city hall east bay', 'east bay oakland city council']
+====================================================================================================
+[35] 10:56 UTC  named_entities_extraction    US=0.623  cohort=0.628  beat=0/5  narrow-loss
+     elapsed=9.63s source=ranked  top50-in-cohort: #24:0.628, #41:0.628
+     TAGS: ['boston city council', 'boston city hall', 'boston city council bullfinch triangle district', 'boston city council city hall', 'city hall boston', 'bullfinch triangle district boston city council', 'city hall boston bullfinch triangle district', 'city hall boston city council', 'boston police department boston city council', 'boston city council boston police department']
+====================================================================================================
+[36] 11:00 UTC  webpage_metadata_generation  US=0.641  cohort=0.681  beat=0/5  loss
+     elapsed=6.4s source=ranked  top50-in-cohort: #11:0.682, #15:0.682, #41:0.677
+     TAGS: ['office building conversion', 'office building conversions', 'office leasing', 'office building repurposing', 'transitional office space', 'reuse of office buildings', 'prime office space', 'office conversions', 'office conversion', 'vacant office space', 'office to residential conversion', 'office market', 'transitional office spaces', 'office space', 'building conversion', 'commercial property strategy', 'commercial real estates', 'building renovation', 'commercial real estate', 'commercial leasing strategy']
+====================================================================================================
+[37] 11:05 UTC  webpage_metadata_generation  US=0.587  cohort=0.597  beat=1/5  narrow-loss
+     elapsed=8.07s source=ranked  top50-in-cohort: #11:0.596, #46:0.613, #49:0.612
+     TAGS: ['minecraft client', 'dictionary', 'computer client', 'game server client', 'client server computing', 'client meaning', 'server', 'dictionary com', 'dictionary meaning', 'client service', 'computing client', 'client definition', 'definitions', 'server networking', 'client server model', 'merriam webster', 'cambridge dictionary', 'feather client', 'minecraft launcher', 'minecraft']
+====================================================================================================
+[38] 11:10 UTC  webpage_metadata_generation  US=0.478  cohort=0.639  beat=0/5  BLOWOUT-LOSS
+     elapsed=11.08s source=replica  top50-in-cohort: -
+     TAGS: ['english language', 'dictionary com', 'cambridge dictionary', 'collins english dictionary', 'brussels', 'urban planning', 'zoning policy', 'heritage preservation', 'adaptive reuse', 'building reuse', 'housing conversion', 'italian regulations', 'dutch regulations', 'regulatory systems', 'comparative legal analysis']
+====================================================================================================
+[39] 11:11 UTC  conversation_tagging         US=0.454  cohort=0.497  beat=0/5  loss
+     elapsed=7.66s source=ranked  top50-in-cohort: -
+     TAGS: ['market performance', 'market forecast', 'property investment', 'market growth', 'market forecasts', 'market analysis', 'real estate market', 'market valuation', 'real estate performance', 'logistics real estate', 'market growths', 'real estate trends', 'cap rates', 'commercial real estate', 'commercial real estates', 'investment opportunities', 'estate investing', 'real estate investing', 'real estate finance', 'asset pricing']
+====================================================================================================
+[40] 11:14 UTC  webpage_metadata_generation  US=0.739  cohort=0.741  beat=1/5  narrow-loss
+     elapsed=6.87s source=ranked  top50-in-cohort: #1:0.742
+     TAGS: ['flood mapping', 'flood map', 'flood maps', 'inundation mapping', 'coastal flooding', 'floodplain mapping', 'high tide flooding', 'flood risk', 'flood risks', 'tide flooding', 'sea level rise map', 'water level rise', 'flood impacts', 'elevation maps', 'elevation map', 'sea level rise', 'level rise', 'sea level rises', 'flood risk assessment', 'bathymetric maps']
+====================================================================================================
+[41] 11:18 UTC  named_entities_extraction    US=0.833  cohort=0.683  beat=5/5  FULL-WIN
+     elapsed=9.12s source=ranked  top50-in-cohort: -
+     TAGS: ['ca gov oakland city hall', 'oakland city hall ca gov', 'oakland city hall', 'oakland city hall state of california', 'oakland city hall oakland california', 'oakland city council ca gov', 'oakland city council oakland california', 'ca gov city of oakland', 'oakland california oakland city hall', 'oakland city council oakland city hall']
+====================================================================================================
+[42] 11:35 UTC  webpage_metadata_generation  US=0.272  cohort=0.282  beat=1/5  COHORT-DIED
+     elapsed=9.9s source=ranked  top50-in-cohort: -
+     TAGS: ['multifamily marketing', 'marketing technology', 'apartment marketing', 'property management', 'marketing guide', 'marketing technologies', 'real estate marketing', 'marketing strategies', 'marketing strategy', 'marketing trends', 'customer support', 'asking', 'property managements', 'questions', 'customer service', 'technical support', 'usage', 'media inquiries', 'digital marketing', 'customer supports']
+====================================================================================================
+[43] 11:39 UTC  webpage_metadata_generation  US=0.669  cohort=0.718  beat=1/5  loss
+     elapsed=9.16s source=ranked  top50-in-cohort: #49:0.764
+     TAGS: ['lawn care services', 'meadow green sales', 'lawn care', 'lawn care company', 'residential lawn care', 'green magic lawn care', 'seattle city attorney s office', 'seattle government', 'city services', 'green magic lawn cares', 'seattle city government', 'lawn and garden equipment', 'seattle city attorney', 'seasonal lawn maintenance', 'city of seattle', 'city of richland', 'seattle city governments', 'city legal services', 'municipal services', 'outdoor home services']
+====================================================================================================
+[44] 11:55 UTC  named_entities_extraction    US=0.739  cohort=0.711  beat=1/5  above-cohort
+     elapsed=7.36s source=ranked  top50-in-cohort: #14:0.741
+     TAGS: ['seattle city council', 'seattle city hall', 'seattle bellevue seattle city council', 'city of seattle', 'seattle city council city of seattle', 'seattle city council seattle bellevue', 'seattle city council seattle city hall', 'seattle government', 'seattle bellevue seattle city hall', 'seattle city hall seattle city council']
+====================================================================================================
+[45] 12:05 UTC  conversation_tagging         US=0.644  cohort=0.642  beat=2/5  above-cohort
+     elapsed=8.65s source=ranked  top50-in-cohort: #43:0.69
+     TAGS: ['monitoring', 'performance monitoring', 'monitoring and alerting', 'incident management', 'application monitoring', 'on call operations', 'uptime monitoring', 'on call management', 'on call engineering', 'on call managements', 'trace management', 'incident response', 'outage managements', 'monitoring checklist', 'log management', 'outage management', 'application performance monitoring', 'production incidents', 'operations', 'logging']
+====================================================================================================
+[46] 12:17 UTC  webpage_metadata_generation  US=0.557  cohort=0.633  beat=0/5  TRUNCATION
+     elapsed=11.16s source=pool  top50-in-cohort: #15:0.652
+     TAGS: ['documentation examples', 'example domain', 'domain name usage', 'permission free domain', 'operational avoidance', 'api gateway', 'service mesh', 'cloud native architecture', 'microservices', 'monolith decomposition', 'independently deployable services', 'cross cutting concerns', 'backend for frontend', 'api integration patterns', 'scalable systems', 'resilient systems', 'saga pattern', 'graphql federation', 'dns strategy', 'multi tenant dns']
+====================================================================================================
+[47] 12:41 UTC  conversation_tagging         US=0.525  cohort=0.532  beat=0/5  narrow-loss
+     elapsed=10.12s source=ranked  top50-in-cohort: #41:0.533
+     TAGS: ['tech layoffs', 'tech employment', 'job market', 'hiring slowdown', 'hiring slowdowns', 'job openings', 'tech hiring slowdown', 'technology employment', 'tech jobs', 'job postings trends', 'hiring trends', 'it hiring', 'job postings', 'tech recession', 'hiring freezes', 'employment trends', 'signal messenger', 'layoffs', 'tech industry', 'hiring freeze']
+====================================================================================================
+[48] 12:45 UTC  named_entities_extraction    US=0.656  cohort=0.638  beat=5/5  FULL-WIN
+     elapsed=9.27s source=ranked  top50-in-cohort: -
+     TAGS: ['liz breadon boston city hall', 'liz breadon city of boston', 'boston city hall liz breadon michael flaherty', 'sister jean marie gribaudo boston city hall', 'boston city council liz breadon michael flaherty', 'city of boston liz breadon michael flaherty', 'boston city hall liz breadon', 'sister jean marie gribaudo city of boston', 'boston city hall sister jean marie gribaudo', 'boston city council sister jean marie gribaudo']
+====================================================================================================
+[49] 13:00 UTC  conversation_tagging         US=0.439  cohort=0.545  beat=1/5  TRUNCATION
+     elapsed=11.31s source=pool  top50-in-cohort: #45:0.588
+     TAGS: ['housing development', 'urban planning', 'smart growth', 'city planning', 'affordable housing', 'transit oriented housing', 'transit oriented developments', 'transportation planning', 'urban growth', 'transit accessible housing', 'smart growths', 'transit oriented development', 'senior housing', 'urban development', 'housing development trends', 'urban policy', 'mixed use development', 'real estate development', 'property development', 'urban redevelopment']
+====================================================================================================
+[50] 13:01 UTC  webpage_metadata_generation  US=0.674  cohort=0.583  beat=1/5  above-cohort
+     elapsed=8.65s source=ranked  top50-in-cohort: #32:0.731
+     TAGS: ['political lobbying', 'foreign lobbying', 'venezuela influence', 'money laundering', 'conspiracy charges', 'federal conviction', 'campaign finance', 'secret campaign', 'florida politics', 'miami trial', 'trump administration', 'secretary of state', 'united states politics', 'national security', 'west africa conflict', 'mali attacks', 'militant blockade', 'road closures', 'bamako siege', 'segu blockade']
+====================================================================================================
+[51] 13:14 UTC  conversation_tagging         US=0.478  cohort=0.588  beat=0/5  BLOWOUT-LOSS
+     elapsed=9.56s source=ranked  top50-in-cohort: #29:0.591, #37:0.591
+     TAGS: ['capital budgeting', 'budgeting', 'asset management', 'capex management', 'budget management', 'capex planning', 'capex', 'budget approval', 'financial planning', 'capital investment', 'investment planning', 'capital expenditure', 'budget approvals', 'financial management', 'capex software', 'budget allocation', 'capital project management', 'capex budget approval', 'commercial real estate', 'capital expenditure capex']
+====================================================================================================
+[52] 13:18 UTC  webpage_metadata_generation  US=0.54  cohort=0.598  beat=0/5  loss
+     elapsed=9.77s source=ranked  top50-in-cohort: #29:0.599
+     TAGS: ['logistics real estate', 'industrial real estates', 'logistics real estates', 'real estate investment', 'industrial real estate', 'property investment', 'investment properties', 'investment property', 'commercial real estate investing', 'real estate investing', 'industrial realty', 'real estate markets', 'estate investing', 'real estate investment properties', 'landlord investing', 'rental property investing', 'real estate industry', 'first industrial realty', 'real estate', 'rental properties']
+====================================================================================================
+[53] 13:43 UTC  conversation_tagging         US=0.632  cohort=0.648  beat=0/5  narrow-loss
+     elapsed=7.77s source=ranked  top50-in-cohort: #17:0.648, #31:0.65
+     TAGS: ['comprehensive energy retrofits', 'energy efficiency incentives', 'retrofit financing', 'energy efficiency programs', 'real estate developments', 'real estate development', 'utility incentives', 'investment properties', 'green retrofitting', 'energy retrofits', 'real estate deals', 'energy efficiency funding', 'building energy conservation', 'energy savings', 'real estate investors', 'green building', 'living building challenge', 'community development', 'facility expansion', 'urban redevelopment']
+====================================================================================================
+[54] 13:53 UTC  conversation_tagging         US=0.277  cohort=0.695  beat=0/5  BLOWOUT-LOSS
+     elapsed=7.62s source=ranked  top50-in-cohort: -
+     TAGS: ['housing markets', 'housing affordability', 'housing prices', 'migration and housing', 'housing market', 'cost of living', 'regional housing markets', 'australian housing markets', 'australian housing market', 'property market', 'urban economics', 'housing price', 'housing supply', 'renting affordability', 'wages', 'housing affordability australia', 'real estate economics', 'employment', 'socioeconomic consequences', 'renting']
+====================================================================================================
+[55] 13:53 UTC  conversation_tagging         US=0.587  cohort=0.651  beat=0/5  TRUNCATION
+     elapsed=11.02s source=pool  top50-in-cohort: #7:0.651, #12:0.65, #35:0.65
+     TAGS: ['jiu jitsu', 'brazilian jiu jitsu', 'grappling', 'sparring', 'rolling', 'tapping out', 'martial arts tradition', 'karate', 'taekwondo', 'black belt', 'belt promotion', 'martial arts business', 'commercialization', 'watered down training', 'fake masters', 'martial arts titles', 'male ego', 'combat sports', 'self defense', 'training culture']
+====================================================================================================
+[56] 14:15 UTC  conversation_tagging         US=0.736  cohort=0.75  beat=0/5  narrow-loss
+     elapsed=9.69s source=ranked  top50-in-cohort: -
+     TAGS: ['affordable housing', 'affordable housing development', 'affordable housing finance', 'affordable housing programs', 'affordable rental housing', 'affordable housing developments', 'affordable housing supply', 'private affordable housing', 'housing policy', 'affordable homes act', 'housing funding mandates', 'affordable homes acts', 'housing affordability', 'housing development', 'housing policies', 'state housing finance agency', 'housing finance', 'state housing finance agencies', 'housing finance agencies', 'green affordable housing']
+====================================================================================================
+[57] 14:51 UTC  named_entities_extraction    US=0.779  cohort=0.732  beat=4/5  above-cohort
+     elapsed=9.27s source=ranked  top50-in-cohort: -
+     TAGS: ['seattle city council', 'seattle city hall', 'one seattle plan seattle city hall', 'one seattle plan seattle city council', 'city of seattle', 'seattle police department seattle city council', 'seattle city council city of seattle', 'seattle council public safety committee', 'seattle city council seattle city hall', 'seattle city hall seattle city council']
+====================================================================================================
+[58] 15:28 UTC  conversation_tagging         US=0.56  cohort=0.693  beat=0/5  TRUNCATION
+     elapsed=11.18s source=pool  top50-in-cohort: -
+     TAGS: ['supreme court ruling', 'juror removal', 'jury tampering', 'court clerk misconduct', 'evidence fabrication', 'trial court procedure', 'new trial motion', 'juror bias', 'guilty verdict', 'book deal', 'book promotion', 'media blitz', 'documentary access', 'courthouse access', 'plagiarism allegations', 'indictment', 'misconduct in office', 'abuse of public office', 'financial motive', 'anonymous email']
+====================================================================================================
+[59] 15:49 UTC  conversation_tagging         US=0.29  cohort=0.785  beat=0/5  TRUNCATION
+     elapsed=11.48s source=pool  top50-in-cohort: #33:0.785, #37:0.786, #47:0.786
+     TAGS: ['border town', 'dental tourism', 'early morning routine', 'street vendors', 'border wall', 'border crossing', 'immigration limits', 'mexican american border', 'algodones mexico', 'molar city', 'americans visiting mexico', 'podcast production', 'audio journalism', 'radio documentary', 'voiceover translation', 'social media promotion', 'discord community', 'oakland california', 'siriusxm podcasts', 'pandora building']
+====================================================================================================
+[60] 15:52 UTC  conversation_tagging         US=0.307  cohort=0.326  beat=0/5  COHORT-DIED
+     elapsed=10.85s source=ranked  top50-in-cohort: #33:0.326
+     TAGS: ['housing market liquidity', 'market liquidity', 'liquidity risks', 'liquidity risk', 'rate hikes', 'interest rates', 'liquidity trap', 'real estate economics', 'liquidity measure', 'real estate markets', 'bond markets', 'credit markets', 'capital markets', 'liquidity shortage', 'market volatility', 'interest rate', 'refinancing risk', 'monetary policies', 'real interest rates', 'transaction liquidity']
+====================================================================================================
+[61] 15:57 UTC  conversation_tagging         US=0.717  cohort=0.71  beat=5/5  FULL-WIN
+     elapsed=9.19s source=ranked  top50-in-cohort: #18:0.717
+     TAGS: ['flood risk', 'flood risks', 'flooding risk', 'flood hazard', 'flood risk assessment', 'flood risk data', 'flood risk reports', 'flood risk management', 'future flood risk', 'flood risk check', 'flood mapping', 'flood insurance', 'flood mitigation', 'flood zones', 'flood prone homes', 'flood modeling', 'flood zone', 'flooding', 'flood inundation mapping', 'flood mitigations']
+====================================================================================================
+[62] 16:26 UTC  named_entities_extraction    US=0.753  cohort=0.71  beat=5/5  FULL-WIN
+     elapsed=9.69s source=ranked  top50-in-cohort: #12:0.721
+     TAGS: ['seattle city hall', 'seattle city council', 'seattle city council washington', 'seattle city hall washington', 'seattle city council seattle city hall', 'seattle city hall seattle city council', 'seattle city hall seattle city council washington', 'parks and city light committee seattle city hall', 'seattle city council lake city garage and plaza', 'seattle city council seattle parks and recreation']
+====================================================================================================
+[63] 16:32 UTC  conversation_tagging         US=0.753  cohort=0.769  beat=0/5  narrow-loss
+     elapsed=8.41s source=ranked  top50-in-cohort: -
+     TAGS: ['affordable housing policy', 'affordable housing', 'housing policy', 'housing policies', 'private affordable housing', 'affordable housing projects', 'affordable housing finance', 'affordable homes act', 'affordable housing supply', 'affordable homes acts', 'housing regulation', 'low income housing', 'housing affordability', 'housing law', 'housing funding programs', 'green affordable housing', 'below market housing units', 'local rent control ordinances', 'low income housing tax credit', 'montana housing law']
+====================================================================================================
+[64] 16:51 UTC  conversation_tagging         US=0.326  cohort=0.669  beat=0/5  TRUNCATION
+     elapsed=11.0s source=pool  top50-in-cohort: -
+     TAGS: ['cuban diaspora', 'united states cubans', 'cuban regime', 'socialism and communism', 'political oppression', 'raul castro', 'criminal indictment', 'justice department', 'no statute limitations', 'accountability for killings', 'brothers to the rescue', 'humanitarian missions', 'refugee rescue', 'cuban refugees', 'florida straits', 'international waters', 'plane shootdown', 'civilian aircraft', 'mig fighter jets', 'missile attack']

@@ -1,0 +1,184 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 20 tasks from data/bench/top_20_conv.jsonl
+
+==============================================================================================================
+
+[0] conversation_tagging  final=0.6284 adj=0.6284
+     raw miner tags (15): ['crime investigation', 'missing persons', 'law enforcement', 'private detective', 'fbi', 'media coverage', 'video evidence', 'forensic evidence']
+     after validate_tag_set (14): ['crime investigation', 'firearms', 'murder trial', 'private detective', 'media coverage', 'video evidence', 'crime scene', 'true crime']
+     GT tags (18): ['missing person', 'private detective', 'law enforcement', 'fbi investigation', 'media coverage', 'video evidence', 'cloud storage', 'suspect disguise']
+     BOTH (matching): ['private detective', 'media coverage', 'video evidence', 'true crime', 'law enforcement']  (5 total)
+     UNIQUE (not in GT): ['crime investigation', 'firearms', 'murder trial', 'crime scene', 'forensic evidence', 'anxiety and stress']  (9 total)
+     max cosine sim: 0.704
+     PENALTIES: none
+
+[1] conversation_tagging  final=0.6531 adj=0.6531
+     raw miner tags (14): ['horse racing', 'betting', 'odds', 'wagering', 'sports gambling', 'race track', 'canberra', 'price analysis']
+     after validate_tag_set (14): ['betting', 'horse racing', 'handicapping', 'riders', 'sports gambling', 'predictions', 'odds', 'price analysis']
+     GT tags (18): ['horse racing', 'canberra', 'betting', 'odds', 'price', 'tab', 'multibet', 'race 6']
+     BOTH (matching): ['horse racing', 'odds', 'canberra', 'sports gambling', 'betting']  (5 total)
+     UNIQUE (not in GT): ['handicapping', 'riders', 'predictions', 'price analysis', 'form guide', 'multi bet']  (9 total)
+     max cosine sim: 0.764
+     PENALTIES: none
+
+[2] conversation_tagging  final=0.6136 adj=0.6136
+     raw miner tags (15): ['frontend development', 'job search', 'resume writing', 'cover letter', 'personal branding', 'online presence', 'professional portfolio', 'employer screening']
+     after validate_tag_set (14): ['personal branding', 'frontend development', 'social media', 'career advice', 'online presence', 'application testing', 'web developer', 'hiring process']
+     GT tags (18): ['front end development', 'job applications', 'resumes', 'cover letters', 'online presence', 'personal branding', 'google search', 'professional website']
+     BOTH (matching): ['personal branding', 'online presence', 'customer support', 'hiring process']  (4 total)
+     UNIQUE (not in GT): ['application testing', 'frontend development', 'social media', 'career advice', 'web developer', 'cover letter']  (10 total)
+     max cosine sim: 0.629
+     PENALTIES: none
+
+[3] conversation_tagging  final=0.6624 adj=0.6624
+     raw miner tags (15): ['software testing', 'unit testing', 'test driven development', 'test coverage', 'quality assurance', 'software development', 'engineering management', 'project management']
+     after validate_tag_set (15): ['software architecture', 'test driven development', 'development process', 'team velocity', 'code quality', 'software testing', 'test coverage', 'quality assurance']
+     GT tags (18): ['unit testing', 'test driven development', 'code coverage', 'software development', 'quality assurance', 'bug prevention', 'overengineering', 'management perspective']
+     BOTH (matching): ['test driven development', 'quality assurance', 'project management', 'unit testing', 'software development', 'bug prevention']  (7 total)
+     UNIQUE (not in GT): ['software architecture', 'development process', 'team velocity', 'code quality', 'software testing', 'test coverage']  (8 total)
+     max cosine sim: 0.730
+     PENALTIES: none
+
+[4] conversation_tagging  final=0.6226 adj=0.6226
+     raw miner tags (15): ['progressive enhancement', 'progressive web apps', 'accessibility', 'service workers', 'web workers', 'offline support', 'caching', 'fetch requests']
+     after validate_tag_set (15): ['web workers', 'web development', 'fetch requests', 'accessibility', 'push notifications', 'browser support', 'service workers', 'web performance']
+     GT tags (18): ['progressive enhancement', 'progressive web apps', 'accessibility', 'baseline experience', 'web app manifest', 'service workers', 'web workers', 'fetch interception']
+     BOTH (matching): ['web workers', 'accessibility', 'push notifications', 'browser support', 'service workers', 'progressive enhancement']  (11 total)
+     UNIQUE (not in GT): ['web development', 'web performance', 'fetch requests', 'network interception']  (4 total)
+     max cosine sim: 0.717
+     PENALTIES: none
+
+[5] conversation_tagging  final=0.6183 adj=0.6183
+     raw miner tags (15): ['javascript', 'web development', 'html parsing', 'script loading', 'async', 'defer', 'variables', 'scope']
+     after validate_tag_set (14): ['web development', 'callback functions', 'api calls', 'javascript', 'scope', 'defer', 'variables', 'recursion']
+     GT tags (18): ['async scripts', 'defer attribute', 'html parsing', 'javascript execution', 'script loading', 'web performance', 'timeline diagrams', 'var let const']
+     BOTH (matching): ['api calls', 'recursion', 'script loading', 'html parsing', 'promises', 'asynchronous programming']  (6 total)
+     UNIQUE (not in GT): ['web development', 'callback functions', 'javascript', 'scope', 'defer', 'variables']  (8 total)
+     max cosine sim: 0.699
+     PENALTIES: none
+
+[6] conversation_tagging  final=0.5993 adj=0.5993
+     raw miner tags (14): ['earthquakes', 'california', 'los angeles', 'seismology', 'geology', 'natural disasters', 'earthquake prediction', 'early warning']
+     after validate_tag_set (14): ['disaster preparedness', 'earthquake prediction', 'natural disasters', 'public safety', 'los angeles', 'early warning', 'infrastructure', 'science and law']
+     GT tags (18): ['earthquakes', 'california', 'los angeles', 'earthquake prediction', 'detection technology', 'seismology', 'geology', 'risk assessment']
+     BOTH (matching): ['earthquake prediction', 'natural disasters', 'public safety', 'los angeles', 'infrastructure', 'highway collapse']  (10 total)
+     UNIQUE (not in GT): ['early warning', 'science and law', 'seismic risk', 'disaster preparedness']  (4 total)
+     max cosine sim: 0.687
+     PENALTIES: none
+
+[7] conversation_tagging  final=0.6068 adj=0.6068
+     raw miner tags (15): ['programming', 'podcasting', 'technology', 'gaming', 'retro games', 'emulation', 'arcade games', 'controllers']
+     after validate_tag_set (15): ['living room setup', 'gaming', 'technology', 'hardware', 'emulation', 'networking', 'retro games', 'usb']
+     GT tags (18): ['podcasting', 'open source funding', 'programming', 'gaming setup', 'retro games', 'emulation', 'mame', 'usb controllers']
+     BOTH (matching): ['emulation', 'retro games', 'programming', 'podcasting', 'latency']  (5 total)
+     UNIQUE (not in GT): ['gaming', 'living room setup', 'technology', 'hardware', 'networking', 'home theater']  (10 total)
+     max cosine sim: 0.662
+     PENALTIES: none
+
+[8] conversation_tagging  final=0.6342 adj=0.6342
+     raw miner tags (15): ['git', 'github', 'version control', 'cloning', 'branches', 'repository', 'commit', 'push']
+     after validate_tag_set (14): ['push', 'debugging', 'feature development', 'commit', 'git', 'collaboration', 'cloning', 'repository']
+     GT tags (18): ['github', 'git', 'sentry', 'repositories', 'cloning', 'git clone', 'version control', 'commit']
+     BOTH (matching): ['push', 'debugging', 'git', 'commit', 'cloning', 'version control']  (7 total)
+     UNIQUE (not in GT): ['feature development', 'software development', 'source code', 'repository', 'continuous integration', 'branches']  (7 total)
+     max cosine sim: 0.785
+     PENALTIES: none
+
+[9] conversation_tagging  final=0.6171 adj=0.6171
+     raw miner tags (15): ['product management', 'project planning', 'software development', 'team autonomy', 'intrinsic motivation', 'employee wellbeing', 'workplace culture', 'time management']
+     after validate_tag_set (15): ['project planning', 'agile methods', 'time management', 'software development', 'team autonomy', 'intrinsic motivation', 'deadlines', 'task prioritization']
+     GT tags (18): ['intrinsic motivation', 'emotional wellbeing', 'project shaping', 'product management', 'strategic thinking', 'meeting overload', 'work life balance', 'six week cycle']
+     BOTH (matching): ['time management', 'intrinsic motivation', 'strategic thinking', 'team autonomy', 'leadership', 'product management']  (6 total)
+     UNIQUE (not in GT): ['project planning', 'agile methods', 'task prioritization', 'deadlines', 'employee wellbeing', 'workplace culture']  (9 total)
+     max cosine sim: 0.688
+     PENALTIES: none
+
+[10] conversation_tagging  final=0.6762 adj=0.6762
+     raw miner tags (15): ['fuzz testing', 'property based testing', 'software testing', 'hypothesis', 'test automation', 'randomized testing', 'evolutionary search', 'security testing']
+     after validate_tag_set (15): ['debugging', 'regression testing', 'software quality', 'hypothesis', 'fuzz testing', 'property based testing', 'security testing', 'test automation']
+     GT tags (18): ['fuzz testing', 'property based testing', 'hypothesis', 'hypofuzz', 'randomized testing', 'evolutionary search', 'security research', 'unit testing']
+     BOTH (matching): ['unit testing', 'fuzz testing', 'property based testing', 'bug finding', 'randomized testing', 'evolutionary search']  (8 total)
+     UNIQUE (not in GT): ['debugging', 'software quality', 'regression testing', 'security testing', 'test automation', 'test suites']  (7 total)
+     max cosine sim: 0.725
+     PENALTIES: none
+
+[11] conversation_tagging  final=0.6313 adj=0.6313
+     raw miner tags (15): ['avalanche', 'skiing', 'backcountry', 'winter storm', 'mountain safety', 'rescue', 'outdoor sports', 'snow conditions']
+     after validate_tag_set (14): ['risk management', 'snow conditions', 'emergency equipment', 'weather warnings', 'winter storm', 'mountain safety', 'avalanche', 'sports medicine']
+     GT tags (18): ['avalanche', 'backcountry skiing', 'skier safety', 'avalanche warnings', 'winter storm', 'castle peak', 'truckee', 'missing skiers']
+     BOTH (matching): ['risk management', 'winter storm', 'avalanche', 'sports medicine']  (4 total)
+     UNIQUE (not in GT): ['snow conditions', 'emergency equipment', 'weather warnings', 'mountain safety', 'wilderness travel', 'hiking']  (10 total)
+     max cosine sim: 0.694
+     PENALTIES: none
+
+[12] conversation_tagging  final=0.6733 adj=0.6733
+     raw miner tags (15): ['elections', 'political campaigns', 'democratic party', 'primary race', 'north carolina', 'progressive politics', 'incumbents', 'fundraising']
+     after validate_tag_set (15): ['primary race', 'incumbents', 'elections', 'party leadership', 'electoral upsets', 'democratic party', 'political campaigns', 'progressive politics']
+     GT tags (16): ['democratic party', 'north carolina politics', 'primary election', 'campaign fundraising', 'incumbent challenger', 'progressive populism', 'election polling', 'early voting']
+     BOTH (matching): ['midterm elections', 'democratic party', 'voter turnout', 'early voting']  (4 total)
+     UNIQUE (not in GT): ['incumbents', 'elections', 'electoral upsets', 'party leadership', 'political campaigns', 'progressive politics']  (11 total)
+     max cosine sim: 0.719
+     PENALTIES: none
+
+[13] conversation_tagging  final=0.6292 adj=0.6292
+     raw miner tags (14): ['martial arts', 'kickboxing', 'gym training', 'combat sports', 'mixed martial arts', 'ufc', 'jiu jitsu', 'grappling']
+     after validate_tag_set (13): ['martial arts', 'combat sports', 'mixed martial arts', 'grappling', 'boxing', 'athletic training', 'gym training', 'jiu jitsu']
+     GT tags (18): ['kickboxing', 'gym training', 'jet center', 'california', 'bridgeport', 'martial arts', 'nineties', 'fighting styles']
+     BOTH (matching): ['martial arts', 'kickboxing', 'gym training', 'jiu jitsu', 'fighting styles', 'sports history']  (8 total)
+     UNIQUE (not in GT): ['mixed martial arts', 'grappling', 'boxing', 'athletic training', '1990s']  (5 total)
+     max cosine sim: 0.714
+     PENALTIES: none
+
+[14] conversation_tagging  final=0.5602 adj=0.5602
+     raw miner tags (15): ['domestic abuse', 'family violence', 'emotional abuse', 'physical abuse', 'trauma', 'child welfare', 'relationship dynamics', 'religious institutions']
+     after validate_tag_set (14): ['accountability', 'religious institutions', 'power and authority', 'emotional abuse', 'trauma', 'church leadership', 'pastoral counseling', 'child welfare']
+     GT tags (18): ['domestic abuse', 'anger issues', 'family violence', 'bruises', 'normalization', 'boyfriend support', 'confrontation', 'church leadership']
+     BOTH (matching): ['church leadership', 'family violence', 'mental health', 'domestic abuse']  (4 total)
+     UNIQUE (not in GT): ['accountability', 'relationship dynamics', 'power and authority', 'emotional abuse', 'trauma', 'pastoral counseling']  (10 total)
+     max cosine sim: 0.615
+     PENALTIES: none
+
+[15] conversation_tagging  final=0.5907 adj=0.5907
+     raw miner tags (14): ['martial arts', 'boxing', 'fighting', 'combat sports', 'gym training', 'coaching', 'professional athletes', 'training camp']
+     after validate_tag_set (14): ['martial arts', 'boxing champions', 'training camp', 'mixed martial arts', 'boxing', 'professional athletes', 'gym training', 'boxing coach']
+     GT tags (18): ['mma', 'boxing', 'gym training', 'coaching', 'training camps', 'los angeles', 'downtown', 'east la']
+     BOTH (matching): ['boxing', 'gym training', 'los angeles', 'sports history', 'combat sports', 'athlete networking']  (7 total)
+     UNIQUE (not in GT): ['martial arts', 'training camp', 'mixed martial arts', 'professional athletes', 'boxing coach', 'fighting']  (7 total)
+     max cosine sim: 0.678
+     PENALTIES: none
+
+[16] conversation_tagging  final=0.6402 adj=0.6402
+     raw miner tags (15): ['lottery', 'jackpots', 'gambling', 'personal finance', 'money', 'wealth', 'payouts', 'annuities']
+     after validate_tag_set (15): ['personal finance', 'financial planning', 'gambling', 'money', 'wealth', 'annuities', 'investing', 'prize pools']
+     GT tags (18): ['lottery', 'jackpot', 'cash payout', 'annuity payments', 'lump sum', 'personal finance', 'money management', 'ticket sales']
+     BOTH (matching): ['personal finance', 'government revenue', 'probability', 'lottery', 'taxes']  (5 total)
+     UNIQUE (not in GT): ['financial planning', 'gambling', 'money', 'annuities', 'wealth', 'investing']  (10 total)
+     max cosine sim: 0.682
+     PENALTIES: none
+
+[17] conversation_tagging  final=0.6408 adj=0.6408
+     raw miner tags (15): ['artificial intelligence', 'daily news', 'podcast', 'email subscription', 'newsletter', 'updates', 'technology', 'media']
+     after validate_tag_set (15): ['podcast', 'episode bio', 'online links', 'technology', 'information', 'updates', 'email subscription', 'artificial intelligence']
+     GT tags (18): ['daily brief', 'artificial intelligence', 'news updates', 'podcast', 'episode links', 'show notes', 'email subscription', 'website']
+     BOTH (matching): ['website', 'podcast', 'artificial intelligence', 'email subscription']  (4 total)
+     UNIQUE (not in GT): ['episode bio', 'online links', 'technology', 'information', 'updates', 'audio content']  (11 total)
+     max cosine sim: 0.705
+     PENALTIES: none
+
+[18] conversation_tagging  final=0.6889 adj=0.6889
+     raw miner tags (15): ['software testing', 'test automation', 'automation infrastructure', 'continuous integration', 'continuous delivery', 'release management', 'quality assurance', 'testing strategy']
+     after validate_tag_set (15): ['test execution', 'client applications', 'device testing', 'test automation', 'release management', 'server components', 'testing strategy', 'continuous integration']
+     GT tags (18): ['test automation', 'automated testing', 'automation infrastructure', 'testing at scale', 'client devices', 'server components', 'netflix app', 'test selection']
+     BOTH (matching): ['test execution', 'device testing', 'test automation', 'server components', 'continuous integration', 'quality assurance']  (9 total)
+     UNIQUE (not in GT): ['client applications', 'release management', 'testing strategy', 'software testing', 'scaling systems', 'continuous delivery']  (6 total)
+     max cosine sim: 0.814
+     PENALTIES: none
+
+[19] conversation_tagging  final=0.6232 adj=0.6232
+     raw miner tags (15): ['react', 'react hooks', 'class components', 'functional components', 'javascript', 'web development', 'frontend development', 'user interface']
+     after validate_tag_set (15): ['sentry', 'web development', 'debugging', 'frontend development', 'software tooling', 'developer workflow', 'javascript', 'react']
+     GT tags (19): ['react hooks', 'class components', 'function components', 'react', 'javascript', 'css', 'node modules', 'web development']
+     BOTH (matching): ['sentry', 'web development', 'debugging', 'javascript', 'react', 'react hooks']  (9 total)
+     UNIQUE (not in GT): ['frontend development', 'developer workflow', 'software tooling', 'functional components', 'lifecycle methods', 'component state']  (6 total)
+     max cosine sim: 0.686
+     PENALTIES: none

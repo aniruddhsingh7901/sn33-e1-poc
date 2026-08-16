@@ -1,0 +1,409 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 45 tasks from data/bench/all_ner.jsonl
+
+==============================================================================================================
+
+[0] named_entities_extraction  final=0.5016 adj=0.5016
+     raw miner tags (20): ['health and safety committee', 'darrell watson', 'kevin flynn', 'serena gonzales-gutierrez', 'sarah parady', 'amanda sandoval', 'amanda sawyer', 'jamie torres']
+     after validate_tag_set (20): ['neon forensics llc', 'sarah parady', 'leon kelly', 'anne wallace', 'denver', 'trepp', 'council resolution 26 0340', 'weecycle']
+     GT tags (50): ['health and safety', 'minutes', 'wednesday march 25 2026', '10:30 am', 'chair darrell watson', 'vice chair kevin flynn', 'member serena gonzales-gutierrez', 'member sarah parady']
+     BOTH (matching): ['emergent forensic pathology services', 'denver', 'neon forensics llc']  (3 total)
+     UNIQUE (not in GT): ['kbra', 'kevin flynn', 'council resolution 26 0341', 'healthy food for denver s kids initiative', 'jamie torres', 'amanda sawyer']  (17 total)
+     max cosine sim: 0.571
+     PENALTIES: none
+
+[1] named_entities_extraction  final=0.5261 adj=0.5261
+     raw miner tags (26): ['darrell watson', 'kevin flynn', 'serena gonzales-gutierrez', 'sarah parady', 'amanda sandoval', 'amanda sawyer', 'jamie torres', 'anne wallace']
+     after validate_tag_set (20): ['000', '383', 'infant formula', 'amanda sandoval', 'denver', 'leon kelly', 'neon forensics llc', 'council resolution 26 0340']
+     GT tags (52): ['health and safety', 'minutes', 'wednesday march 25 2026', '10:30 am', 'chair darrell watson', 'vice chair kevin flynn', 'member serena gonzales-gutierrez', 'member sarah parady']
+     BOTH (matching): ['neon forensics llc', '000', '383', 'nutrition education', 'infant formula', 'denver']  (9 total)
+     UNIQUE (not in GT): ['kevin flynn', 'council resolution 26 0341', '000 00', '500 00', 'healthy food for denver s kids initiative', 'jamie torres']  (11 total)
+     max cosine sim: 0.576
+     PENALTIES: none
+
+[2] named_entities_extraction  final=0.5512 adj=0.5512
+     raw miner tags (17): ['south platte river committee', 'jamie torres', 'sarah parady', 'flor alvidrez', 'amanda sandoval', 'kevin flynn', 'chris hinds', 'darrell watson']
+     after validate_tag_set (17): ['darrell watson', 'kevin flynn', 'chris hinds', 'council bill 26 0476', 'council district 9', '3232 larimer street', '4621 n telluride street', 'council district 11']
+     GT tags (43): ['south platte river committee', 'committee minutes', 'wednesday april 8 2026', '1:30 pm', 'chair jamie torres', 'vice chair sarah parady', 'councilmember flor alvidrez', 'councilmember kevin flynn']
+     BOTH (matching): ['council district 9', '3232 larimer street', 'south platte river committee', 'council district 11']  (4 total)
+     UNIQUE (not in GT): ['council bill 26 0476', 'kevin flynn', 'chris hinds', '4621 n telluride street', 'jamie torres', 'melissa mata']  (13 total)
+     max cosine sim: 0.619
+     PENALTIES: none
+
+[3] named_entities_extraction  final=0.5620 adj=0.5620
+     raw miner tags (23): ['seattle city council', 'finance native communities and tribal governments committee', 'seattle city hall', 'council chamber', '600 4th avenue seattle wa 98104', 'councilmember dan strauss', 'councilmember joy hollingsworth', 'councilmember robert kettle']
+     after validate_tag_set (20): ['united states', 'seattle city hall', 'council chamber', 'belltown', 'federation internationale de football association', 'office to residential conversions 2026', 'martin selig real estate', 'seattlefwc26']
+     GT tags (44): ['seattle council committee report', 'finance native communities and tribal governments committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'tuesday may 5 2026']
+     BOTH (matching): ['councilmember maritza rivera', 'cb 121201', 'council chamber', 'councilmember rob saka', 'federation internationale de football association', 'councilmember joy hollingsworth']  (8 total)
+     UNIQUE (not in GT): ['seattlefwc26', 'seattle', 'seattle city council', 'belltown', 'united states', 'martin selig real estate']  (12 total)
+     max cosine sim: 0.633
+     PENALTIES: none
+
+[4] named_entities_extraction  final=0.5954 adj=0.5954
+     raw miner tags (10): ['city of oakland', 'oakland city council life enrichment committee', 'carroll fife', 'noel gallo', 'oakland inclusionary zoning ordinance', 'oakland city hall', '1 frank h. ogawa plaza', 'city of piedmont']
+     after validate_tag_set (10): ['city of piedmont', 'city of oakland', 'oakland city council life enrichment committee', 'library agreement with city of piedmont', '1 frank h ogawa plaza', 'oakland inclusionary zoning ordinance', 'oakland public library', 'oakland city hall']
+     GT tags (36): ['city of oakland office of the city clerk', 'oakland city hall', '1 frank h ogawa plaza', 'room 201', 'meeting minutes final', 'life enrichment committee', 'city hall', 'oakland california 94612']
+     BOTH (matching): ['city of piedmont', 'library agreement with city of piedmont', 'oakland city council life enrichment committee', '1 frank h ogawa plaza', 'oakland city hall', 'noel gallo']  (6 total)
+     UNIQUE (not in GT): ['oakland public library', 'city of oakland', 'carroll fife', 'oakland inclusionary zoning ordinance']  (4 total)
+     max cosine sim: 0.717
+     PENALTIES: none
+
+[5] named_entities_extraction  final=0.5124 adj=0.5124
+     raw miner tags (21): ['city of boston', 'boston city council', 'boston city hall', 'boston', 'downtown boston', 'blue ribbon commission', 'workforce innovation and opportunity act (wioa)', 'wioa youth program grant']
+     after validate_tag_set (20): ['boston', 'boston city council', 'rabbi yitzhak aharon korff', 'downtown boston', 'president louijeune', 'blue ribbon commission', 'wioa youth program grant', 'masshire department of career services']
+     GT tags (34): ['june 11 2025', 'wednesday june 11 2025', '12:06 pm', 'june 4 2025', 'city council of the city of boston', 'city of boston', 'city hall', 'christopher a iannella chamber']
+     BOTH (matching): ['president louijeune', 'united states department of labor', 'rabbi yitzhak aharon korff', 'wioa youth program grant', 'city of boston', 'masshire department of career services']  (9 total)
+     UNIQUE (not in GT): ['boston', 'boston city hall', 'masshire north shore', 'blue ribbon commission', 'downtown boston', 'national dislocated worker grants']  (11 total)
+     max cosine sim: 0.579
+     PENALTIES: none
+
+[6] named_entities_extraction  final=0.5314 adj=0.5314
+     raw miner tags (21): ['seattle', 'seattle city council', 'public safety committee', 'seattle human services department', 'mayor katie wilson', 'councilmember robert kettle', 'councilmember rob saka', 'councilmember eddie lin']
+     after validate_tag_set (20): ['275 million', 'community based violence intervention and prevention initiative', 'councilmember debora juarez', 'seattle city council', 'councilmember eddie lin', 'councilmember maritza rivera', 'councilmember rob saka', 'us department of justice']
+     GT tags (40): ['seattle council committee report', 'public safety committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'friday april 24 2026']
+     BOTH (matching): ['public safety committee', 'brent lo', 'inf 2882', 'seattle neighborhood impact framework', 'inf 2883', 'councilmember robert kettle']  (6 total)
+     UNIQUE (not in GT): ['14 7 million', 'seattle', 'councilmember maritza rivera', '275 million', 'seattle city council', 'community based violence intervention and prevention initiative']  (14 total)
+     max cosine sim: 0.607
+     PENALTIES: none
+
+[7] named_entities_extraction  final=0.5368 adj=0.5368
+     raw miner tags (17): ['seattle city council', 'public safety committee', 'seattle city hall', 'councilmember robert kettle', 'councilmember rob saka', 'councilmember eddie lin', 'councilmember debora juarez', 'councilmember maritza rivera']
+     after validate_tag_set (17): ['public safety committee', 'brent lo', 'councilmember maritza rivera', 'community violence intervention ecosystem', 'council rules and procedures', 'seattle city council', 'council chamber', 'inf 2882']
+     GT tags (43): ['seattle council committee report', 'public safety committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'friday april 24 2026']
+     BOTH (matching): ['public safety committee', 'brent lo', 'councilmember maritza rivera', 'council rules and procedures', 'council chamber', 'inf 2882']  (14 total)
+     UNIQUE (not in GT): ['seattle city hall', 'community violence intervention ecosystem', 'seattle city council']  (3 total)
+     max cosine sim: 0.643
+     PENALTIES: none
+
+[8] named_entities_extraction  final=0.5684 adj=0.5684
+     raw miner tags (15): ['seattle city council', 'seattle city hall', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'eddie lin', 'alexis mercedes rinck', 'rob saka']
+     after validate_tag_set (15): ['inf 2818 council briefing minutes 2026', 'dionne foster', 'seattle city council', 'alexis mercedes rinck', 'robert kettle', 'phillip wood smith', 'maritza rivera', 'dan strauss']
+     GT tags (37): ['seattle council committee report', 'council briefing', 'council chamber', 'city hall', 'monday april 13 2026', '2:00 pm', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'robert kettle', 'maritza rivera', 'dan strauss', 'eddie lin']  (9 total)
+     UNIQUE (not in GT): ['inf 2818 council briefing minutes 2026', 'seattle city council', 'phillip wood smith', 'inf 2819 city council agenda 2026', 'seattle city hall', '600 4th avenue seattle wa 98104']  (6 total)
+     max cosine sim: 0.653
+     PENALTIES: none
+
+[9] named_entities_extraction  final=0.5771 adj=0.5771
+     raw miner tags (25): ['city council of the city of boston', 'city of boston', 'boston city hall', 'christopher a. iannella chamber', 'president louijeune', 'councilor breadon', 'councilor coletta zapata', 'councilor durkan']
+     after validate_tag_set (20): ['000', 'boston city hall', 'councilor mejia', 'councilor fitzgerald', 'councilor flynn', 'councilor murphy', 'pastor deshay freemyer jackson', 'councilor durkan']
+     GT tags (45): ['october 22 2025', 'wednesday october 22 2025', '12:05 pm', 'october 8 2025', 'regular meeting', 'city council of the city of boston', 'city of boston', 'city council meeting']
+     BOTH (matching): ['city council of the city of boston', 'president louijeune', 'councilor breadon', '000', 'councilor fitzgerald', 'united states department of the interior']  (13 total)
+     UNIQUE (not in GT): ['boston city hall', '000 00', 'land and water conservation fund act of 1965 pub l 88 578', 'brighton allston congregational church', 'pastor deshay freemyer jackson', 'councilor pep n']  (7 total)
+     max cosine sim: 0.680
+     PENALTIES: none
+
+[10] named_entities_extraction  final=0.5405 adj=0.5405
+     raw miner tags (15): ['seattle city council', 'housing arts and civil rights committee', 'seattle city hall', 'council chamber', '600 4th avenue seattle wa 98104', 'dionne foster', 'eddie lin', 'debora juarez']
+     after validate_tag_set (15): ['housing arts and civil rights committee', 'dionne foster', 'office of arts and culture', 'seattle arts', 'seattle city council', 'alexis mercedes rinck', 'tera beach', 'council chamber']
+     GT tags (50): ['seattle council committee report', 'housing arts and civil rights committee', 'committee meeting', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['housing arts and civil rights committee', 'dionne foster', 'office of arts and culture', 'seattle arts', 'alexis mercedes rinck', 'tera beach']  (12 total)
+     UNIQUE (not in GT): ['600 4th avenue seattle wa 98104', 'seattle city hall', 'seattle city council']  (3 total)
+     max cosine sim: 0.604
+     PENALTIES: none
+
+[11] named_entities_extraction  final=0.4800 adj=0.4800
+     raw miner tags (9): ['city of oakland', 'oakland city council', 'public safety committee', 'oakland city hall', 'councilmember charlene wang', 'rowena brown', 'carroll fife', 'ken houston']
+     after validate_tag_set (9): ['public safety committee', 'councilmember charlene wang', 'city of oakland', 'oakland city council', 'rowena brown', 'ken houston', '1 frank h ogawa plaza', 'oakland city hall']
+     GT tags (40): ['city of oakland office of the city clerk', 'oakland city hall', '1 frank h ogawa plaza', 'room 201', 'oakland california 94612', 'public safety committee', 'city of oakland', 'city of oakland website']
+     BOTH (matching): ['public safety committee', 'city of oakland', 'rowena brown', 'ken houston', '1 frank h ogawa plaza', 'oakland city hall']  (7 total)
+     UNIQUE (not in GT): ['councilmember charlene wang', 'oakland city council']  (2 total)
+     max cosine sim: 0.665
+     PENALTIES: ['less_than_3_unique (×0.95)']
+
+[12] named_entities_extraction  final=0.5577 adj=0.5577
+     raw miner tags (17): ['seattle city council', 'public safety committee', 'seattle city hall', 'council chamber', 'councilmember robert kettle', 'councilmember rob saka', 'councilmember eddie lin', 'councilmember debora juarez']
+     after validate_tag_set (16): ['public safety committee', 'brent lo', 'councilmember maritza rivera', 'council rules and procedures', 'seattle', 'seattle city council', 'council chamber', 'inf 2882']
+     GT tags (42): ['seattle council committee report', 'public safety committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'friday april 24 2026']
+     BOTH (matching): ['public safety committee', 'brent lo', 'council rules and procedures', 'council chamber', 'inf 2882', 'seattle neighborhood impact framework']  (8 total)
+     UNIQUE (not in GT): ['seattle', 'councilmember maritza rivera', 'seattle city council', 'councilmember rob saka', 'seattle city hall', 'councilmember debora juarez']  (8 total)
+     max cosine sim: 0.620
+     PENALTIES: none
+
+[13] named_entities_extraction  final=0.5254 adj=0.5254
+     raw miner tags (24): ['transportation and infrastructure committee', 'chair shontel lewis', 'vice chair chris hinds', 'flor alvidrez', 'kevin flynn', 'stacie gilmore', 'paul kashmann', 'amanda sandoval']
+     after validate_tag_set (20): ['observational field assessments', 'heidi elizabeth schroeder', 'doti 202683100', '3 31 2027', 'doti', 'vice chair chris hinds', 'council resolution 26 0358', 'city owned buildings and facilities']
+     GT tags (43): ['chair shontel lewis', 'vice chair chris hinds', 'member flor alvidrez', 'member kevin flynn', 'member stacie gilmore', 'member paul kashmann', 'member amanda sandoval', 'staff melissa mata']
+     BOTH (matching): ['vice chair chris hinds', 'elizabeth heidi kealey', 'revocable permit', '392', 'doti', 'observational field assessments']  (7 total)
+     UNIQUE (not in GT): ['council resolution 26 0342', 'city owned buildings and facilities', 'paul kashmann', 'kevin flynn', 'thomas j zingaro', 'doti 202683100']  (13 total)
+     max cosine sim: 0.560
+     PENALTIES: none
+
+[14] named_entities_extraction  final=0.5882 adj=0.5882
+     raw miner tags (22): ['city council of the city of boston', 'city of boston', 'boston city hall', 'christopher a. iannella chamber', 'president louijeune', 'councilor breadon', 'councilor coletta zapata', 'councilor durkan']
+     after validate_tag_set (20): ['councilor durkan', 'councilor worrell', 'councilor breadon', 'councilor pep n', 'councilor murphy', '500', 'city council of the city of boston', 'city of boston']
+     GT tags (39): ['september 24 2025', 'wednesday september 24 2025', '12:03 p.m.', 'september 17 2025', 'regular meeting', 'city council of the city of boston', 'city of boston', 'city council meeting']
+     BOTH (matching): ['councilor santana', 'city council of the city of boston', 'president louijeune', 'councilor breadon', '500', 'councilor worrell']  (15 total)
+     UNIQUE (not in GT): ['boston city hall', '000 appropriation', 'councilor pep n', 'christopher a iannella chamber', 'st nectarios greek orthodox church']  (5 total)
+     max cosine sim: 0.687
+     PENALTIES: none
+
+[15] named_entities_extraction  final=0.5577 adj=0.5577
+     raw miner tags (22): ['seattle city council', 'transportation waterfront and seattle center committee', 'seattle city hall', 'council chamber', 'seattle', 'washington state', 'washington department of revenue', 'washington state property tax']
+     after validate_tag_set (20): ['transportation waterfront and seattle center committee', 'local governments', 'washington state', 'seattle municipal code chapter 11 45', 'property taxes', 'cities', 'family wealth management', 'cb 121176']
+     GT tags (47): ['seattle council committee report', 'transportation waterfront and seattle center committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'thursday may 7 2026']
+     BOTH (matching): ['dionne foster', 'cb 121176', 'alexis mercedes rinck', 'robert kettle', 'eddie lin', 'rob saka']  (7 total)
+     UNIQUE (not in GT): ['seattle', 'washington state property tax', 'seattle city council', 'seattle municipal code chapter 11 45', 'cities', 'washington state']  (13 total)
+     max cosine sim: 0.663
+     PENALTIES: none
+
+[16] named_entities_extraction  final=0.5480 adj=0.5480
+     raw miner tags (10): ['city of oakland', 'oakland city hall', 'office of the city clerk', 'public works and transportation committee', 'zac unger', 'ken houston', 'charlene wang', 'noel gallo']
+     after validate_tag_set (10): ['city of oakland', 'ken houston', 'public works and transportation committee', '1 frank h ogawa plaza', 'office of the city clerk', 'oakland city hall', 'charlene wang', 'noel gallo']
+     GT tags (43): ['city of oakland office of the city clerk', 'oakland city hall', '1 frank h. ogawa plaza', 'room 201', 'meeting minutes final', 'oakland california 94612', 'city of oakland website', 'http://www.oaklandca.gov']
+     BOTH (matching): ['ken houston', 'public works and transportation committee', 'charlene wang', 'oakland city hall', 'noel gallo']  (5 total)
+     UNIQUE (not in GT): ['city of oakland', '1 frank h ogawa plaza', 'office of the city clerk', 'oakland california', 'zac unger']  (5 total)
+     max cosine sim: 0.665
+     PENALTIES: none
+
+[17] named_entities_extraction  final=0.5336 adj=0.5336
+     raw miner tags (20): ['xcel energy', 'colorado public utilities commission', 'colorado', 'wildfire mitigation plan', 'marshall fire', 'noaa', 'transportation and infrastructure committee', 'shontel lewis']
+     after validate_tag_set (20): ['high performance existing buildings program', 'xcel energy', 'flor alvidrez', 'amanda sandoval', 'colorado', 'stacie gilmore', 'council bill 26 0563', 'paul kashmann']
+     GT tags (42): ['transportation and infrastructure', 'minutes', 'wednesday april 29 2026', '1:30 pm', 'chair shontel lewis', 'vice chair chris hinds', 'councilmember flor alvidrez', 'councilmember kevin flynn']
+     BOTH (matching): ['xcel energy', 'atis elevator inspections llc']  (2 total)
+     UNIQUE (not in GT): ['colorado public utilities commission', 'paul kashmann', 'marshall fire', 'kevin flynn', 'chris hinds', 'msci']  (18 total)
+     max cosine sim: 0.626
+     PENALTIES: none
+
+[18] named_entities_extraction  final=0.5627 adj=0.5627
+     raw miner tags (22): ['city council of the city of boston', 'city of boston', 'boston city hall', 'christopher a. iannella chamber', 'president louijeune', 'councilor breadon', 'councilor durkan', 'councilor fitzgerald']
+     after validate_tag_set (20): ['message and order 1548', 'president louijeune', 'fy26 public safety answering point support and incentive grant', '125', 'city of boston', 'christopher a iannella chamber', 'councilor flynn', 'councilor weber']
+     GT tags (44): ['august 27 2025', 'city council of the city of boston', 'city of boston', 'christopher a iannella chamber', 'city hall', 'wednesday august 27 2025', '12:08 p.m.', 'president louijeune']
+     BOTH (matching): ['councilor santana', 'city council of the city of boston', 'president louijeune', 'councilor breadon', 'councilor worrell', 'message and order 1548']  (16 total)
+     UNIQUE (not in GT): ['councilor pep n', '000 00', 'massachusetts executive office of public safety', 'boston city hall']  (4 total)
+     max cosine sim: 0.671
+     PENALTIES: none
+
+[19] named_entities_extraction  final=0.5403 adj=0.5403
+     raw miner tags (21): ['seattle city council', 'land use and sustainability committee', 'seattle city hall', '600 4th avenue seattle wa 98104', 'councilmember eddie lin', 'councilmember dionne foster', 'councilmember joy hollingsworth', 'councilmember alexis mercedes rinck']
+     after validate_tag_set (20): ['lylianna allala', 'land use and sustainability committee', 'marketbeat', 'washington', 'councilmember alexis mercedes rinck', 'councilmember dionne foster', 'union pacific', 'councilmember maritza rivera']
+     GT tags (41): ['seattle council committee report', 'land use and sustainability committee', 'council chamber', 'city hall', 'wednesday april 29 2026', '9:30 am', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['councilmember maritza rivera', 'land use and sustainability committee', 'councilmember alexis mercedes rinck', 'councilmember joy hollingsworth', 'office of sustainability and environment', 'councilmember dan strauss']  (9 total)
+     UNIQUE (not in GT): ['seattle bellevue', 'seattle city council', 'union pacific', 'united states', 'newmark', '600 4th avenue seattle wa 98104']  (11 total)
+     max cosine sim: 0.661
+     PENALTIES: none
+
+[20] named_entities_extraction  final=0.5797 adj=0.5797
+     raw miner tags (20): ['city and county of denver', 'denver', 'denver city council', 'safety housing education and homelessness committee', 'department of housing stability', 'department of public health & environment', 'opencities', 'covid-19 operations']
+     after validate_tag_set (20): ['denver zoning code', '8401 east belleview avenue', 'sarah parady', 'diana romero campbell', 'department of public health environment', 'opencities', 'preservation of affordable housing ordinance', 'action item 26 0561']
+     GT tags (42): ['community planning and housing', 'minutes', 'tuesday april 28 2026', '1:30 pm', 'chair sarah parady', 'vice chair diana romero campbell', 'councilmember flor alvidrez', 'councilmember shontel lewis']
+     BOTH (matching): ['preservation of affordable housing ordinance', '8401 east belleview avenue', 'denver revised municipal code']  (3 total)
+     UNIQUE (not in GT): ['covid 19 operations', 'denver zoning code', 'action item 26 0561', 'denver city council', 'department of housing stability', 'action item 26 0557']  (17 total)
+     max cosine sim: 0.653
+     PENALTIES: none
+
+[21] named_entities_extraction  final=0.5272 adj=0.5272
+     raw miner tags (18): ['seattle city council', 'transportation waterfront and seattle center committee', 'seattle city hall', 'rob saka', 'alexis mercedes rinck', 'dionne foster', 'eddie lin', 'robert kettle']
+     after validate_tag_set (18): ['dionne foster', 'south jackson street', 'alexis mercedes rinck', 'seattle city council', '29th avenue south', 'robert kettle', 'federal income tax', 'resolution 32195']
+     GT tags (42): ['seattle council committee report', 'transportation waterfront and seattle center committee', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'thursday april 16 2026', '9:30 am']
+     BOTH (matching): ['dionne foster', 'south jackson street', 'alexis mercedes rinck', '29th avenue south', 'robert kettle', 'eddie lin']  (10 total)
+     UNIQUE (not in GT): ['seattle city council', 'federal income tax', 'seattle city hall', 'forvis mazars', 'dr r l manaway sr way', 'information 2876']  (8 total)
+     max cosine sim: 0.613
+     PENALTIES: none
+
+[22] named_entities_extraction  final=0.5268 adj=0.5268
+     raw miner tags (23): ['boston city council', 'city of boston', 'boston city hall', 'christopher a. iannella chamber', 'louijeune', 'breadon', 'coletta zapata', 'durkan']
+     after validate_tag_set (20): ['city of boston', 'christopher a iannella chamber', '000', 'boston city hall', 'pep n', 'mejia', 'louijeune', 'breadon']
+     GT tags (41): ['city council of the city of boston', 'city of boston', 'boston city hall', 'christopher a. iannella chamber', 'wednesday september 24 2025', 'september 24 2025', '12:03 p.m.', 'president louijeune']
+     BOTH (matching): ['city of boston', 'boston city hall']  (2 total)
+     UNIQUE (not in GT): ['000', 'durkan', 'edward flynn', 'coletta zapata', 'erin murphy', 'santana']  (18 total)
+     max cosine sim: 0.651
+     PENALTIES: none
+
+[23] named_entities_extraction  final=0.5572 adj=0.5572
+     raw miner tags (17): ['seattle city council', 'human services labor and economic development committee', 'seattle city hall', 'seattle wa 98104', '600 4th avenue', 'councilmember alexis mercedes rinck', 'councilmember dionne foster', 'councilmember debora juarez']
+     after validate_tag_set (17): ['councilmember debora juarez', 'moody s', 'fitch', 'seattle city council', 'ryan patrick devlin', 'councilmember alexis mercedes rinck', 'human services labor and economic development committee', 'councilmember rob saka']
+     GT tags (38): ['seattle council committee report', 'human services labor and economic development committee', 'council chamber', 'city hall', 'friday april 17 2026', '9:30 am', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['ryan patrick devlin', 'councilmember alexis mercedes rinck', 'human services labor and economic development committee', 'inf 2878', 'seattle wa 98104', 'seattle music commission']  (8 total)
+     UNIQUE (not in GT): ['moody s', 'fitch', 'seattle city council', 'councilmember rob saka', 'seattle city hall', 's p']  (9 total)
+     max cosine sim: 0.605
+     PENALTIES: none
+
+[24] named_entities_extraction  final=0.5861 adj=0.5861
+     raw miner tags (21): ['seattle city council', 'public safety committee', 'seattle municipal code chapter 14.125', 'council bill 121164', 'ordinance relating to civil immigration enforcement', 'councilmember robert kettle', 'councilmember rob saka', 'councilmember debora juarez']
+     after validate_tag_set (20): ['visit seattle', 'united states', 'cbre group', 'q1 2026 u s hotel construction pipeline trend report', 'councilmember robert kettle', 'councilmember alexis mercedes rinck', 'puget sound business journal', 'councilmember maritza rivera']
+     GT tags (44): ['seattle council committee report', 'public safety committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'tuesday march 10 2026']
+     BOTH (matching): ['councilmember debora juarez', 'public safety committee', 'councilmember maritza rivera', 'council bill 121164', 'councilmember alexis mercedes rinck', 'councilmember rob saka']  (8 total)
+     UNIQUE (not in GT): ['lodging econometrics', 'explore seattle southside', 'seattle', 'cbre group', 'seattle city council', 'q1 2026 u s hotel construction pipeline trend report']  (12 total)
+     max cosine sim: 0.675
+     PENALTIES: none
+
+[25] named_entities_extraction  final=0.5187 adj=0.5187
+     raw miner tags (12): ['city of oakland', 'oakland city hall', 'oakland city council public safety committee', 'special public safety committee', 'oakland city council chamber', 'charlene wang', 'ken houston', 'rowena brown']
+     after validate_tag_set (12): ['oakland city council public safety committee', 'oakland city council chamber', 'city of oakland', 'ken houston', 'rowena brown', '1 frank h ogawa plaza', 'special public safety committee', 'oakland city hall']
+     GT tags (46): ['city of oakland', 'office of the city clerk', 'oakland city hall', '1 frank h. ogawa plaza', 'room 201', 'oakland california 94612', 'city council chamber', '3rd floor']
+     BOTH (matching): ['oakland city council public safety committee', 'city of oakland', 'rowena brown', 'ken houston', 'special public safety committee', 'oakland city hall']  (8 total)
+     UNIQUE (not in GT): ['charlene wang', 'oakland city council chamber', 'item number 26 0572', '1 frank h ogawa plaza']  (4 total)
+     max cosine sim: 0.670
+     PENALTIES: none
+
+[26] named_entities_extraction  final=0.5686 adj=0.5686
+     raw miner tags (25): ['city council of the city of boston', 'city of boston', 'city hall', 'christopher a. iannella chamber', 'president breadon', 'councilor coletta zapata', 'councilor culpepper', 'councilor durkan']
+     after validate_tag_set (20): ['councilor fitzgerald', '000', 'u s department of housing and urban development', 'councilor louijeune', '000 00', 'christopher a iannella chamber', 'councilor murphy', 'councilor durkan']
+     GT tags (42): ['april 15 2026', 'wednesday april 15 2026', '12:13 pm', 'city council of the city of boston', 'city of boston', 'christopher a. iannella chamber', 'city hall', 'president breadon']
+     BOTH (matching): ['councilor santana', 'city council of the city of boston', 'councilor culpepper', 'city hall', 'continuum of care grant funds', '000']  (16 total)
+     UNIQUE (not in GT): ['councilor pep n', '000 00', 'christopher a iannella chamber', 'u s department of housing and urban development']  (4 total)
+     max cosine sim: 0.696
+     PENALTIES: none
+
+[27] named_entities_extraction  final=0.4840 adj=0.4840
+     raw miner tags (21): ['seattle city council', 'seattle city hall', 'joy hollingsworth', 'bob wang', 'debora juarez', 'dionne foster', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (20): ['eddie lin', 'seattle city hall', 'debora juarez', 'seattle city council', 'tax planning', 'maritza rivera', 'phillip wood smith', 'dionne foster']
+     GT tags (36): ['seattle council committee report', 'council briefing', 'council chamber', 'city hall', 'monday april 13 2026', '2:00 pm', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'maritza rivera', 'dan strauss', 'eddie lin', 'rob saka']  (8 total)
+     UNIQUE (not in GT): ['family trusts', 'tax planning', 'bob wang', 'seattle city council', 'opportunity zones', 'wealth transfer']  (12 total)
+     max cosine sim: 0.559
+     PENALTIES: none
+
+[28] named_entities_extraction  final=0.5582 adj=0.5582
+     raw miner tags (21): ['seattle city council', 'seattle city hall', 'council president joy hollingsworth', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (20): ['seattle city hall', 'robert kettle', '1031 exchange', 'seattle wa 98104', 'opportunity zones', 'rob saka', 'seattle city council', 'council president joy hollingsworth']
+     GT tags (45): ['seattle council committee report', 'council briefing', 'council chamber', 'city hall', 'monday april 13 2026', '2:00 pm', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'council chamber', 'robert kettle', 'deputy city clerk', 'council briefing']  (13 total)
+     UNIQUE (not in GT): ['seattle city council committee report', 'seattle city council', 'opportunity zones', 'phillip wood smith', 'seattle city hall', 'delaware statutory trusts']  (7 total)
+     max cosine sim: 0.660
+     PENALTIES: none
+
+[29] named_entities_extraction  final=0.5123 adj=0.5123
+     raw miner tags (21): ['seattle city council', 'human services labor and economic development committee', 'seattle music commission', 'seattle', 'city hall', 'council chamber', '600 4th avenue seattle wa 98104', 'councilmember alexis mercedes rinck']
+     after validate_tag_set (20): ['city hall', 'dionne foster', 'credit tenant lease financing', 'joy hollingsworth', 'human services labor and economic development committee', '600 4th avenue seattle wa 98104', 'inf 2878', 'ryan patrick devlin']
+     GT tags (42): ['seattle council committee report', 'human services labor and economic development committee', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'friday april 17 2026', '9:30 am']
+     BOTH (matching): ['dionne foster', 'council rules and procedures', 'city hall', 'ryan patrick devlin', 'council chamber', 'councilmember alexis mercedes rinck']  (12 total)
+     UNIQUE (not in GT): ['credit tenant leases', 'seattle', 'seattle city council', 'tiktok', '600 4th avenue seattle wa 98104', 'credit tenant lease financing']  (8 total)
+     max cosine sim: 0.615
+     PENALTIES: none
+
+[30] named_entities_extraction  final=0.5729 adj=0.5729
+     raw miner tags (18): ['seattle city council', 'human services labor and economic development committee', 'seattle city hall', 'councilmember alexis mercedes rinck', 'councilmember dionne foster', 'councilmember debora juarez', 'councilmember rob saka', 'councilmember joy hollingsworth']
+     after validate_tag_set (18): ['councilmember debora juarez', 'quora', 'seattle', 'seattle city council', 'ryan patrick devlin', 'tiktok', 'councilmember alexis mercedes rinck', 'human services labor and economic development committee']
+     GT tags (36): ['seattle council committee report', 'human services labor and economic development committee', 'city council', 'council chamber', 'city hall', '600 4th avenue', 'seattle wa 98104', 'friday april 17 2026']
+     BOTH (matching): ['ryan patrick devlin', 'seattle music commission', 'councilmember alexis mercedes rinck', 'human services labor and economic development committee']  (4 total)
+     UNIQUE (not in GT): ['seattle', 'seattle city council', 'tiktok', 'inf 2878', 'credit tenant lease', 'councilmember rob saka']  (14 total)
+     max cosine sim: 0.641
+     PENALTIES: none
+
+[31] named_entities_extraction  final=0.5442 adj=0.5442
+     raw miner tags (12): ['seattle city council', 'seattle city hall', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (12): ['dionne foster', 'seattle city council', 'alexis mercedes rinck', 'seattle city charter', 'robert kettle', 'dan strauss', 'maritza rivera', 'seattle city hall']
+     GT tags (33): ['seattle city council', 'journal of the proceedings of the seattle city council', 'city council meeting minutes march 31 2026', 'tuesday march 31 2026', 'march 31 2026', '2:00 pm', '2:03 pm', 'seattle wa 98104']
+     BOTH (matching): ['seattle city council']  (1 total)
+     UNIQUE (not in GT): ['dionne foster', 'alexis mercedes rinck', 'seattle city charter', 'robert kettle', 'dan strauss', 'maritza rivera']  (11 total)
+     max cosine sim: 0.722
+     PENALTIES: none
+
+[32] named_entities_extraction  final=0.5266 adj=0.5266
+     raw miner tags (15): ['seattle city council', 'city of seattle', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck']
+     after validate_tag_set (15): ['dionne foster', 'seattle', 'seattle city council', 'alexis mercedes rinck', 'robert kettle', 'city charter', 'maritza rivera', 'dan strauss']
+     GT tags (41): ['seattle city council', 'city of seattle', 'seattle city council meeting minutes', 'journal of the proceedings of the seattle city council', 'tuesday april 28 2026', 'april 28 2026', '2:00 pm', '2:02 pm']
+     BOTH (matching): ['city of seattle', 'seattle city council', 'city charter']  (3 total)
+     UNIQUE (not in GT): ['seattle', 'dionne foster', 'alexis mercedes rinck', 'robert kettle', 'maritza rivera', 'dan strauss']  (12 total)
+     max cosine sim: 0.722
+     PENALTIES: none
+
+[33] named_entities_extraction  final=0.5549 adj=0.5549
+     raw miner tags (20): ['seattle city council', 'city hall', 'council chamber', '600 4th avenue seattle wa 98104', 'seattle', 'washington', 'the city of seattle', 'city charter']
+     after validate_tag_set (20): ['journal of the proceedings of the seattle city council', 'dionne foster', '600 4th avenue seattle wa 98104', 'seattle city council', 'debora juarez', 'eddie lin', 'city charter', 'council chamber']
+     GT tags (44): ['seattle city council', '600 fourth ave', '2nd floor', 'seattle wa 98104', 'journal of the proceedings of the seattle city council', 'tuesday april 28 2026', '2:00 pm', 'public hearing']
+     BOTH (matching): ['dionne foster', 'journal of the proceedings of the seattle city council', 'city hall', 'seattle city council', 'alexis mercedes rinck', 'council chamber']  (15 total)
+     UNIQUE (not in GT): ['seattle city council meeting minutes april 28 2026', 'seattle', 'the city of seattle', '600 4th avenue seattle wa 98104', 'washington']  (5 total)
+     max cosine sim: 0.642
+     PENALTIES: none
+
+[34] named_entities_extraction  final=0.5299 adj=0.5299
+     raw miner tags (12): ['city of oakland', 'oakland city council', 'community and economic development committee', 'oakland city hall', 'city council chamber', '1 frank h. ogawa plaza', 'oakland california', 'rowena brown']
+     after validate_tag_set (12): ['councilmember houston', 'city of oakland', 'oakland city council', 'rowena brown', '1 frank h ogawa plaza', 'oakland city hall', 'oakland california', 'janani ramachandran']
+     GT tags (37): ['city of oakland office of the city clerk', 'oakland city hall', '1 frank h ogawa plaza', 'room 201', 'meeting minutes draft', 'oakland california 94612', 'community and economic development committee', 'city of oakland website']
+     BOTH (matching): ['councilmember houston', 'oakland city council', '1 frank h ogawa plaza', 'oakland city hall', 'janani ramachandran', 'city council chamber']  (8 total)
+     UNIQUE (not in GT): ['city of oakland', 'rowena brown', 'carroll fife', 'oakland california']  (4 total)
+     max cosine sim: 0.695
+     PENALTIES: none
+
+[35] named_entities_extraction  final=0.4360 adj=0.4360
+     raw miner tags (9): ['city of oakland', 'oakland city hall', 'oakland city council rules and legislation committee', 'councilmember carroll fife', 'janani ramachandran', 'rowena brown', 'kevin jenkins', 'oakland california']
+     after validate_tag_set (9): ['kevin jenkins', 'city of oakland', 'councilmember carroll fife', 'rowena brown', '1 frank h ogawa plaza', 'oakland city hall', 'janani ramachandran', 'oakland california']
+     GT tags (47): ['city of oakland office of the city clerk', 'office of the city clerk', 'oakland city hall', '1 frank h ogawa plaza', 'room 201', 'meeting minutes final', 'oakland california 94612', 'rules and legislation committee']
+     BOTH (matching): ['kevin jenkins', 'councilmember carroll fife', 'rowena brown', '1 frank h ogawa plaza', 'oakland city hall', 'janani ramachandran']  (7 total)
+     UNIQUE (not in GT): ['city of oakland', 'oakland california']  (2 total)
+     max cosine sim: 0.658
+     PENALTIES: ['less_than_3_unique (×0.95)']
+
+[36] named_entities_extraction  final=0.5508 adj=0.5508
+     raw miner tags (16): ['seattle city council', 'city of seattle', 'seattle city hall', 'king county', 'seattle', 'washington', 'joy hollingsworth', 'dionne foster']
+     after validate_tag_set (16): ['seattle', 'dionne foster', 'seattle city council', 'alexis mercedes rinck', 'seattle city charter', 'robert kettle', 'king county', 'maritza rivera']
+     GT tags (42): ['seattle city council', 'city of seattle', 'city hall', 'council chamber', '600 fourth ave', '600 4th avenue', '2nd floor', 'seattle wa 98104']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'seattle city council', 'robert kettle', 'maritza rivera', 'dan strauss']  (11 total)
+     UNIQUE (not in GT): ['seattle', 'seattle city charter', 'king county', 'seattle city hall', 'washington']  (5 total)
+     max cosine sim: 0.673
+     PENALTIES: none
+
+[37] named_entities_extraction  final=0.5373 adj=0.5373
+     raw miner tags (14): ['seattle city council', 'city of seattle', 'seattle washington', 'seattle city hall', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle']
+     after validate_tag_set (14): ['seattle washington', 'dionne foster', 'seattle city council', 'alexis mercedes rinck', 'robert kettle', 'maritza rivera', 'dan strauss', 'seattle city hall']
+     GT tags (40): ['seattle city council', 'city council', 'city hall', 'council chamber', '600 fourth ave', '600 4th avenue', 'seattle wa 98104', 'journal of the proceedings of the seattle city council']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'seattle city council', 'robert kettle', 'maritza rivera', 'dan strauss']  (11 total)
+     UNIQUE (not in GT): ['city of seattle', 'seattle washington', 'seattle city hall']  (3 total)
+     max cosine sim: 0.668
+     PENALTIES: none
+
+[38] named_entities_extraction  final=0.4815 adj=0.4815
+     raw miner tags (20): ['seattle city council', 'city of seattle', 'bruce harrell', 'office of the mayor', 'joy hollingsworth', 'alexis mercedes rinck', 'bob kettle', 'maritza rivera']
+     after validate_tag_set (20): ['joy hollingsworth', 'alexis mercedes rinck', '2026 budget', '11 1 million', 'bruce harrell', 'city of seattle', 'pioneer square encampment resolution program', 'hud']
+     GT tags (38): ['seattle council committee report', 'libraries education and neighborhoods committee', 'council chamber', 'city hall', 'thursday april 9 2026', '3:00 pm', '600 4th avenue', 'seattle wa 98104']
+     BOTH (matching): ['libraries education and neighborhoods committee', 'maritza rivera', 'joy hollingsworth', 'alexis mercedes rinck']  (4 total)
+     UNIQUE (not in GT): ['office of the mayor', 'fiscal sustainability road map report', '2026 budget', '20 4 million', 'seattle city council', '11 1 million']  (16 total)
+     max cosine sim: 0.553
+     PENALTIES: none
+
+[39] named_entities_extraction  final=0.5284 adj=0.5284
+     raw miner tags (15): ['south platte river committee', 'jamie torres', 'sarah parady', 'flor alvidrez', 'kevin flynn', 'chris hinds', 'amanda sandoval', 'darrell watson']
+     after validate_tag_set (15): ['first amendment to service plan', 'darrell watson', 'kevin flynn', 'chris hinds', 'hurley place commercial metropolitan district', 'jamie torres', 'city council', 'agenda item 26 0567']
+     GT tags (29): ['south platte river committee', 'minutes', 'wednesday april 29 2026', '1:30 pm', 'chair jamie torres', 'vice chair sarah parady', 'member flor alvidrez', 'member kevin flynn']
+     BOTH (matching): ['first amendment to service plan', 'hurley place commercial metropolitan district', 'city council', 'city and county of denver', 'south platte river committee']  (5 total)
+     UNIQUE (not in GT): ['kevin flynn', 'chris hinds', 'jamie torres', 'agenda item 26 0567', 'melissa mata', 'sarah parady']  (10 total)
+     max cosine sim: 0.616
+     PENALTIES: none
+
+[40] named_entities_extraction  final=0.5454 adj=0.5454
+     raw miner tags (13): ['seattle city council', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck', 'maritza rivera']
+     after validate_tag_set (13): ['dionne foster', 'seattle city council', 'alexis mercedes rinck', 'seattle city charter', 'robert kettle', 'maritza rivera', 'dan strauss', 'eddie lin']
+     GT tags (45): ['seattle city council', 'journal of the proceedings of the seattle city council', 'city council meeting minutes april 21 2026', 'tuesday april 21 2026', 'april 21 2026', '2:00 pm', '2:03 pm', 'council chamber']
+     BOTH (matching): ['dionne foster', 'alexis mercedes rinck', 'seattle city council', 'robert kettle', 'maritza rivera', 'dan strauss']  (10 total)
+     UNIQUE (not in GT): ['seattle city charter', 'seattle city hall', '600 4th avenue seattle wa 98104']  (3 total)
+     max cosine sim: 0.616
+     PENALTIES: none
+
+[41] named_entities_extraction  final=0.5615 adj=0.5615
+     raw miner tags (19): ['seattle city council', 'joy hollingsworth', 'dionne foster', 'debora juarez', 'robert kettle', 'eddie lin', 'alexis mercedes rinck', 'maritza rivera']
+     after validate_tag_set (19): ['joy hollingsworth', 'cdt realty', 'seattle washington', 'maritza rivera', 'the minnesota star tribune', 'rob saka', 'debora juarez', 'dionne foster']
+     GT tags (45): ['seattle city council', 'city of seattle', 'city council', 'joy hollingsworth', 'council president joy hollingsworth', 'dionne foster', 'councilmember dionne foster', 'debora juarez']
+     BOTH (matching): ['dionne foster', 'seattle city council', 'alexis mercedes rinck', 'robert kettle', 'maritza rivera', 'dan strauss']  (10 total)
+     UNIQUE (not in GT): ['seattle washington', 'minneapolis', 'downtown minneapolis', 'city hall seattle', 'seattle city charter', 'youtube']  (9 total)
+     max cosine sim: 0.711
+     PENALTIES: none
+
+[42] named_entities_extraction  final=0.5464 adj=0.5464
+     raw miner tags (14): ['amanda sawyer', 'paul kashmann', 'kevin flynn', 'stacie gilmore', 'serena gonzales-gutierrez', 'amanda sandoval', 'jamie torres', 'anne wallace']
+     after validate_tag_set (14): ['denver community corrections board', 'michael mahon', 'paul kashmann', 'kevin flynn', 'denver city council', 'cecelia espenoza', 'jamie torres', 'council resolution 26 0384']
+     GT tags (28): ['governance and intergovernmental relations', 'governance and intergovernmental relations minutes', 'tuesday march 31 2026', '10:30 am', 'chair amanda sawyer', 'vice-chair paul kashmann', 'member kevin flynn', 'member stacie gilmore']
+     BOTH (matching): ['denver community corrections board', 'michael mahon']  (2 total)
+     UNIQUE (not in GT): ['paul kashmann', 'kevin flynn', 'denver city council', 'cecelia espenoza', 'jamie torres', 'council resolution 26 0384']  (12 total)
+     max cosine sim: 0.634
+     PENALTIES: none
+
+[43] named_entities_extraction  final=0.6104 adj=0.6104
+     raw miner tags (21): ['city of boston', 'boston city council', 'boston city hall', 'christopher a. iannella chamber', 'president breadon', 'councilor coletta zapata', 'councilor culpepper', 'councilor durkan']
+     after validate_tag_set (20): ['city of boston', 'councilor murphy', 'councilor coletta zapata', 'councilor santana', 'councilor culpepper', 'reverend reginald smalls', 'fy25 port security grant program 577', 'councilor fitzgerald']
+     GT tags (46): ['february 11 2026', 'wednesday february 11 2026', '12:11 pm', 'february 4 2026', 'regular meeting', 'city council of the city of boston', 'city council', 'city of boston']
+     BOTH (matching): ['councilor santana', 'councilor culpepper', 'councilor worrell', 'reverend reginald smalls', 'president breadon', 'councilor louijeune']  (15 total)
+     UNIQUE (not in GT): ['fy25 port security grant program 577', 'boston city hall', '500 00', 'boston city council', 'councilor pep n']  (5 total)
+     max cosine sim: 0.677
+     PENALTIES: none
+
+[44] named_entities_extraction  final=0.5306 adj=0.5306
+     raw miner tags (20): ['darrell watson', 'kevin flynn', 'serena gonzales-gutierrez', 'sarah parady', 'amanda sandoval', 'amanda sawyer', 'jamie torres', 'anne wallace']
+     after validate_tag_set (20): ['kevin flynn', 'sarah parady', 'amanda sawyer', 'darrell watson', 'automatic license plate recognition alpr system', 'polic 202683606', 'action items 26 0246', 'jamie torres']
+     GT tags (44): ['health and safety', 'minutes', 'wednesday march 18 2026', '10:30 am', 'chair darrell watson', 'vice chair kevin flynn', 'member serena gonzales-gutierrez', 'member sarah parady']
+     BOTH (matching): ['kashmann', 'romero campbell', 'lewis', '5280 forensic pathology pllc', 'axon enterprise inc']  (5 total)
+     UNIQUE (not in GT): ['polic 202683606', 'action items 26 0246', 'dr kelly lear', 'automatic license plate recognition alpr system', 'kevin flynn', '000 00']  (15 total)
+     max cosine sim: 0.611
+     PENALTIES: none

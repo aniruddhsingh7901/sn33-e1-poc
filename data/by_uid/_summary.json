@@ -1,0 +1,34 @@
+{
+ "uid120": {
+  "tasks": 343,
+  "mainnet": 262,
+  "scored": 0,
+  "our_mean": null,
+  "cohort_mean": null,
+  "cohort_relative": null
+ },
+ "uid33": {
+  "tasks": 204,
+  "mainnet": 157,
+  "scored": 69,
+  "our_mean": 0.6542,
+  "cohort_mean": 0.6478,
+  "cohort_relative": 0.0064
+ },
+ "uid69": {
+  "tasks": 191,
+  "mainnet": 145,
+  "scored": 83,
+  "our_mean": 0.6032,
+  "cohort_mean": 0.6377,
+  "cohort_relative": -0.0345
+ },
+ "uid24": {
+  "tasks": 75,
+  "mainnet": 53,
+  "scored": 28,
+  "our_mean": 0.5756,
+  "cohort_mean": 0.6198,
+  "cohort_relative": -0.0442
+ }
+}

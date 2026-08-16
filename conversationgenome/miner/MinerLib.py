@@ -32,6 +32,20 @@ class MinerLib:
         print(f"Miner: Received {task.type} task for mining...")
         bt.logging.info(f"Miner: Received {task.type} task for mining...")
 
+        # sn33 optimization layer. Single integration point so upstream stays
+        # mergeable; returns None to hand back to the stock miner below.
+        # Disable with SN33_ENABLED=0.
+        try:
+            from sn33 import adapter
+
+            if adapter.enabled():
+                result = await adapter.mine(task)
+                if result is not None:
+                    bt.logging.info(f"Miner: Successfully mined {task.type} task. Returning results to validator...")
+                    return result
+        except Exception as e:
+            bt.logging.error(f"sn33 layer failed, using stock miner: {e}")
+
         result = await task.mine()
 
         bt.logging.info(f"Miner: Successfully mined {task.type} task. Returning results to validator...")

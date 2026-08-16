@@ -1,3 +1,4 @@
+import asyncio
 from typing import List
 from typing import Literal
 from typing import Optional
@@ -29,27 +30,34 @@ class WebpageMetadataGenerationTask(Task):
         llml = get_llm_backend()
 
         try:
-            all_tags = []
-            
-            # Process each line in the window
-            for idx, (line_idx, content) in enumerate(self.input.data.window):
+            # Run all per-window-item LLM calls concurrently in a thread pool.
+            # First item = main webpage; rest = enrichment search snippets.
+            def _call(idx: int, content: str):
                 if idx == 0:
-                    # First line is always the main webpage content
-                    result = llml.website_to_metadata(content, generateEmbeddings=False, input_categories=self.input.input_categories)
-                else:
-                    # Subsequent lines are enrichment content
-                    result = llml.enrichment_to_metadata(content, generateEmbeddings=False, input_categories=self.input.input_categories)
-                
-                if result and result.tags:
-                    all_tags.append(result.tags)
-            
-            # Combine all tags from webpage and enrichment content
+                    return llml.website_to_metadata(
+                        content,
+                        generateEmbeddings=False,
+                        input_categories=self.input.input_categories,
+                    )
+                return llml.enrichment_to_metadata(
+                    content,
+                    generateEmbeddings=False,
+                    input_categories=self.input.input_categories,
+                )
+
+            results = await asyncio.gather(*[
+                asyncio.to_thread(_call, idx, content)
+                for idx, (_line_idx, content) in enumerate(self.input.data.window)
+            ])
+
+            all_tags = [r.tags for r in results if r and r.tags]
+
             if all_tags:
                 combined_result = llml.combine_metadata_tags(all_tags, generateEmbeddings=False)
                 output = {"tags": combined_result.tags if combined_result else [], "vectors": combined_result.vectors if combined_result else None}
             else:
                 output = {"tags": [], "vectors": None}
-                
+
         except Exception as e:
             bt.logging.error(f"Error during mining: {e}")
             raise e

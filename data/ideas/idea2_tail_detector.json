@@ -1,0 +1,65 @@
+{
+  "idea": "IDEA 2 tail-risk detector: predict pre-submission which conversation answers land <0.50 or <=cohort-0.05, from inference-time features only",
+  "date": "2026-08-14",
+  "verdict": "REJECT",
+  "honest_n_check": {
+    "replayed_rows": 120,
+    "scored_rows": 49,
+    "scored_by_hist_source": {"ranked_confirmed_healthy": 6, "pool": 2, "unknown_prePM2": 41},
+    "positives_y_low_lt_0.50": {"ranked": 2, "unknown": 6, "pool": 2},
+    "positives_y_rel_le_-0.05": {"ranked": 3, "unknown": 10},
+    "floor": "positives < 8 in the primary healthy cohort -> analysis demoted to DESCRIPTIVE per pre-registered rule; no classifier/LOO claims made"
+  },
+  "features_computed": ["sel_top1/3/5/10", "sel_mean", "sel_var", "sel_min", "gap_r3_r20", "depth50", "depth60", "n_candidates", "jacc_rep_pool", "rep_pool_cosdiff", "gt_coherence", "domline_frac", "top20_line_frac", "n_enr_lines", "deep_done", "theme_done", "n_gt_for_target", "translated", "hist_cov", "hist_mean_cos", "hist_top3", "hist_top10"],
+  "feature_files": {
+    "per_row_features": "data/ideas/idea2_workings_features.json",
+    "intervention_rows": "data/ideas/idea2_intervention_rows.json",
+    "scripts": ["<scratchpad>/idea2_features.py", "<scratchpad>/idea2_intervene.py"]
+  },
+  "descriptive_separation": {
+    "unknown_cohort_n41_y_low_pos6_best_features_AUC": {
+      "hist_mean_cos": {"auc_pos_gt_neg": 0.052, "pos_mean": 0.5046, "neg_mean": 0.6414},
+      "hist_top10": 0.062, "sel_min": 0.181, "sel_mean": 0.200, "depth50": 0.221, "sel_var_high_bad": 0.767
+    },
+    "ranked_cohort_n6_y_low_pos2": "NO separation: the 2 healthy positives have hist_mean_cos 0.622/0.655, ABOVE the 0.582/0.610 of two negatives - direction inverted vs the unknown cohort; recall 0 at any FPR<0.5 threshold",
+    "operating_points_unknown_cohort_hist_mean_cos": [
+      {"thr": 0.55, "label": "y_low", "TP": 4, "FP": 2, "FN": 2, "TN": 33, "precision": 0.67, "recall": 0.67, "fpr": 0.06},
+      {"thr": 0.58, "label": "y_low", "TP": 5, "FP": 3, "FN": 1, "TN": 32, "precision": 0.62, "recall": 0.83, "fpr": 0.09},
+      {"thr": 0.60, "label": "y_low", "TP": 6, "FP": 4, "FN": 0, "TN": 31, "precision": 0.60, "recall": 1.00, "fpr": 0.11},
+      {"thr": 0.55, "label": "y_rel", "precision": 0.67, "recall": 0.40, "fpr": 0.06}
+    ]
+  },
+  "confound_that_kills_it": {
+    "claim": "the apparent unknown-cohort signal is largely re-detection of truncated/pool historical answers, which the pipeline already knows at inference time as res.source",
+    "evidence": [
+      "corr(hist_mean_cos, hist_poolonly_frac) = -0.707 over the 41 scored unknown rows",
+      "the deepest positive (cos 0.304, live 0.295) has 75% pool-only tags; both known hist_source=pool rows sit at cos 0.364/0.254 with poolonly_frac 1.0",
+      "y_low positives mean poolonly_frac 0.186 vs negatives 0.048",
+      "in the confirmed-healthy ranked cohort the feature separates NOTHING (2 pos vs 4 neg, inverted direction)"
+    ],
+    "interpretation": "predictable tail = truncation-shaped answers (already flagged by source!=ranked; arms B and D already respond to exactly this). Residual healthy-answer tail is target-mismatch (our estimated centroid vs the validator's GT draw), which is invisible from our own features BY CONSTRUCTION - every inference-time cosine is measured against our own target."
+  },
+  "response_test": {
+    "intervention": "drop 4 lowest-cos tags of live-config answer, add 4 highest-cos unused live-pool candidates (dropped_by rank/insurance_displaced only); scored vs frozen judge, real formula + penalties, deterministic clean, no LLM screen (same both arms)",
+    "flag_rule_tested": "answer mean cos < 0.63 OR depth60 < 20 (flags 61/120 - too loose; precision 0.25 y_low, FPR 0.54 on scored rows)",
+    "flagged_n61": {"mean_delta": -0.0027, "median": -0.0011, "improved": 23, "degraded": 38, "worst": -0.0715, "best": 0.0385},
+    "unflagged_n59": {"mean_delta": 0.0013, "median": -0.0012, "improved": 18, "degraded": 41, "worst": -0.0624, "best": 0.1183},
+    "flagged_ranked_healthy_n5": {"mean_delta": -0.0052, "improved": 0, "degraded": 5},
+    "conclusion": "the response makes flagged tasks WORSE - shifting slots toward higher own-target cosine optimizes the same possibly-wrong target; consistent with previously-rejected greedy composer (+0.004, loses 11/17) and max-unique (-0.024 final)"
+  },
+  "pipeline_hooks_for_the_record": {
+    "note": "computability was never the blocker - every feature hooks cleanly; information content is the blocker",
+    "cos features (sel_*, depth, gap)": "sn33/pipeline.py stage 2 rank block (~line 1086) - ranked list with cos exists before compose()",
+    "selection features": "compose() line 726 returns the answer; features of it computable before _finish()",
+    "gt_coherence / n_gt_for_target": "after target estimation, same stage 2",
+    "source/truncation": "Result.source (line 278) - ALREADY the better detector for the predictable tail",
+    "domline/n_enr_lines": "per-line replica tags available pre-compose"
+  },
+  "costs": {"openrouter_chat_calls": 0, "embeddings": "cache-served except ~150 fresh strings, <$0.001", "no_402": true},
+  "caveats": [
+    "labels for the 41 unknown-source rows come from 24h-era live answers whose source is unrecorded (pre-PM2); Rule 3 forbids pooling them with the 6 confirmed-healthy - all cohorts reported separately",
+    "features of the live outcome-bearing answer (hist_*) computed by mapping historical tags into the replay candidate cos space (median coverage ~0.75)",
+    "intervention scored without the validator's non-deterministic LLM screen (identical treatment both arms)",
+    "frozen judge is one GT draw; per-task judge noise ~0.016 SE applies to per-row deltas, less to the paired mean"
+  ]
+}

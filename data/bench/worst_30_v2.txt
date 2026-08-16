@@ -1,0 +1,274 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 30 tasks from data/bench/worst_30_conv.jsonl
+
+==============================================================================================================
+
+[0] conversation_tagging  final=0.5593 adj=0.5593
+     raw miner tags (15): ['conferences', 'public speaking', 'travel', 'event planning', 'compensation', 'honorarium', 'visas', 'corporate events']
+     after validate_tag_set (15): ['marketing', 'conferences', 'visas', 'professional development', 'event planning', 'corporate events', 'public speaking', 'training']
+     GT tags (19): ['conferences', 'travel expenses', 'hotel stays', 'flights', 'out of pocket costs', 'taxis', 'airport food', 'honorarium']
+     BOTH (matching): ['conferences', 'corporate events', 'honorarium', 'workshops', 'visas']  (5 total)
+     UNIQUE (not in GT): ['marketing', 'professional development', 'event planning', 'public speaking', 'training', 'podcasting']  (10 total)
+     max cosine sim: 0.646
+     PENALTIES: none
+
+[1] conversation_tagging  final=0.5769 adj=0.5769
+     raw miner tags (15): ['productivity', 'time management', 'work life balance', 'meditation', 'mindfulness', 'focus', 'technology', 'digital distraction']
+     after validate_tag_set (15): ['phone addiction', 'discipline', 'self promotion', 'meditation', 'time management', 'notifications', 'career development', 'work life balance']
+     GT tags (18): ['productivity', 'evening routine', 'parenting', 'quiet time', 'contemplation', 'meditation', 'focus', 'digital distraction']
+     BOTH (matching): ['phone addiction', 'discipline', 'self promotion', 'meditation', 'time management', 'notifications']  (10 total)
+     UNIQUE (not in GT): ['career development', 'work life balance', 'authenticity', 'mindfulness', 'technology']  (5 total)
+     max cosine sim: 0.659
+     PENALTIES: none
+
+[2] conversation_tagging  final=0.5738 adj=0.5738
+     raw miner tags (15): ['martial arts', 'combat sports', 'wrestling', 'boxing', 'kickboxing', 'muay thai', 'jiu jitsu', 'sparring']
+     after validate_tag_set (13): ['ego', 'skill development', 'sparring', 'wrestling', 'self defense', 'boxing', 'competition', 'humility']
+     GT tags (18): ['martial arts', 'humility', 'ego', 'sparring', 'boxing', 'wrestling', 'taekwondo', 'kickboxing']
+     BOTH (matching): ['ego', 'sparring', 'wrestling', 'competition', 'boxing', 'humility']  (9 total)
+     UNIQUE (not in GT): ['training', 'skill development', 'combat sports', 'self defense']  (4 total)
+     max cosine sim: 0.726
+     PENALTIES: none
+
+[3] conversation_tagging  final=0.5852 adj=0.5852
+     raw miner tags (14): ['podcast', 'joe rogan', 'diet', 'nutrition', 'red meat', 'steak', 'burger', 'digestion']
+     after validate_tag_set (13): ['food intolerance', 'aging', 'red meat', 'digestive health', 'diet', 'burger', 'digestion', 'steak']
+     GT tags (18): ['podcast', 'joe rogan experience', 'red meat', 'steak', 'burger', 'digestion', 'digestive system', 'aging']
+     BOTH (matching): ['food intolerance', 'aging', 'red meat', 'diet', 'burger', 'digestion']  (10 total)
+     UNIQUE (not in GT): ['protein', 'eating habits', 'digestive health']  (3 total)
+     max cosine sim: 0.701
+     PENALTIES: none
+
+[4] conversation_tagging  final=0.5447 adj=0.5447
+     raw miner tags (15): ['music', 'rock', 'soul', 'aerosmith', 'martial arts', 'philosophy', 'personal growth', 'open mindedness']
+     after validate_tag_set (14): ['personal growth', 'friendship', 'acting', 'open mindedness', 'music', 'philosophy', 'comedy', 'martial arts']
+     GT tags (18): ['music', 'aerosmith', 'isley brothers', 'martial arts', 'learning', 'perspectives', 'open mindedness', 'marginalization']
+     BOTH (matching): ['personal growth', 'open mindedness', 'music', 'comedy', 'martial arts', 'learning']  (6 total)
+     UNIQUE (not in GT): ['acting', 'philosophy', 'perspective', 'diversity', 'film', 'soul']  (8 total)
+     max cosine sim: 0.605
+     PENALTIES: none
+
+[5] conversation_tagging  final=0.5138 adj=0.5138
+     raw miner tags (15): ['mexican politics', 'education unions', 'teacher protests', 'government negotiations', 'public policy', 'tourism', 'sports tourism', 'economic growth']
+     after validate_tag_set (12): ['economic growth', 'infrastructure', 'oil industry', 'refinery accident', 'public policy', 'security', 'education unions', 'criminal investigation']
+     GT tags (18): ['mexican politics', 'claudia sheinbaum', 'teacher union', 'protests', 'education policy', 'sep ministry', 'mario delgado', 'tourism']
+     BOTH (matching): ['tourism', 'security', 'sports tourism']  (3 total)
+     UNIQUE (not in GT): ['economic growth', 'infrastructure', 'oil industry', 'refinery accident', 'public policy', 'education unions']  (9 total)
+     max cosine sim: 0.532
+     PENALTIES: none
+
+[6] conversation_tagging  final=0.5584 adj=0.5584
+     raw miner tags (15): ['books', 'fiction', 'thriller', 'science', 'academia', 'women', 'workplace', 'software development']
+     after validate_tag_set (15): ['thriller', 'app development', 'databases', 'academia', 'women', 'software development', 'data analytics', 'workplace']
+     GT tags (18): ['fiction books', 'dark humor', 'tool exploration', 'metabase', 'database connection', 'app analytics', 'data visualization', 'open source software']
+     BOTH (matching): ['psychology']  (1 total)
+     UNIQUE (not in GT): ['app development', 'academia', 'women', 'consciousness', 'software development', 'data analytics']  (14 total)
+     max cosine sim: 0.620
+     PENALTIES: none
+
+[7] conversation_tagging  final=0.5773 adj=0.5773
+     raw miner tags (14): ['podcasting', 'youtube', 'content creation', 'audience growth', 'subscriber goals', 'work schedule', 'episode planning', 'tabletop games']
+     after validate_tag_set (12): ['new releases', 'episode planning', 'content creation', 'tabletop games', 'community support', 'podcasting', 'subscriber goals', 'miniature wargaming']
+     GT tags (17): ['content creation', 'podcasting', 'youtube channel', 'subscriber growth', 'view counts', 'work schedule', 'content planning', 'avoiding duplication']
+     BOTH (matching): ['work schedule', 'podcasting', 'content creation']  (3 total)
+     UNIQUE (not in GT): ['episode planning', 'new releases', 'tabletop games', 'community support', 'subscriber goals', 'miniature wargaming']  (9 total)
+     max cosine sim: 0.672
+     PENALTIES: none
+
+[8] conversation_tagging  final=0.5588 adj=0.5588
+     raw miner tags (15): ['race', 'community', 'slang', 'loyalty', 'betrayal', 'snitching', 'crime', 'gangs']
+     after validate_tag_set (15): ['snitching', 'betrayal', 'violence', 'gangs', 'police', 'crime', 'organized crime', 'justice system']
+     GT tags (18): ['snitching', 'stitches phrase', 'race relations', 'white community', 'black community', 'community loyalty', 'witness silence', 'police questioning']
+     BOTH (matching): ['snitching', 'organized crime']  (2 total)
+     UNIQUE (not in GT): ['film', 'betrayal', 'violence', 'police', 'crime', 'race']  (13 total)
+     max cosine sim: 0.616
+     PENALTIES: none
+
+[9] conversation_tagging  final=0.5798 adj=0.5798
+     raw miner tags (14): ['podcast', 'joe rogan', 'nutrition', 'red meat', 'steak', 'burger', 'diet', 'digestion']
+     after validate_tag_set (13): ['food intolerance', 'fitness', 'aging', 'red meat', 'diet', 'meal pairing', 'burger', 'digestion']
+     GT tags (18): ['podcast', 'joe rogan', 'red meat', 'burgers', 'steak', 'digestion', 'digestive system', 'aging']
+     BOTH (matching): ['food intolerance', 'aging', 'red meat', 'diet', 'digestion', 'steak']  (8 total)
+     UNIQUE (not in GT): ['fitness', 'meal pairing', 'burger', 'health', 'protein']  (5 total)
+     max cosine sim: 0.708
+     PENALTIES: none
+
+[10] conversation_tagging  final=0.6303 adj=0.6303
+     raw miner tags (14): ['martial arts', 'karate', 'jiu jitsu', 'training', 'combat sports', 'gym', 'fighting', 'athletes']
+     after validate_tag_set (14): ['martial arts history', 'athletes', 'karate', 'coaching', 'combat sports', 'martial arts culture', 'los angeles', 'fighting']
+     GT tags (18): ['martial arts', 'karate', 'jiu jitsu', 'mma training', 'gym culture', 'seattle', 'los angeles', 'legends gym']
+     BOTH (matching): ['martial arts history', 'karate', 'los angeles', 'seattle', 'martial arts', 'jiu jitsu']  (6 total)
+     UNIQUE (not in GT): ['athletes', 'coaching', 'martial arts culture', 'combat sports', 'fighting', 'training']  (8 total)
+     max cosine sim: 0.714
+     PENALTIES: none
+
+[11] conversation_tagging  final=0.5920 adj=0.5920
+     raw miner tags (15): ['martial arts', 'mma', 'fighting', 'boxing', 'training', 'technique', 'movement', 'footwork']
+     after validate_tag_set (12): ['technique', 'movement', 'boxing', 'dance', 'fighting', 'training', 'ballet', 'body control']
+     GT tags (18): ['mma', 'martial arts', 'fighting techniques', 'telegraphing', 'training', 'gym collaboration', 'different styles', 'taekwondo']
+     BOTH (matching): ['boxing', 'body control', 'training', 'ballet', 'martial arts']  (5 total)
+     UNIQUE (not in GT): ['technique', 'movement', 'self improvement', 'fighting', 'dance', 'footwork']  (7 total)
+     max cosine sim: 0.692
+     PENALTIES: none
+
+[12] conversation_tagging  final=0.5790 adj=0.5790
+     raw miner tags (12): ['martial arts', 'grappling', 'brazilian jiu jitsu', 'submission', 'triangle choke', 'self defense', 'fighting', 'wrestling']
+     after validate_tag_set (11): ['submission', 'wrestling', 'self defense', 'humility', 'combat sports', 'fighting', 'grappling', 'training']
+     GT tags (18): ['martial arts', 'brazilian jiu jitsu', 'triangle choke', 'tapping out', 'submission holds', 'grappling', 'wrestling', 'self defense']
+     BOTH (matching): ['wrestling', 'self defense', 'humility', 'combat sports', 'grappling', 'training']  (8 total)
+     UNIQUE (not in GT): ['submission', 'strength', 'fighting']  (3 total)
+     max cosine sim: 0.683
+     PENALTIES: none
+
+[13] conversation_tagging  final=0.5700 adj=0.5700
+     raw miner tags (15): ['distributed systems', 'zookeeper', 'consensus', 'leader election', 'replication', 'atomic broadcast', 'state machine', 'consistency']
+     after validate_tag_set (11): ['leader election', 'protocol design', 'replication', 'consistency', 'state machine', 'distributed systems', 'consensus', 'fault tolerance']
+     GT tags (18): ['zookeeper', 'distributed systems', 'consensus protocol', 'leader election', 'followers', 'observers', 'state changes', 'atomic broadcast']
+     BOTH (matching): ['distributed systems', 'leader election', 'fault tolerance', 'atomic broadcast']  (4 total)
+     UNIQUE (not in GT): ['replication', 'protocol design', 'consistency', 'state machine', 'consensus', 'testing']  (7 total)
+     max cosine sim: 0.621
+     PENALTIES: none
+
+[14] conversation_tagging  final=0.6098 adj=0.6098
+     raw miner tags (15): ['post quantum cryptography', 'key exchange', 'diffie hellman', 'isogeny', 'kyber', 'dilithium', 'sha3', 'hashing']
+     after validate_tag_set (7): ['performance', 'post quantum cryptography', 'cryptographic libraries', 'key exchange', 'benchmarks', 'cryptographic standards', 'hashing']
+     GT tags (18): ['post quantum cryptography', 'diffie hellman', 'key exchange', 'isogeny cryptography', 'kyber', 'dilithium', 'sha3', 'ssh']
+     BOTH (matching): ['cryptographic libraries', 'post quantum cryptography', 'key exchange']  (3 total)
+     UNIQUE (not in GT): ['performance', 'benchmarks', 'cryptographic standards', 'hashing']  (4 total)
+     max cosine sim: 0.677
+     PENALTIES: none
+
+[15] conversation_tagging  final=0.4018 adj=0.4229
+     raw miner tags (15): ['los angeles', 'california', 'city life', 'geography', 'weather', 'hiking', 'mountains', 'ocean']
+     after validate_tag_set (15): ['neighborhoods', 'crime', 'risk prediction', 'los angeles', 'earthquakes', 'natural disasters', 'california', 'hiking']
+     GT tags (18): ['los angeles', 'california', 'geography', 'weather', 'hiking', 'ocean', 'mountains', 'neighborhoods']
+     BOTH (matching): ['neighborhoods', 'crime', 'los angeles', 'earthquakes', 'natural disasters', 'california']  (13 total)
+     UNIQUE (not in GT): ['risk prediction', 'city life']  (2 total)
+     max cosine sim: 0.627
+     PENALTIES: ['less_than_3_unique (×0.95)']
+
+[16] conversation_tagging  final=0.5582 adj=0.5582
+     raw miner tags (14): ['happiness', 'personal growth', 'change', 'life goals', 'self improvement', 'motivation', 'mindset', 'external validation']
+     after validate_tag_set (14): ['relationships', 'personal growth', 'web hosting', 'self improvement', 'happiness', 'life goals', 'mindset', 'cloud computing']
+     GT tags (18): ['happiness', 'personal change', 'external circumstances', 'life goals', 'shifting expectations', 'satisfaction', 'relationships', 'self improvement']
+     BOTH (matching): ['relationships', 'self improvement', 'happiness', 'life goals', 'mindset']  (5 total)
+     UNIQUE (not in GT): ['personal growth', 'web hosting', 'fulfillment', 'cloud computing', 'external validation', 'psychology']  (9 total)
+     max cosine sim: 0.627
+     PENALTIES: none
+
+[17] conversation_tagging  final=0.5376 adj=0.5376
+     raw miner tags (14): ['brazilian jiu jitsu', 'grappling', 'martial arts', 'technique', 'fundamentals', 'training', 'sparring', 'seminars']
+     after validate_tag_set (13): ['technique', 'black belts', 'sparring', 'self defense', 'competition', 'karate', 'fundamentals', 'grappling']
+     GT tags (18): ['brazilian jiu jitsu', 'hickson gracie', 'royce gracie', 'grappling', 'rolling', 'black belts', 'seminars', 'tapping out']
+     BOTH (matching): ['technique', 'black belts', 'sparring', 'competition', 'karate', 'grappling']  (10 total)
+     UNIQUE (not in GT): ['training', 'fundamentals', 'self defense']  (3 total)
+     max cosine sim: 0.720
+     PENALTIES: none
+
+[18] conversation_tagging  final=0.5545 adj=0.5545
+     raw miner tags (15): ['sports', 'australian football', 'rugby league', 'cricket', 'soccer', 'horse racing', 'formula one', 'olympics']
+     after validate_tag_set (15): ['sports media', 'australian football', 'season preview', 'formula one', 'australian grand prix', 'olympics', 'fan optimism', 'international events']
+     GT tags (18): ['afl', 'nrl', 'las vegas', 'brisbane olympics', 'state of origin', 'formula one', 'australian grand prix', 'bahrain testing']
+     BOTH (matching): ['australian grand prix', 'las vegas', 'formula one']  (3 total)
+     UNIQUE (not in GT): ['sports media', 'australian football', 'season preview', 'olympics', 'fan optimism', 'international events']  (12 total)
+     max cosine sim: 0.609
+     PENALTIES: none
+
+[19] conversation_tagging  final=0.5545 adj=0.5545
+     raw miner tags (15): ['nutrition', 'salt', 'sodium', 'blood pressure', 'iodine', 'sugar', 'diabetes', 'heart disease']
+     after validate_tag_set (15): ['heart disease', 'salt', 'diabetes', 'processed food', 'diet', 'blood pressure', 'nutrition', 'sugar']
+     GT tags (18): ['salt', 'blood pressure', 'iodized salt', 'iodine', 'health', 'diet', 'sugar', 'diabetes']
+     BOTH (matching): ['heart disease', 'salt', 'diabetes', 'processed food', 'diet', 'blood pressure']  (10 total)
+     UNIQUE (not in GT): ['nutrition', 'soft drinks', 'food industry', 'public health', 'sodium']  (5 total)
+     max cosine sim: 0.653
+     PENALTIES: none
+
+[20] conversation_tagging  final=0.5889 adj=0.5889
+     raw miner tags (15): ['artificial intelligence', 'healthcare', 'life sciences', 'biotechnology', 'education', 'cloud computing', 'digital transformation', 'consumer goods']
+     after validate_tag_set (15): ['consumer goods', 'education', 'digital transformation', 'automation', 'marketing', 'data science', 'life sciences', 'biotechnology']
+     GT tags (18): ['artificial intelligence', 'healthcare innovation', 'life sciences', 'biotechnology', 'digital health', 'cloud migration', 'consumer packaged goods', 'marketing automation']
+     BOTH (matching): ['artificial intelligence', 'large language models', 'life sciences', 'biotechnology']  (4 total)
+     UNIQUE (not in GT): ['consumer goods', 'education', 'digital transformation', 'automation', 'marketing', 'data science']  (11 total)
+     max cosine sim: 0.669
+     PENALTIES: none
+
+[21] conversation_tagging  final=0.5338 adj=0.5338
+     raw miner tags (14): ['brazilian jiu jitsu', 'grappling', 'martial arts', 'technique', 'fundamentals', 'training', 'sparring', 'seminars']
+     after validate_tag_set (13): ['technique', 'black belts', 'sparring', 'competition', 'karate', 'fundamentals', 'world champions', 'grappling']
+     GT tags (18): ['brazilian jiu jitsu', 'grappling', 'seminars', 'rolling', 'black belts', 'technique', 'movement', 'basics']
+     BOTH (matching): ['technique', 'black belts', 'sparring', 'competition', 'karate', 'grappling']  (10 total)
+     UNIQUE (not in GT): ['training', 'fundamentals', 'world champions']  (3 total)
+     max cosine sim: 0.682
+     PENALTIES: none
+
+[22] conversation_tagging  final=0.5953 adj=0.5953
+     raw miner tags (15): ['earthquakes', 'california', 'los angeles', 'seismology', 'geology', 'natural disasters', 'disaster preparedness', 'earthquake prediction']
+     after validate_tag_set (15): ['infrastructure', 'seismology', 'public safety', 'seismic activity', 'earthquake prediction', 'los angeles', 'scientific uncertainty', 'earthquakes']
+     GT tags (18): ['earthquakes', 'california', 'los angeles', 'seismic risk', 'prediction', 'detection', 'seismology', 'geologists']
+     BOTH (matching): ['seismology', 'public safety', 'los angeles', 'scientific uncertainty', 'earthquakes', 'natural disasters']  (9 total)
+     UNIQUE (not in GT): ['infrastructure', 'seismic activity', 'earthquake prediction', 'risk assessment', 'disaster preparedness', 'geology']  (6 total)
+     max cosine sim: 0.684
+     PENALTIES: none
+
+[23] conversation_tagging  final=0.6661 adj=0.6661
+     raw miner tags (15): ['astronomy', 'astrophysics', 'telescopes', 'observatories', 'galaxy rotation', 'dark matter', 'gravity', 'gravitational lensing']
+     after validate_tag_set (14): ['gravitational lensing', 'astrophysics', 'telescopes', 'dark matter', 'galaxy rotation', 'cosmology', 'observatories', 'big bang']
+     GT tags (18): ['dark matter', 'galaxy rotation', 'telescopes', 'long exposure', 'astronomical observation', 'chile observatories', 'vera rubin observatory', 'gravitational lensing']
+     BOTH (matching): ['gravitational lensing', 'telescopes', 'cosmology', 'galaxy rotation', 'dark matter', 'galaxy clusters']  (7 total)
+     UNIQUE (not in GT): ['astrophysics', 'observatories', 'big bang', 'scientific history', 'space observation', 'universe origins']  (7 total)
+     max cosine sim: 0.709
+     PENALTIES: none
+
+[24] conversation_tagging  final=0.6213 adj=0.6213
+     raw miner tags (15): ['functional programming', 'haskell', 'cpp', 'category theory', 'type theory', 'dependent types', 'idris', 'monads']
+     after validate_tag_set (14): ['idris', 'functional programming', 'software design', 'functors', 'mathematical foundations', 'diagrams', 'haskell', 'monads']
+     GT tags (19): ['haskell', 'cpp', 'functional programming', 'category theory', 'type systems', 'functor', 'monad', 'monoid']
+     BOTH (matching): ['idris', 'functional programming', 'mathematical foundations', 'diagrams', 'haskell', 'code quality']  (10 total)
+     UNIQUE (not in GT): ['software design', 'monads', 'type theory', 'functors']  (4 total)
+     max cosine sim: 0.675
+     PENALTIES: none
+
+[25] conversation_tagging  final=0.5150 adj=0.5150
+     raw miner tags (15): ['politics', 'political violence', 'assassination attempt', 'presidential security', 'criminal charges', 'law enforcement', 'white house', 'international relations']
+     after validate_tag_set (15): ['assassination attempt', 'international relations', 'defense department', 'state visit', 'technology ethics', 'surveillance', 'political violence', 'criminal charges']
+     GT tags (18): ['political violence', 'assassination attempt', 'firearm charges', 'white house security', 'correspondent dinner', 'trump presidency', 'state visit', 'us uk relations']
+     BOTH (matching): ['assassination attempt', 'state visit', 'political violence']  (3 total)
+     UNIQUE (not in GT): ['international relations', 'defense department', 'technology ethics', 'surveillance', 'criminal charges', 'united kingdom']  (12 total)
+     max cosine sim: 0.579
+     PENALTIES: none
+
+[26] conversation_tagging  final=0.4029 adj=0.4477
+     raw miner tags (14): ['street vending', 'informal economy', 'public policy', 'tax incentives', 'social security', 'urban planning', 'public safety', 'sanitation']
+     after validate_tag_set (14): ['street vending', 'cultural habits', 'public safety', 'business association', 'public policy', 'social security', 'sanitation', 'economic development']
+     GT tags (18): ['incentivos fiscales', 'seguridad social', 'espacios dignos', 'operativos gubernamentales', 'planes a largo plazo', 'autoridades locales', 'comunicacion institucional', 'solucion de problemas']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['cultural habits', 'public safety', 'urban planning', 'business association', 'public policy', 'social security']  (14 total)
+     max cosine sim: 0.504
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[27] conversation_tagging  final=0.5676 adj=0.5676
+     raw miner tags (15): ['artificial intelligence', 'healthcare', 'life sciences', 'biotechnology', 'cloud computing', 'digital transformation', 'consumer goods', 'education']
+     after validate_tag_set (14): ['consumer goods', 'education', 'digital transformation', 'marketing', 'data science', 'life sciences', 'enterprise automation', 'biotechnology']
+     GT tags (18): ['artificial intelligence', 'healthcare innovation', 'life sciences', 'biotech conference', 'hyderabad', 'telangana policy', 'gene therapy', 'mrna technology']
+     BOTH (matching): ['digital transformation', 'artificial intelligence', 'life sciences']  (3 total)
+     UNIQUE (not in GT): ['consumer goods', 'education', 'marketing', 'data science', 'enterprise automation', 'biotechnology']  (11 total)
+     max cosine sim: 0.650
+     PENALTIES: none
+
+[28] conversation_tagging  final=0.5759 adj=0.5759
+     raw miner tags (14): ['politics', 'economy', 'united states', 'trump', 'government', 'immigration', 'tariffs', 'trade']
+     after validate_tag_set (13): ['tariffs', 'stock market', 'economy', 'industry', 'immigration', 'foreign policy', 'military', 'trade']
+     GT tags (18): ['donald trump', 'us politics', 'economy', 'global turmoil', 'state of the union', 'military strength', 'foreign policy', 'immigration']
+     BOTH (matching): ['tariffs', 'stock market', 'economy', 'foreign policy', 'immigration', 'jobs']  (6 total)
+     UNIQUE (not in GT): ['industry', 'military', 'trade', 'national security', 'government', 'politics']  (7 total)
+     max cosine sim: 0.653
+     PENALTIES: none
+
+[29] conversation_tagging  final=0.6164 adj=0.6164
+     raw miner tags (15): ['martial arts', 'combat sports', 'fighting', 'training', 'sparring', 'competition', 'boxing', 'wrestling']
+     after validate_tag_set (13): ['skill development', 'sparring', 'wrestling', 'self defense', 'competition', 'boxing', 'muay thai', 'humility']
+     GT tags (18): ['martial arts', 'humility', 'ego', 'sparring', 'wrestling', 'boxing', 'kickboxing', 'taekwondo']
+     BOTH (matching): ['sparring', 'wrestling', 'competition', 'boxing', 'muay thai', 'humility']  (8 total)
+     UNIQUE (not in GT): ['skill development', 'self defense', 'combat sports', 'fighting', 'training']  (5 total)
+     max cosine sim: 0.725
+     PENALTIES: none

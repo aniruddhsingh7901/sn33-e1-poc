@@ -1,0 +1,5616 @@
+{
+ "n_tasks": 172,
+ "n_gt_tags": 2803,
+ "miss_rate_overall": {
+  "0.55": {
+   "n": 2803,
+   "missed": 81,
+   "rate": 0.0289
+  },
+  "0.6": {
+   "n": 2803,
+   "missed": 110,
+   "rate": 0.0392
+  },
+  "0.65": {
+   "n": 2803,
+   "missed": 151,
+   "rate": 0.0539
+  }
+ },
+ "miss_rate_by_type": {
+  "conversation_tagging": {
+   "0.55": {
+    "n": 2021,
+    "missed": 70,
+    "rate": 0.0346
+   },
+   "0.6": {
+    "n": 2021,
+    "missed": 95,
+    "rate": 0.047
+   },
+   "0.65": {
+    "n": 2021,
+    "missed": 124,
+    "rate": 0.0614
+   }
+  },
+  "webpage_metadata_generation": {
+   "0.55": {
+    "n": 782,
+    "missed": 11,
+    "rate": 0.0141
+   },
+   "0.6": {
+    "n": 782,
+    "missed": 15,
+    "rate": 0.0192
+   },
+   "0.65": {
+    "n": 782,
+    "missed": 27,
+    "rate": 0.0345
+   }
+  }
+ },
+ "composition_missed": {
+  "n": 110,
+  "ne": 0.482,
+  "number": 0.082,
+  "abstract": 0.055,
+  "anchor": {
+   "window_only": 0.373,
+   "neither": 0.327,
+   "partial": 0.2,
+   "enrichment_only": 0.1
+  },
+  "nwords": {
+   "1": 0.4,
+   "2": 0.409,
+   "3": 0.109,
+   "4": 0.082
+  },
+  "domain": {
+   "real_estate": 49,
+   "finance": 30,
+   "tech": 9,
+   "other": 8,
+   "politics": 8,
+   "energy": 5,
+   "sports": 1
+  }
+ },
+ "composition_covered_control": {
+  "n": 110,
+  "ne": 0.436,
+  "number": 0.036,
+  "abstract": 0.291,
+  "anchor": {
+   "window_only": 0.4,
+   "enrichment_only": 0.3,
+   "partial": 0.209,
+   "neither": 0.091
+  },
+  "nwords": {
+   "1": 0.209,
+   "2": 0.5,
+   "3": 0.218,
+   "4": 0.073
+  },
+  "domain": {
+   "real_estate": 48,
+   "finance": 24,
+   "tech": 24,
+   "other": 6,
+   "sports": 4,
+   "energy": 2,
+   "politics": 2
+  }
+ },
+ "miss_rate_by_class": {
+  "named_entity": {
+   "n": 1453,
+   "missed": 53,
+   "rate": 0.0365
+  },
+  "not_named_entity": {
+   "n": 1350,
+   "missed": 57,
+   "rate": 0.0422
+  },
+  "number_bearing": {
+   "n": 90,
+   "missed": 9,
+   "rate": 0.1
+  },
+  "abstract": {
+   "n": 788,
+   "missed": 6,
+   "rate": 0.0076
+  },
+  "concrete": {
+   "n": 2015,
+   "missed": 104,
+   "rate": 0.0516
+  },
+  "anchor_window_only": {
+   "n": 931,
+   "missed": 41,
+   "rate": 0.044
+  },
+  "anchor_enrichment_only": {
+   "n": 901,
+   "missed": 11,
+   "rate": 0.0122
+  },
+  "anchor_both": {
+   "n": 14,
+   "missed": 0,
+   "rate": 0.0
+  },
+  "anchor_partial": {
+   "n": 629,
+   "missed": 22,
+   "rate": 0.035
+  },
+  "anchor_neither": {
+   "n": 328,
+   "missed": 36,
+   "rate": 0.1098
+  },
+  "words_1": {
+   "n": 666,
+   "missed": 44,
+   "rate": 0.0661
+  },
+  "words_2": {
+   "n": 1298,
+   "missed": 45,
+   "rate": 0.0347
+  },
+  "words_3": {
+   "n": 609,
+   "missed": 12,
+   "rate": 0.0197
+  },
+  "words_4plus": {
+   "n": 230,
+   "missed": 9,
+   "rate": 0.0391
+  },
+  "domain_energy": {
+   "n": 39,
+   "missed": 5,
+   "rate": 0.1282
+  },
+  "domain_finance": {
+   "n": 669,
+   "missed": 30,
+   "rate": 0.0448
+  },
+  "domain_other": {
+   "n": 160,
+   "missed": 8,
+   "rate": 0.05
+  },
+  "domain_politics": {
+   "n": 126,
+   "missed": 8,
+   "rate": 0.0635
+  },
+  "domain_real_estate": {
+   "n": 1200,
+   "missed": 49,
+   "rate": 0.0408
+  },
+  "domain_sports": {
+   "n": 28,
+   "missed": 1,
+   "rate": 0.0357
+  },
+  "domain_tech": {
+   "n": 541,
+   "missed": 9,
+   "rate": 0.0166
+  },
+  "domain_travel": {
+   "n": 40,
+   "missed": 0,
+   "rate": 0.0
+  }
+ },
+ "source_affinity_covered": {
+  "all": {
+   "replica": 1985,
+   "deep": 1615,
+   "pool": 1097,
+   "local": 269,
+   "theme": 61,
+   "variant": 45,
+   "other": 11,
+   "anchor": 1
+  },
+  "ne": {
+   "replica": 1085,
+   "deep": 816,
+   "pool": 593,
+   "local": 234,
+   "theme": 24,
+   "variant": 16,
+   "other": 7
+  },
+  "concrete": {
+   "replica": 1408,
+   "deep": 1046,
+   "pool": 772,
+   "local": 246,
+   "variant": 33,
+   "theme": 21,
+   "other": 11
+  },
+  "anchor_enrichment_only": {
+   "replica": 771,
+   "deep": 758,
+   "pool": 313,
+   "variant": 21,
+   "theme": 17,
+   "other": 1
+  },
+  "words_1": {
+   "replica": 470,
+   "deep": 293,
+   "pool": 207,
+   "local": 104,
+   "theme": 19,
+   "other": 4,
+   "variant": 2,
+   "anchor": 1
+  },
+  "anchor_partial": {
+   "replica": 396,
+   "deep": 365,
+   "pool": 196,
+   "theme": 17,
+   "variant": 14,
+   "local": 10
+  },
+  "words_3": {
+   "replica": 440,
+   "deep": 387,
+   "pool": 227,
+   "local": 36,
+   "variant": 13,
+   "theme": 5,
+   "other": 1
+  },
+  "words_2": {
+   "replica": 919,
+   "deep": 800,
+   "pool": 597,
+   "local": 121,
+   "theme": 36,
+   "variant": 26,
+   "other": 6
+  },
+  "not_ne": {
+   "replica": 900,
+   "deep": 799,
+   "pool": 504,
+   "theme": 37,
+   "local": 35,
+   "variant": 29,
+   "other": 4,
+   "anchor": 1
+  },
+  "abstract": {
+   "replica": 577,
+   "deep": 569,
+   "pool": 325,
+   "theme": 40,
+   "local": 23,
+   "variant": 12,
+   "anchor": 1
+  },
+  "words_4": {
+   "replica": 156,
+   "deep": 135,
+   "pool": 66,
+   "local": 8,
+   "variant": 4,
+   "theme": 1
+  },
+  "anchor_neither": {
+   "replica": 181,
+   "deep": 161,
+   "pool": 87,
+   "theme": 12,
+   "variant": 4,
+   "local": 3,
+   "other": 2,
+   "anchor": 1
+  },
+  "anchor_window_only": {
+   "replica": 623,
+   "pool": 495,
+   "deep": 319,
+   "local": 246,
+   "theme": 12,
+   "other": 8,
+   "variant": 6
+  },
+  "anchor_both": {
+   "replica": 14,
+   "deep": 12,
+   "local": 10,
+   "pool": 6,
+   "theme": 3
+  },
+  "number": {
+   "replica": 58,
+   "deep": 39,
+   "pool": 18,
+   "local": 3,
+   "variant": 3,
+   "other": 2
+  }
+ },
+ "score_cost": {
+  "same_draw": {
+   "miss_ge3": {
+    "n": 10,
+    "mean": 0.4905,
+    "median": 0.4763,
+    "p10": 0.3838
+   },
+   "miss_le1": {
+    "n": 151,
+    "mean": 0.5703,
+    "median": 0.6007,
+    "p10": 0.4034
+   }
+  },
+  "cross_draw_odd_defines_miss_even_scores": {
+   "miss_ge2_of_oddhalf": {
+    "n": 10,
+    "mean": 0.4619,
+    "median": 0.4237,
+    "p10": 0.3562
+   },
+   "miss_le1_of_oddhalf": {
+    "n": 162,
+    "mean": 0.5462,
+    "median": 0.5653,
+    "p10": 0.3591
+   }
+  },
+  "live_cohort_relative": {
+   "miss_ge3": {
+    "n": 3,
+    "mean": -0.0185,
+    "median": -0.0092
+   },
+   "miss_le1": {
+    "n": 51,
+    "mean": -0.0389,
+    "median": -0.0189
+   }
+  },
+  "miss_count_hist_060": {
+   "1": 48,
+   "0": 103,
+   "2": 11,
+   "4": 4,
+   "3": 4,
+   "6": 2
+  }
+ },
+ "examples_worst_misses": [
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "telangana",
+   "best_cand": "technology",
+   "best_cos": 0.2253,
+   "best_lex": "storytelling",
+   "best_lex_score": 0.476,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 78,
+   "task_type": "conversation_tagging",
+   "gt": "hyderabad telangana",
+   "best_cand": "health tech",
+   "best_cos": 0.2834,
+   "best_lex": "swap based hedging",
+   "best_lex_score": 0.432,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 65,
+   "task_type": "conversation_tagging",
+   "gt": "anthropic claude",
+   "best_cand": "artificial intelligence ads",
+   "best_cos": 0.2899,
+   "best_lex": "control group design",
+   "best_lex_score": 0.444,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 16,
+   "task_type": "conversation_tagging",
+   "gt": "ted kaczynski",
+   "best_cand": "herbert marcuse",
+   "best_cos": 0.2927,
+   "best_lex": "research insight",
+   "best_lex_score": 0.345,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 46,
+   "task_type": "conversation_tagging",
+   "gt": "hasura",
+   "best_cand": "haskell programming",
+   "best_cos": 0.3051,
+   "best_lex": "asr",
+   "best_lex_score": 0.667,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "tech"
+  },
+  {
+   "idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "us gateway demand",
+   "best_cos": 0.3207,
+   "best_lex": "real estate",
+   "best_lex_score": 0.583,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 85,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "work",
+   "best_cos": 0.3243,
+   "best_lex": "2011 2025",
+   "best_lex_score": 0.333,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "victor marks",
+   "best_cand": "polymarkets",
+   "best_cos": 0.3276,
+   "best_lex": "prediction markets",
+   "best_lex_score": 0.667,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "hyderabad",
+   "best_cand": "heloc",
+   "best_cos": 0.3319,
+   "best_lex": "healthcare",
+   "best_lex_score": 0.316,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "gt": "1800respect",
+   "best_cand": "rights awareness",
+   "best_cos": 0.3332,
+   "best_lex": "reflection",
+   "best_lex_score": 0.476,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 80,
+   "task_type": "conversation_tagging",
+   "gt": "adler",
+   "best_cand": "advice",
+   "best_cos": 0.3451,
+   "best_lex": "sales",
+   "best_lex_score": 0.6,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 55,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "usd 193 43 billion",
+   "best_cos": 0.3458,
+   "best_lex": "2011 2025",
+   "best_lex_score": 0.333,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 224,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "usd 193 43 billion",
+   "best_cos": 0.3458,
+   "best_lex": "2011 2025",
+   "best_lex_score": 0.333,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 197,
+   "task_type": "conversation_tagging",
+   "gt": "pit pitest",
+   "best_cand": "rest api",
+   "best_cos": 0.3465,
+   "best_lex": "unit tests",
+   "best_lex_score": 0.7,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 38,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "san francisco",
+   "best_cos": 0.3481,
+   "best_lex": "real estate",
+   "best_lex_score": 0.583,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "greg lopez",
+   "best_cand": "tom tancredo",
+   "best_cos": 0.3515,
+   "best_lex": "rental property",
+   "best_lex_score": 0.48,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "south korea",
+   "best_cand": "united states",
+   "best_cos": 0.3517,
+   "best_lex": "us congress",
+   "best_lex_score": 0.364,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "politics"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "gt": "united kingdom",
+   "best_cand": "mexico",
+   "best_cos": 0.352,
+   "best_lex": "networking",
+   "best_lex_score": 0.5,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "energy"
+  },
+  {
+   "idx": 53,
+   "task_type": "conversation_tagging",
+   "gt": "flds",
+   "best_cand": "family",
+   "best_cos": 0.3523,
+   "best_lex": "cults",
+   "best_lex_score": 0.444,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "unit count",
+   "best_cos": 0.3612,
+   "best_lex": "2011 2025",
+   "best_lex_score": 0.333,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 11,
+   "task_type": "conversation_tagging",
+   "gt": "icij",
+   "best_cand": "investigative journalism",
+   "best_cos": 0.367,
+   "best_lex": "music",
+   "best_lex_score": 0.444,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "gt": "k art",
+   "best_cand": "music",
+   "best_cos": 0.3671,
+   "best_lex": "s rights",
+   "best_lex_score": 0.462,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 228,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "us housing market",
+   "best_cos": 0.38,
+   "best_lex": "housing starts",
+   "best_lex_score": 0.593,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 201,
+   "task_type": "conversation_tagging",
+   "gt": "drukhari",
+   "best_cand": "dark eldar",
+   "best_cos": 0.3824,
+   "best_lex": "education",
+   "best_lex_score": 0.471,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 43,
+   "task_type": "conversation_tagging",
+   "gt": "mario delgado",
+   "best_cand": "salinas pliego",
+   "best_cos": 0.3876,
+   "best_lex": "mix modeling",
+   "best_lex_score": 0.56,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "other"
+  },
+  {
+   "idx": 31,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "maine",
+   "best_cos": 0.3887,
+   "best_lex": "housing starts",
+   "best_lex_score": 0.593,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 11,
+   "task_type": "conversation_tagging",
+   "gt": "rusko",
+   "best_cand": "slovakia",
+   "best_cos": 0.3992,
+   "best_lex": "russia",
+   "best_lex_score": 0.545,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 39,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "austin texas",
+   "best_cos": 0.4026,
+   "best_lex": "housing starts",
+   "best_lex_score": 0.593,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "gt": "middle east",
+   "best_cand": "iran conflict",
+   "best_cos": 0.403,
+   "best_lex": "mindset",
+   "best_lex_score": 0.556,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "energy"
+  },
+  {
+   "idx": 64,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "us transportation data",
+   "best_cos": 0.4113,
+   "best_lex": "travel statistic",
+   "best_lex_score": 0.552,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 176,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "us markets",
+   "best_cos": 0.4129,
+   "best_lex": "real estates",
+   "best_lex_score": 0.64,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 49,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "india",
+   "best_cos": 0.4245,
+   "best_lex": "public universities",
+   "best_lex_score": 0.375,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 71,
+   "task_type": "conversation_tagging",
+   "gt": "nsdl tin services",
+   "best_cand": "online tax services",
+   "best_cos": 0.4296,
+   "best_lex": "online tax services",
+   "best_lex_score": 0.722,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "china",
+   "best_cand": "united states",
+   "best_cos": 0.4313,
+   "best_lex": "coaching",
+   "best_lex_score": 0.615,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 19,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "europe",
+   "best_cos": 0.4325,
+   "best_lex": "fuel shortages",
+   "best_lex_score": 0.593,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 45,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "massachusetts",
+   "best_cos": 0.4428,
+   "best_lex": "multivariate statistics",
+   "best_lex_score": 0.556,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 39,
+   "task_type": "conversation_tagging",
+   "gt": "the bob costas show",
+   "best_cand": "television talk show",
+   "best_cos": 0.4485,
+   "best_lex": "water costs",
+   "best_lex_score": 0.533,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 4,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 237,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "country",
+   "best_cos": 0.4495,
+   "best_lex": "reit status",
+   "best_lex_score": 0.667,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 236,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "washington state",
+   "best_cos": 0.4496,
+   "best_lex": "washington state",
+   "best_lex_score": 0.552,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "chinese communist party",
+   "best_cand": "us china relations",
+   "best_cos": 0.4523,
+   "best_lex": "communication",
+   "best_lex_score": 0.444,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "real_estate"
+  }
+ ],
+ "all_missed": [
+  {
+   "idx": 1,
+   "task_type": "conversation_tagging",
+   "gt": "java",
+   "best_cand": "java metamodel",
+   "best_cos": 0.5266,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "tech"
+  },
+  {
+   "idx": 3,
+   "task_type": "conversation_tagging",
+   "gt": "gaza",
+   "best_cand": "israel",
+   "best_cos": 0.4896,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "tech"
+  },
+  {
+   "idx": 16,
+   "task_type": "conversation_tagging",
+   "gt": "ted kaczynski",
+   "best_cand": "herbert marcuse",
+   "best_cos": 0.2927,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 24,
+   "task_type": "conversation_tagging",
+   "gt": "transfer learning",
+   "best_cand": "deep learning",
+   "best_cos": 0.5613,
+   "ne": true,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 24,
+   "task_type": "conversation_tagging",
+   "gt": "ai ethics",
+   "best_cand": "ai education",
+   "best_cos": 0.4994,
+   "ne": false,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "greg lopez",
+   "best_cand": "tom tancredo",
+   "best_cos": 0.3515,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "victor marks",
+   "best_cand": "polymarkets",
+   "best_cos": 0.3276,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "google",
+   "best_cand": "google tools",
+   "best_cos": 0.5582,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "gt": "youtube",
+   "best_cand": "youtube tutorial",
+   "best_cos": 0.5443,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 43,
+   "task_type": "conversation_tagging",
+   "gt": "mario delgado",
+   "best_cand": "salinas pliego",
+   "best_cos": 0.3876,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "other"
+  },
+  {
+   "idx": 43,
+   "task_type": "conversation_tagging",
+   "gt": "ley issste 2007",
+   "best_cand": "reforma del issste 2007",
+   "best_cos": 0.5748,
+   "ne": true,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "other"
+  },
+  {
+   "idx": 43,
+   "task_type": "conversation_tagging",
+   "gt": "roi analysis",
+   "best_cand": "roi measurement",
+   "best_cos": 0.5949,
+   "ne": false,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "other"
+  },
+  {
+   "idx": 52,
+   "task_type": "conversation_tagging",
+   "gt": "bill clinton",
+   "best_cand": "donald trump",
+   "best_cos": 0.4651,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 53,
+   "task_type": "conversation_tagging",
+   "gt": "flds",
+   "best_cand": "family",
+   "best_cos": 0.3523,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 4,
+   "task_type": "conversation_tagging",
+   "gt": "nascar",
+   "best_cand": "stock car racing",
+   "best_cos": 0.5845,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 7,
+   "task_type": "conversation_tagging",
+   "gt": "2026 nfl season",
+   "best_cand": "nfl draft",
+   "best_cos": 0.5765,
+   "ne": true,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 3,
+   "domain": "sports"
+  },
+  {
+   "idx": 8,
+   "task_type": "conversation_tagging",
+   "gt": "china",
+   "best_cand": "shanghai china",
+   "best_cos": 0.5168,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "energy"
+  },
+  {
+   "idx": 8,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "china united states relations",
+   "best_cos": 0.5586,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "energy"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "gt": "1800respect",
+   "best_cand": "rights awareness",
+   "best_cos": 0.3332,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "gt": "k art",
+   "best_cand": "music",
+   "best_cos": 0.3671,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "gt": "k pop",
+   "best_cand": "music",
+   "best_cos": 0.3708,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 11,
+   "task_type": "conversation_tagging",
+   "gt": "rusko",
+   "best_cand": "slovakia",
+   "best_cos": 0.3992,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 11,
+   "task_type": "conversation_tagging",
+   "gt": "icij",
+   "best_cand": "investigative journalism",
+   "best_cos": 0.367,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "trump maximum pressure campaign",
+   "best_cand": "trump administrations",
+   "best_cos": 0.5458,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 4,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "china",
+   "best_cand": "china energy imports",
+   "best_cos": 0.4833,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "iran",
+   "best_cand": "iranian oil",
+   "best_cos": 0.5823,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "international energy markets",
+   "best_cand": "international trade",
+   "best_cos": 0.5611,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "chinese communist party",
+   "best_cand": "us china relations",
+   "best_cos": 0.4523,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "gt": "house select committee on china",
+   "best_cand": "us china relations",
+   "best_cos": 0.5567,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 5,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 13,
+   "task_type": "conversation_tagging",
+   "gt": "mma",
+   "best_cand": "mma fighters",
+   "best_cos": 0.5407,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 13,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "texas",
+   "best_cos": 0.4657,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 17,
+   "task_type": "conversation_tagging",
+   "gt": "9 lihtc",
+   "best_cand": "9 tax credits",
+   "best_cos": 0.5266,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 18,
+   "task_type": "conversation_tagging",
+   "gt": "donald trump",
+   "best_cand": "trump tax cuts",
+   "best_cos": 0.5446,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "politics"
+  },
+  {
+   "idx": 19,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "europe",
+   "best_cos": 0.4325,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 22,
+   "task_type": "conversation_tagging",
+   "gt": "fred database",
+   "best_cand": "fred",
+   "best_cos": 0.5071,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 27,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "american people",
+   "best_cos": 0.5142,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "unit count",
+   "best_cos": 0.3612,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "gt": "astra militarum imperial guard",
+   "best_cand": "warhammer forty thousand",
+   "best_cos": 0.4559,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 4,
+   "domain": "finance"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "gt": "ultramarines",
+   "best_cand": "warhammer forty thousand",
+   "best_cos": 0.516,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "gt": "c tan",
+   "best_cand": "ctan",
+   "best_cos": 0.4817,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "hyderabad",
+   "best_cand": "heloc",
+   "best_cos": 0.3319,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "telangana",
+   "best_cand": "technology",
+   "best_cos": 0.2253,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "large language models",
+   "best_cand": "modelscope",
+   "best_cos": 0.3508,
+   "ne": false,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "finance"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "gt": "open source llms",
+   "best_cand": "ai workshops",
+   "best_cos": 0.3563,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 3,
+   "domain": "finance"
+  },
+  {
+   "idx": 31,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "maine",
+   "best_cos": 0.3887,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 36,
+   "task_type": "conversation_tagging",
+   "gt": "bakhtiar",
+   "best_cand": "bakhtiari people",
+   "best_cos": 0.5649,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "other"
+  },
+  {
+   "idx": 38,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "san francisco",
+   "best_cos": 0.3481,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 39,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "austin texas",
+   "best_cos": 0.4026,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 39,
+   "task_type": "conversation_tagging",
+   "gt": "the bob costas show",
+   "best_cand": "television talk show",
+   "best_cos": 0.4485,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 4,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 45,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "massachusetts",
+   "best_cos": 0.4428,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 46,
+   "task_type": "conversation_tagging",
+   "gt": "hasura",
+   "best_cand": "haskell programming",
+   "best_cos": 0.3051,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "tech"
+  },
+  {
+   "idx": 49,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "india",
+   "best_cos": 0.4245,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 49,
+   "task_type": "conversation_tagging",
+   "gt": "imec india middle east europe economic corridor",
+   "best_cand": "indo mediterranean corridor",
+   "best_cos": 0.5877,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 7,
+   "domain": "finance"
+  },
+  {
+   "idx": 55,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "usd 193 43 billion",
+   "best_cos": 0.3458,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "gt": "iran",
+   "best_cand": "iran conflict",
+   "best_cos": 0.4982,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "energy"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "gt": "middle east",
+   "best_cand": "iran conflict",
+   "best_cos": 0.403,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "energy"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "gt": "united kingdom",
+   "best_cand": "mexico",
+   "best_cos": 0.352,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "energy"
+  },
+  {
+   "idx": 59,
+   "task_type": "conversation_tagging",
+   "gt": "vk video",
+   "best_cand": "online video platform",
+   "best_cos": 0.5475,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "other"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "china",
+   "best_cand": "united states",
+   "best_cos": 0.4313,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "india",
+   "best_cand": "canada",
+   "best_cos": 0.4981,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "japan",
+   "best_cand": "canada",
+   "best_cos": 0.4991,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "south korea",
+   "best_cand": "united states",
+   "best_cos": 0.3517,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "politics"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "asia",
+   "best_cand": "travel",
+   "best_cos": 0.5275,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "gt": "western europe",
+   "best_cand": "european relations",
+   "best_cos": 0.5655,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "politics"
+  },
+  {
+   "idx": 64,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "us transportation data",
+   "best_cos": 0.4113,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 65,
+   "task_type": "conversation_tagging",
+   "gt": "anthropic claude",
+   "best_cand": "artificial intelligence ads",
+   "best_cos": 0.2899,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 69,
+   "task_type": "conversation_tagging",
+   "gt": "caesarion",
+   "best_cand": "cassius dios",
+   "best_cos": 0.5287,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 71,
+   "task_type": "conversation_tagging",
+   "gt": "nsdl tin services",
+   "best_cand": "online tax services",
+   "best_cos": 0.4296,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 74,
+   "task_type": "conversation_tagging",
+   "gt": "canada",
+   "best_cand": "major canadian cities",
+   "best_cos": 0.5992,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 76,
+   "task_type": "conversation_tagging",
+   "gt": "reddit",
+   "best_cand": "reddit research",
+   "best_cos": 0.5961,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "other"
+  },
+  {
+   "idx": 76,
+   "task_type": "conversation_tagging",
+   "gt": "youtube",
+   "best_cand": "youtube fitness",
+   "best_cos": 0.5664,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "other"
+  },
+  {
+   "idx": 78,
+   "task_type": "conversation_tagging",
+   "gt": "hyderabad telangana",
+   "best_cand": "health tech",
+   "best_cos": 0.2834,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 79,
+   "task_type": "conversation_tagging",
+   "gt": "accredited investors",
+   "best_cand": "retail investors",
+   "best_cos": 0.5339,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 80,
+   "task_type": "conversation_tagging",
+   "gt": "adler",
+   "best_cand": "advice",
+   "best_cos": 0.3451,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 85,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "work",
+   "best_cos": 0.3243,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 88,
+   "task_type": "conversation_tagging",
+   "gt": "sports media rights",
+   "best_cand": "fox sports",
+   "best_cos": 0.5379,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 3,
+   "domain": "finance"
+  },
+  {
+   "idx": 253,
+   "task_type": "conversation_tagging",
+   "gt": "masters of the maelstrom",
+   "best_cand": "chaos space marine",
+   "best_cos": 0.4931,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 4,
+   "domain": "finance"
+  },
+  {
+   "idx": 257,
+   "task_type": "conversation_tagging",
+   "gt": "google apis",
+   "best_cand": "google policies",
+   "best_cos": 0.5563,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 257,
+   "task_type": "conversation_tagging",
+   "gt": "end to end encryption",
+   "best_cand": "encrypted messaging",
+   "best_cos": 0.5106,
+   "ne": false,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "neither",
+   "nwords": 4,
+   "domain": "tech"
+  },
+  {
+   "idx": 260,
+   "task_type": "conversation_tagging",
+   "gt": "iran",
+   "best_cand": "islamic republic",
+   "best_cos": 0.5555,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 260,
+   "task_type": "conversation_tagging",
+   "gt": "canada",
+   "best_cand": "canada gun laws",
+   "best_cos": 0.5892,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 267,
+   "task_type": "conversation_tagging",
+   "gt": "awards employment conditions",
+   "best_cand": "award wages",
+   "best_cos": 0.574,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 177,
+   "task_type": "conversation_tagging",
+   "gt": "terry black s bbq",
+   "best_cand": "texas barbecue",
+   "best_cos": 0.5712,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 4,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 185,
+   "task_type": "conversation_tagging",
+   "gt": "vatican",
+   "best_cand": "catholic church",
+   "best_cos": 0.5811,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "politics"
+  },
+  {
+   "idx": 197,
+   "task_type": "conversation_tagging",
+   "gt": "pit pitest",
+   "best_cand": "rest api",
+   "best_cos": 0.3465,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "tech"
+  },
+  {
+   "idx": 201,
+   "task_type": "conversation_tagging",
+   "gt": "drukhari",
+   "best_cand": "dark eldar",
+   "best_cos": 0.3824,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "finance"
+  },
+  {
+   "idx": 220,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "california",
+   "best_cos": 0.4583,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 222,
+   "task_type": "conversation_tagging",
+   "gt": "astra militarum",
+   "best_cand": "ultramarines",
+   "best_cos": 0.5378,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 222,
+   "task_type": "conversation_tagging",
+   "gt": "aeldari",
+   "best_cand": "space elves",
+   "best_cos": 0.5205,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 222,
+   "task_type": "conversation_tagging",
+   "gt": "necrons",
+   "best_cand": "undead robots",
+   "best_cos": 0.5957,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 222,
+   "task_type": "conversation_tagging",
+   "gt": "adeptus custodes",
+   "best_cand": "custodian guard",
+   "best_cos": 0.5689,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 224,
+   "task_type": "conversation_tagging",
+   "gt": "000",
+   "best_cand": "usd 193 43 billion",
+   "best_cos": 0.3458,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 228,
+   "task_type": "conversation_tagging",
+   "gt": "united states",
+   "best_cand": "us housing market",
+   "best_cos": 0.38,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 229,
+   "task_type": "conversation_tagging",
+   "gt": "canada",
+   "best_cand": "major canadian cities",
+   "best_cos": 0.5992,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "enrichment_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 258,
+   "task_type": "conversation_tagging",
+   "gt": "npr politics podcast",
+   "best_cand": "podcasts",
+   "best_cos": 0.4873,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 3,
+   "domain": "finance"
+  },
+  {
+   "idx": 176,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "us markets",
+   "best_cos": 0.4129,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 178,
+   "task_type": "webpage_metadata_generation",
+   "gt": "taylor francis online",
+   "best_cand": "tandf online",
+   "best_cos": 0.5273,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 3,
+   "domain": "finance"
+  },
+  {
+   "idx": 204,
+   "task_type": "webpage_metadata_generation",
+   "gt": "sitemap",
+   "best_cand": "site indexing control",
+   "best_cos": 0.4923,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "other"
+  },
+  {
+   "idx": 213,
+   "task_type": "webpage_metadata_generation",
+   "gt": "california",
+   "best_cand": "california housing law",
+   "best_cos": 0.5725,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 232,
+   "task_type": "webpage_metadata_generation",
+   "gt": "2025 market outlook",
+   "best_cand": "market forecast",
+   "best_cos": 0.5998,
+   "ne": false,
+   "number": true,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 3,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 235,
+   "task_type": "webpage_metadata_generation",
+   "gt": "ios",
+   "best_cand": "ios app",
+   "best_cos": 0.5072,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 236,
+   "task_type": "webpage_metadata_generation",
+   "gt": "sitemap xml",
+   "best_cand": "sitemap",
+   "best_cos": 0.5684,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 236,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "washington state",
+   "best_cos": 0.4496,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 237,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "country",
+   "best_cos": 0.4495,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 237,
+   "task_type": "webpage_metadata_generation",
+   "gt": "grid modernization",
+   "best_cand": "grid integration",
+   "best_cos": 0.5458,
+   "ne": false,
+   "number": false,
+   "abstract": "abstract",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "finance"
+  },
+  {
+   "idx": 252,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "europe vs usa",
+   "best_cos": 0.477,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 259,
+   "task_type": "webpage_metadata_generation",
+   "gt": "centers for medicare medicaid services",
+   "best_cand": "affordable care act",
+   "best_cos": 0.4652,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "partial",
+   "nwords": 5,
+   "domain": "finance"
+  },
+  {
+   "idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "gt": "united states",
+   "best_cand": "us gateway demand",
+   "best_cos": 0.3207,
+   "ne": false,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "neither",
+   "nwords": 2,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "gt": "europe",
+   "best_cand": "europe logistics market",
+   "best_cos": 0.5669,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "gt": "india",
+   "best_cand": "india warehousing",
+   "best_cos": 0.528,
+   "ne": true,
+   "number": false,
+   "abstract": "concrete",
+   "anchor": "window_only",
+   "nwords": 1,
+   "domain": "real_estate"
+  }
+ ],
+ "per_task": [
+  {
+   "idx": 1,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5997,
+   "same_final": 0.618,
+   "live_final": 0.6251170306195405,
+   "cohort_mean": 0.6528791298453098,
+   "domain": "tech"
+  },
+  {
+   "idx": 2,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7278,
+   "same_final": 0.737,
+   "live_final": 0.6475969489127688,
+   "cohort_mean": 0.6652243995994571,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 3,
+   "task_type": "conversation_tagging",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 5,
+   "cross_final": 0.2601,
+   "same_final": 0.3244,
+   "live_final": 0.6193235772741226,
+   "cohort_mean": 0.6230146249605131,
+   "domain": "tech"
+  },
+  {
+   "idx": 6,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5814,
+   "same_final": 0.5856,
+   "live_final": 0.6266340410903046,
+   "cohort_mean": 0.6815518026527307,
+   "domain": "tech"
+  },
+  {
+   "idx": 9,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.6655,
+   "same_final": 0.7246,
+   "live_final": 0.711028944879829,
+   "cohort_mean": 0.7432019340553117,
+   "domain": "tech"
+  },
+  {
+   "idx": 14,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6061,
+   "same_final": 0.619,
+   "live_final": 0.6238657659571767,
+   "cohort_mean": 0.6894258206409096,
+   "domain": "tech"
+  },
+  {
+   "idx": 15,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.637,
+   "same_final": 0.6137,
+   "live_final": 0.5152159364432324,
+   "cohort_mean": 0.5254188979229462,
+   "domain": "tech"
+  },
+  {
+   "idx": 16,
+   "task_type": "conversation_tagging",
+   "n_gt": 12,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 6,
+   "cross_final": 0.5429,
+   "same_final": 0.6279,
+   "live_final": 0.6569699430211334,
+   "cohort_mean": 0.6689482363020329,
+   "domain": "finance"
+  },
+  {
+   "idx": 20,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.2465,
+   "same_final": 0.2769,
+   "live_final": 0.5939746123087062,
+   "cohort_mean": 0.6254646409447485,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 21,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5899,
+   "same_final": 0.6006,
+   "live_final": 0.47299534234142027,
+   "cohort_mean": 0.6443765121398451,
+   "domain": "tech"
+  },
+  {
+   "idx": 23,
+   "task_type": "conversation_tagging",
+   "n_gt": 17,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.4995,
+   "same_final": 0.4751,
+   "live_final": 0.29413629281502646,
+   "cohort_mean": 0.2642157735456915,
+   "domain": "finance"
+  },
+  {
+   "idx": 24,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 2,
+    "0.65": 4
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 10,
+   "cross_final": 0.608,
+   "same_final": 0.6166,
+   "live_final": 0.6077441462323627,
+   "cohort_mean": 0.6796514029970337,
+   "domain": "tech"
+  },
+  {
+   "idx": 40,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 3,
+    "0.6": 4,
+    "0.65": 4
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 9,
+   "cross_final": 0.3831,
+   "same_final": 0.4104,
+   "live_final": 0.5931333106684376,
+   "cohort_mean": 0.6480769301847277,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 41,
+   "task_type": "conversation_tagging",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.6667,
+   "same_final": 0.6495,
+   "live_final": 0.6545472046534888,
+   "cohort_mean": 0.6734565491828927,
+   "domain": "other"
+  },
+  {
+   "idx": 43,
+   "task_type": "conversation_tagging",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 3,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 5,
+   "cross_final": 0.4303,
+   "same_final": 0.4304,
+   "live_final": 0.35013323473428004,
+   "cohort_mean": 0.35931940813301927,
+   "domain": "other"
+  },
+  {
+   "idx": 44,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6508,
+   "same_final": 0.6432,
+   "live_final": 0.5892780068648332,
+   "cohort_mean": 0.618211545902969,
+   "domain": "tech"
+  },
+  {
+   "idx": 47,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.72,
+   "same_final": 0.6865,
+   "live_final": 0.5786324331916729,
+   "cohort_mean": 0.5822910843388271,
+   "domain": "tech"
+  },
+  {
+   "idx": 52,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.2327,
+   "same_final": 0.2476,
+   "live_final": 0.524643477977404,
+   "cohort_mean": 0.6340479554784529,
+   "domain": "finance"
+  },
+  {
+   "idx": 53,
+   "task_type": "conversation_tagging",
+   "n_gt": 5,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 2,
+   "cross_final": 0.3203,
+   "same_final": 0.3823,
+   "live_final": 0.5979764285452177,
+   "cohort_mean": 0.6048207013414347,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 56,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6893,
+   "same_final": 0.7109,
+   "live_final": 0.6616126979005738,
+   "cohort_mean": 0.5533217275050076,
+   "domain": "tech"
+  },
+  {
+   "idx": 60,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.2436,
+   "same_final": 0.2507,
+   "live_final": 0.6816180150468496,
+   "cohort_mean": 0.7094101819293652,
+   "domain": "finance"
+  },
+  {
+   "idx": 0,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6343,
+   "same_final": 0.6719,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 4,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6726,
+   "same_final": 0.6444,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 5,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6831,
+   "same_final": 0.684,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 7,
+   "task_type": "conversation_tagging",
+   "n_gt": 8,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 4,
+   "cross_final": 0.3198,
+   "same_final": 0.2999,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "sports"
+  },
+  {
+   "idx": 8,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 2,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5416,
+   "same_final": 0.5301,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "energy"
+  },
+  {
+   "idx": 10,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 3,
+    "0.6": 3,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5823,
+   "same_final": 0.6421,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 11,
+   "task_type": "conversation_tagging",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 2,
+    "0.65": 5
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.4466,
+   "same_final": 0.4814,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 12,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 3,
+    "0.6": 6,
+    "0.65": 6
+   },
+   "n_miss_odd_060": 3,
+   "n_odd": 8,
+   "cross_final": 0.357,
+   "same_final": 0.3709,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 13,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5757,
+   "same_final": 0.6364,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 17,
+   "task_type": "conversation_tagging",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.5214,
+   "same_final": 0.6177,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 18,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 4,
+   "cross_final": 0.3886,
+   "same_final": 0.3703,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "politics"
+  },
+  {
+   "idx": 19,
+   "task_type": "conversation_tagging",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.3489,
+   "same_final": 0.3531,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 22,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6308,
+   "same_final": 0.6527,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 25,
+   "task_type": "conversation_tagging",
+   "n_gt": 21,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6801,
+   "same_final": 0.696,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 26,
+   "task_type": "conversation_tagging",
+   "n_gt": 18,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6285,
+   "same_final": 0.6326,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 27,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.3097,
+   "same_final": 0.3537,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 28,
+   "task_type": "conversation_tagging",
+   "n_gt": 22,
+   "n_miss": {
+    "0.55": 4,
+    "0.6": 4,
+    "0.65": 5
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 11,
+   "cross_final": 0.5427,
+   "same_final": 0.5544,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 29,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 4,
+    "0.6": 4,
+    "0.65": 5
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 10,
+   "cross_final": 0.5797,
+   "same_final": 0.6118,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 30,
+   "task_type": "conversation_tagging",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.3988,
+   "same_final": 0.4764,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 31,
+   "task_type": "conversation_tagging",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 3,
+   "cross_final": 0.2642,
+   "same_final": 0.3227,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 32,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.3662,
+   "same_final": 0.4404,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 33,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.4743,
+   "same_final": 0.4987,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 34,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6151,
+   "same_final": 0.6261,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 35,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6232,
+   "same_final": 0.6462,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 36,
+   "task_type": "conversation_tagging",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.573,
+   "same_final": 0.6376,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 37,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.4334,
+   "same_final": 0.5576,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "travel"
+  },
+  {
+   "idx": 38,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.2441,
+   "same_final": 0.2752,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 39,
+   "task_type": "conversation_tagging",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 5,
+   "cross_final": 0.4171,
+   "same_final": 0.4108,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 42,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.66,
+   "same_final": 0.6457,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 45,
+   "task_type": "conversation_tagging",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 3,
+   "cross_final": 0.4008,
+   "same_final": 0.3688,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 46,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5387,
+   "same_final": 0.5537,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 48,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6811,
+   "same_final": 0.6837,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 49,
+   "task_type": "conversation_tagging",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.3588,
+   "same_final": 0.3863,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 50,
+   "task_type": "conversation_tagging",
+   "n_gt": 12,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.7118,
+   "same_final": 0.7014,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 51,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7524,
+   "same_final": 0.7252,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 54,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6542,
+   "same_final": 0.669,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 55,
+   "task_type": "conversation_tagging",
+   "n_gt": 21,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5468,
+   "same_final": 0.601,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 57,
+   "task_type": "conversation_tagging",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 3,
+    "0.6": 3,
+    "0.65": 4
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 5,
+   "cross_final": 0.5523,
+   "same_final": 0.5636,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "energy"
+  },
+  {
+   "idx": 58,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5261,
+   "same_final": 0.5706,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 59,
+   "task_type": "conversation_tagging",
+   "n_gt": 17,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.484,
+   "same_final": 0.4917,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 61,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 5,
+    "0.6": 6,
+    "0.65": 6
+   },
+   "n_miss_odd_060": 3,
+   "n_odd": 9,
+   "cross_final": 0.3997,
+   "same_final": 0.4138,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "politics"
+  },
+  {
+   "idx": 62,
+   "task_type": "conversation_tagging",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.3859,
+   "same_final": 0.3863,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 63,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6112,
+   "same_final": 0.6355,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 64,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 8,
+   "cross_final": 0.4846,
+   "same_final": 0.504,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 65,
+   "task_type": "conversation_tagging",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.6384,
+   "same_final": 0.6993,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 66,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6337,
+   "same_final": 0.716,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 67,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6964,
+   "same_final": 0.7025,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 68,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5616,
+   "same_final": 0.5664,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "sports"
+  },
+  {
+   "idx": 69,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5033,
+   "same_final": 0.5495,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 70,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6149,
+   "same_final": 0.6344,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 71,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 9,
+   "cross_final": 0.6874,
+   "same_final": 0.6733,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 72,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.672,
+   "same_final": 0.6586,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 73,
+   "task_type": "conversation_tagging",
+   "n_gt": 6,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.3618,
+   "same_final": 0.4042,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 74,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 9,
+   "cross_final": 0.6088,
+   "same_final": 0.6288,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 75,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.535,
+   "same_final": 0.5773,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 76,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 4,
+   "cross_final": 0.3053,
+   "same_final": 0.3249,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 77,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.4882,
+   "same_final": 0.5448,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 78,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.482,
+   "same_final": 0.5318,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 79,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7054,
+   "same_final": 0.7186,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 80,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.4766,
+   "same_final": 0.4798,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 81,
+   "task_type": "conversation_tagging",
+   "n_gt": 6,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.4003,
+   "same_final": 0.4819,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 82,
+   "task_type": "conversation_tagging",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.432,
+   "same_final": 0.4264,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 83,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6113,
+   "same_final": 0.5996,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 84,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6254,
+   "same_final": 0.6197,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 85,
+   "task_type": "conversation_tagging",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.5299,
+   "same_final": 0.58,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 86,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5653,
+   "same_final": 0.575,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 87,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6974,
+   "same_final": 0.6815,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 88,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5232,
+   "same_final": 0.5556,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 89,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5977,
+   "same_final": 0.6391,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 91,
+   "task_type": "conversation_tagging",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.6242,
+   "same_final": 0.6299,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 92,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5762,
+   "same_final": 0.5974,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 253,
+   "task_type": "conversation_tagging",
+   "n_gt": 21,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5477,
+   "same_final": 0.6186,
+   "live_final": 0.45429139641188016,
+   "cohort_mean": 0.4971187978927378,
+   "domain": "finance"
+  },
+  {
+   "idx": 257,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 2,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.6578,
+   "same_final": 0.6554,
+   "live_final": 0.5248276580966655,
+   "cohort_mean": 0.531951501040298,
+   "domain": "tech"
+  },
+  {
+   "idx": 260,
+   "task_type": "conversation_tagging",
+   "n_gt": 21,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 2,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5032,
+   "same_final": 0.4993,
+   "live_final": 0.4784703078433471,
+   "cohort_mean": 0.5876736315054125,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 261,
+   "task_type": "conversation_tagging",
+   "n_gt": 18,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.4477,
+   "same_final": 0.4759,
+   "live_final": 0.5402091876943916,
+   "cohort_mean": 0.5979166233042981,
+   "domain": "politics"
+  },
+  {
+   "idx": 265,
+   "task_type": "conversation_tagging",
+   "n_gt": 8,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.4474,
+   "same_final": 0.4972,
+   "live_final": 0.6316238143511169,
+   "cohort_mean": 0.6483822784777677,
+   "domain": "energy"
+  },
+  {
+   "idx": 267,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.6103,
+   "same_final": 0.6007,
+   "live_final": 0.5865608937861435,
+   "cohort_mean": 0.650508679788244,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 177,
+   "task_type": "conversation_tagging",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 7,
+   "cross_final": 0.5226,
+   "same_final": 0.5292,
+   "live_final": 0.6083084947199929,
+   "cohort_mean": 0.571813117111533,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 182,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6962,
+   "same_final": 0.7225,
+   "live_final": 0.659265926588093,
+   "cohort_mean": 0.5951718368767244,
+   "domain": "finance"
+  },
+  {
+   "idx": 183,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5961,
+   "same_final": 0.6345,
+   "live_final": 0.6542109617615169,
+   "cohort_mean": 0.6623599523007498,
+   "domain": "tech"
+  },
+  {
+   "idx": 185,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.4795,
+   "same_final": 0.5051,
+   "live_final": 0.48422665308090806,
+   "cohort_mean": 0.5477008441147315,
+   "domain": "politics"
+  },
+  {
+   "idx": 187,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5996,
+   "same_final": 0.6134,
+   "live_final": 0.6033353018774645,
+   "cohort_mean": 0.6104119108051,
+   "domain": "tech"
+  },
+  {
+   "idx": 188,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5851,
+   "same_final": 0.644,
+   "live_final": 0.7375767882903081,
+   "cohort_mean": 0.7526348340048363,
+   "domain": "tech"
+  },
+  {
+   "idx": 189,
+   "task_type": "conversation_tagging",
+   "n_gt": 5,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 2,
+   "cross_final": 0.4304,
+   "same_final": 0.4498,
+   "live_final": 0.7189223189434658,
+   "cohort_mean": 0.7128562110385311,
+   "domain": "finance"
+  },
+  {
+   "idx": 191,
+   "task_type": "conversation_tagging",
+   "n_gt": 24,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 12,
+   "cross_final": 0.5828,
+   "same_final": 0.6041,
+   "live_final": 0.6360275556818239,
+   "cohort_mean": 0.69392823844252,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 192,
+   "task_type": "conversation_tagging",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.4755,
+   "same_final": 0.5686,
+   "live_final": 0.6559147705080615,
+   "cohort_mean": 0.6696840334469285,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 197,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.5358,
+   "same_final": 0.5702,
+   "live_final": 0.5939272444162004,
+   "cohort_mean": 0.6531127049150781,
+   "domain": "tech"
+  },
+  {
+   "idx": 201,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.5615,
+   "same_final": 0.5951,
+   "live_final": 0.5826354660226327,
+   "cohort_mean": 0.6262472950958349,
+   "domain": "finance"
+  },
+  {
+   "idx": 202,
+   "task_type": "conversation_tagging",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.5261,
+   "same_final": 0.5714,
+   "live_final": 0.29455374233320897,
+   "cohort_mean": 0.7605863452847774,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 208,
+   "task_type": "conversation_tagging",
+   "n_gt": 21,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5718,
+   "same_final": 0.6304,
+   "live_final": 0.6745237534710854,
+   "cohort_mean": 0.5901451784738327,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 212,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7417,
+   "same_final": 0.7178,
+   "live_final": 0.7059094838562965,
+   "cohort_mean": 0.713972657188368,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 220,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5593,
+   "same_final": 0.5991,
+   "live_final": 0.6488428840714633,
+   "cohort_mean": 0.6797570465078322,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 221,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6012,
+   "same_final": 0.6229,
+   "live_final": 0.6668704471839787,
+   "cohort_mean": 0.678386243958779,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 222,
+   "task_type": "conversation_tagging",
+   "n_gt": 17,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 4,
+    "0.65": 4
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 8,
+   "cross_final": 0.4488,
+   "same_final": 0.3852,
+   "live_final": 0.4552548424632546,
+   "cohort_mean": 0.44661950359969865,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 224,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6734,
+   "same_final": 0.6688,
+   "live_final": 0.6895927680033196,
+   "cohort_mean": 0.6970089651924182,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 228,
+   "task_type": "conversation_tagging",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.4441,
+   "same_final": 0.5322,
+   "live_final": 0.6446976178900229,
+   "cohort_mean": 0.6501741197983315,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 229,
+   "task_type": "conversation_tagging",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.5554,
+   "same_final": 0.6339,
+   "live_final": 0.7151652533955631,
+   "cohort_mean": 0.7341283063532742,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 258,
+   "task_type": "conversation_tagging",
+   "n_gt": 17,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.5035,
+   "same_final": 0.5388,
+   "live_final": 0.43938398739200324,
+   "cohort_mean": 0.5445723199312471,
+   "domain": "finance"
+  },
+  {
+   "idx": 266,
+   "task_type": "conversation_tagging",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6507,
+   "same_final": 0.6512,
+   "live_final": 0.2769561237536163,
+   "cohort_mean": 0.6947474011215853,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 145,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6992,
+   "same_final": 0.7079,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 154,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7653,
+   "same_final": 0.7708,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 158,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.613,
+   "same_final": 0.6314,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "politics"
+  },
+  {
+   "idx": 170,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.4845,
+   "same_final": 0.4661,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 171,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6629,
+   "same_final": 0.6662,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 175,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.6649,
+   "same_final": 0.674,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 176,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 5,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 3
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 2,
+   "cross_final": 0.3215,
+   "same_final": 0.3336,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 178,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6345,
+   "same_final": 0.7357,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 179,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.5564,
+   "same_final": 0.6026,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 196,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6847,
+   "same_final": 0.6876,
+   "live_final": 0.6725147883813745,
+   "cohort_mean": 0.6871352045743532,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 203,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 17,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.7653,
+   "same_final": 0.7732,
+   "live_final": 0.7789362204897263,
+   "cohort_mean": 0.8251036967371113,
+   "domain": "finance"
+  },
+  {
+   "idx": 204,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6714,
+   "same_final": 0.6957,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 207,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6795,
+   "same_final": 0.6927,
+   "live_final": 0.6576753093189597,
+   "cohort_mean": 0.6285155214786265,
+   "domain": "politics"
+  },
+  {
+   "idx": 209,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 12,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.6407,
+   "same_final": 0.6854,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 210,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.4295,
+   "same_final": 0.4463,
+   "live_final": 0.5669019428753183,
+   "cohort_mean": 0.6080695060546809,
+   "domain": "politics"
+  },
+  {
+   "idx": 211,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 14,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.3516,
+   "same_final": 0.424,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 213,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 10,
+   "cross_final": 0.4565,
+   "same_final": 0.4523,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 214,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.4991,
+   "same_final": 0.5109,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "travel"
+  },
+  {
+   "idx": 215,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 5,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 2,
+   "cross_final": 0.3501,
+   "same_final": 0.4445,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 216,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.505,
+   "same_final": 0.5095,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 217,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 11,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.2816,
+   "same_final": 0.3007,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 218,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.4999,
+   "same_final": 0.4511,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 219,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6028,
+   "same_final": 0.6373,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 223,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.7609,
+   "same_final": 0.7722,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 225,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6722,
+   "same_final": 0.6543,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 226,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.4604,
+   "same_final": 0.4766,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "travel"
+  },
+  {
+   "idx": 227,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.5462,
+   "same_final": 0.4706,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 230,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6007,
+   "same_final": 0.5758,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 231,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.578,
+   "same_final": 0.5801,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 232,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6506,
+   "same_final": 0.667,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 234,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 5,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 2,
+   "cross_final": 0.5078,
+   "same_final": 0.4856,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 235,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 7,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 3,
+   "cross_final": 0.4649,
+   "same_final": 0.431,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 236,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 2,
+   "n_odd": 7,
+   "cross_final": 0.3486,
+   "same_final": 0.3983,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 237,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 2,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.493,
+   "same_final": 0.5591,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 239,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.493,
+   "same_final": 0.526,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 240,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5652,
+   "same_final": 0.5733,
+   "live_final": 0.5270741169015695,
+   "cohort_mean": 0.533973062837551,
+   "domain": "other"
+  },
+  {
+   "idx": 241,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 16,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 8,
+   "cross_final": 0.5778,
+   "same_final": 0.5905,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 242,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 19,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 9,
+   "cross_final": 0.6088,
+   "same_final": 0.6288,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 244,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.5677,
+   "same_final": 0.6243,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "tech"
+  },
+  {
+   "idx": 245,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 9,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.3784,
+   "same_final": 0.417,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 246,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6409,
+   "same_final": 0.6504,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 247,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 8,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 4,
+   "cross_final": 0.5264,
+   "same_final": 0.4589,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 248,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.3324,
+   "same_final": 0.4034,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 249,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6713,
+   "same_final": 0.669,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 250,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6723,
+   "same_final": 0.6887,
+   "live_final": 0.6410297412404603,
+   "cohort_mean": 0.6814732282147752,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 251,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 5,
+   "cross_final": 0.5048,
+   "same_final": 0.5319,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "other"
+  },
+  {
+   "idx": 252,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 12,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 2
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.4705,
+   "same_final": 0.4463,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 254,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 15,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 7,
+   "cross_final": 0.6566,
+   "same_final": 0.6548,
+   "live_final": 0.7393069814491942,
+   "cohort_mean": 0.7410247296845454,
+   "domain": "other"
+  },
+  {
+   "idx": 255,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 13,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 6,
+   "cross_final": 0.6725,
+   "same_final": 0.7049,
+   "live_final": 0.6691946232737486,
+   "cohort_mean": 0.7176061866008893,
+   "domain": "politics"
+  },
+  {
+   "idx": 259,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 10,
+   "n_miss": {
+    "0.55": 1,
+    "0.6": 1,
+    "0.65": 1
+   },
+   "n_miss_odd_060": 1,
+   "n_odd": 5,
+   "cross_final": 0.5008,
+   "same_final": 0.4938,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  },
+  {
+   "idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 12,
+   "n_miss": {
+    "0.55": 2,
+    "0.6": 3,
+    "0.65": 5
+   },
+   "n_miss_odd_060": 3,
+   "n_odd": 6,
+   "cross_final": 0.5527,
+   "same_final": 0.5223,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "real_estate"
+  },
+  {
+   "idx": 263,
+   "task_type": "webpage_metadata_generation",
+   "n_gt": 20,
+   "n_miss": {
+    "0.55": 0,
+    "0.6": 0,
+    "0.65": 0
+   },
+   "n_miss_odd_060": 0,
+   "n_odd": 10,
+   "cross_final": 0.6026,
+   "same_final": 0.6063,
+   "live_final": null,
+   "cohort_mean": null,
+   "domain": "finance"
+  }
+ ],
+ "miss_taxonomy": {
+  "geo_generalization": {
+   "n": 34,
+   "share": 0.309,
+   "examples": [
+    [
+     "china",
+     "shanghai china",
+     0.5168
+    ],
+    [
+     "united states",
+     "china united states relations",
+     0.5586
+    ],
+    [
+     "china",
+     "china energy imports",
+     0.4833
+    ],
+    [
+     "iran",
+     "iranian oil",
+     0.5823
+    ],
+    [
+     "united states",
+     "texas",
+     0.4657
+    ],
+    [
+     "united states",
+     "europe",
+     0.4325
+    ],
+    [
+     "united states",
+     "american people",
+     0.5142
+    ],
+    [
+     "united states",
+     "maine",
+     0.3887
+    ]
+   ]
+  },
+  "named_entity_specific": {
+   "n": 30,
+   "share": 0.273,
+   "examples": [
+    [
+     "ted kaczynski",
+     "herbert marcuse",
+     0.2927
+    ],
+    [
+     "transfer learning",
+     "deep learning",
+     0.5613
+    ],
+    [
+     "greg lopez",
+     "tom tancredo",
+     0.3515
+    ],
+    [
+     "victor marks",
+     "polymarkets",
+     0.3276
+    ],
+    [
+     "mario delgado",
+     "salinas pliego",
+     0.3876
+    ],
+    [
+     "ley issste 2007",
+     "reforma del issste 2007",
+     0.5748
+    ],
+    [
+     "2026 nfl season",
+     "nfl draft",
+     0.5765
+    ],
+    [
+     "k art",
+     "music",
+     0.3671
+    ]
+   ]
+  },
+  "bare_head_demodification": {
+   "n": 14,
+   "share": 0.127,
+   "examples": [
+    [
+     "java",
+     "java metamodel",
+     0.5266
+    ],
+    [
+     "gaza",
+     "israel",
+     0.4896
+    ],
+    [
+     "google",
+     "google tools",
+     0.5582
+    ],
+    [
+     "youtube",
+     "youtube tutorial",
+     0.5443
+    ],
+    [
+     "nascar",
+     "stock car racing",
+     0.5845
+    ],
+    [
+     "mma",
+     "mma fighters",
+     0.5407
+    ],
+    [
+     "fred database",
+     "fred",
+     0.5071
+    ],
+    [
+     "bakhtiar",
+     "bakhtiari people",
+     0.5649
+    ]
+   ]
+  },
+  "numeric_artifact": {
+   "n": 5,
+   "share": 0.045,
+   "examples": [
+    [
+     "1800respect",
+     "rights awareness",
+     0.3332
+    ],
+    [
+     "000",
+     "unit count",
+     0.3612
+    ],
+    [
+     "000",
+     "usd 193 43 billion",
+     0.3458
+    ],
+    [
+     "000",
+     "work",
+     0.3243
+    ],
+    [
+     "000",
+     "usd 193 43 billion",
+     0.3458
+    ]
+   ]
+  },
+  "other": {
+   "n": 27,
+   "share": 0.245,
+   "examples": [
+    [
+     "ai ethics",
+     "ai education",
+     0.4994
+    ],
+    [
+     "roi analysis",
+     "roi measurement",
+     0.5949
+    ],
+    [
+     "bill clinton",
+     "donald trump",
+     0.4651
+    ],
+    [
+     "flds",
+     "family",
+     0.3523
+    ],
+    [
+     "k pop",
+     "music",
+     0.3708
+    ],
+    [
+     "rusko",
+     "slovakia",
+     0.3992
+    ],
+    [
+     "icij",
+     "investigative journalism",
+     0.367
+    ],
+    [
+     "international energy markets",
+     "international trade",
+     0.5611
+    ]
+   ]
+  }
+ },
+ "unique_coverage_by_source_removal_test": {
+  "note": "of 2689 covered GT tags (>=0.60), coverage LOST if this source and all its candidates were removed",
+  "replica": {
+   "n": 387,
+   "share": 0.144
+  },
+  "deep": {
+   "n": 527,
+   "share": 0.196
+  },
+  "pool": {
+   "n": 416,
+   "share": 0.155
+  },
+  "local": {
+   "n": 129,
+   "share": 0.048
+  },
+  "theme": {
+   "n": 8,
+   "share": 0.003
+  },
+  "variant": {
+   "n": 2,
+   "share": 0.001
+  },
+  "anchor": {
+   "n": 0,
+   "share": 0.0
+  }
+ }
+}

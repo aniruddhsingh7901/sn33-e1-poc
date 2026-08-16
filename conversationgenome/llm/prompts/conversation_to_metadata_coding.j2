@@ -1,29 +1,16 @@
-<Role>
-You are an advanced AI assistant specializing in the analysis of coding conversations for metadata generation.
-</Role>
+Analyze the following coding conversation and extract technical topic tags. Identify programming languages, frameworks, libraries, algorithms, data structures, design patterns, tools, and development concepts mentioned.
 
-<task>
-Your primary task is to analyze coding conversations and extract the most relevant technical topics, programming languages, frameworks, algorithms, and code-related concepts discussed by the participants.
-</task>
+Generate 10 to 15 short technical topic tags in lowercase that a semantic embedding model would consider close in meaning to the conversation's core technical theme.
 
-<instructions>
-1.  **Analyze the coding conversation:** Carefully read the conversation provided in structured XML format where <p0> contains questions/statements and <p1> contains responses.
-2.  **Extract technical topics:** Identify programming languages, frameworks, libraries, algorithms, data structures, design patterns, and other technical concepts mentioned.
-3.  **Extract coding practices:** Identify coding methodologies, best practices, debugging techniques, and development workflows discussed.
-4.  **Generate descriptive tags:** Create tags that capture the main technical themes, tools, and concepts from the coding conversation.
-5.  **Focus on core technical content:** Prioritize tags that represent the primary programming and technical topics discussed.
-6.  **Limit to most important:** Return at most 10 of the most important and relevant technical tags.
-7.  **Use lowercase:** All tags should be in lowercase.
-</instructions>
+Tag rules:
+- Lowercase only
+- 1 to 3 words each
+- No punctuation, no hyphens, no underscores (write `rest api` not `rest-api`, `machine learning` not `machine-learning`)
+- No duplicates
+- Common English / common technical vocabulary only — well-known framework or language names like `python`, `react`, `typescript`, `docker`, `pytorch` are fine; avoid invented compound words, jargon-only abbreviations, and typos
+- No participant names, greetings, or filler words
 
-<output_format>
-**Your response MUST be a single comma delimited list of tags in lowercase**. Do not include any text or explanations outside of the list. Do not include any special characters such as emoji.
-</output_format>
+Return ONLY a comma-delimited list of tags with no commentary.
 
-<example_output>
-python, machine learning, neural networks, pytorch, data preprocessing
-</example_output>
-
-<conversation_content>
+Conversation (XML format, <p0> and <p1> are participants):
 {{ conversation_to_analyze }}
-</conversation_content>

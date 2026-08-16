@@ -1,0 +1,37 @@
+{
+ "paired": [
+  {
+   "ts": 1786239229.0075548,
+   "a": 0.6910323547820251,
+   "b": 0.7571980426708856,
+   "d": 0.06616568788886057,
+   "a_tags": [
+    "seattle city council",
+    "seattle city hall",
+    "city of seattle",
+    "seattle city light",
+    "seattle city lights",
+    "seattle",
+    "seattle washington",
+    "city light",
+    "city light committee",
+    "seattle ferry terminal electrification projects"
+   ],
+   "b_tags": [
+    "seattle city council",
+    "seattle seattle city council",
+    "seattle city hall",
+    "seattle city council seattle",
+    "seattle city council state of washington",
+    "seattle city light seattle city council",
+    "state of washington seattle city council",
+    "seattle seattle city hall",
+    "city of seattle",
+    "seattle city council city of seattle"
+   ],
+   "gt_n": 14,
+   "a_elapsed": 6.957266986995819,
+   "b_elapsed": 1.9091379610035801
+  }
+ ]
+}

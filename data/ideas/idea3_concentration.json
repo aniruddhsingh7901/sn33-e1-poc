@@ -1,0 +1,181 @@
+{
+ "idea": "idea3_concentration",
+ "date": "2026-08-14",
+ "feature_definitions": {
+  "anchoring": "tag anchored to enrichment line iff they share >=1 stemmed non-stopword token (stem: -ies->y, -es, -s; stopwords: the/a/an/of/in/on/for/and/or/to/with/at/by/from/as/is/are/was/were/be/been/it/its/this/that/these/those). Recovered EXACTLY: reproduces per_line_counts/anchored/window_only/neither on 70/70 conv_bench ranked rows.",
+  "per_line_max_frac": "max over enrichment lines of (#tags anchored to that line)/n_tags (tags multi-count across lines)",
+  "coherence": "mean pairwise Jaccard of stemmed content-word sets between enrichment lines (undefined for 1-line tasks; 1/70)",
+  "win_enr_sim": "Jaccard(window stemmed content words, union of enrichment stemmed content words)"
+ },
+ "core_sample": {
+  "n": 70,
+  "definition": "conv_bench source==ranked with cohort_mean",
+  "eras": {
+   "uid69": 50,
+   "uid24": 20
+  }
+ },
+ "extension": {
+  "n": 56,
+  "eras": {
+   "uid12": 45,
+   "uid91": 11
+  },
+  "source_status": "UNCONFIRMED - no local pm2/tasks.jsonl mirror covers Aug 12-13; CSV source column empty for all rows; sensitivity run excluding duration>=10.5s (likely truncation risk) also reported"
+ },
+ "reproduction": {
+  "raw_r": 0.486,
+  "raw_p": 2e-05,
+  "spearman": 0.541,
+  "matches_prior_claim_r0.486": true
+ },
+ "collinear_factor": {
+  "r_plmf_anchored_frac": 0.808,
+  "r_plmf_distinct_over_total": -0.67
+ },
+ "controls_core70": {
+  "partial_single": {
+   "cohort_mean": [
+    0.498,
+    1.2e-05
+   ],
+   "n_enr_lines": [
+    0.467,
+    4.6e-05
+   ],
+   "enr_chars": [
+    0.445,
+    0.00011
+   ],
+   "win_chars": [
+    0.488,
+    1.8e-05
+   ],
+   "n_tags": [
+    0.486,
+    2e-05
+   ],
+   "era_dummies": [
+    0.489,
+    1.7e-05
+   ],
+   "validator_dummies": [
+    0.392,
+    0.0008
+   ]
+  },
+  "partial_joint_all_covariates": [
+   0.389,
+   0.00088
+  ],
+  "candidate_quality_proxy": "UNCONTROLLABLE - judge idx mapping unreliable (two reconstruction attempts agree 110/266; only 6/70 ranked rows mappable)"
+ },
+ "era_stability": {
+  "uid69": {
+   "n": 50,
+   "r": 0.432,
+   "p": 0.0017
+  },
+  "uid24": {
+   "n": 20,
+   "r": 0.612,
+   "p": 0.0041
+  },
+  "uid12_unconfirmed": {
+   "n": 45,
+   "r": 0.329,
+   "p": 0.027
+  },
+  "uid91_unconfirmed": {
+   "n": 11,
+   "r": 0.09,
+   "p": 0.79
+  },
+  "combined_126": {
+   "r": 0.34,
+   "p": 0.0001
+  },
+  "combined_120_dur_lt_10.5": {
+   "r": 0.308,
+   "p": 0.00062
+  },
+  "ext_only": {
+   "n": 56,
+   "r": 0.288,
+   "p": 0.032
+  }
+ },
+ "coherence_confound_test": {
+  "n_multiline": 69,
+  "r_coherence_plmf": [
+   0.404,
+   0.0006
+  ],
+  "r_coherence_rel": [
+   0.293,
+   0.0147
+  ],
+  "partial_plmf_rel_given_coherence": [
+   0.43,
+   0.0002
+  ],
+  "partial_plmf_rel_given_coherence_and_nlines": [
+   0.397,
+   0.0007
+  ],
+  "partial_coherence_rel_given_plmf": [
+   0.117,
+   0.338
+  ],
+  "verdict": "NOT a coherence confound: coherence has zero independent effect on rel once plmf is held; plmf keeps 87% of its raw r under the coherence control"
+ },
+ "mismatch_moderator_test": {
+  "r_win_enr_sim_plmf": [
+   0.05,
+   0.68
+  ],
+  "r_win_enr_sim_rel": [
+   0.137,
+   0.26
+  ],
+  "partial_plmf_rel_given_win_enr_sim": [
+   0.484,
+   2e-05
+  ],
+  "interaction_beta_t": [
+   -0.91,
+   -0.36
+  ],
+  "within_mismatch_half": {
+   "n": 35,
+   "r": 0.442
+  },
+  "within_aligned_half": {
+   "n": 35,
+   "r": 0.571
+  },
+  "r_window_only_frac_rel": [
+   -0.325,
+   0.006
+  ],
+  "verdict": "mismatch characterizes the extreme-loser tail (all 7 counterexamples) but does NOT carry the correlation"
+ },
+ "task_determined_vs_chosen": {
+  "R2_plmf_on_all_measured_task_properties": 0.279,
+  "reading": "measured task properties (coherence, mismatch, n_lines, sizes, char-share, cohort difficulty) explain only 28% of plmf variance; the remaining 72% is the answer/pipeline side OR the unmeasured latent (whether our predicted-GT landed on the true GT topic). That latent is uncontrollable observationally (judge mapping lost).",
+  "interventional_record_contradicts_causal_slope": {
+   "observational_slope": "rel = +0.174*plmf (se 0.038); IQR 0.65->0.90 implies +0.044 rel if causal",
+   "de_concentration_tested": "ARM C value-alloc -0.0132 (29 improved/177 degraded); per-line quota W/L 30/50 - moving DOWN the axis hurts far less than slope predicts and moving coverage up never helped",
+   "up_concentration_analog_tested": "greedy score-maximising composer +0.004 ns, loses 11/17; centroid improvement ceiling +0.0036; demote knob inert (0-1 answers changed)",
+   "conclusion": "concentration behaves as a SYMPTOM of the latent 'candidate pool aligned with true GT topic', which causes both concentration and winning; every attempt to force the symptom (either direction) was neutral-to-negative"
+  }
+ },
+ "counterexamples": {
+  "high_conc_losers": 7,
+  "low_conc_winners": 0,
+  "notes_file": "data/ideas/idea3_counterexamples.md",
+  "shared_fingerprint": "window/enrichment topic mismatch + decoy homonym enrichment lines + heavy singular/plural variant crowding"
+ },
+ "verdict": "KEEP_RESEARCHING",
+ "verdict_reason": "signal survives every measured control (partial r 0.39-0.48, p<0.001) and is era-stable, so it does not collapse; but no deployable intervention is identifiable: forcing concentration up is the failed greedy-composer family, forcing it down is the rejected ARM C/quota family, and the observational slope is contradicted by that interventional record. Remaining decisive test: recompose captured tasks with a dominant-cluster bonus and score BOTH arms against FRESH frozen-GT draws (the blended proxy structurally rewards centroid-collapse and cannot adjudicate this); secondary untested angle: cap inflectional variants on mismatch tasks."
+}

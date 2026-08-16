@@ -105,6 +105,13 @@ def config_from_env() -> Config:
         cfg.value_line_min_cos = _f("SN33_VALUE_LINE_MIN_COS", 0.35)
         cfg.value_line_max_slots = _i("SN33_VALUE_LINE_MAX_SLOTS", 6)
         cfg.value_window_cap = _i("SN33_VALUE_WINDOW_CAP", 2)
+    # Honest centroid-summary phrases (conversation only), screen-safe filtered.
+    if os.environ.get("SN33_SUMMARY_TAGS", "0") != "0":
+        cfg.summary_tags = True
+        cfg.summary_tags_k = _i("SN33_SUMMARY_TAGS_K", 3)
+    # Survey v2 generator (option-menu framing + noun-phrase form). Survey-only.
+    if os.environ.get("SN33_SURVEY_V2", "0") != "0":
+        cfg.survey_v2 = True
     return cfg
 
 

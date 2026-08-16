@@ -1,0 +1,495 @@
+[
+ {
+  "draw_gap_live_minus_judgemean": -0.003,
+  "map_idx": 9,
+  "uid": "120",
+  "dt": "08-08 03:27",
+  "rel": -0.032172989175482614,
+  "live_final": 0.711028944879829,
+  "plmf": 1.0,
+  "our_counts": [
+   0,
+   5,
+   18,
+   18
+  ],
+  "our_dom_line": 2,
+  "sel_provenance_lines": {
+   "2": 7,
+   "1": 2,
+   "3": 6,
+   "null": 5
+  },
+  "n_gt": 16,
+  "gt_line_counts": [
+   1,
+   6,
+   8,
+   10
+  ],
+  "gt_win_only": 1,
+  "gt_neither": 2,
+  "gt_dom_line": 3,
+  "line_cos_to_centroid": [
+   0.3595938321715191,
+   0.4816216083655502,
+   0.5302339336311588,
+   0.5906426774890732
+  ],
+  "win_cos_to_centroid": 0.11527342915221228,
+  "our_mean_cos_to_judge": 0.7137995384508502,
+  "starved_lines": [
+   0
+  ],
+  "starved_gt_share": 0.062,
+  "win_gt_share": 0.062,
+  "under_covered": null,
+  "verdict": "GT-FAITHFUL",
+  "evidence": "judge GT concentrates on our own dominant line 2 (GT share 0.50); starved-line GT share 0.06, window-only GT share 0.06",
+  "enr_first_words": [
+   "Improving Test Execution Speed with Practical",
+   "Assessing Vendor Lock-in and Exit Costs",
+   "Vendor Lock-In in Cloud Computing: Risks,",
+   "Vendor Lock-In: Risks and Multi-Cloud Strategies"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": -0.077,
+  "map_idx": 15,
+  "uid": "120",
+  "dt": "08-08 04:40",
+  "rel": -0.010202961479713779,
+  "live_final": 0.5152159364432324,
+  "plmf": 0.8888888888888888,
+  "our_counts": [
+   16,
+   16,
+   4
+  ],
+  "our_dom_line": 0,
+  "sel_provenance_lines": {
+   "0": 7,
+   "1": 4,
+   "2": 5,
+   "null": 4
+  },
+  "n_gt": 20,
+  "gt_line_counts": [
+   9,
+   7,
+   9
+  ],
+  "gt_win_only": 2,
+  "gt_neither": 1,
+  "gt_dom_line": 0,
+  "line_cos_to_centroid": [
+   0.5854436736417538,
+   0.5434376813474926,
+   0.5924782751338439
+  ],
+  "win_cos_to_centroid": 0.22786484681239466,
+  "our_mean_cos_to_judge": 0.5925531272180984,
+  "starved_lines": [],
+  "starved_gt_share": 0.0,
+  "win_gt_share": 0.1,
+  "under_covered": null,
+  "verdict": "GT-FAITHFUL",
+  "evidence": "judge GT concentrates on our own dominant line 0 (GT share 0.45); starved-line GT share 0.00, window-only GT share 0.10",
+  "enr_first_words": [
+   "Privacy - Preserving Coding Agents: Foundations,",
+   "Privacy - Preserving ML : Federated",
+   "AI Bias and Fairness : How"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": 0.181,
+  "map_idx": 20,
+  "uid": "120",
+  "dt": "08-08 05:31",
+  "rel": -0.03149002863604233,
+  "live_final": 0.5939746123087062,
+  "plmf": 0.8333333333333334,
+  "our_counts": [
+   0,
+   0,
+   14,
+   0,
+   15
+  ],
+  "our_dom_line": 4,
+  "sel_provenance_lines": {
+   "0": 7,
+   "null": 6,
+   "1": 7
+  },
+  "n_gt": 9,
+  "gt_line_counts": [
+   0,
+   0,
+   3,
+   1,
+   3
+  ],
+  "gt_win_only": 3,
+  "gt_neither": 0,
+  "gt_dom_line": 2,
+  "line_cos_to_centroid": [
+   0.09533637884066207,
+   0.18980572388382666,
+   0.4200394472406306,
+   0.1732525003992383,
+   0.5089416756003197
+  ],
+  "win_cos_to_centroid": 0.21188616539951957,
+  "our_mean_cos_to_judge": 0.41314966519214835,
+  "starved_lines": [
+   0,
+   1,
+   3
+  ],
+  "starved_gt_share": 0.111,
+  "win_gt_share": 0.333,
+  "under_covered": {
+   "kind": "window",
+   "line": null,
+   "gt_share": 0.3333333333333333
+  },
+  "verdict": "SELECTION",
+  "evidence": "GT-rewarded under-covered cluster window (GT share 0.33); pool has 21 candidates from it, 4 with cos>=our answer mean 0.413 (top: 0.476, 0.471, 0.443, 0.424, 0.412)",
+  "enr_first_words": [
+   "What Are the Risks in Commercial",
+   "NNN Rent Roll Analysis : Term,",
+   "The Australian Commonwealth Register of Institutions",
+   "Google Trends \u0418\u0437\u0443\u0447\u0430\u0439\u0442\u0435 \u0432 Google Trends",
+   "Green List roles \u2014 jobs we"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": 0.412,
+  "map_idx": 60,
+  "uid": "120",
+  "dt": "08-08 12:30",
+  "rel": -0.027792166882515623,
+  "live_final": 0.6816180150468496,
+  "plmf": 0.8333333333333334,
+  "our_counts": [
+   5,
+   12,
+   0,
+   15,
+   14,
+   13
+  ],
+  "our_dom_line": 3,
+  "sel_provenance_lines": {
+   "0": 8,
+   "1": 2,
+   "3": 4,
+   "null": 3,
+   "2": 1,
+   "4": 1,
+   "5": 1
+  },
+  "n_gt": 16,
+  "gt_line_counts": [
+   0,
+   0,
+   1,
+   1,
+   0,
+   1
+  ],
+  "gt_win_only": 11,
+  "gt_neither": 2,
+  "gt_dom_line": 2,
+  "line_cos_to_centroid": [
+   0.09250222025683283,
+   0.10224907615265469,
+   0.18284032617895576,
+   0.19989711682518538,
+   0.1241698493473523,
+   0.1258779672581529
+  ],
+  "win_cos_to_centroid": 0.5164169322989531,
+  "our_mean_cos_to_judge": 0.27009154367028065,
+  "starved_lines": [
+   2
+  ],
+  "starved_gt_share": 0.062,
+  "win_gt_share": 0.688,
+  "under_covered": {
+   "kind": "window",
+   "line": null,
+   "gt_share": 0.6875
+  },
+  "verdict": "SELECTION",
+  "evidence": "GT-rewarded under-covered cluster window (GT share 0.69); pool has 43 candidates from it, 42 with cos>=our answer mean 0.270 (top: 0.639, 0.625, 0.619, 0.617, 0.587)",
+  "enr_first_words": [
+   "Understanding the Impact of Current Economic",
+   "The Impact of Remote Work on",
+   "tandfonline.com/doi/full/10.1080/13678868.2022.2047380 Remote work and work -life",
+   "2027 Housing Market Prediction | TikTok",
+   "Housing Affordability Crisis in 2026 :",
+   "Texas Housing Market Predictions for Next"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": 0.118,
+  "map_idx": 188,
+  "uid": "33",
+  "dt": "08-09 11:12",
+  "rel": -0.015058045714528179,
+  "live_final": 0.7375767882903081,
+  "plmf": 0.85,
+  "our_counts": [
+   8,
+   17,
+   14,
+   17
+  ],
+  "our_dom_line": 1,
+  "sel_provenance_lines": {
+   "1": 2,
+   "2": 4,
+   "0": 6,
+   "3": 7,
+   "null": 1
+  },
+  "n_gt": 20,
+  "gt_line_counts": [
+   2,
+   7,
+   9,
+   8
+  ],
+  "gt_win_only": 7,
+  "gt_neither": 4,
+  "gt_dom_line": 2,
+  "line_cos_to_centroid": [
+   0.4392187946247157,
+   0.5109777324372003,
+   0.5482542555385479,
+   0.5375066049747592
+  ],
+  "win_cos_to_centroid": 0.3555951885482137,
+  "our_mean_cos_to_judge": 0.6195354309331229,
+  "starved_lines": [],
+  "starved_gt_share": 0.0,
+  "win_gt_share": 0.35,
+  "under_covered": {
+   "kind": "window",
+   "line": null,
+   "gt_share": 0.35
+  },
+  "verdict": "GENERATION",
+  "evidence": "GT-rewarded under-covered cluster window (GT share 0.35); pool has 47 candidates from it, 0 with cos>=our answer mean 0.620 (top: 0.569, 0.541, 0.540, 0.531, 0.514)",
+  "enr_first_words": [
+   "11 Agile Anti - Patterns Product",
+   "Sprint Retrospective: Agenda, Examples & Best",
+   "Sprint planning tools | Atlassian Discover",
+   "Spinach Marketing site FOREVER Sprint Project"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": 0.135,
+  "map_idx": 192,
+  "uid": "33",
+  "dt": "08-09 12:20",
+  "rel": -0.013769262938867044,
+  "live_final": 0.6559147705080615,
+  "plmf": 0.95,
+  "our_counts": [
+   19,
+   19,
+   19
+  ],
+  "our_dom_line": 0,
+  "sel_provenance_lines": {
+   "1": 5,
+   "0": 8,
+   "2": 5,
+   "null": 2
+  },
+  "n_gt": 14,
+  "gt_line_counts": [
+   5,
+   3,
+   1
+  ],
+  "gt_win_only": 6,
+  "gt_neither": 3,
+  "gt_dom_line": 0,
+  "line_cos_to_centroid": [
+   0.29727982687505583,
+   0.3681580994715691,
+   0.31259776989764454
+  ],
+  "win_cos_to_centroid": 0.4076661633548319,
+  "our_mean_cos_to_judge": 0.5208399868237584,
+  "starved_lines": [],
+  "starved_gt_share": 0.0,
+  "win_gt_share": 0.429,
+  "under_covered": {
+   "kind": "window",
+   "line": null,
+   "gt_share": 0.42857142857142855
+  },
+  "verdict": "SELECTION",
+  "evidence": "GT-rewarded under-covered cluster window (GT share 0.43); pool has 33 candidates from it, 12 with cos>=our answer mean 0.521 (top: 0.636, 0.628, 0.595, 0.595, 0.581)",
+  "enr_first_words": [
+   "What Is Developer Marketing? A Complete",
+   "Discord Developer Portal: A Powerful Hub",
+   "Developer Experience: Definition, Measurement Framework, and"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": -0.142,
+  "map_idx": 253,
+  "uid": null,
+  "dt": "08-10 11:10",
+  "rel": -0.04282740148085762,
+  "live_final": 0.45429139641188016,
+  "plmf": 0.8,
+  "our_counts": [
+   11,
+   16
+  ],
+  "our_dom_line": 1,
+  "sel_provenance_lines": {
+   "0": 9,
+   "null": 7,
+   "1": 4
+  },
+  "n_gt": 21,
+  "gt_line_counts": [
+   7,
+   5
+  ],
+  "gt_win_only": 2,
+  "gt_neither": 10,
+  "gt_dom_line": 0,
+  "line_cos_to_centroid": [
+   0.36283250598802,
+   0.4162777535693018
+  ],
+  "win_cos_to_centroid": 0.29908996563815016,
+  "our_mean_cos_to_judge": 0.5959893655412076,
+  "starved_lines": [],
+  "starved_gt_share": 0.0,
+  "win_gt_share": 0.095,
+  "under_covered": null,
+  "verdict": "GT-FAITHFUL",
+  "evidence": "judge GT concentrates on our own dominant line 1 (GT share 0.24); starved-line GT share 0.00, window-only GT share 0.10",
+  "enr_first_words": [
+   "How Inflation and Interest Rates Impact",
+   "Logistics Real Estate Market Size, [2035],CAGR"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": -0.112,
+  "map_idx": 257,
+  "uid": "69",
+  "dt": "08-10 12:40",
+  "rel": -0.007123842943632441,
+  "live_final": 0.5248276580966655,
+  "plmf": 0.8,
+  "our_counts": [
+   16,
+   13,
+   10
+  ],
+  "our_dom_line": 0,
+  "sel_provenance_lines": {
+   "1": 3,
+   "0": 8,
+   "2": 7,
+   "null": 2
+  },
+  "n_gt": 20,
+  "gt_line_counts": [
+   6,
+   6,
+   3
+  ],
+  "gt_win_only": 7,
+  "gt_neither": 5,
+  "gt_dom_line": 0,
+  "line_cos_to_centroid": [
+   0.49168575798412434,
+   0.516689842466528,
+   0.4870282768797817
+  ],
+  "win_cos_to_centroid": 0.22890965615404607,
+  "our_mean_cos_to_judge": 0.6372803303962984,
+  "starved_lines": [],
+  "starved_gt_share": 0.0,
+  "win_gt_share": 0.35,
+  "under_covered": {
+   "kind": "window",
+   "line": null,
+   "gt_share": 0.35
+  },
+  "verdict": "GENERATION",
+  "evidence": "GT-rewarded under-covered cluster window (GT share 0.35); pool has 31 candidates from it, 0 with cos>=our answer mean 0.637 (top: 0.626, 0.501, 0.496, 0.494, 0.479)",
+  "enr_first_words": [
+   "Tech jobs are mired in a",
+   "Tech layoffs and hiring freezes increase",
+   "February 2024 US Labor Market Update:"
+  ]
+ },
+ {
+  "draw_gap_live_minus_judgemean": -0.022,
+  "map_idx": 182,
+  "uid": "33",
+  "dt": "08-09 10:14",
+  "rel": 0.06409408971136865,
+  "live_final": 0.659265926588093,
+  "plmf": 0.95,
+  "our_counts": [
+   1,
+   19,
+   15,
+   19
+  ],
+  "our_dom_line": 1,
+  "sel_provenance_lines": {
+   "1": 2,
+   "3": 3,
+   "2": 7,
+   "0": 3,
+   "null": 5
+  },
+  "n_gt": 20,
+  "gt_line_counts": [
+   3,
+   12,
+   12,
+   11
+  ],
+  "gt_win_only": 0,
+  "gt_neither": 2,
+  "gt_dom_line": 1,
+  "line_cos_to_centroid": [
+   0.4105838091163386,
+   0.5812852068911061,
+   0.5416568042388924,
+   0.5908383697255344
+  ],
+  "win_cos_to_centroid": 0.07190206459549879,
+  "our_mean_cos_to_judge": 0.6816680092725069,
+  "starved_lines": [
+   0
+  ],
+  "starved_gt_share": 0.15,
+  "win_gt_share": 0.0,
+  "under_covered": null,
+  "verdict": "GT-FAITHFUL",
+  "evidence": "judge GT concentrates on our own dominant line 1 (GT share 0.60); starved-line GT share 0.15, window-only GT share 0.00",
+  "enr_first_words": [
+   "A Golden Opportunity for Senior Housing",
+   "How Sea Level Rise Is Affecting",
+   "If Seas Are Rising , Why",
+   "Battling Coastal Flooding | Kmetz Weekly"
+  ]
+ }
+]

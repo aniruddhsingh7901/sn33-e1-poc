@@ -1,0 +1,184 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 20 tasks from data/bench/v6_verify_20.jsonl
+
+==============================================================================================================
+
+[0] conversation_tagging  final=0.5898 adj=0.5898
+     raw miner tags (18): ['planning', 'project preparation', 'problem solving', 'problem space', 'scale estimation', 'preemptive thinking', 'software development', 'developer podcast']
+     after validate_tag_set (18): ['promotional codes', 'preemptive thinking', 'project preparation', 'cloud hosting', 'developer podcast', 'pricing value', 'sponsorship', 'marketing']
+     GT tags (18): ['project planning', 'project preparation', 'problem solving', 'problem space', 'scope estimation', 'project scale', 'requirements analysis', 'preemptive thinking']
+     BOTH (matching): ['project preparation', 'cloud hosting', 'sponsorship', 'software development', 'preemptive thinking', 'problem space']  (9 total)
+     UNIQUE (not in GT): ['promotional codes', 'developer podcast', 'pricing value', 'marketing', 'scale estimation', 'decision making']  (9 total)
+     max cosine sim: 0.775
+     PENALTIES: none
+
+[1] conversation_tagging  final=0.5287 adj=0.5287
+     raw miner tags (18): ['narcissism', 'trauma', 'shame', 'grandiosity', 'self esteem', 'internet creators', 'online identity', 'gpt prompts']
+     after validate_tag_set (16): ['open source tools', 'internet creators', 'trauma', 'online identity', 'self esteem', 'shame', 'longevity', 'cybersecurity']
+     GT tags (18): ['narcissism', 'self esteem', 'shame cycle', 'grandiosity', 'trauma', 'emotional regulation', 'mental health', 'personal growth']
+     BOTH (matching): ['trauma', 'self esteem', 'longevity', 'cybersecurity', 'grandiosity', 'mental health']  (8 total)
+     UNIQUE (not in GT): ['open source tools', 'internet creators', 'online identity', 'shame', 'business strategy', 'strength training']  (8 total)
+     max cosine sim: 0.618
+     PENALTIES: none
+
+[2] conversation_tagging  final=0.5754 adj=0.5754
+     raw miner tags (18): ['software testing', 'quality assurance', 'product prototypes', 'product demo', 'exploratory testing', 'user needs', 'product direction', 'stakeholder communication']
+     after validate_tag_set (18): ['innovation', 'user needs', 'motivation', 'continuous learning', 'stakeholder communication', 'business value', 'software testing', 'product prototypes']
+     GT tags (18): ['software testing', 'quality assurance', 'product prototyping', 'prototype demo', 'exploratory testing', 'user mindset', 'user needs', 'product direction']
+     BOTH (matching): ['user needs', 'motivation', 'continuous learning', 'stakeholder communication', 'software testing', 'team bonding']  (10 total)
+     UNIQUE (not in GT): ['innovation', 'business value', 'product prototypes', 'career development', 'diplomacy', 'product demo']  (8 total)
+     max cosine sim: 0.620
+     PENALTIES: none
+
+[3] conversation_tagging  final=0.6041 adj=0.6041
+     raw miner tags (18): ['negotiation', 'lawyers', 'contracts', 'deal making', 'pulling out', 'fighting', 'boxing', 'celebrity']
+     after validate_tag_set (16): ['lawyers', 'entertainment', 'publicity', 'weight', 'boxing', 'negotiation', 'fighting', 'contracts']
+     GT tags (17): ['negotiations', 'contract talks', 'legal counsel', 'attorneys', 'deal making', 'business agreements', 'dispute resolution', 'project cancellation']
+     BOTH (matching): ['boxing', 'deal making']  (2 total)
+     UNIQUE (not in GT): ['lawyers', 'entertainment', 'publicity', 'weight', 'negotiation', 'fighting']  (14 total)
+     max cosine sim: 0.665
+     PENALTIES: none
+
+[4] conversation_tagging  final=0.5614 adj=0.5614
+     raw miner tags (18): ['coding', 'software development', 'work life balance', 'side projects', 'graphic design', 'etsy shop', 'entrepreneurship', 'accounting']
+     after validate_tag_set (14): ['accounting', 'continuous integration', 'entrepreneurship', 'career change', 'working from home', 'software testing', 'side projects', 'single parenthood']
+     GT tags (18): ['work life balance', 'remote work', 'creative work', 'accounting', 'side projects', 'entrepreneurship', 'bookkeeping', 'flexible schedule']
+     BOTH (matching): ['accounting', 'entrepreneurship', 'career change', 'side projects', 'work life balance', 'flexible schedule']  (8 total)
+     UNIQUE (not in GT): ['continuous integration', 'working from home', 'software testing', 'single parenthood', 'continuous delivery', 'coding']  (6 total)
+     max cosine sim: 0.668
+     PENALTIES: none
+
+[5] conversation_tagging  final=0.5799 adj=0.5799
+     raw miner tags (18): ['premonition', 'intuition', 'instincts', 'environmental awareness', 'body awareness', 'danger detection', 'survival', 'childhood independence']
+     after validate_tag_set (18): ['storytelling', 'intuition', 'danger detection', 'trauma', 'instincts', 'natural disasters', 'risk assessment', 'animal behavior']
+     GT tags (18): ['intuition', 'gut feeling', 'precognition', 'sixth sense', 'instinct', 'animal behavior', 'danger awareness', 'situational awareness']
+     BOTH (matching): ['intuition', 'trauma', 'animal behavior', 'situational awareness', 'tsunami']  (5 total)
+     UNIQUE (not in GT): ['storytelling', 'danger detection', 'instincts', 'natural disasters', 'risk assessment', 'body awareness']  (13 total)
+     max cosine sim: 0.646
+     PENALTIES: none
+
+[6] conversation_tagging  final=0.5492 adj=0.5492
+     raw miner tags (18): ['nightclub', 'magic city', 'expectations', 'disappointment', 'magical theme', 'exterior appearance', 'interior decor', 'website images']
+     after validate_tag_set (18): ['strip club', 'disappointment', 'magical theme', 'exterior appearance', 'magic city', 'nightlife industry', 'judging by cover', 'website images']
+     GT tags (18): ['nightlife', 'club scene', 'venue size', 'building exterior', 'first impressions', 'expectations', 'magical theme', 'fantasy setting']
+     BOTH (matching): ['magical theme', 'expectations']  (2 total)
+     UNIQUE (not in GT): ['strip club', 'disappointment', 'exterior appearance', 'magic city', 'nightlife industry', 'judging by cover']  (16 total)
+     max cosine sim: 0.586
+     PENALTIES: none
+
+[7] conversation_tagging  final=0.5383 adj=0.5383
+     raw miner tags (18): ['small town', 'cantinas', 'yuma', 'border crossing', 'mexico', 'los algodones', 'dentist', 'doctor']
+     after validate_tag_set (17): ['medical tourism', 'entrepreneurship', 'border crossing', 'lower prices', 'mexico', 'doctor', 'cantinas', 'retirement']
+     GT tags (18): ['border towns', 'cross border travel', 'mexico united states', 'small town life', 'cantina culture', 'nightlife economy', 'dentistry', 'dental tourism']
+     BOTH (matching): ['entrepreneurship', 'retirement', 'american patients']  (3 total)
+     UNIQUE (not in GT): ['medical tourism', 'mexico', 'doctor', 'cantinas', 'dental clinic', 'healthcare industry']  (14 total)
+     max cosine sim: 0.593
+     PENALTIES: none
+
+[8] conversation_tagging  final=0.4980 adj=0.4980
+     raw miner tags (18): ['epstein files', 'podcast', 'comedy', 'comedian', 'west palm', 'improv club', 'famous show', 'accusations']
+     after validate_tag_set (15): ['corporate ownership', 'famous show', 'entertainment industry', 'eye contact', 'improv club', 'finance', 'comedian', 'comedy']
+     GT tags (18): ['jeffrey epstein', 'epstein files', 'conspiracy theories', 'scandal allegations', 'true crime', 'criminal investigations', 'financial fraud', 'lottery winnings']
+     BOTH (matching): ['corruption', 'conspiracy theories', 'entertainment industry']  (3 total)
+     UNIQUE (not in GT): ['corporate ownership', 'famous show', 'eye contact', 'improv club', 'finance', 'comedian']  (12 total)
+     max cosine sim: 0.622
+     PENALTIES: none
+
+[9] conversation_tagging  final=0.5874 adj=0.5874
+     raw miner tags (18): ['dental tourism', 'mexico town', 'americans', 'street parties', 'community events', 'free food', 'mariachi music', 'margaritas']
+     after validate_tag_set (18): ['low prices', 'border crossing', 'customs officers', 'dental tourism', 'free food', 'drunkenness', 'community events', 'clinics']
+     GT tags (18): ['cross border tourism', 'medical tourism', 'dental care', 'dentistry', 'community festivals', 'town celebrations', 'cultural exchange', 'american tourists']
+     BOTH (matching): ['mariachi music', 'local economy', 'cultural exchange']  (3 total)
+     UNIQUE (not in GT): ['low prices', 'dental tourism', 'customs officers', 'free food', 'margaritas', 'drunkenness']  (15 total)
+     max cosine sim: 0.654
+     PENALTIES: none
+
+[10] conversation_tagging  final=0.5743 adj=0.5743
+     raw miner tags (18): ['movies', 'filmmaking', 'actors', 'movie star', 'western genre', 'directing', 'writing', 'transition careers']
+     after validate_tag_set (17): ['actors', 'combat sports', 'competition', 'athlete confidence', 'celebrity culture', 'entertainment industry', 'mental toughness', 'personal branding']
+     GT tags (18): ['film acting', 'movie production', 'martial arts', 'combat sports', 'athlete transition', 'career change', 'celebrity crossover', 'entertainment industry']
+     BOTH (matching): ['combat sports', 'western genre', 'entertainment industry']  (3 total)
+     UNIQUE (not in GT): ['actors', 'competition', 'celebrity culture', 'athlete confidence', 'mental toughness', 'personal branding']  (14 total)
+     max cosine sim: 0.625
+     PENALTIES: none
+
+[11] conversation_tagging  final=0.5674 adj=0.5674
+     raw miner tags (18): ['gracie family', 'brazilian jiu jitsu', 'early ufc', 'royce gracie', 'hickson gracie', 'dan severn', 'triangle choke', 'armbar']
+     after validate_tag_set (18): ['early ufc', 'athletic conditioning', 'gracie family', 'triangle choke', 'cross training', 'hickson gracie', 'armbar', 'pound for pound']
+     GT tags (18): ['brazilian jiu-jitsu', 'grappling arts', 'mixed martial arts', 'early ufc', 'gracie family', 'martial arts legacy', 'david versus goliath', 'size advantage']
+     BOTH (matching): ['early ufc', 'triangle choke', 'cross training', 'armbar', 'gracie family']  (5 total)
+     UNIQUE (not in GT): ['athletic conditioning', 'hickson gracie', 'pound for pound', 'competition strategy', 'weight difference', 'brazilian jiu jitsu']  (13 total)
+     max cosine sim: 0.627
+     PENALTIES: none
+
+[12] conversation_tagging  final=0.5219 adj=0.5219
+     raw miner tags (18): ['art history', 'vermeer paintings', 'dutch golden age', 'museum collections', 'protestant worship', 'calvinism', 'religious tolerance', 'invisible church']
+     after validate_tag_set (18): ['protestant worship', 'historical biography', 'calvinism', 'vermeer paintings', 'note taking', 'leon trotsky', 'dutch golden age', 'religious tolerance']
+     GT tags (18): ['art history', 'visual arts', 'dutch painting', 'johannes vermeer', 'religious worship', 'protestantism', 'calvinism', 'predestination']
+     BOTH (matching): ['calvinism', 'note taking', 'leon trotsky', 'religious tolerance', 'soviet politics', 'audiobook listening']  (9 total)
+     UNIQUE (not in GT): ['protestant worship', 'historical biography', 'vermeer paintings', 'political assassination', 'dutch golden age', 'invisible church']  (9 total)
+     max cosine sim: 0.633
+     PENALTIES: none
+
+[13] conversation_tagging  final=0.4528 adj=0.5031
+     raw miner tags (18): ['gottes wort', 'bibel', 'lukas evangelium', 'gebet', 'gnade', 'verheissung', 'trost', 'befreiung']
+     after validate_tag_set (9): ['angst', 'trost', 'religion', 'bibel', 'liebe', 'seelsorge', 'gebet', 'befreiung']
+     GT tags (18): ['christian faith', 'biblical teaching', 'scripture', 'word of god', 'prayer', 'spiritual practice', 'grace', 'divine mercy']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['angst', 'trost', 'religion', 'bibel', 'liebe', 'seelsorge']  (9 total)
+     max cosine sim: 0.549
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[14] conversation_tagging  final=0.6125 adj=0.6125
+     raw miner tags (18): ['css', 'sass', 'zero runtime', 'style compilation', 'technology evaluation', 'decision matrix', 'css libraries', 'developer experience']
+     after validate_tag_set (15): ['utility classes', 'web performance', 'software engineering', 'team collaboration', 'style compilation', 'css libraries', 'technology evaluation', 'decision matrix']
+     GT tags (18): ['css', 'cascading style sheets', 'sass', 'css preprocessors', 'zero runtime', 'runtime performance', 'css libraries', 'styling frameworks']
+     BOTH (matching): ['team collaboration', 'css libraries', 'decision matrix', 'technology evaluation', 'prototyping', 'developer experience']  (6 total)
+     UNIQUE (not in GT): ['utility classes', 'web performance', 'software engineering', 'style compilation', 'adoption strategy', 'plugins']  (9 total)
+     max cosine sim: 0.678
+     PENALTIES: none
+
+[15] conversation_tagging  final=0.5552 adj=0.5552
+     raw miner tags (18): ['warhammer 40000', 'uk meta', 'competitive play', 'tournament lists', 'custodes', 'land raiders', 'necrons', 'ctan']
+     after validate_tag_set (16): ['imperial guard', 'tournament lists', 'community sentiment', 'death guard', 'ultramarines', 'unit points', 'aeldari', 'land raiders']
+     GT tags (18): ['warhammer 40k', 'tabletop wargaming', 'competitive play', 'tournament meta', 'army lists', 'faction balance', 'rules updates', 'unit efficiency']
+     BOTH (matching): ['community sentiment', 'ultramarines', 'aeldari', 'necrons', 'terrain layouts', 'competitive play']  (6 total)
+     UNIQUE (not in GT): ['imperial guard', 'tournament lists', 'death guard', 'unit points', 'land raiders', 'longevity']  (10 total)
+     max cosine sim: 0.639
+     PENALTIES: none
+
+[16] conversation_tagging  final=0.5393 adj=0.5393
+     raw miner tags (18): ['data fabric', 'metadata', 'inference', 'moving data', 'data producers', 'data consumers', 'mlops pipelines', 'continuous training']
+     after validate_tag_set (16): ['ai models', 'standardization', 'inference', 'data consumers', 'metadata', 'moving data', 'healthcare ai', 'continuous training']
+     GT tags (18): ['data fabric', 'data integration', 'mlops', 'devops', 'continuous training', 'iterative learning', 'automation', 'standardization']
+     BOTH (matching): ['continuous training', 'data fabric', 'automation', 'multidisciplinary teams', 'standardization']  (5 total)
+     UNIQUE (not in GT): ['ai models', 'inference', 'data consumers', 'metadata', 'moving data', 'healthcare ai']  (11 total)
+     max cosine sim: 0.645
+     PENALTIES: none
+
+[17] conversation_tagging  final=0.5744 adj=0.5744
+     raw miner tags (18): ['dental care', 'border town', 'mexico', 'americans', 'dental clinics', 'lower prices', 'patient demand', 'healthcare system']
+     after validate_tag_set (18): ['insurance', 'dental tourism', 'business growth', 'medical history', 'mexico', 'patient demand', 'mayor', 'english language']
+     GT tags (18): ['dental tourism', 'cross border healthcare', 'mexico border towns', 'healthcare affordability', 'dental insurance', 'access to dentistry', 'medical system separation', 'emergency room dentistry']
+     BOTH (matching): ['patient demand', 'dental tourism']  (2 total)
+     UNIQUE (not in GT): ['insurance', 'business growth', 'medical history', 'mayor', 'mexico', 'english language']  (16 total)
+     max cosine sim: 0.695
+     PENALTIES: none
+
+[18] conversation_tagging  final=0.5690 adj=0.5690
+     raw miner tags (18): ['coding mistakes', 'git clean', 'version control', 'file recovery', 'after effects', 'client work', 'domain transfer', 'email outage']
+     after validate_tag_set (13): ['javascript classes', 'client work', 'file recovery', 'domain transfer', 'after effects', 'workflow practices', 'google apps', 'email outage']
+     GT tags (18): ['coding mistakes', 'costly errors', 'version control', 'data loss', 'git commands', 'backup recovery', 'domain management', 'email configuration']
+     BOTH (matching): ['javascript classes', 'coding mistakes', 'version control']  (3 total)
+     UNIQUE (not in GT): ['client work', 'file recovery', 'domain transfer', 'after effects', 'workflow practices', 'google apps']  (10 total)
+     max cosine sim: 0.649
+     PENALTIES: none
+
+[19] conversation_tagging  final=0.5911 adj=0.5911
+     raw miner tags (18): ['tech hiring', 'job search', 'career planning', 'developer roadmap', 'company research', 'personal values', 'us citizenship', 'work visas']
+     after validate_tag_set (17): ['developer roadmap', 'project building', 'web applications', 'company research', 'work visas', 'immigration process', 'job search', 'remote work']
+     GT tags (18): ['tech hiring', 'job market', 'career planning', 'goal setting', 'company research', 'personal values', 'immigration process', 'work visas']
+     BOTH (matching): ['developer roadmap', 'project building', 'company research', 'immigration process', 'work visas', 'remote work']  (13 total)
+     UNIQUE (not in GT): ['job search', 'web applications', 'global relocation', 'workforce regulation']  (4 total)
+     max cosine sim: 0.696
+     PENALTIES: none

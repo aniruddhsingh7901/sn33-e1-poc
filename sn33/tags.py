@@ -213,6 +213,37 @@ def screen_safe(tag: str) -> bool:
     return all(w in en or w.isdigit() for w in words)
 
 
+def make_summary_tags(predicted_gt: List[str], k: int = 3) -> List[str]:
+    """Build up to ``k`` real umbrella phrases from the predicted ground truth.
+
+    The honest cousin of the NER-composite trick, and the same reason it works:
+    a phrase built from the most frequent theme words of the predicted GT
+    embeds near the CENTROID of those tags (averaging concepts pulls toward the
+    mean), so it earns a high-cosine slot without forging anything - the
+    validator re-embeds the phrase string itself. On conversation tasks the
+    English-keyword screen halves the NER gain, so every phrase here is passed
+    through ``screen_safe`` at the call site; only dictionary phrases survive.
+
+    Words <=3 chars are ignored (stopword-ish, and below the tag length floor
+    once alone). Phrases of increasing width (2,3,4 words) give the composer a
+    small ladder of umbrella tags to rank; it keeps only the ones that beat an
+    existing candidate on cosine, so a weak phrase is simply never selected.
+    """
+    from collections import Counter
+
+    words: Counter = Counter()
+    for tag in predicted_gt:
+        for w in str(tag).split():
+            if len(w) > 3:
+                words[w] += 1
+    top = [w for w, _ in words.most_common(8)]
+    out: List[str] = []
+    for n in (2, 3, 4):
+        if len(top) >= n:
+            out.append(" ".join(top[:n]))
+    return out[:k]
+
+
 def parse_tag_list(raw: Optional[str]) -> List[str]:
     """Parse an LLM comma-delimited response into normalized tags.
 

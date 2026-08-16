@@ -40,6 +40,7 @@ from sn33.tags import (
     cosine,
     drop_near_duplicates,
     is_probably_english,
+    make_summary_tags,
     normalize_all,
     parse_tag_list,
     rank_by_centroid,
@@ -165,6 +166,11 @@ class Config:
     # separate from `insurance` because that field is GLOBAL and would force
     # verbatim tags into NER (profile insurance 0) and webpage.
     insurance_conv: Optional[int] = None
+    # Webpage-ONLY insurance override. Same mechanism, independently measured
+    # 2026-08-15 on the 49-task webpage judge corpus: ins 6->14 mean +0.0125,
+    # p10 0.376->0.439, sub-0.5 18->15, worst regression -0.026; ins=10 is the
+    # majority-positive point (W/L 27/19, worst -0.015).
+    insurance_web: Optional[int] = None
     # Above 3 this forces _swap_in to replace high-cosine tags with lower-cosine
     # paraphrases. CLAUDE.md config D shipped 5 and measured final 0.4878 (n=10)
     # against config A's 0.5523 (n=28). Exposed so it can be A/B'd, not guessed.
@@ -276,6 +282,21 @@ class Config:
     value_line_min_cos: float = 0.35
     value_line_max_slots: int = 6
     value_window_cap: int = 2
+    # Honest centroid-summary phrases (conversation only). Adds a few umbrella
+    # phrases built from the predicted-GT theme words to the candidate pool; the
+    # composer ranks them like any other candidate and keeps one only when it
+    # beats an existing tag on cosine to the target. Every phrase is filtered
+    # through screen_safe, so nothing here can be deleted by the validator's
+    # English screen. Offline (screen-safe only): +0.0085, W/L 43/7, worst
+    # -0.003. OFF by default; its own single-variable flag.
+    summary_tags: bool = False
+    summary_tags_k: int = 3
+    # Survey-only v2 generator: option-menu framing + precision-first ordering +
+    # strict noun-phrase form (SN33_SURVEY_V2). Survey is the worst type
+    # (0.410 vs 0.642) and has no re-ranking, so generation IS the lever.
+    # Unmeasurable offline (GT = the validator's hidden selected_choices);
+    # ships as a single-miner live canary. OFF by default.
+    survey_v2: bool = False
     use_cache: bool = False            # bench turns this on; production leaves it off
 
 
@@ -325,7 +346,8 @@ async def _generate_pool(
 ) -> List[str]:
     """Wide, deliberately over-inclusive candidate list from the LLM."""
     if kind == "survey_tagging":
-        prompt = prompts.MINER_SURVEY_POOL.format(n=cfg.pool_size, question=question, comment=comment)
+        tmpl = prompts.MINER_SURVEY_POOL_V2 if cfg.survey_v2 else prompts.MINER_SURVEY_POOL
+        prompt = tmpl.format(n=cfg.pool_size, question=question, comment=comment)
     elif kind == "conversation_tagging":
         prompt = prompts.MINER_CONVERSATION_POOL.format(n=cfg.pool_size, content=text[:6000])
     else:
@@ -928,6 +950,8 @@ async def mine(
     insurance = cfg.insurance if cfg.insurance is not None else profile["insurance"]
     if kind == "conversation_tagging" and cfg.insurance_conv is not None:
         insurance = cfg.insurance_conv
+    if kind == "webpage_metadata_generation" and cfg.insurance_web is not None:
+        insurance = cfg.insurance_web
     dl = Deadline(cfg.deadline_s)
     res = Result()
 
@@ -1133,6 +1157,23 @@ async def mine(
             candidates = list(dict.fromkeys(
                 candidates + [t for t in normalize_all(theme_tags) if is_probably_english(t, pv)]))
 
+        # Honest centroid-summary phrases (conversation only). Umbrella phrases
+        # built from the predicted-GT theme words embed near the GT centroid
+        # (the NER-composite mechanism, legally: the validator re-embeds the
+        # phrase string). Screen-safe filtered so the English screen cannot
+        # delete them, and added to the POOL only - the composer keeps one just
+        # when it out-ranks an existing candidate on cosine, so a weak phrase is
+        # never selected (offline +0.0085 screen-safe, W/L 43/7, worst -0.003).
+        summary_new: List[str] = []
+        if cfg.summary_tags and kind == "conversation_tagging" and predicted_gt:
+            cand_set = set(candidates)
+            summary_new = [
+                s for s in normalize_all(make_summary_tags(predicted_gt, cfg.summary_tags_k))
+                if s and s not in cand_set and screen_safe(s)
+            ]
+            if summary_new:
+                candidates = list(dict.fromkeys(candidates + summary_new))
+
         deep_tags = getattr(rep, "deep_tags", None) if rep is not None else None
         if deep_tags and kind != "survey_tagging":
             # Language guard. Deep tags come from the one pool prompt with no
@@ -1282,7 +1323,8 @@ async def mine(
         # exactly the pairing we want, and they are near-identical vectors.
         # Combos are protected for the same reason: a composite is deliberately
         # close to its constituent entities.
-        protected = set(variant_tags) | set(normalize_all(predicted_gt)) | set(combo_tags)
+        protected = (set(variant_tags) | set(normalize_all(predicted_gt))
+                     | set(combo_tags) | set(summary_new))
         ranked = drop_near_duplicates(ranked, vectors, cfg.dedup_threshold, protected=protected)
         if not ranked:
             return _finish(res, dl)

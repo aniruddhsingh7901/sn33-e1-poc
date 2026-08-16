@@ -224,6 +224,57 @@ Comment: {comment}
 """
 
 
+# v2 (SN33_SURVEY_V2): three changes over v1, each targeting the measured survey
+# weakness (worst type, 0.410 vs 0.642, gap -0.233).
+#  1. OPTION-MENU framing. The GT is the respondent's literal selected_choices -
+#     the answer-OPTION labels, not a comment summary. Anchoring to standard
+#     reason-categories pulls our English tags onto the (cross-lingual) option
+#     centroid at the GT's own abstraction level.
+#  2. PRECISION-FIRST ordering. Survey has no re-ranking - the prompt's order IS
+#     the submission order - so the distinct best options must lead, where the
+#     0.55*top-3-unique term lives; variants come after so they don't displace
+#     a real option from the top slots.
+#  3. STRICT NOUN-PHRASE form. First-person sentence fragments ("i do everything
+#     there") are the weakest surviving class (0.89 vs the LLM English screen);
+#     rewriting them to concepts removes that structural exposure.
+MINER_SURVEY_POOL_V2 = """\
+A survey respondent answered a MULTIPLE-CHOICE question by selecting one or more \
+answer options, then left a free-text comment explaining the choice. The survey \
+may be in any language. Recover the ANSWER OPTIONS this respondent selected - the \
+short labels a printed questionnaire would list - do NOT summarize the comment.
+
+Answer options are standard reason-categories. For a "why do you prefer this \
+bank" question they read like: low fees, good customer service, easy transfers, \
+credit access, mobile banking, branch proximity, trust and security, government \
+backing, wide coverage, existing accounts, efficient service. Infer which such \
+options this respondent's comment maps to.
+
+Produce {n} candidates, ordered most-likely-first:
+- FIRST the DISTINCT options the respondent most likely selected (these carry the \
+  most weight), each phrased as its option label.
+- THEN, only after all distinct options, at most one close variant of each.
+
+FORM - every candidate MUST satisfy ALL of these:
+- a short English NOUN PHRASE naming a topic or concept, the way a printed survey \
+  answer option or an index entry reads.
+- NEVER a sentence, clause, or opinion fragment: no verbs, no first-person words \
+  (i, my, we, our), no pronouns or pointer words (it, they, there, this, that, \
+  you). Rewrite a sentence-shaped reason as its underlying concept: "i do \
+  everything there" -> "primary bank", "protects my money" -> "deposit \
+  protection", "es mas facil de hacer transferencias" -> "easy transfers".
+- 1-4 words, lowercase, ordinary English dictionary words only: no abbreviations, \
+  no acronyms, no coined compound words, no accents, no punctuation, no duplicates.
+
+CRITICAL: write every candidate in ENGLISH even if the question and comment are \
+in another language. Translate the concept, do not transliterate.
+
+Return ONLY a comma-delimited list.
+
+Question: {question}
+Comment: {comment}
+"""
+
+
 def miner_theme(convo_text: str, enrichment: str, n: int = 6) -> str:
     """Broad umbrella theme tags for the whole conversation.
 

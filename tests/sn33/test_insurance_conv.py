@@ -28,7 +28,8 @@ def test_conv_override_applies_only_to_conversation(monkeypatch):
     monkeypatch.setattr(pipeline, "compose", spy_compose)
 
     cfg = Config(use_local=False, use_pool=True, use_cache=False,
-                 deadline_s=11.0, call_timeout_s=8.0, insurance_conv=14)
+                 deadline_s=11.0, call_timeout_s=8.0, insurance_conv=14,
+                 insurance_web=10)
 
     window = [(0, "rates moved again this quarter"), (1, "buyers are hesitating")]
     enrichment = ["housing and mortgage markets line"]
@@ -42,8 +43,7 @@ def test_conv_override_applies_only_to_conversation(monkeypatch):
                               enrichment=enrichment, cfg=cfg))
 
     assert seen.get("conversation_tagging") == 14, seen
-    assert seen.get("webpage_metadata_generation") == TASK_PROFILE[
-        "webpage_metadata_generation"]["insurance"], seen
+    assert seen.get("webpage_metadata_generation") == 10, seen
 
 
 def test_unset_env_changes_nothing(monkeypatch):
@@ -54,5 +54,8 @@ def test_unset_env_changes_nothing(monkeypatch):
 
 def test_env_hook(monkeypatch):
     monkeypatch.setenv("SN33_INSURANCE_CONV", "14")
+    monkeypatch.setenv("SN33_INSURANCE_WEB", "10")
     from sn33 import adapter
-    assert adapter.config_from_env().insurance_conv == 14
+    cfg = adapter.config_from_env()
+    assert cfg.insurance_conv == 14
+    assert cfg.insurance_web == 10

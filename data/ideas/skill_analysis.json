@@ -1,0 +1,131 @@
+{
+ "date": "2026-08-14",
+ "n_raw_captures": 54,
+ "n_unique_tasks": 41,
+ "n_mainnet": 36,
+ "n_testnet": 5,
+ "judge": {
+  "model": "gpt-5.2",
+  "temperature": "api-default (none set, like validator)",
+  "salt": "skilljudge",
+  "protocol": "validator's own chain: skill_to_metadata.j2 on skill_markdown[:1000] -> combine over single set",
+  "chat_calls": 164,
+  "approx_fresh_tokens": {
+   "prompt": 67570,
+   "completion": 7809
+  }
+ },
+ "our_scores": {
+  "mean_final": 0.6454,
+  "median": 0.6486,
+  "min": 0.3728,
+  "max": 0.7584,
+  "mainnet_mean": 0.6427,
+  "excl_gt_collapse_mean": 0.6579,
+  "penalty_tasks": 2,
+  "mean_n_both": 5.2
+ },
+ "live_calibration": {
+  "n_scored_live": 3,
+  "live_mean": 0.6355,
+  "cohort_relative_mean": -0.0154
+ },
+ "replica_ceiling": {
+  "draw2_combined_mean": 0.5255,
+  "draw2_stage1_mean": 0.5789,
+  "ours_vs_draw2_paired_delta": 0.1199,
+  "ours_beats_draw2": "40/41"
+ },
+ "gt_shape": {
+  "gt_mean_words": 1.96,
+  "our_mean_words": 2.06,
+  "gt_single_word_pct": 27,
+  "our_single_word_pct": 14,
+  "gt_gerund_pct": 19,
+  "our_gerund_pct": 23
+ },
+ "miss_taxonomy_counts": {
+  "tool_tech_ne_in_doc": 46,
+  "abstract_concept": 14,
+  "domain_term_in_doc": 46,
+  "generalization_not_in_doc": 100
+ },
+ "miss_taxonomy_examples": {
+  "tool_tech_ne_in_doc": [
+   "squash",
+   "fixup",
+   "autosquash",
+   "crdt",
+   "animation",
+   "materials",
+   "hoa",
+   "tdd",
+   "mocking",
+   "dnf"
+  ],
+  "abstract_concept": [
+   "replication",
+   "commutativity",
+   "idempotence",
+   "quoting",
+   "lighting",
+   "jest",
+   "mocking",
+   "convergence",
+   "causality",
+   "idempotence"
+  ],
+  "domain_term_in_doc": [
+   "rich text",
+   "homeowners insurance",
+   "condo association",
+   "section 179",
+   "cost basis allocation",
+   "tax filing",
+   "condition issues",
+   "legal issues",
+   "red flags",
+   "structured summary"
+  ],
+  "generalization_not_in_doc": [
+   "feature branches",
+   "conflict resolution",
+   "force push",
+   "collaboration best practices",
+   "conflict free replication",
+   "json documents",
+   "tombstone garbage collection",
+   "claims history",
+   "loss history analysis",
+   "3d graphics"
+  ]
+ },
+ "gt_noise": {
+  "gt_collapse_draws_nGT_le2": 2,
+  "nGT_le5": 4,
+  "of": 41
+ },
+ "defect": {
+  "nonsense_inflections_shipped": [
+   "portfolio analysises",
+   "contract analysises",
+   "comparable sales comps analysises",
+   "document analysises",
+   "valuation analysises",
+   "multifamily real estates",
+   "nonresidential real estates",
+   "commit splittings",
+   "network synchronizations",
+   "offline synchronizations",
+   "replica synchronizations"
+  ],
+  "cause": "variants._pluralize: words ending in -is fall through the -ing/-ness guard (analysis -> analysises)",
+  "cost": "validator validate_tags.j2 screen deletes non-dictionary words = wasted slot; invisible to offline judge"
+ },
+ "limits": [
+  "no candidate pools captured for skill tasks -> candidate ceiling NOT computable; answer-vs-GT analysis only",
+  "live cohort-relative unresolvable (n=3)"
+ ],
+ "mismatch_found": false,
+ "verdict": "No concept-class mismatch; our answers beat a perfect validator-distribution replica draw by +0.12 (40/41). Skill is ~5% of volume and near parity. Low priority. Only designed experiment: inflection-hygiene + doc tech-NE injection A/B (design in skill_analysis.md, not run)."
+}

@@ -1,0 +1,3684 @@
+[
+ {
+  "map_idx": 1,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6251170306195405,
+  "cohort_mean": 0.6528791298453098,
+  "f_mean": 0.6205299999999999,
+  "f_depth60": 14,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6180428040411163,
+  "alt_final": 0.6139375590229293,
+  "delta": -0.004105245018186987,
+  "base_adj": 0.6180428040411163,
+  "alt_adj": 0.6139375590229293,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "model deployment",
+   "gpu inference",
+   "triton inference server",
+   "triton inference servers"
+  ],
+  "drops": [
+   "throughput optimizations",
+   "kv cache management",
+   "dynamic batching",
+   "cache management"
+  ]
+ },
+ {
+  "map_idx": 2,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6475969489127688,
+  "cohort_mean": 0.6652243995994571,
+  "f_mean": 0.70911,
+  "f_depth60": 39,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7369631455031356,
+  "alt_final": 0.7371398923511057,
+  "delta": 0.00017674684797008844,
+  "base_adj": 0.7369631455031356,
+  "alt_adj": 0.7371398923511057,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "rent regulation",
+   "apartment vacancy rate",
+   "rent growth",
+   "rent control acts"
+  ],
+  "drops": [
+   "national housing trends",
+   "rent increase limits",
+   "housing supply",
+   "apartment rent"
+  ]
+ },
+ {
+  "map_idx": 3,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6193235772741226,
+  "cohort_mean": 0.6230146249605131,
+  "f_mean": 0.63175,
+  "f_depth60": 15,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.3243562935594784,
+  "alt_final": 0.32379568302453593,
+  "delta": -0.0005606105349424961,
+  "base_adj": 0.3603958817327538,
+  "alt_adj": 0.35977298113837325,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "foreign market exit",
+   "corporate strategies",
+   "market exits",
+   "multinational enterprises"
+  ],
+  "drops": [
+   "office real estate",
+   "property market performance",
+   "family offices",
+   "market growth"
+  ]
+ },
+ {
+  "map_idx": 6,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6266340410903046,
+  "cohort_mean": 0.6815518026527307,
+  "f_mean": 0.615335,
+  "f_depth60": 15,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5856189269892818,
+  "alt_final": 0.5841950714769748,
+  "delta": -0.0014238555123069485,
+  "base_adj": 0.5856189269892818,
+  "alt_adj": 0.5841950714769748,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "distributed system",
+   "software architecture",
+   "design patterns",
+   "monolithic architectures"
+  ],
+  "drops": [
+   "networking",
+   "service meshes",
+   "distributed systems",
+   "node js microservices"
+  ]
+ },
+ {
+  "map_idx": 9,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.711028944879829,
+  "cohort_mean": 0.7432019340553117,
+  "f_mean": 0.6696199999999999,
+  "f_depth60": 22,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7245784195127428,
+  "alt_final": 0.7233112319939085,
+  "delta": -0.0012671875188343673,
+  "base_adj": 0.7245784195127428,
+  "alt_adj": 0.7233112319939085,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "contract managements",
+   "saas risk",
+   "saas",
+   "risk management"
+  ],
+  "drops": [
+   "cloud governance",
+   "it strategies",
+   "it strategy",
+   "cloud transparency"
+  ]
+ },
+ {
+  "map_idx": 14,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6238657659571767,
+  "cohort_mean": 0.6894258206409096,
+  "f_mean": 0.60534,
+  "f_depth60": 9,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.619047962661903,
+  "alt_final": 0.619917079211167,
+  "delta": 0.0008691165492640263,
+  "base_adj": 0.619047962661903,
+  "alt_adj": 0.619917079211167,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "containers",
+   "service meshes",
+   "microservices networking",
+   "kubernetes networking"
+  ],
+  "drops": [
+   "workload isolation",
+   "infrastructure architecture",
+   "serverless architecture",
+   "it architecture"
+  ]
+ },
+ {
+  "map_idx": 15,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5152159364432324,
+  "cohort_mean": 0.5254188979229462,
+  "f_mean": 0.6266950000000001,
+  "f_depth60": 15,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6137145560303292,
+  "alt_final": 0.6119296271119694,
+  "delta": -0.001784928918359796,
+  "base_adj": 0.6137145560303292,
+  "alt_adj": 0.6119296271119694,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "bias measurement",
+   "learning security",
+   "demographic parity",
+   "disparate impact"
+  ],
+  "drops": [
+   "secure computation",
+   "equal opportunity",
+   "federated learning",
+   "gradient privacies"
+  ]
+ },
+ {
+  "map_idx": 16,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6569699430211334,
+  "cohort_mean": 0.6689482363020329,
+  "f_mean": 0.6541750000000001,
+  "f_depth60": 18,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6278540282765671,
+  "alt_final": 0.6273800349826277,
+  "delta": -0.0004739932939393787,
+  "base_adj": 0.6278540282765671,
+  "alt_adj": 0.6273800349826277,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "loss distribution",
+   "real estate investing",
+   "international real estate markets",
+   "international real estate market"
+  ],
+  "drops": [
+   "insurance",
+   "currency hedging",
+   "traditional asset classes",
+   "actuarial modeling"
+  ]
+ },
+ {
+  "map_idx": 20,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5939746123087062,
+  "cohort_mean": 0.6254646409447485,
+  "f_mean": 0.621345,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.27686181070427196,
+  "alt_final": 0.27114629564976545,
+  "delta": -0.005715515054506515,
+  "base_adj": 0.3076242341158577,
+  "alt_adj": 0.3012736618330727,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "occupancy rates",
+   "rent roll analysis",
+   "estate underwriting",
+   "cap rate comparables"
+  ],
+  "drops": [
+   "nnn lease",
+   "rent increases",
+   "real estate",
+   "credit risk"
+  ]
+ },
+ {
+  "map_idx": 21,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.47299534234142027,
+  "cohort_mean": 0.6443765121398451,
+  "f_mean": 0.6198750000000001,
+  "f_depth60": 13,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6005963991247496,
+  "alt_final": 0.5975435254543058,
+  "delta": -0.003052873670443823,
+  "base_adj": 0.6005963991247496,
+  "alt_adj": 0.5975435254543058,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "dns",
+   "multi region architectures",
+   "traffic routing",
+   "region architecture"
+  ],
+  "drops": [
+   "active passive architecture",
+   "terraform",
+   "active active architecture",
+   "active active architectures"
+  ]
+ },
+ {
+  "map_idx": 23,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.29413629281502646,
+  "cohort_mean": 0.2642157735456915,
+  "f_mean": 0.60128,
+  "f_depth60": 17,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4751129347045432,
+  "alt_final": 0.41160797741525057,
+  "delta": -0.06350495728929262,
+  "base_adj": 0.4751129347045432,
+  "alt_adj": 0.4573421971280562,
+  "base_pen": [],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "portfolio optimization",
+   "portfolio diversification",
+   "portfolio theory",
+   "equity classification"
+  ],
+  "drops": [
+   "iran",
+   "rocket mortgage classic",
+   "pga tour",
+   "modern portfolio theory"
+  ]
+ },
+ {
+  "map_idx": 24,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6077441462323627,
+  "cohort_mean": 0.6796514029970337,
+  "f_mean": 0.5860049999999999,
+  "f_depth60": 7,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6165730431835471,
+  "alt_final": 0.611252896694189,
+  "delta": -0.00532014648935808,
+  "base_adj": 0.6165730431835471,
+  "alt_adj": 0.611252896694189,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "transformers",
+   "product positioning",
+   "image classification",
+   "market adoption"
+  ],
+  "drops": [
+   "attention mechanism",
+   "optimization",
+   "statistical learning",
+   "expert systems"
+  ]
+ },
+ {
+  "map_idx": 40,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5931333106684376,
+  "cohort_mean": 0.6480769301847277,
+  "f_mean": 0.63758,
+  "f_depth60": 22,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4103696960887033,
+  "alt_final": 0.41064089861902914,
+  "delta": 0.0002712025303258647,
+  "base_adj": 0.4559663289874481,
+  "alt_adj": 0.4562676651322546,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "macro markets",
+   "mispriced stocks",
+   "technical analysis",
+   "fundamental analysis"
+  ],
+  "drops": [
+   "mispriced markets",
+   "real estate investing",
+   "investment return",
+   "relative valuation"
+  ]
+ },
+ {
+  "map_idx": 41,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6545472046534888,
+  "cohort_mean": 0.6734565491828927,
+  "f_mean": 0.6495650000000001,
+  "f_depth60": 20,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6494528427868843,
+  "alt_final": 0.6482900478182889,
+  "delta": -0.001162794968595393,
+  "base_adj": 0.6494528427868843,
+  "alt_adj": 0.6482900478182889,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "smart growths",
+   "compact development",
+   "transit oriented developments",
+   "business analysis"
+  ],
+  "drops": [
+   "real estate developments",
+   "use development",
+   "smart growth",
+   "retail property feasibility"
+  ]
+ },
+ {
+  "map_idx": 43,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.35013323473428004,
+  "cohort_mean": 0.35931940813301927,
+  "f_mean": 0.666815,
+  "f_depth60": 22,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.43043930639851524,
+  "alt_final": 0.4302173206275518,
+  "delta": -0.00022198577096343985,
+  "base_adj": 0.43043930639851524,
+  "alt_adj": 0.4302173206275518,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "customer acquisition",
+   "multicultural marketing",
+   "budget optimization",
+   "local business promotion"
+  ],
+  "drops": [
+   "radio advertising",
+   "customer traffic",
+   "social media marketing",
+   "retail marketing"
+  ]
+ },
+ {
+  "map_idx": 44,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5892780068648332,
+  "cohort_mean": 0.618211545902969,
+  "f_mean": 0.67567,
+  "f_depth60": 37,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6431677895185017,
+  "alt_final": 0.663399042425946,
+  "delta": 0.02023125290744432,
+  "base_adj": 0.6431677895185017,
+  "alt_adj": 0.663399042425946,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "asset allocations",
+   "portfolio allocations",
+   "banking crisises",
+   "debt funds"
+  ],
+  "drops": [
+   "portfolio construction",
+   "mortgage meltdown",
+   "mortgage meltdowns",
+   "financial cris"
+  ]
+ },
+ {
+  "map_idx": 47,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5786324331916729,
+  "cohort_mean": 0.5822910843388271,
+  "f_mean": 0.67658,
+  "f_depth60": 19,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6865273587655967,
+  "alt_final": 0.6871119084097674,
+  "delta": 0.000584549644170762,
+  "base_adj": 0.6865273587655967,
+  "alt_adj": 0.6871119084097674,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "worker nodes",
+   "scaling strategies",
+   "deployments",
+   "pods"
+  ],
+  "drops": [
+   "postgresql",
+   "google cloud",
+   "hybrid cloud",
+   "cloud native infrastructure"
+  ]
+ },
+ {
+  "map_idx": 52,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.524643477977404,
+  "cohort_mean": 0.6340479554784529,
+  "f_mean": 0.6339349999999999,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.24763018614672255,
+  "alt_final": 0.2366981316028857,
+  "delta": -0.010932054543836861,
+  "base_adj": 0.2751446512741362,
+  "alt_adj": 0.2629979240032063,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "property values",
+   "financial instability",
+   "smart buying strategies",
+   "downside risk"
+  ],
+  "drops": [
+   "quantitative finance",
+   "housing market",
+   "downside risk techniques",
+   "real estate"
+  ]
+ },
+ {
+  "map_idx": 53,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5979764285452177,
+  "cohort_mean": 0.6048207013414347,
+  "f_mean": 0.65408,
+  "f_depth60": 18,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.38226448140841396,
+  "alt_final": 0.41727756591879367,
+  "delta": 0.03501308451037971,
+  "base_adj": 0.4247383126760155,
+  "alt_adj": 0.46364173990977076,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "bank capital adequacies",
+   "banking regulation",
+   "financial crisis 2008",
+   "property managements"
+  ],
+  "drops": [
+   "property management",
+   "portfolio diversification",
+   "liquidity analysises",
+   "real estate investing"
+  ]
+ },
+ {
+  "map_idx": 56,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6616126979005738,
+  "cohort_mean": 0.5533217275050076,
+  "f_mean": 0.651185,
+  "f_depth60": 20,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7108512742277475,
+  "alt_final": 0.709066191695487,
+  "delta": -0.0017850825322605068,
+  "base_adj": 0.7108512742277475,
+  "alt_adj": 0.709066191695487,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "third party auditor",
+   "algorithmic harms",
+   "algorithmic harm",
+   "ai regulation"
+  ],
+  "drops": [
+   "ai policies",
+   "independent auditing",
+   "ai ethics",
+   "ai policy"
+  ]
+ },
+ {
+  "map_idx": 60,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6816180150468496,
+  "cohort_mean": 0.7094101819293652,
+  "f_mean": 0.6236149999999999,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.2507366518165396,
+  "alt_final": 0.2700213394966763,
+  "delta": 0.019284687680136692,
+  "base_adj": 0.2785962797961551,
+  "alt_adj": 0.3000237105518625,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "australian housing market",
+   "suburban housing",
+   "home prices",
+   "telecommuting"
+  ],
+  "drops": [
+   "economic outlooks",
+   "workplace flexibility",
+   "real estate",
+   "downtown offices"
+  ]
+ },
+ {
+  "map_idx": 0,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.712985,
+  "f_depth60": 29,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6718842494154913,
+  "alt_final": 0.6715080693240888,
+  "delta": -0.0003761800914025004,
+  "base_adj": 0.6718842494154913,
+  "alt_adj": 0.6715080693240888,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "housing finance",
+   "housing supply",
+   "permanent supportive housing",
+   "housing advocacies"
+  ],
+  "drops": [
+   "supportive housing",
+   "housing justice",
+   "housing development",
+   "state housing finance agency"
+  ]
+ },
+ {
+  "map_idx": 4,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6829250000000002,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6443552271606178,
+  "alt_final": 0.654776224056773,
+  "delta": 0.010420996896155277,
+  "base_adj": 0.6443552271606178,
+  "alt_adj": 0.654776224056773,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "tax credit allocations",
+   "tax credits",
+   "tax credit program",
+   "tax credit"
+  ],
+  "drops": [
+   "qualified allocation plan",
+   "tax credit allocation",
+   "state housing agencies",
+   "homes act"
+  ]
+ },
+ {
+  "map_idx": 5,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.69779,
+  "f_depth60": 32,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6839539654003102,
+  "alt_final": 0.6813266126707623,
+  "delta": -0.0026273527295478383,
+  "base_adj": 0.6839539654003102,
+  "alt_adj": 0.6813266126707623,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "state housing agency",
+   "funding allocation",
+   "michigan housing",
+   "housing research"
+  ],
+  "drops": [
+   "permanent supportive housing",
+   "low income housing tax credit",
+   "supportive housing",
+   "housing regulation"
+  ]
+ },
+ {
+  "map_idx": 7,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.683915,
+  "f_depth60": 21,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.2999168021498092,
+  "alt_final": 0.3014504140313454,
+  "delta": 0.0015336118815362232,
+  "base_adj": 0.3332408912775658,
+  "alt_adj": 0.33494490447927266,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "trust laws",
+   "real estate investing",
+   "distribution of assets",
+   "legal compliance"
+  ],
+  "drops": [
+   "estate investing",
+   "trust law",
+   "prudent investment",
+   "prudent investments"
+  ]
+ },
+ {
+  "map_idx": 8,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.58619,
+  "f_depth60": 5,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5301173837608526,
+  "alt_final": 0.5361463623300096,
+  "delta": 0.006028978569156962,
+  "base_adj": 0.5301173837608526,
+  "alt_adj": 0.5361463623300096,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "iran",
+   "oil market volatility",
+   "maritime security",
+   "iran sanctions"
+  ],
+  "drops": [
+   "maritime blockade",
+   "middle east conflicts",
+   "energy trade",
+   "iran tensions"
+  ]
+ },
+ {
+  "map_idx": 10,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6466950000000001,
+  "f_depth60": 17,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6421469607406457,
+  "alt_final": 0.6394232271452178,
+  "delta": -0.0027237335954278796,
+  "base_adj": 0.6421469607406457,
+  "alt_adj": 0.6394232271452178,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "investment policy statements",
+   "case management",
+   "legal services access",
+   "trust"
+  ],
+  "drops": [
+   "special purpose vehicles",
+   "real estate spvs",
+   "border banking",
+   "investment risk isolation"
+  ]
+ },
+ {
+  "map_idx": 11,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.61917,
+  "f_depth60": 20,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.48138324109918507,
+  "alt_final": 0.47544902652343835,
+  "delta": -0.005934214575746721,
+  "base_adj": 0.48138324109918507,
+  "alt_adj": 0.47544902652343835,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "residential property",
+   "property for sale",
+   "real estate analytics",
+   "home prices"
+  ],
+  "drops": [
+   "metatrader 5",
+   "dxbinteract",
+   "european commission",
+   "downtown dubai"
+  ]
+ },
+ {
+  "map_idx": 12,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5700099999999999,
+  "f_depth60": 6,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.37091161668390354,
+  "alt_final": 0.3351275007703373,
+  "delta": -0.03578411591356623,
+  "base_adj": 0.4121240185376706,
+  "alt_adj": 0.3723638897448192,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "retail development",
+   "property valuation",
+   "resource assessment",
+   "foreign ownership"
+  ],
+  "drops": [
+   "cfius",
+   "usgs assessment",
+   "oil and gas",
+   "us treasury"
+  ]
+ },
+ {
+  "map_idx": 13,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6954849999999999,
+  "f_depth60": 30,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.636352065014105,
+  "alt_final": 0.6348015664248402,
+  "delta": -0.0015504985892648149,
+  "base_adj": 0.636352065014105,
+  "alt_adj": 0.6348015664248402,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "housing start",
+   "federal housing policies",
+   "residential building permit",
+   "census housing data"
+  ],
+  "drops": [
+   "apartment market",
+   "federal housing policy",
+   "houston housing",
+   "apartment construction"
+  ]
+ },
+ {
+  "map_idx": 17,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.7157999999999999,
+  "f_depth60": 27,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6176867555804807,
+  "alt_final": 0.6193908253748137,
+  "delta": 0.0017040697943330185,
+  "base_adj": 0.6176867555804807,
+  "alt_adj": 0.6193908253748137,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "homes act",
+   "housing units",
+   "housing ordinance",
+   "montana housing law"
+  ],
+  "drops": [
+   "housing law",
+   "below market housing unit",
+   "housing finance agency",
+   "housing development"
+  ]
+ },
+ {
+  "map_idx": 18,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.580225,
+  "f_depth60": 4,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.37029901744157595,
+  "alt_final": 0.37220394639185744,
+  "delta": 0.0019049289502814926,
+  "base_adj": 0.41144335271286214,
+  "alt_adj": 0.4135599404353972,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "retailers association",
+   "consumer experience",
+   "public trust",
+   "retail tenancies"
+  ],
+  "drops": [
+   "national retailers association",
+   "australian retail industry",
+   "retail leasing reform",
+   "social media"
+  ]
+ },
+ {
+  "map_idx": 19,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.684215,
+  "f_depth60": 22,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.35310164321173176,
+  "alt_final": 0.3214215087890402,
+  "delta": -0.031680134422691575,
+  "base_adj": 0.3923351591241464,
+  "alt_adj": 0.3571350097656002,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "corporate finance",
+   "capital governance",
+   "volatile markets",
+   "resilient portfolios"
+  ],
+  "drops": [
+   "oil prices",
+   "global oil market",
+   "investment framework",
+   "investment risk return"
+  ]
+ },
+ {
+  "map_idx": 22,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6832900000000001,
+  "f_depth60": 27,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6526855015719374,
+  "alt_final": 0.6521118641909737,
+  "delta": -0.0005736373809637207,
+  "base_adj": 0.6526855015719374,
+  "alt_adj": 0.6521118641909737,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "building permits",
+   "housing start",
+   "federal housing policies",
+   "private housing unit"
+  ],
+  "drops": [
+   "houston housing",
+   "apartment market",
+   "federal housing policy",
+   "residential construction"
+  ]
+ },
+ {
+  "map_idx": 25,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.670875,
+  "f_depth60": 26,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6960434949082037,
+  "alt_final": 0.693369320362993,
+  "delta": -0.0026741745452106835,
+  "base_adj": 0.6960434949082037,
+  "alt_adj": 0.693369320362993,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "montana housing laws",
+   "funding allocations",
+   "zoning regulations",
+   "zoning regulation"
+  ],
+  "drops": [
+   "bozeman housing ordinance",
+   "funding allocation",
+   "housing development",
+   "housing ordinance"
+  ]
+ },
+ {
+  "map_idx": 26,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.678085,
+  "f_depth60": 18,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6325500188462875,
+  "alt_final": 0.6343673889280879,
+  "delta": 0.0018173700818003846,
+  "base_adj": 0.6325500188462875,
+  "alt_adj": 0.6343673889280879,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "zoning regulation",
+   "tax credit",
+   "rent control preemption",
+   "border healthcare"
+  ],
+  "drops": [
+   "zoning regulations",
+   "tax credits",
+   "housing developments",
+   "housing units"
+  ]
+ },
+ {
+  "map_idx": 27,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.57453,
+  "f_depth60": 4,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.35368942925908503,
+  "alt_final": 0.38693457998275477,
+  "delta": 0.033245150723669736,
+  "base_adj": 0.3929882547323167,
+  "alt_adj": 0.4299273110919497,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "bankruptcy risks",
+   "profit margins",
+   "sales",
+   "new york market"
+  ],
+  "drops": [
+   "exchange offer",
+   "fish market",
+   "term loans",
+   "insolvency"
+  ]
+ },
+ {
+  "map_idx": 28,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6609499999999999,
+  "f_depth60": 23,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5544210011300598,
+  "alt_final": 0.5515485248109163,
+  "delta": -0.0028724763191434466,
+  "base_adj": 0.5544210011300598,
+  "alt_adj": 0.5515485248109163,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "market trends",
+   "vacancy rate trends",
+   "market trend",
+   "industrial property market"
+  ],
+  "drops": [
+   "rental rates",
+   "warehouse vacancy rate",
+   "estate investing",
+   "vacancy rates"
+  ]
+ },
+ {
+  "map_idx": 29,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6858150000000001,
+  "f_depth60": 26,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6118343279158439,
+  "alt_final": 0.614588355359907,
+  "delta": 0.0027540274440630563,
+  "base_adj": 0.6118343279158439,
+  "alt_adj": 0.614588355359907,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "interest rate swaps",
+   "real estate finance",
+   "finance transactions",
+   "lines of credit"
+  ],
+  "drops": [
+   "debt pricing",
+   "hedging strategy",
+   "swap based hedging",
+   "investment optimization"
+  ]
+ },
+ {
+  "map_idx": 30,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5331349999999999,
+  "f_depth60": 11,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4764073128267037,
+  "alt_final": 0.5053634224525942,
+  "delta": 0.02895610962589057,
+  "base_adj": 0.4764073128267037,
+  "alt_adj": 0.5053634224525942,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "spanish language news",
+   "tipo de cambio",
+   "atraccion de inversionistas",
+   "univision news"
+  ],
+  "drops": [
+   "urban rescue team",
+   "private investment",
+   "search and rescue",
+   "news coverage"
+  ]
+ },
+ {
+  "map_idx": 31,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.680195,
+  "f_depth60": 24,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.32270495155542683,
+  "alt_final": 0.32332911742234816,
+  "delta": 0.0006241658669213224,
+  "base_adj": 0.3585610572838076,
+  "alt_adj": 0.35925457491372015,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "housing start",
+   "property managements",
+   "residential building permit",
+   "real estate"
+  ],
+  "drops": [
+   "housing unit",
+   "census housing data",
+   "property expenses",
+   "real estate market trend"
+  ]
+ },
+ {
+  "map_idx": 32,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5549850000000001,
+  "f_depth60": 1,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4404409476338408,
+  "alt_final": 0.43937872334202094,
+  "delta": -0.0010622242918198466,
+  "base_adj": 0.4404409476338408,
+  "alt_adj": 0.43937872334202094,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "identifiable information",
+   "success",
+   "networking",
+   "social media engagement"
+  ],
+  "drops": [
+   "lyrsense",
+   "communication",
+   "big data",
+   "personally identifiable information"
+  ]
+ },
+ {
+  "map_idx": 33,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5471699999999999,
+  "f_depth60": 0,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4986827493205719,
+  "alt_final": 0.4916521776401791,
+  "delta": -0.007030571680392783,
+  "base_adj": 0.4986827493205719,
+  "alt_adj": 0.4916521776401791,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "data collection",
+   "digital communication",
+   "raw data",
+   "social media engagement"
+  ],
+  "drops": [
+   "sql",
+   "personally identifiable information",
+   "text analysis",
+   "google"
+  ]
+ },
+ {
+  "map_idx": 34,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6183500000000002,
+  "f_depth60": 14,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6260969372169587,
+  "alt_final": 0.6234821291658927,
+  "delta": -0.0026148080510659533,
+  "base_adj": 0.6260969372169587,
+  "alt_adj": 0.6234821291658927,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "incident resolution",
+   "user behavior",
+   "service level objective",
+   "incident response"
+  ],
+  "drops": [
+   "observability gap",
+   "telemetry",
+   "logging",
+   "distributed tracing"
+  ]
+ },
+ {
+  "map_idx": 35,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6449400000000002,
+  "f_depth60": 20,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.646187266504094,
+  "alt_final": 0.6449439805694097,
+  "delta": -0.0012432859346842573,
+  "base_adj": 0.646187266504094,
+  "alt_adj": 0.6449439805694097,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "1031 exchange",
+   "depreciation recaptures",
+   "commercial real estates",
+   "1031 exchanges"
+  ],
+  "drops": [
+   "depreciation",
+   "exit planning",
+   "commercial real estate investing",
+   "equipment depreciation"
+  ]
+ },
+ {
+  "map_idx": 36,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.569545,
+  "f_depth60": 4,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6375537858181471,
+  "alt_final": 0.6408042105867641,
+  "delta": 0.003250424768616922,
+  "base_adj": 0.6375537858181471,
+  "alt_adj": 0.6408042105867641,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "iran protests",
+   "kurdish people",
+   "sunni shia relations",
+   "financial buyers"
+  ],
+  "drops": [
+   "geopolitics",
+   "strategic buyers",
+   "iranian protests 2022",
+   "united states"
+  ]
+ },
+ {
+  "map_idx": 37,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.63532,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5575974809989274,
+  "alt_final": 0.5625617183268004,
+  "delta": 0.004964237327872989,
+  "base_adj": 0.5575974809989274,
+  "alt_adj": 0.5625617183268004,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "earnings call transcript",
+   "non gaap metric",
+   "hospitality reit",
+   "corporate finance"
+  ],
+  "drops": [
+   "ebitdas",
+   "profitability analysis",
+   "non gaap measures",
+   "funds from operation"
+  ]
+ },
+ {
+  "map_idx": 38,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6210949999999998,
+  "f_depth60": 13,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.27519463164739627,
+  "alt_final": 0.2719566452398576,
+  "delta": -0.0032379864075386955,
+  "base_adj": 0.3057718129415514,
+  "alt_adj": 0.3021740502665084,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "housing prices",
+   "demographic shift",
+   "commuting pattern",
+   "urban economics"
+  ],
+  "drops": [
+   "office vacancy",
+   "urban planning",
+   "demographic shifts",
+   "office vacancy rates"
+  ]
+ },
+ {
+  "map_idx": 39,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.7003400000000001,
+  "f_depth60": 33,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.41079318385392394,
+  "alt_final": 0.42609390137986786,
+  "delta": 0.015300717525943919,
+  "base_adj": 0.45643687094880436,
+  "alt_adj": 0.47343766819985317,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "multifamily operations",
+   "apartment development",
+   "austin housing",
+   "residential building permits"
+  ],
+  "drops": [
+   "property management",
+   "multifamily investment",
+   "housing data",
+   "multifamily starts"
+  ]
+ },
+ {
+  "map_idx": 42,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6723699999999998,
+  "f_depth60": 29,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6456799366845689,
+  "alt_final": 0.6458326593339854,
+  "delta": 0.00015272264941645908,
+  "base_adj": 0.6456799366845689,
+  "alt_adj": 0.6458326593339854,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "web application architectures",
+   "next js",
+   "performance optimization",
+   "static site generators"
+  ],
+  "drops": [
+   "content management",
+   "web application architecture",
+   "side rendering",
+   "static site generation"
+  ]
+ },
+ {
+  "map_idx": 45,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.54308,
+  "f_depth60": 4,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.36884539430682145,
+  "alt_final": 0.3376325214743845,
+  "delta": -0.031212872832436955,
+  "base_adj": 0.36884539430682145,
+  "alt_adj": 0.3376325214743845,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "covariance formula",
+   "investment strategy",
+   "descriptive statistics",
+   "asset allocation frameworks"
+  ],
+  "drops": [
+   "new hampshire",
+   "us politics",
+   "nad plus",
+   "prescription medications"
+  ]
+ },
+ {
+  "map_idx": 46,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.603665,
+  "f_depth60": 12,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5537393548941094,
+  "alt_final": 0.5567201023867633,
+  "delta": 0.002980747492653868,
+  "base_adj": 0.5537393548941094,
+  "alt_adj": 0.5567201023867633,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "multi speaker conversations",
+   "transcription accuracy",
+   "postgresql",
+   "language coverage"
+  ],
+  "drops": [
+   "event streaming",
+   "assemblyai",
+   "podcasting",
+   "open source asr models"
+  ]
+ },
+ {
+  "map_idx": 48,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6715000000000001,
+  "f_depth60": 36,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6837403430186089,
+  "alt_final": 0.679238438594459,
+  "delta": -0.004501904424149883,
+  "base_adj": 0.6837403430186089,
+  "alt_adj": 0.679238438594459,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "real estate finance",
+   "cash flow managements",
+   "liquidity features",
+   "estate finance"
+  ],
+  "drops": [
+   "interest rate risk",
+   "financial planning",
+   "real estate funds",
+   "lenders"
+  ]
+ },
+ {
+  "map_idx": 49,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6044699999999998,
+  "f_depth60": 12,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.38631220044079045,
+  "alt_final": 0.42478716759446905,
+  "delta": 0.038474967153678596,
+  "base_adj": 0.42923577826754494,
+  "alt_adj": 0.42478716759446905,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [],
+  "adds": [
+   "international sustainability standards board",
+   "issb standards",
+   "asset allocation",
+   "financial reporting standards"
+  ],
+  "drops": [
+   "risk assessment",
+   "transition risks",
+   "esg compliance",
+   "international sustainability standards boards"
+  ]
+ },
+ {
+  "map_idx": 50,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.71863,
+  "f_depth60": 25,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7014223828050099,
+  "alt_final": 0.6997801714056,
+  "delta": -0.0016422113994098986,
+  "base_adj": 0.7014223828050099,
+  "alt_adj": 0.6997801714056,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "multifamily housing unit",
+   "multifamily housing units",
+   "tax credits",
+   "tax credit allocations"
+  ],
+  "drops": [
+   "homes act",
+   "housing units",
+   "state housing policy",
+   "housing finance agency"
+  ]
+ },
+ {
+  "map_idx": 51,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.70672,
+  "f_depth60": 19,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7252100006860221,
+  "alt_final": 0.7227710559229642,
+  "delta": -0.0024389447630579486,
+  "base_adj": 0.7252100006860221,
+  "alt_adj": 0.7227710559229642,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "tax credit allocations",
+   "qualified allocation plans",
+   "tax credit",
+   "qualified allocation plan"
+  ],
+  "drops": [
+   "tax credit allocation",
+   "multifamily housing units",
+   "homes act",
+   "state housing policy"
+  ]
+ },
+ {
+  "map_idx": 54,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6957700000000001,
+  "f_depth60": 32,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.668952963782844,
+  "alt_final": 0.6647996080157863,
+  "delta": -0.004153355767057665,
+  "base_adj": 0.668952963782844,
+  "alt_adj": 0.6647996080157863,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "state housing finance agency",
+   "housing affordability crisises",
+   "bozeman housing ordinance",
+   "housing units"
+  ],
+  "drops": [
+   "state housing finance agencies",
+   "montana housing law",
+   "low income housing tax credit",
+   "housing affordability crisis"
+  ]
+ },
+ {
+  "map_idx": 55,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.64831,
+  "f_depth60": 21,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6010351973351427,
+  "alt_final": 0.5969001994202409,
+  "delta": -0.004134997914901795,
+  "base_adj": 0.6010351973351427,
+  "alt_adj": 0.5969001994202409,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "warehouse vacancy rate",
+   "market statistics",
+   "real estate cycle",
+   "market growth"
+  ],
+  "drops": [
+   "industrial property market",
+   "warehouse vacancy rates",
+   "warehousing",
+   "commercial property statistics"
+  ]
+ },
+ {
+  "map_idx": 57,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.65646,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5635510924534446,
+  "alt_final": 0.5677851250378718,
+  "delta": 0.0042340325844272275,
+  "base_adj": 0.5635510924534446,
+  "alt_adj": 0.5677851250378718,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "uk economic statistics",
+   "energy price",
+   "material import delays",
+   "purchasing power"
+  ],
+  "drops": [
+   "gas costs",
+   "gasoline prices",
+   "historical inflation",
+   "price measurement"
+  ]
+ },
+ {
+  "map_idx": 58,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.64951,
+  "f_depth60": 27,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5705786631640588,
+  "alt_final": 0.5690124964642171,
+  "delta": -0.0015661666998416646,
+  "base_adj": 0.5705786631640588,
+  "alt_adj": 0.5690124964642171,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "landlord expenses",
+   "property management",
+   "tenant financial statements",
+   "nnn lease"
+  ],
+  "drops": [
+   "ocean freight",
+   "shipping lines",
+   "tenant responsibilities",
+   "tenant qualification"
+  ]
+ },
+ {
+  "map_idx": 59,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.570975,
+  "f_depth60": 4,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4917115883562072,
+  "alt_final": 0.5130883946289652,
+  "delta": 0.021376806272757953,
+  "base_adj": 0.4917115883562072,
+  "alt_adj": 0.5130883946289652,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "arms sales",
+   "american companies",
+   "iran military",
+   "israel"
+  ],
+  "drops": [
+   "united states",
+   "pickup truck",
+   "toyota tacoma",
+   "middle east security"
+  ]
+ },
+ {
+  "map_idx": 61,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.579085,
+  "f_depth60": 2,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4137778794155026,
+  "alt_final": 0.4199313563732636,
+  "delta": 0.006153476957761028,
+  "base_adj": 0.4137778794155026,
+  "alt_adj": 0.4199313563732636,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "digital commerce metrics",
+   "global trade",
+   "political analysis",
+   "foreign policies"
+  ],
+  "drops": [
+   "elections",
+   "trade negotiations",
+   "consumer sentiments",
+   "international economics"
+  ]
+ },
+ {
+  "map_idx": 62,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5981050000000001,
+  "f_depth60": 14,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.38629410178796036,
+  "alt_final": 0.35905044313198214,
+  "delta": -0.02724365865597822,
+  "base_adj": 0.4292156686532893,
+  "alt_adj": 0.3989449368133135,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "roadmap makers",
+   "smart planning",
+   "product management",
+   "software engineering"
+  ],
+  "drops": [
+   "copyright",
+   "software licensing",
+   "linkedin",
+   "open source software"
+  ]
+ },
+ {
+  "map_idx": 63,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6796800000000001,
+  "f_depth60": 25,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6354595241831423,
+  "alt_final": 0.6350888029496159,
+  "delta": -0.0003707212335264387,
+  "base_adj": 0.6354595241831423,
+  "alt_adj": 0.6350888029496159,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "secrets management",
+   "secure remote sessions",
+   "key management",
+   "encryption"
+  ],
+  "drops": [
+   "unauthorized access prevention",
+   "privilege access",
+   "least privilege accesses",
+   "zero trust architecture"
+  ]
+ },
+ {
+  "map_idx": 64,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6163199999999999,
+  "f_depth60": 16,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5040128133728311,
+  "alt_final": 0.5053970062847252,
+  "delta": 0.0013841929118940666,
+  "base_adj": 0.5040128133728311,
+  "alt_adj": 0.5053970062847252,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "passenger volume",
+   "travel data",
+   "reit investing",
+   "transportation statistics"
+  ],
+  "drops": [
+   "daily passenger count",
+   "aviation industry metrics",
+   "air travel demands",
+   "travel trend"
+  ]
+ },
+ {
+  "map_idx": 65,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.68165,
+  "f_depth60": 24,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6993312460909443,
+  "alt_final": 0.6980687565358594,
+  "delta": -0.0012624895550849002,
+  "base_adj": 0.6993312460909443,
+  "alt_adj": 0.6980687565358594,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "qualified allocation plan",
+   "housing affordability crisises",
+   "qualified allocation plans",
+   "funding allocations"
+  ],
+  "drops": [
+   "housing affordability crisis",
+   "housing justice",
+   "funding allocation",
+   "housing finance"
+  ]
+ },
+ {
+  "map_idx": 66,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.72942,
+  "f_depth60": 29,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7159533290408981,
+  "alt_final": 0.7160108286694105,
+  "delta": 5.749962851231416e-05,
+  "base_adj": 0.7159533290408981,
+  "alt_adj": 0.7160108286694105,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "arizona zoning law",
+   "property development",
+   "land use variance",
+   "site development regulations"
+  ],
+  "drops": [
+   "board of zoning appeals",
+   "board of zoning appeal",
+   "land use regulation",
+   "land use regulations"
+  ]
+ },
+ {
+  "map_idx": 67,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6854500000000001,
+  "f_depth60": 40,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7025161428010306,
+  "alt_final": 0.6920405422487886,
+  "delta": -0.010475600552241948,
+  "base_adj": 0.7025161428010306,
+  "alt_adj": 0.6920405422487886,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "hedging instruments",
+   "estate finance",
+   "hedging",
+   "estate investing"
+  ],
+  "drops": [
+   "hedging strategies",
+   "open end funds",
+   "real estate finance",
+   "real estate funds"
+  ]
+ },
+ {
+  "map_idx": 68,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5711649999999999,
+  "f_depth60": 5,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5663888274609317,
+  "alt_final": 0.5658529500476053,
+  "delta": -0.000535877413326391,
+  "base_adj": 0.5663888274609317,
+  "alt_adj": 0.5658529500476053,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "free to play games",
+   "aud deposits",
+   "table games",
+   "real cash prizes"
+  ],
+  "drops": [
+   "youtube",
+   "gacha club",
+   "apple app stores",
+   "the amazing digital circuses"
+  ]
+ },
+ {
+  "map_idx": 69,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6655749999999999,
+  "f_depth60": 21,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5494865467352271,
+  "alt_final": 0.5480261819470443,
+  "delta": -0.0014603647881827886,
+  "base_adj": 0.5494865467352271,
+  "alt_adj": 0.5480261819470443,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "estate development",
+   "use planning",
+   "density limits",
+   "urban areas"
+  ],
+  "drops": [
+   "multifamily development",
+   "development entitlements",
+   "permitting and approval",
+   "site plan approvals"
+  ]
+ },
+ {
+  "map_idx": 70,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5820000000000001,
+  "f_depth60": 5,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6344395757383545,
+  "alt_final": 0.6346923540447306,
+  "delta": 0.0002527783063760447,
+  "base_adj": 0.6344395757383545,
+  "alt_adj": 0.6346923540447306,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "customer onboarding",
+   "product onboarding",
+   "deep learning toolkits",
+   "workflow design"
+  ],
+  "drops": [
+   "scikit learn",
+   "aml compliance",
+   "data science",
+   "onboarding best practices"
+  ]
+ },
+ {
+  "map_idx": 71,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.7003849999999999,
+  "f_depth60": 25,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6732729736923764,
+  "alt_final": 0.6723387322181105,
+  "delta": -0.0009342414742659066,
+  "base_adj": 0.6732729736923764,
+  "alt_adj": 0.6723387322181105,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "low income households",
+   "low income household",
+   "real estate development",
+   "urban planning"
+  ],
+  "drops": [
+   "zoning reforms",
+   "housing prices",
+   "urban policy",
+   "zoning reform"
+  ]
+ },
+ {
+  "map_idx": 72,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.64145,
+  "f_depth60": 14,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6586378077908289,
+  "alt_final": 0.6576846996368219,
+  "delta": -0.0009531081540070652,
+  "base_adj": 0.6586378077908289,
+  "alt_adj": 0.6576846996368219,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "tax credit allocations",
+   "credit allocation",
+   "urban economics",
+   "rent control"
+  ],
+  "drops": [
+   "tax credit allocation",
+   "finance agencies",
+   "local government regulation",
+   "qualified allocation plan qaps"
+  ]
+ },
+ {
+  "map_idx": 73,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6753250000000001,
+  "f_depth60": 24,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.40415129967420027,
+  "alt_final": 0.49734115463922973,
+  "delta": 0.09318985496502946,
+  "base_adj": 0.4490569996380003,
+  "alt_adj": 0.5526012829324775,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "austin housing",
+   "texas housing",
+   "houston housing",
+   "water and sewer costs"
+  ],
+  "drops": [
+   "real estate",
+   "utility cost",
+   "commercial real estate",
+   "apartment development"
+  ]
+ },
+ {
+  "map_idx": 74,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.70243,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6288484495117458,
+  "alt_final": 0.6295824742433734,
+  "delta": 0.0007340247316276471,
+  "base_adj": 0.6288484495117458,
+  "alt_adj": 0.6295824742433734,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "federal housing policy",
+   "canadian housing market",
+   "canadian housing markets",
+   "real estate market"
+  ],
+  "drops": [
+   "housing completions",
+   "apartment market",
+   "multifamily permitting",
+   "housing supplies"
+  ]
+ },
+ {
+  "map_idx": 75,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6617149999999999,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5772809726243634,
+  "alt_final": 0.5801852103511618,
+  "delta": 0.0029042377267983754,
+  "base_adj": 0.5772809726243634,
+  "alt_adj": 0.5801852103511618,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "private housing units",
+   "housing policy",
+   "commercial real estate",
+   "california housing"
+  ],
+  "drops": [
+   "building permits",
+   "canadian housing market",
+   "real estate market",
+   "housing affordability"
+  ]
+ },
+ {
+  "map_idx": 76,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.65452,
+  "f_depth60": 23,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.3248758731360019,
+  "alt_final": 0.32094378499124326,
+  "delta": -0.00393208814475865,
+  "base_adj": 0.36097319237333547,
+  "alt_adj": 0.35660420554582584,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "audience demographics",
+   "sports analytics",
+   "sports podcast",
+   "audience demographic"
+  ],
+  "drops": [
+   "analytics",
+   "sports podcasts",
+   "customer segmentation",
+   "customer insights"
+  ]
+ },
+ {
+  "map_idx": 77,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5983600000000001,
+  "f_depth60": 8,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5447559861962281,
+  "alt_final": 0.5624220901950112,
+  "delta": 0.0176661039987831,
+  "base_adj": 0.5447559861962281,
+  "alt_adj": 0.5624220901950112,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "identity and access management",
+   "webpack",
+   "it systems design",
+   "javascript tooling"
+  ],
+  "drops": [
+   "audit trail",
+   "log retention",
+   "cybersecurity",
+   "zero trust architectures"
+  ]
+ },
+ {
+  "map_idx": 78,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6003999999999999,
+  "f_depth60": 9,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5318363526400047,
+  "alt_final": 0.5277259730010301,
+  "delta": -0.004110379638974648,
+  "base_adj": 0.5318363526400047,
+  "alt_adj": 0.5277259730010301,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "borrowers",
+   "capital flows",
+   "interest rate swap",
+   "property management"
+  ],
+  "drops": [
+   "contingency reserve fund",
+   "open end private equity real estate fund",
+   "debt pricing",
+   "real estate finance"
+  ]
+ },
+ {
+  "map_idx": 79,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.66208,
+  "f_depth60": 24,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.718621136832309,
+  "alt_final": 0.7175414464642078,
+  "delta": -0.0010796903681011827,
+  "base_adj": 0.718621136832309,
+  "alt_adj": 0.7175414464642078,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "market reports",
+   "market metrics",
+   "cap rates",
+   "median sales prices"
+  ],
+  "drops": [
+   "alternative investment",
+   "fractional real estates",
+   "minimum investment",
+   "rental income"
+  ]
+ },
+ {
+  "map_idx": 80,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.5433349999999999,
+  "f_depth60": 0,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.47979909677608296,
+  "alt_final": 0.48003542734614757,
+  "delta": 0.00023633057006461344,
+  "base_adj": 0.47979909677608296,
+  "alt_adj": 0.48003542734614757,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "real estate development",
+   "pay as you go",
+   "local government services",
+   "uk transport"
+  ],
+  "drops": [
+   "federal budget",
+   "transport for london",
+   "fare capping",
+   "municipal finance"
+  ]
+ },
+ {
+  "map_idx": 81,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.695105,
+  "f_depth60": 33,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4818946694480356,
+  "alt_final": 0.4793079369705452,
+  "delta": -0.0025867324774904166,
+  "base_adj": 0.5354385216089285,
+  "alt_adj": 0.5325643744117169,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "mortgage investing",
+   "overseas property owner",
+   "overseas property owners",
+   "home ownership"
+  ],
+  "drops": [
+   "real estate tax",
+   "cross border property sales",
+   "estate planning",
+   "uk residential properties"
+  ]
+ },
+ {
+  "map_idx": 82,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.59689,
+  "f_depth60": 11,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4263986365067426,
+  "alt_final": 0.38948561023322864,
+  "delta": -0.03691302627351395,
+  "base_adj": 0.4263986365067426,
+  "alt_adj": 0.4327617891480318,
+  "base_pen": [],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "real estate",
+   "trading signals",
+   "housing market cycles",
+   "cabot wealth networks"
+  ],
+  "drops": [
+   "new york city",
+   "cabot wealth network",
+   "mortgage rates",
+   "interest rates"
+  ]
+ },
+ {
+  "map_idx": 83,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6737599999999999,
+  "f_depth60": 25,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5996444973668303,
+  "alt_final": 0.600446458308508,
+  "delta": 0.0008019609416776152,
+  "base_adj": 0.5996444973668303,
+  "alt_adj": 0.600446458308508,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "estate investing",
+   "open ended fund",
+   "leverage companies",
+   "fund governance"
+  ],
+  "drops": [
+   "behavioral finance",
+   "private equity",
+   "open ended funds",
+   "financial institutions"
+  ]
+ },
+ {
+  "map_idx": 84,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6931050000000001,
+  "f_depth60": 20,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6196533145310879,
+  "alt_final": 0.6179562468329542,
+  "delta": -0.001697067698133603,
+  "base_adj": 0.6196533145310879,
+  "alt_adj": 0.6179562468329542,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "tax credits",
+   "tax credit",
+   "rent control preemption",
+   "zoning regulation"
+  ],
+  "drops": [
+   "housing developments",
+   "housing finance",
+   "housing ordinance",
+   "supportive housing"
+  ]
+ },
+ {
+  "map_idx": 85,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.657475,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5800343237440931,
+  "alt_final": 0.568746425749485,
+  "delta": -0.011287897994608165,
+  "base_adj": 0.5800343237440931,
+  "alt_adj": 0.568746425749485,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "industrial property investment",
+   "industrial property investments",
+   "uk real estate markets",
+   "estate market"
+  ],
+  "drops": [
+   "warehouse vacancy rate",
+   "logistics warehous",
+   "manufacturing growth",
+   "warehouse vacancy"
+  ]
+ },
+ {
+  "map_idx": 86,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.59025,
+  "f_depth60": 5,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5749903520340249,
+  "alt_final": 0.5748953613204901,
+  "delta": -9.499071353480382e-05,
+  "base_adj": 0.5749903520340249,
+  "alt_adj": 0.5748953613204901,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "best practices",
+   "large language model",
+   "few shot prompting",
+   "large language models"
+  ],
+  "drops": [
+   "chain of thought prompting",
+   "task based metrics",
+   "bertscore",
+   "evaluation protocols"
+  ]
+ },
+ {
+  "map_idx": 87,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.658315,
+  "f_depth60": 30,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6814748475009834,
+  "alt_final": 0.6798125213282163,
+  "delta": -0.0016623261727670702,
+  "base_adj": 0.6814748475009834,
+  "alt_adj": 0.6798125213282163,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "asset returns",
+   "liquidity stress events",
+   "traded reits",
+   "on demand liquidity buffers"
+  ],
+  "drops": [
+   "lines of credit",
+   "real estate finance",
+   "hedging strategies",
+   "liquidity features"
+  ]
+ },
+ {
+  "map_idx": 88,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6316599999999999,
+  "f_depth60": 23,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5556127707704513,
+  "alt_final": 0.5489556887066375,
+  "delta": -0.0066570820638138795,
+  "base_adj": 0.5556127707704513,
+  "alt_adj": 0.5489556887066375,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "discounted property acquisition",
+   "cap rate",
+   "building performance evaluation",
+   "investment analysis"
+  ],
+  "drops": [
+   "commercial real estates",
+   "building modernization",
+   "property valuations",
+   "asset management"
+  ]
+ },
+ {
+  "map_idx": 89,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.647215,
+  "f_depth60": 26,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6391115703271786,
+  "alt_final": 0.6394118191329057,
+  "delta": 0.0003002488057270991,
+  "base_adj": 0.6391115703271786,
+  "alt_adj": 0.6394118191329057,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "office refurbishment",
+   "property valuations",
+   "property value",
+   "cap rate"
+  ],
+  "drops": [
+   "building modernization",
+   "property valuation",
+   "building lifecycle managements",
+   "building retrofits"
+  ]
+ },
+ {
+  "map_idx": 91,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.6283799999999999,
+  "f_depth60": 20,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6299132745634273,
+  "alt_final": 0.6307812579349019,
+  "delta": 0.0008679833714746454,
+  "base_adj": 0.6299132745634273,
+  "alt_adj": 0.6307812579349019,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "repurchase plans",
+   "risk mitigation",
+   "liquidity features",
+   "share repurchase plans"
+  ],
+  "drops": [
+   "real estate investing",
+   "reit charter provisions",
+   "credit risk",
+   "market risk"
+  ]
+ },
+ {
+  "map_idx": 92,
+  "hist_source": null,
+  "scored": false,
+  "live_final": null,
+  "cohort_mean": null,
+  "f_mean": 0.605885,
+  "f_depth60": 10,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5973604545847115,
+  "alt_final": 0.5969917796088446,
+  "delta": -0.00036867497586690057,
+  "base_adj": 0.5973604545847115,
+  "alt_adj": 0.5969917796088446,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "application gateway",
+   "software dependencies",
+   "project sustainability",
+   "load balancing"
+  ],
+  "drops": [
+   "secrets management",
+   "automation",
+   "maintainers",
+   "networking"
+  ]
+ },
+ {
+  "map_idx": 253,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.45429139641188016,
+  "cohort_mean": 0.4971187978927378,
+  "f_mean": 0.6163550000000001,
+  "f_depth60": 17,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6186060932475687,
+  "alt_final": 0.6162118994488555,
+  "delta": -0.0023941937987131956,
+  "base_adj": 0.6186060932475687,
+  "alt_adj": 0.6162118994488555,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "property valuations",
+   "economic indicators",
+   "inflation",
+   "market size"
+  ],
+  "drops": [
+   "property valuation",
+   "interest rate",
+   "property market trends",
+   "real estate investing"
+  ]
+ },
+ {
+  "map_idx": 257,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.5248276580966655,
+  "cohort_mean": 0.531951501040298,
+  "f_mean": 0.689985,
+  "f_depth60": 27,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6553648543930756,
+  "alt_final": 0.6547980940710011,
+  "delta": -0.0005667603220744777,
+  "base_adj": 0.6553648543930756,
+  "alt_adj": 0.6547980940710011,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "economic slowdown",
+   "tech industry",
+   "layoffs",
+   "job posting"
+  ],
+  "drops": [
+   "united states labor market",
+   "workforce demand",
+   "united states labor markets",
+   "tech jobs"
+  ]
+ },
+ {
+  "map_idx": 260,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.4784703078433471,
+  "cohort_mean": 0.5876736315054125,
+  "f_mean": 0.6364650000000001,
+  "f_depth60": 18,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.4993328815962118,
+  "alt_final": 0.49421862270829847,
+  "delta": -0.005114258887913337,
+  "base_adj": 0.4993328815962118,
+  "alt_adj": 0.49421862270829847,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "business investments",
+   "financial forecasting",
+   "procurement",
+   "financial transparency"
+  ],
+  "drops": [
+   "process automation",
+   "commercial real estate",
+   "expenditure capex",
+   "corporate finance"
+  ]
+ },
+ {
+  "map_idx": 261,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.5402091876943916,
+  "cohort_mean": 0.5979166233042981,
+  "f_mean": 0.57571,
+  "f_depth60": 9,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.475925447054699,
+  "alt_final": 0.46692751500456586,
+  "delta": -0.008997932050133162,
+  "base_adj": 0.475925447054699,
+  "alt_adj": 0.46692751500456586,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "liability",
+   "dispute resolution",
+   "unforeseen circumstances",
+   "unforeseen events"
+  ],
+  "drops": [
+   "iran",
+   "health law",
+   "citi",
+   "handshake"
+  ]
+ },
+ {
+  "map_idx": 265,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.6316238143511169,
+  "cohort_mean": 0.6483822784777677,
+  "f_mean": 0.650745,
+  "f_depth60": 18,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.49719861999737275,
+  "alt_final": 0.49088960814840144,
+  "delta": -0.006309011848971313,
+  "base_adj": 0.49719861999737275,
+  "alt_adj": 0.49088960814840144,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "energy policy drivers",
+   "state energy policies",
+   "real estate investors",
+   "building retrofit"
+  ],
+  "drops": [
+   "existing buildings",
+   "utility regulation",
+   "sustainable buildings",
+   "utility regulations"
+  ]
+ },
+ {
+  "map_idx": 267,
+  "hist_source": "ranked",
+  "scored": true,
+  "live_final": 0.5865608937861435,
+  "cohort_mean": 0.650508679788244,
+  "f_mean": 0.6093149999999999,
+  "f_depth60": 10,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6006781268735188,
+  "alt_final": 0.5973482577108357,
+  "delta": -0.0033298691626831856,
+  "base_adj": 0.6006781268735188,
+  "alt_adj": 0.5973482577108357,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "australian economy",
+   "minimum wage in australia",
+   "real estate economics",
+   "minimum wage in australias"
+  ],
+  "drops": [
+   "salary and income issues",
+   "housing market analysis",
+   "australian employment law",
+   "australian employment laws"
+  ]
+ },
+ {
+  "map_idx": 177,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6083084947199929,
+  "cohort_mean": 0.571813117111533,
+  "f_mean": 0.6219899999999999,
+  "f_depth60": 25,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5292253240980566,
+  "alt_final": 0.4577125931559164,
+  "delta": -0.07151273094214017,
+  "base_adj": 0.5292253240980566,
+  "alt_adj": 0.4577125931559164,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "multifamily construction",
+   "multifamily starts",
+   "multifamily permitting",
+   "multifamily properties"
+  ],
+  "drops": [
+   "federal reserve economic data fred",
+   "texas",
+   "austin texas",
+   "houston texas"
+  ]
+ },
+ {
+  "map_idx": 182,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.659265926588093,
+  "cohort_mean": 0.5951718368767244,
+  "f_mean": 0.6519249999999999,
+  "f_depth60": 17,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7225102259288954,
+  "alt_final": 0.7218913910723412,
+  "delta": -0.000618834856554118,
+  "base_adj": 0.7225102259288954,
+  "alt_adj": 0.7218913910723412,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "flood risk",
+   "housing demand",
+   "coastal erosions",
+   "healthcare real estate"
+  ],
+  "drops": [
+   "flood risks",
+   "real estate",
+   "climate risk",
+   "senior housing"
+  ]
+ },
+ {
+  "map_idx": 183,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6542109617615169,
+  "cohort_mean": 0.6623599523007498,
+  "f_mean": 0.6121300000000001,
+  "f_depth60": 8,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6344609211783532,
+  "alt_final": 0.6280468127928911,
+  "delta": -0.006414108385462081,
+  "base_adj": 0.6344609211783532,
+  "alt_adj": 0.6280468127928911,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "legacy system integration",
+   "schema definition",
+   "podcast services",
+   "lakehouse architectures"
+  ],
+  "drops": [
+   "software design",
+   "api automation",
+   "software architectures",
+   "podcast metadata"
+  ]
+ },
+ {
+  "map_idx": 185,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.48422665308090806,
+  "cohort_mean": 0.5477008441147315,
+  "f_mean": 0.5171699999999999,
+  "f_depth60": 0,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5051020533994839,
+  "alt_final": 0.4995833905407754,
+  "delta": -0.005518662858708501,
+  "base_adj": 0.5051020533994839,
+  "alt_adj": 0.4995833905407754,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "open borders",
+   "midterm elections",
+   "village preservation",
+   "court cases"
+  ],
+  "drops": [
+   "2020 election",
+   "republican party",
+   "legal disputes",
+   "work"
+  ]
+ },
+ {
+  "map_idx": 187,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6033353018774645,
+  "cohort_mean": 0.6104119108051,
+  "f_mean": 0.633345,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6134437775540185,
+  "alt_final": 0.6115512553617579,
+  "delta": -0.0018925221922605484,
+  "base_adj": 0.6134437775540185,
+  "alt_adj": 0.6115512553617579,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "dependency monitoring",
+   "api evolution",
+   "enterprise architecture",
+   "schema managements"
+  ],
+  "drops": [
+   "software supply chain security",
+   "developer tools",
+   "endpoint versioning",
+   "enterprise apis"
+  ]
+ },
+ {
+  "map_idx": 188,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.7375767882903081,
+  "cohort_mean": 0.7526348340048363,
+  "f_mean": 0.6959850000000001,
+  "f_depth60": 26,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.644040142179173,
+  "alt_final": 0.643418810307032,
+  "delta": -0.0006213318721410843,
+  "base_adj": 0.644040142179173,
+  "alt_adj": 0.643418810307032,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "best practice",
+   "agile anti patterns",
+   "process improvement",
+   "team collaborations"
+  ],
+  "drops": [
+   "best practices",
+   "project managements",
+   "sprint retrospectives",
+   "team collaboration"
+  ]
+ },
+ {
+  "map_idx": 189,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.7189223189434658,
+  "cohort_mean": 0.7128562110385311,
+  "f_mean": 0.6803300000000001,
+  "f_depth60": 22,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.44979764865360317,
+  "alt_final": 0.5680658803197821,
+  "delta": 0.11826823166617895,
+  "base_adj": 0.49977516517067017,
+  "alt_adj": 0.5680658803197821,
+  "base_pen": [
+   "no_both_tags"
+  ],
+  "alt_pen": [],
+  "adds": [
+   "liquidity standards",
+   "liquidity standard",
+   "finra",
+   "islamic financial services industry iifs"
+  ],
+  "drops": [
+   "concentration risk",
+   "financial regulation",
+   "prudential regulations",
+   "prudential regulation"
+  ]
+ },
+ {
+  "map_idx": 191,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6360275556818239,
+  "cohort_mean": 0.69392823844252,
+  "f_mean": 0.670175,
+  "f_depth60": 29,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6041477314983664,
+  "alt_final": 0.6034998210291657,
+  "delta": -0.0006479104692007631,
+  "base_adj": 0.6041477314983664,
+  "alt_adj": 0.6034998210291657,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "private housing units",
+   "residential construction",
+   "multifamily investment",
+   "houston housing"
+  ],
+  "drops": [
+   "property management",
+   "building permits",
+   "federal housing policy",
+   "multifamily starts"
+  ]
+ },
+ {
+  "map_idx": 192,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6559147705080615,
+  "cohort_mean": 0.6696840334469285,
+  "f_mean": 0.67545,
+  "f_depth60": 20,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5685595597542853,
+  "alt_final": 0.5668067478875112,
+  "delta": -0.0017528118667741177,
+  "base_adj": 0.5685595597542853,
+  "alt_adj": 0.5668067478875112,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "community forums",
+   "api development",
+   "developer onboarding",
+   "browser support"
+  ],
+  "drops": [
+   "community engagement",
+   "github",
+   "browser compatibility",
+   "responsive design"
+  ]
+ },
+ {
+  "map_idx": 197,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5939272444162004,
+  "cohort_mean": 0.6531127049150781,
+  "f_mean": 0.607035,
+  "f_depth60": 10,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5701566505124982,
+  "alt_final": 0.5944629605246974,
+  "delta": 0.024306310012199184,
+  "base_adj": 0.5701566505124982,
+  "alt_adj": 0.5944629605246974,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "rice frameworks",
+   "5 ps framework",
+   "program science framework",
+   "user experience"
+  ],
+  "drops": [
+   "api first development",
+   "data driven prioritization",
+   "test effectiveness",
+   "bug detection"
+  ]
+ },
+ {
+  "map_idx": 201,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.5826354660226327,
+  "cohort_mean": 0.6262472950958349,
+  "f_mean": 0.6311749999999999,
+  "f_depth60": 19,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5951255176887777,
+  "alt_final": 0.5909459833136201,
+  "delta": -0.004179534375157612,
+  "base_adj": 0.5951255176887777,
+  "alt_adj": 0.5909459833136201,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "market performance",
+   "market statistics",
+   "vacancy rate trends",
+   "warehouse vacancy rates"
+  ],
+  "drops": [
+   "interest rates",
+   "prologis",
+   "industrial property market",
+   "rent growth"
+  ]
+ },
+ {
+  "map_idx": 202,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.29455374233320897,
+  "cohort_mean": 0.7605863452847774,
+  "f_mean": 0.6392450000000001,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5714275984088969,
+  "alt_final": 0.5090366459549638,
+  "delta": -0.06239095245393311,
+  "base_adj": 0.5714275984088969,
+  "alt_adj": 0.5655962732832931,
+  "base_pen": [],
+  "alt_pen": [
+   "no_both_tags"
+  ],
+  "adds": [
+   "austin housing",
+   "canadian housing market",
+   "austin multifamily",
+   "multifamily properties"
+  ],
+  "drops": [
+   "maine",
+   "texas",
+   "austin",
+   "houston"
+  ]
+ },
+ {
+  "map_idx": 208,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6745237534710854,
+  "cohort_mean": 0.5901451784738327,
+  "f_mean": 0.6399799999999999,
+  "f_depth60": 24,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6304447215702368,
+  "alt_final": 0.6241299956757754,
+  "delta": -0.006314725894461359,
+  "base_adj": 0.6304447215702368,
+  "alt_adj": 0.6241299956757754,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "real estate statistics",
+   "uk real estate market",
+   "market forecasts",
+   "prologis"
+  ],
+  "drops": [
+   "investment trends",
+   "warehousing",
+   "warehouses",
+   "real estate market"
+  ]
+ },
+ {
+  "map_idx": 212,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.7059094838562965,
+  "cohort_mean": 0.713972657188368,
+  "f_mean": 0.70078,
+  "f_depth60": 29,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.7178127755831626,
+  "alt_final": 0.7164796211552503,
+  "delta": -0.0013331544279122642,
+  "base_adj": 0.7178127755831626,
+  "alt_adj": 0.7164796211552503,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "supportive housing",
+   "housing finance",
+   "homes act",
+   "funding allocation"
+  ],
+  "drops": [
+   "housing development",
+   "permanent supportive housing",
+   "state housing agency",
+   "equitable housing"
+  ]
+ },
+ {
+  "map_idx": 220,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6488428840714633,
+  "cohort_mean": 0.6797570465078322,
+  "f_mean": 0.6546099999999999,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5990957979307918,
+  "alt_final": 0.5969843431837873,
+  "delta": -0.002111454747004471,
+  "base_adj": 0.5990957979307918,
+  "alt_adj": 0.5969843431837873,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "property managements",
+   "residential building permits",
+   "housing market",
+   "real estate statistics"
+  ],
+  "drops": [
+   "multifamily industry trends",
+   "housing starts",
+   "multifamily underwriting",
+   "commercial real estate"
+  ]
+ },
+ {
+  "map_idx": 221,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6668704471839787,
+  "cohort_mean": 0.678386243958779,
+  "f_mean": 0.56879,
+  "f_depth60": 14,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6229080641448318,
+  "alt_final": 0.6290309204883857,
+  "delta": 0.006122856343553917,
+  "base_adj": 0.6229080641448318,
+  "alt_adj": 0.6290309204883857,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "census housing data",
+   "california housing",
+   "construction statistics",
+   "commercial real estate analysis"
+  ],
+  "drops": [
+   "maurice smith",
+   "federal reserve bank of st louis",
+   "california",
+   "fred"
+  ]
+ },
+ {
+  "map_idx": 222,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.4552548424632546,
+  "cohort_mean": 0.44661950359969865,
+  "f_mean": 0.57053,
+  "f_depth60": 6,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.3851976092985449,
+  "alt_final": 0.3443961498583044,
+  "delta": -0.040801459440240495,
+  "base_adj": 0.3851976092985449,
+  "alt_adj": 0.3443961498583044,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "real estate investment volume",
+   "new supply constraints",
+   "market outlook 2026",
+   "real estate cycle"
+  ],
+  "drops": [
+   "000",
+   "ultramarines",
+   "uktc",
+   "chaos space marines"
+  ]
+ },
+ {
+  "map_idx": 224,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6895927680033196,
+  "cohort_mean": 0.6970089651924182,
+  "f_mean": 0.667525,
+  "f_depth60": 33,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.668842357472987,
+  "alt_final": 0.6689110474390173,
+  "delta": 6.868996603026645e-05,
+  "base_adj": 0.668842357472987,
+  "alt_adj": 0.6689110474390173,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "warehouse vacancy",
+   "office vacancy rates",
+   "vacancy rates",
+   "investment trends"
+  ],
+  "drops": [
+   "warehouse demand",
+   "warehouse vacancy rate",
+   "estate market",
+   "market forecast"
+  ]
+ },
+ {
+  "map_idx": 228,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.6446976178900229,
+  "cohort_mean": 0.6501741197983315,
+  "f_mean": 0.660875,
+  "f_depth60": 28,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5322068532758248,
+  "alt_final": 0.5310099020339752,
+  "delta": -0.0011969512418495976,
+  "base_adj": 0.5322068532758248,
+  "alt_adj": 0.5310099020339752,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "multifamily underwriting",
+   "property managements",
+   "federal housing policies",
+   "multifamily industry"
+  ],
+  "drops": [
+   "zoning reform",
+   "federal housing policy",
+   "multifamily investment",
+   "multifamily operations"
+  ]
+ },
+ {
+  "map_idx": 229,
+  "hist_source": null,
+  "scored": true,
+  "live_final": 0.7151652533955631,
+  "cohort_mean": 0.7341283063532742,
+  "f_mean": 0.6848150000000001,
+  "f_depth60": 32,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6338829098213787,
+  "alt_final": 0.6318899418542373,
+  "delta": -0.0019929679671414346,
+  "base_adj": 0.6338829098213787,
+  "alt_adj": 0.6318899418542373,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "property management",
+   "multifamily metrics",
+   "real estate markets",
+   "real estate market trends"
+  ],
+  "drops": [
+   "real estate market",
+   "housing policy",
+   "canadian housing markets",
+   "multifamily"
+  ]
+ },
+ {
+  "map_idx": 258,
+  "hist_source": "pool",
+  "scored": true,
+  "live_final": 0.43938398739200324,
+  "cohort_mean": 0.5445723199312471,
+  "f_mean": 0.592225,
+  "f_depth60": 12,
+  "flagged": true,
+  "miss_cos_lookup": 0,
+  "base_final": 0.5387559508200663,
+  "alt_final": 0.5287577096976401,
+  "delta": -0.009998241122426199,
+  "base_adj": 0.5387559508200663,
+  "alt_adj": 0.5287577096976401,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "construction staffing",
+   "real estate data",
+   "staffing agency",
+   "county gis"
+  ],
+  "drops": [
+   "concord",
+   "florida",
+   "beacon qpublic",
+   "neptune flood"
+  ]
+ },
+ {
+  "map_idx": 266,
+  "hist_source": "pool",
+  "scored": true,
+  "live_final": 0.2769561237536163,
+  "cohort_mean": 0.6947474011215853,
+  "f_mean": 0.676625,
+  "f_depth60": 34,
+  "flagged": false,
+  "miss_cos_lookup": 0,
+  "base_final": 0.6512234270374022,
+  "alt_final": 0.6471770926654622,
+  "delta": -0.004046334371940019,
+  "base_adj": 0.6512234270374022,
+  "alt_adj": 0.6471770926654622,
+  "base_pen": [],
+  "alt_pen": [],
+  "adds": [
+   "austin multifamily",
+   "residential constructions",
+   "housing permits",
+   "private housing units"
+  ],
+  "drops": [
+   "building permits",
+   "property management",
+   "austin housing",
+   "texas housing"
+  ]
+ }
+]

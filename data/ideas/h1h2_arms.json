@@ -1,0 +1,10169 @@
+{
+ "summary": {
+  "n_tasks": 156,
+  "parity_ok": 161,
+  "parity_bad": [],
+  "chat_misses": 27,
+  "chat_miss_detail": [
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ],
+   [
+    "xlate",
+    "Translate each tag to its natural English equivalent (the concept, not a literal"
+   ]
+  ],
+  "usage": {
+   "embed_calls": 112,
+   "cache_hits": 38951
+  }
+ },
+ "rows": [
+  {
+   "map_idx": 0,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 3,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "mexico",
+    "united states"
+   ],
+   "ner_inj": [
+    "claude",
+    "time",
+    "lowe s blueprint takeoffs",
+    "lowe",
+    "mexico",
+    "lashima dawn",
+    "algodones",
+    "lasha",
+    "youtube",
+    "trump"
+   ],
+   "geo_ms": 29.38,
+   "ner_ms": 214.02,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.680535899387722,
+     "cross": 0.6616058354943409
+    },
+    "B": {
+     "same": 0.680535899387722,
+     "cross": 0.6616058354943409
+    },
+    "C": {
+     "same": 0.680535899387722,
+     "cross": 0.6616058354943409
+    },
+    "D": {
+     "same": 0.680535899387722,
+     "cross": 0.6616058354943409
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 1,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [
+    "java",
+    "emf",
+    "state",
+    "ecor",
+    "cor",
+    "eclipse emf"
+   ],
+   "geo_ms": 21.99,
+   "ner_ms": 142.45,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6260306883998227,
+     "cross": 0.6154882391546492
+    },
+    "B": {
+     "same": 0.6260306883998227,
+     "cross": 0.6154882391546492
+    },
+    "C": {
+     "same": 0.6260306883998227,
+     "cross": 0.6154882391546492
+    },
+    "D": {
+     "same": 0.6260306883998227,
+     "cross": 0.6154882391546492
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 2,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "europe"
+   ],
+   "ner_inj": [
+    "adler",
+    "adlerian philosophy or",
+    "unsupervised learning",
+    "daniel miesler",
+    "neumann",
+    "u87 ai",
+    "intro",
+    "zombie"
+   ],
+   "geo_ms": 18.91,
+   "ner_ms": 111.62,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7504033791019118,
+     "cross": 0.7385714326210568
+    },
+    "B": {
+     "same": 0.7504033791019118,
+     "cross": 0.7385714326210568
+    },
+    "C": {
+     "same": 0.7504033791019118,
+     "cross": 0.7385714326210568
+    },
+    "D": {
+     "same": 0.7504033791019118,
+     "cross": 0.7385714326210568
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 3,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 6,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "latin america",
+    "united states",
+    "europe",
+    "middle east",
+    "asia",
+    "united arab emirates"
+   ],
+   "ner_inj": [
+    "itamar ben givir s",
+    "afulla",
+    "hind rajab foundation",
+    "belgium",
+    "idf",
+    "moreland",
+    "asia",
+    "latin america",
+    "caribbean",
+    "africa",
+    "fao",
+    "maximo torero",
+    "noah levi"
+   ],
+   "geo_ms": 22.47,
+   "ner_ms": 80.96,
+   "geo_anchored": 3,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.2988745480881788,
+     "cross": 0.2793172648933576
+    },
+    "B": {
+     "same": 0.2988745480881788,
+     "cross": 0.2793172648933576
+    },
+    "C": {
+     "same": 0.2988745480881788,
+     "cross": 0.2793172648933576
+    },
+    "D": {
+     "same": 0.2988745480881788,
+     "cross": 0.2793172648933576
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 4,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "angie com"
+   ],
+   "geo_ms": 18.3,
+   "ner_ms": 54.77,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.661014301796417,
+     "cross": 0.6047441636520101
+    },
+    "B": {
+     "same": 0.661014301796417,
+     "cross": 0.6047441636520101
+    },
+    "C": {
+     "same": 0.661014301796417,
+     "cross": 0.6047441636520101
+    },
+    "D": {
+     "same": 0.661014301796417,
+     "cross": 0.6047441636520101
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 5,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "ctnc"
+   ],
+   "geo_ms": 15.92,
+   "ner_ms": 10.69,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6987470896544563,
+     "cross": 0.6787921395371612
+    },
+    "B": {
+     "same": 0.6987470896544563,
+     "cross": 0.6787921395371612
+    },
+    "C": {
+     "same": 0.6987470896544563,
+     "cross": 0.6787921395371612
+    },
+    "D": {
+     "same": 0.6987470896544563,
+     "cross": 0.6787921395371612
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 6,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [],
+   "ner_inj": [
+    "dave",
+    "apple"
+   ],
+   "geo_ms": 24.43,
+   "ner_ms": 228.46,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5839266860364472,
+     "cross": 0.5667512316694543
+    },
+    "B": {
+     "same": 0.5839266860364472,
+     "cross": 0.5667512316694543
+    },
+    "C": {
+     "same": 0.5839266860364472,
+     "cross": 0.5667512316694543
+    },
+    "D": {
+     "same": 0.5839266860364472,
+     "cross": 0.5667512316694543
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 7,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 8,
+   "n_geo_gt": 0,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "texas",
+    "united states"
+   ],
+   "ner_inj": [
+    "cowboys",
+    "honda",
+    "mckinney",
+    "hendrick bmw",
+    "cowboy nation",
+    "cowboy",
+    "sean gary",
+    "pj locke",
+    "jalen thompson",
+    "kobe durant",
+    "caleb downs",
+    "malachi lawrence",
+    "overton",
+    "devin moore",
+    "dee winters",
+    "christian parker",
+    "cowboy kool aid",
+    "dallas"
+   ],
+   "geo_ms": 23.4,
+   "ner_ms": 167.98,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.29639794401998865,
+     "cross": 0.2794263236326657
+    },
+    "B": {
+     "same": 0.29639794401998865,
+     "cross": 0.2794263236326657
+    },
+    "C": {
+     "same": 0.29639794401998865,
+     "cross": 0.2794263236326657
+    },
+    "D": {
+     "same": 0.29639794401998865,
+     "cross": 0.2794263236326657
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 8,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 9,
+   "n_wne_gt": 10,
+   "geo_inj": [
+    "middle east",
+    "australia",
+    "south america",
+    "latin america",
+    "united states",
+    "china",
+    "asia",
+    "russia"
+   ],
+   "ner_inj": [
+    "china",
+    "trump",
+    "anto levin",
+    "beijing",
+    "shanghai",
+    "steve",
+    "israel",
+    "middle east",
+    "ukraine",
+    "venezuela",
+    "united nations"
+   ],
+   "geo_ms": 23.02,
+   "ner_ms": 148.92,
+   "geo_anchored": 5,
+   "ner_anchored": 5,
+   "sel_b": [
+    "middle east"
+   ],
+   "sel_c": [
+    "middle east"
+   ],
+   "sel_d": [
+    "middle east"
+   ],
+   "arms": {
+    "A": {
+     "same": 0.532992434507189,
+     "cross": 0.5211298003072485
+    },
+    "B": {
+     "same": 0.54346817395865,
+     "cross": 0.5337309414954676
+    },
+    "C": {
+     "same": 0.54346817395865,
+     "cross": 0.5337309414954676
+    },
+    "D": {
+     "same": 0.54346817395865,
+     "cross": 0.5337309414954676
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 2,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 2,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 9,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [
+    "amazon",
+    "united states",
+    "gender",
+    "nobody"
+   ],
+   "geo_ms": 21.38,
+   "ner_ms": 158.43,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7312224171056096,
+     "cross": 0.7031664772873562
+    },
+    "B": {
+     "same": 0.7312224171056096,
+     "cross": 0.7031664772873562
+    },
+    "C": {
+     "same": 0.7312224171056096,
+     "cross": 0.7031664772873562
+    },
+    "D": {
+     "same": 0.7312224171056096,
+     "cross": 0.7031664772873562
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 10,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 2,
+   "geo_inj": [],
+   "ner_inj": [
+    "sbs com au",
+    "k art"
+   ],
+   "geo_ms": 20.39,
+   "ner_ms": 97.61,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6527871705160322,
+     "cross": 0.6280689602089803
+    },
+    "B": {
+     "same": 0.6527871705160322,
+     "cross": 0.6280689602089803
+    },
+    "C": {
+     "same": 0.6527871705160322,
+     "cross": 0.6280689602089803
+    },
+    "D": {
+     "same": 0.6527871705160322,
+     "cross": 0.6280689602089803
+    }
+   },
+   "miss_before": 3,
+   "miss_after": {
+    "B": 3,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 11,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 1,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "california",
+    "united states",
+    "europe",
+    "texas",
+    "united arab emirates",
+    "middle east"
+   ],
+   "ner_inj": [
+    "demokrati",
+    "slovensku",
+    "vitajte",
+    "za pozvanie",
+    "hanak",
+    "lebo",
+    "sme sa",
+    "samozrejme",
+    "tak",
+    "poliaci",
+    "fico",
+    "unii",
+    "ako",
+    "brusel",
+    "trump",
+    "ja som bol",
+    "s partnermi",
+    "viac s putinom",
+    "slovensku sa",
+    "ako sa",
+    "seba",
+    "jana kuciaka",
+    "kde sa",
+    "slovensko",
+    "sier",
+    "lavrovovi",
+    "slovenskom"
+   ],
+   "geo_ms": 29.64,
+   "ner_ms": 170.0,
+   "geo_anchored": 3,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.48109431481183673,
+     "cross": 0.4562424173733348
+    },
+    "B": {
+     "same": 0.48109431481183673,
+     "cross": 0.4562424173733348
+    },
+    "C": {
+     "same": 0.48109431481183673,
+     "cross": 0.4562424173733348
+    },
+    "D": {
+     "same": 0.48109431481183673,
+     "cross": 0.4562424173733348
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 12,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 2,
+   "n_wne_gt": 14,
+   "geo_inj": [
+    "united states",
+    "china",
+    "asia",
+    "iran",
+    "middle east"
+   ],
+   "ner_inj": [
+    "united states",
+    "jason perry",
+    "ntd news",
+    "china",
+    "trump",
+    "ndd",
+    "jason blair",
+    "iran",
+    "max",
+    "treasury",
+    "scott besson",
+    "state",
+    "su tzu yun",
+    "taiwan",
+    "epoch times beijing",
+    "washington",
+    "house",
+    "chinese communist party",
+    "house appropriations committee",
+    "mark alford",
+    "ccp",
+    "missouri",
+    "louisiana",
+    "air force s",
+    "house select committee"
+   ],
+   "geo_ms": 19.62,
+   "ner_ms": 145.52,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.37142976794767485,
+     "cross": 0.3481563895105322
+    },
+    "B": {
+     "same": 0.37142976794767485,
+     "cross": 0.3481563895105322
+    },
+    "C": {
+     "same": 0.37142976794767485,
+     "cross": 0.3481563895105322
+    },
+    "D": {
+     "same": 0.37142976794767485,
+     "cross": 0.3481563895105322
+    }
+   },
+   "miss_before": 6,
+   "miss_after": {
+    "B": 4,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 2,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 5,
+   "miss_wne_after": {
+    "B": 3,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 13,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 4,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "mma",
+    "a guy"
+   ],
+   "geo_ms": 19.19,
+   "ner_ms": 65.61,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6448798485293225,
+     "cross": 0.6200568092710681
+    },
+    "B": {
+     "same": 0.6448798485293225,
+     "cross": 0.6200568092710681
+    },
+    "C": {
+     "same": 0.6448798485293225,
+     "cross": 0.6200568092710681
+    },
+    "D": {
+     "same": 0.6448798485293225,
+     "cross": 0.6200568092710681
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 14,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 19.32,
+   "ner_ms": 160.88,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6387564914877985,
+     "cross": 0.6190294447378764
+    },
+    "B": {
+     "same": 0.6387564914877985,
+     "cross": 0.6190294447378764
+    },
+    "C": {
+     "same": 0.6387564914877985,
+     "cross": 0.6190294447378764
+    },
+    "D": {
+     "same": 0.6387564914877985,
+     "cross": 0.6190294447378764
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 15,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "llm"
+   ],
+   "geo_ms": 13.14,
+   "ner_ms": 51.7,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.632273742303198,
+     "cross": 0.6164287937494377
+    },
+    "B": {
+     "same": 0.632273742303198,
+     "cross": 0.6164287937494377
+    },
+    "C": {
+     "same": 0.632273742303198,
+     "cross": 0.6164287937494377
+    },
+    "D": {
+     "same": 0.632273742303198,
+     "cross": 0.6164287937494377
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 16,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 12,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "france"
+   ],
+   "ner_inj": [
+    "uncle ted",
+    "evola",
+    "mucinex fastmax",
+    "vicks dayquil",
+    "nyquil",
+    "halls",
+    "tylenol children s",
+    "safeway com",
+    "marcus",
+    "marcuse"
+   ],
+   "geo_ms": 24.08,
+   "ner_ms": 134.53,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.655381805682973,
+     "cross": 0.621940321987068
+    },
+    "B": {
+     "same": 0.655381805682973,
+     "cross": 0.621940321987068
+    },
+    "C": {
+     "same": 0.655381805682973,
+     "cross": 0.621940321987068
+    },
+    "D": {
+     "same": 0.655381805682973,
+     "cross": 0.621940321987068
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 17,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 3,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "united states",
+    "mexico"
+   ],
+   "ner_inj": [
+    "salgadones",
+    "mexico",
+    "alberto",
+    "algodones"
+   ],
+   "geo_ms": 31.68,
+   "ner_ms": 172.71,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6244283197735288,
+     "cross": 0.6071718136455364
+    },
+    "B": {
+     "same": 0.6244283197735288,
+     "cross": 0.6071718136455364
+    },
+    "C": {
+     "same": 0.6244283197735288,
+     "cross": 0.6071718136455364
+    },
+    "D": {
+     "same": 0.6244283197735288,
+     "cross": 0.6071718136455364
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 18,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 1,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "massachusetts",
+    "united states"
+   ],
+   "ner_inj": [
+    "michael",
+    "trump",
+    "elizabeth warren s",
+    "senate",
+    "federal reserve open market committee"
+   ],
+   "geo_ms": 25.0,
+   "ner_ms": 203.88,
+   "geo_anchored": 1,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.3594601919847605,
+     "cross": 0.3165525306687523
+    },
+    "B": {
+     "same": 0.3594601919847605,
+     "cross": 0.3165525306687523
+    },
+    "C": {
+     "same": 0.3594601919847605,
+     "cross": 0.3165525306687523
+    },
+    "D": {
+     "same": 0.3594601919847605,
+     "cross": 0.3165525306687523
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 19,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 7,
+   "n_wne_gt": 10,
+   "geo_inj": [
+    "middle east",
+    "california",
+    "united states",
+    "saudi arabia"
+   ],
+   "ner_inj": [
+    "strait of hormuzan",
+    "simon constable",
+    "anatole levin",
+    "brent",
+    "eurasia",
+    "west texas",
+    "north america",
+    "south america",
+    "saudi arabia",
+    "indonesia",
+    "tehran",
+    "josh rogan",
+    "josh",
+    "valley",
+    "hill",
+    "valley forum",
+    "washington"
+   ],
+   "geo_ms": 17.91,
+   "ner_ms": 121.64,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.35797416141470473,
+     "cross": 0.33174196240397547
+    },
+    "B": {
+     "same": 0.35797416141470473,
+     "cross": 0.33174196240397547
+    },
+    "C": {
+     "same": 0.35797416141470473,
+     "cross": 0.33174196240397547
+    },
+    "D": {
+     "same": 0.35797416141470473,
+     "cross": 0.33174196240397547
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 20,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 1,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states",
+    "france",
+    "europe"
+   ],
+   "ner_inj": [
+    "joe catlin s",
+    "central california regional",
+    "joe"
+   ],
+   "geo_ms": 22.38,
+   "ner_ms": 81.18,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.2630998008557581,
+     "cross": 0.2399859220422288
+    },
+    "B": {
+     "same": 0.2630998008557581,
+     "cross": 0.2399859220422288
+    },
+    "C": {
+     "same": 0.2630998008557581,
+     "cross": 0.2399859220422288
+    },
+    "D": {
+     "same": 0.2630998008557581,
+     "cross": 0.2399859220422288
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 21,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 20.99,
+   "ner_ms": 129.15,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5999794254107229,
+     "cross": 0.5852019335922722
+    },
+    "B": {
+     "same": 0.5999794254107229,
+     "cross": 0.5852019335922722
+    },
+    "C": {
+     "same": 0.5999794254107229,
+     "cross": 0.5852019335922722
+    },
+    "D": {
+     "same": 0.5999794254107229,
+     "cross": 0.5852019335922722
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 22,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 4,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "shab",
+    "mirko cro cop",
+    "nothing"
+   ],
+   "geo_ms": 28.85,
+   "ner_ms": 236.09,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6716406061432433,
+     "cross": 0.6528005692420853
+    },
+    "B": {
+     "same": 0.6716406061432433,
+     "cross": 0.6528005692420853
+    },
+    "C": {
+     "same": 0.6716406061432433,
+     "cross": 0.6528005692420853
+    },
+    "D": {
+     "same": 0.6716406061432433,
+     "cross": 0.6528005692420853
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 23,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 17,
+   "n_geo_gt": 5,
+   "n_wne_gt": 12,
+   "geo_inj": [
+    "middle east",
+    "india",
+    "asia"
+   ],
+   "ner_inj": [
+    "jamie edmonds",
+    "paul w smith",
+    "xander shoffley",
+    "marie osborne",
+    "irgc",
+    "marie",
+    "jamie",
+    "mideast",
+    "tehran",
+    "jordan",
+    "washington"
+   ],
+   "geo_ms": 22.84,
+   "ner_ms": 169.18,
+   "geo_anchored": 1,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.47360711194371335,
+     "cross": 0.4610313192863802
+    },
+    "B": {
+     "same": 0.47360711194371335,
+     "cross": 0.4610313192863802
+    },
+    "C": {
+     "same": 0.47360711194371335,
+     "cross": 0.4610313192863802
+    },
+    "D": {
+     "same": 0.47360711194371335,
+     "cross": 0.4610313192863802
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 24,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [
+    "power ballistic programming",
+    "norwich terrier",
+    "norwich terriers",
+    "norwich",
+    "norfolk"
+   ],
+   "geo_ms": 19.76,
+   "ner_ms": 204.91,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6147081014828454,
+     "cross": 0.605891710903723
+    },
+    "B": {
+     "same": 0.6147081014828454,
+     "cross": 0.605891710903723
+    },
+    "C": {
+     "same": 0.6147081014828454,
+     "cross": 0.605891710903723
+    },
+    "D": {
+     "same": 0.6147081014828454,
+     "cross": 0.605891710903723
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 26,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 18,
+   "n_geo_gt": 3,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "mexico",
+    "united states",
+    "canada",
+    "italy"
+   ],
+   "ner_inj": [
+    "lasha",
+    "amazon",
+    "learn",
+    "scandi",
+    "article",
+    "quince",
+    "canada",
+    "lashawn madon",
+    "algodones",
+    "guadalajara 2 decades ago",
+    "mayra",
+    "renny",
+    "utah",
+    "texas",
+    "california",
+    "myra",
+    "mexico",
+    "mexico mexico",
+    "united states",
+    "christina adams",
+    "global south",
+    "cristina",
+    "europe"
+   ],
+   "geo_ms": 37.49,
+   "ner_ms": 468.11,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6409772440839732,
+     "cross": 0.6250693909027737
+    },
+    "B": {
+     "same": 0.6409772440839732,
+     "cross": 0.6250693909027737
+    },
+    "C": {
+     "same": 0.6409772440839732,
+     "cross": 0.6250693909027737
+    },
+    "D": {
+     "same": 0.6409772440839732,
+     "cross": 0.6250693909027737
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 27,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 3,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "united states",
+    "asia",
+    "united kingdom",
+    "france",
+    "india"
+   ],
+   "ner_inj": [
+    "trump",
+    "navy",
+    "vietnam",
+    "ray deptula",
+    "washington",
+    "nathaniel green",
+    "ray",
+    "jack"
+   ],
+   "geo_ms": 22.88,
+   "ner_ms": 164.71,
+   "geo_anchored": 1,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.32097064121263125,
+     "cross": 0.2944407460973144
+    },
+    "B": {
+     "same": 0.32097064121263125,
+     "cross": 0.2944407460973144
+    },
+    "C": {
+     "same": 0.32097064121263125,
+     "cross": 0.2944407460973144
+    },
+    "D": {
+     "same": 0.32097064121263125,
+     "cross": 0.2944407460973144
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 28,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 22,
+   "n_geo_gt": 3,
+   "n_wne_gt": 10,
+   "geo_inj": [
+    "europe"
+   ],
+   "ner_inj": [
+    "axel",
+    "fire prisons",
+    "dave",
+    "fire prisms",
+    "bournemouth",
+    "turtle",
+    "vic",
+    "itc",
+    "warhammer",
+    "games workshop",
+    "whatsapp",
+    "c tan",
+    "strength 9 lance",
+    "grizzle company",
+    "manchester",
+    "grizzle company guard",
+    "ultramarines"
+   ],
+   "geo_ms": 38.03,
+   "ner_ms": 395.58,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5519744794919362,
+     "cross": 0.5346802435976568
+    },
+    "B": {
+     "same": 0.5519744794919362,
+     "cross": 0.5346802435976568
+    },
+    "C": {
+     "same": 0.5519744794919362,
+     "cross": 0.5346802435976568
+    },
+    "D": {
+     "same": 0.5519744794919362,
+     "cross": 0.5346802435976568
+    }
+   },
+   "miss_before": 5,
+   "miss_after": {
+    "B": 5,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 4,
+   "miss_wne_after": {
+    "B": 4,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 29,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "telangana",
+    "india",
+    "asia",
+    "canada",
+    "united kingdom",
+    "europe"
+   ],
+   "ner_inj": [
+    "hyderabad",
+    "asia",
+    "telangana",
+    "state",
+    "bruce l levine",
+    "levine",
+    "young india skills university",
+    "telangana school of life sciences",
+    "genome valley",
+    "onebio",
+    "telangana life sciences",
+    "mrna",
+    "vaseline",
+    "hellmann",
+    "cpg",
+    "beauty wellbeing",
+    "wales",
+    "genai",
+    "horizon 3 labs",
+    "toronto",
+    "asm",
+    "pgdm",
+    "mca",
+    "business standard",
+    "asm ai center of excellence",
+    "navdrishti",
+    "coe",
+    "pgem",
+    "india",
+    "india ai mission",
+    "digital india",
+    "ant group",
+    "ling",
+    "ming",
+    "realskill",
+    "perform",
+    "julie stone",
+    "nps",
+    "net promoter score",
+    "crm"
+   ],
+   "geo_ms": 44.53,
+   "ner_ms": 408.54,
+   "geo_anchored": 0,
+   "ner_anchored": 6,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6336095461401703,
+     "cross": 0.6111233514455314
+    },
+    "B": {
+     "same": 0.6336095461401703,
+     "cross": 0.6111233514455314
+    },
+    "C": {
+     "same": 0.6336095461401703,
+     "cross": 0.6111233514455314
+    },
+    "D": {
+     "same": 0.6336095461401703,
+     "cross": 0.6111233514455314
+    }
+   },
+   "miss_before": 4,
+   "miss_after": {
+    "B": 3,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 2,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 2,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 30,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 1,
+   "n_wne_gt": 7,
+   "geo_inj": [
+    "california",
+    "united states",
+    "south america",
+    "latin america",
+    "mexico",
+    "florida"
+   ],
+   "ner_inj": [
+    "del equipo",
+    "caso del desplomo de edificios",
+    "gente atrapada",
+    "designada",
+    "departamento de estado de los estados unidos",
+    "gobierno venezolano",
+    "libras de maquinaria",
+    "especializada",
+    "rescatistas",
+    "su mente",
+    "su capacidad de trabajar",
+    "keitan",
+    "para los lugares",
+    "cargado",
+    "misma noche",
+    "seis",
+    "al pueblo venezolano",
+    "ya viene la ayuda",
+    "que estamos",
+    "rescatar",
+    "ellos",
+    "nmas",
+    "regresamos",
+    "noticiero",
+    "de chile",
+    "horas de rescatistas",
+    "para colaborar",
+    "escombros",
+    "que",
+    "se trata de un",
+    "salvador",
+    "zonas",
+    "protocolos",
+    "para poder viajar",
+    "cada minuto",
+    "nosotros",
+    "topos",
+    "decenas de venezolanos",
+    "embajada de venezuela",
+    "para manifestar su solidaridad",
+    "mientras tanto",
+    "ojos",
+    "estado de la",
+    "florida",
+    "venezolanos",
+    "grande de los estados unidos",
+    "centro de la",
+    "llamada de auxilio",
+    "sos",
+    "fronteras",
+    "exterior",
+    "miami",
+    "cantidad de venezolanos"
+   ],
+   "geo_ms": 19.63,
+   "ner_ms": 152.36,
+   "geo_anchored": 3,
+   "ner_anchored": 47,
+   "sel_b": [
+    "united states"
+   ],
+   "sel_c": [
+    "sos"
+   ],
+   "sel_d": [
+    "sos"
+   ],
+   "arms": {
+    "A": {
+     "same": 0.48069855227942915,
+     "cross": 0.43108131186137477
+    },
+    "B": {
+     "same": 0.4909369838973316,
+     "cross": 0.44166013857048764
+    },
+    "C": {
+     "same": 0.48149470278777384,
+     "cross": 0.4317611904633463
+    },
+    "D": {
+     "same": 0.48149470278777384,
+     "cross": 0.4317611904633463
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 31,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 3,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "california",
+    "united states"
+   ],
+   "ner_inj": [
+    "blood",
+    "sony",
+    "hard times",
+    "charles bronson",
+    "james coburn",
+    "craig groovey",
+    "eddie"
+   ],
+   "geo_ms": 16.21,
+   "ner_ms": 88.06,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.3361875315725515,
+     "cross": 0.30594663359540253
+    },
+    "B": {
+     "same": 0.3361875315725515,
+     "cross": 0.30594663359540253
+    },
+    "C": {
+     "same": 0.3361875315725515,
+     "cross": 0.30594663359540253
+    },
+    "D": {
+     "same": 0.3361875315725515,
+     "cross": 0.30594663359540253
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 32,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "russia"
+   ],
+   "ner_inj": [
+    "fastdi",
+    "jupyter",
+    "repl",
+    "c sharp",
+    "julia"
+   ],
+   "geo_ms": 26.97,
+   "ner_ms": 193.52,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.46822024002844187,
+     "cross": 0.41444281392232873
+    },
+    "B": {
+     "same": 0.46822024002844187,
+     "cross": 0.41444281392232873
+    },
+    "C": {
+     "same": 0.46822024002844187,
+     "cross": 0.41444281392232873
+    },
+    "D": {
+     "same": 0.46822024002844187,
+     "cross": 0.41444281392232873
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 33,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "russia"
+   ],
+   "ner_inj": [
+    "gpu",
+    "assembler"
+   ],
+   "geo_ms": 27.53,
+   "ner_ms": 166.65,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5136528071549464,
+     "cross": 0.49328860848775324
+    },
+    "B": {
+     "same": 0.5136528071549464,
+     "cross": 0.49328860848775324
+    },
+    "C": {
+     "same": 0.5136528071549464,
+     "cross": 0.49328860848775324
+    },
+    "D": {
+     "same": 0.5136528071549464,
+     "cross": 0.49328860848775324
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 34,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [
+    "split"
+   ],
+   "geo_ms": 18.23,
+   "ner_ms": 44.6,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6378680265229859,
+     "cross": 0.6242271298993223
+    },
+    "B": {
+     "same": 0.6378680265229859,
+     "cross": 0.6242271298993223
+    },
+    "C": {
+     "same": 0.6378680265229859,
+     "cross": 0.6242271298993223
+    },
+    "D": {
+     "same": 0.6378680265229859,
+     "cross": 0.6242271298993223
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 35,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "florida",
+    "united states"
+   ],
+   "ner_inj": [
+    "joel",
+    "sunset sweat",
+    "hiit",
+    "google ai",
+    "tiffany"
+   ],
+   "geo_ms": 24.82,
+   "ner_ms": 184.51,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6512566650708959,
+     "cross": 0.6399560926734303
+    },
+    "B": {
+     "same": 0.6512566650708959,
+     "cross": 0.6399560926734303
+    },
+    "C": {
+     "same": 0.6512566650708959,
+     "cross": 0.6399560926734303
+    },
+    "D": {
+     "same": 0.6512566650708959,
+     "cross": 0.6399560926734303
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 36,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 4,
+   "n_wne_gt": 7,
+   "geo_inj": [],
+   "ner_inj": [
+    "fatima",
+    "gina",
+    "shah",
+    "ma mounir",
+    "azeri",
+    "zaria"
+   ],
+   "geo_ms": 17.87,
+   "ner_ms": 163.53,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [
+    "azeri"
+   ],
+   "sel_d": [
+    "azeri"
+   ],
+   "arms": {
+    "A": {
+     "same": 0.6413415483040922,
+     "cross": 0.6208638304747027
+    },
+    "B": {
+     "same": 0.6413415483040922,
+     "cross": 0.6208638304747027
+    },
+    "C": {
+     "same": 0.6427867179250396,
+     "cross": 0.6220506314300817
+    },
+    "D": {
+     "same": 0.6427867179250396,
+     "cross": 0.6220506314300817
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 37,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [
+    "maria"
+   ],
+   "geo_ms": 11.38,
+   "ner_ms": 27.49,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5588481753908857,
+     "cross": 0.5120543329057142
+    },
+    "B": {
+     "same": 0.5588481753908857,
+     "cross": 0.5120543329057142
+    },
+    "C": {
+     "same": 0.5588481753908857,
+     "cross": 0.5120543329057142
+    },
+    "D": {
+     "same": 0.5588481753908857,
+     "cross": 0.5120543329057142
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 38,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 4,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "california",
+    "united states",
+    "europe",
+    "russia",
+    "germany"
+   ],
+   "ner_inj": [
+    "ian",
+    "ian baruma",
+    "stay alive",
+    "bleibensee ubrecht",
+    "john batchelor"
+   ],
+   "geo_ms": 16.01,
+   "ner_ms": 56.71,
+   "geo_anchored": 1,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.25209912774416215,
+     "cross": 0.23926409305377477
+    },
+    "B": {
+     "same": 0.25209912774416215,
+     "cross": 0.23926409305377477
+    },
+    "C": {
+     "same": 0.25209912774416215,
+     "cross": 0.23926409305377477
+    },
+    "D": {
+     "same": 0.25209912774416215,
+     "cross": 0.23926409305377477
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 39,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 4,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "texas",
+    "united states"
+   ],
+   "ner_inj": [
+    "somewhere eddie bravo",
+    "eddie",
+    "instagram",
+    "bob costa",
+    "maurice"
+   ],
+   "geo_ms": 20.79,
+   "ner_ms": 104.53,
+   "geo_anchored": 2,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.40854568975519145,
+     "cross": 0.3803443796028252
+    },
+    "B": {
+     "same": 0.40854568975519145,
+     "cross": 0.3803443796028252
+    },
+    "C": {
+     "same": 0.40854568975519145,
+     "cross": 0.3803443796028252
+    },
+    "D": {
+     "same": 0.40854568975519145,
+     "cross": 0.3803443796028252
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 1,
+    "C": 2,
+    "D": 1
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 40,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 2,
+   "n_wne_gt": 8,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "ross",
+    "dan mays",
+    "greg lopez",
+    "dick wadhams",
+    "dick",
+    "victor marks",
+    "victor marx",
+    "weiser",
+    "greg garcia",
+    "gina",
+    "megan maroney",
+    "congress"
+   ],
+   "geo_ms": 28.06,
+   "ner_ms": 188.63,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.40442098179904856,
+     "cross": 0.38740415536552386
+    },
+    "B": {
+     "same": 0.40442098179904856,
+     "cross": 0.38740415536552386
+    },
+    "C": {
+     "same": 0.40442098179904856,
+     "cross": 0.38740415536552386
+    },
+    "D": {
+     "same": 0.40442098179904856,
+     "cross": 0.38740415536552386
+    }
+   },
+   "miss_before": 5,
+   "miss_after": {
+    "B": 5,
+    "C": 3,
+    "D": 3
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 2,
+   "miss_wne_after": {
+    "B": 2,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 41,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "australia",
+    "united states"
+   ],
+   "ner_inj": [
+    "williams",
+    "cocaine",
+    "richard",
+    "robert",
+    "matthew 5",
+    "new york",
+    "andre previtt",
+    "pivot",
+    "pastor richard",
+    "andre",
+    "easter"
+   ],
+   "geo_ms": 26.59,
+   "ner_ms": 147.19,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6718699334921289,
+     "cross": 0.6531814631103863
+    },
+    "B": {
+     "same": 0.6718699334921289,
+     "cross": 0.6531814631103863
+    },
+    "C": {
+     "same": 0.6718699334921289,
+     "cross": 0.6531814631103863
+    },
+    "D": {
+     "same": 0.6718699334921289,
+     "cross": 0.6531814631103863
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 42,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 6,
+   "geo_inj": [],
+   "ner_inj": [
+    "api",
+    "cms",
+    "this netlify cms",
+    "markdown",
+    "html"
+   ],
+   "geo_ms": 20.95,
+   "ner_ms": 172.35,
+   "geo_anchored": 0,
+   "ner_anchored": 5,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6572856271273517,
+     "cross": 0.6169298007375161
+    },
+    "B": {
+     "same": 0.6572856271273517,
+     "cross": 0.6169298007375161
+    },
+    "C": {
+     "same": 0.6572856271273517,
+     "cross": 0.6169298007375161
+    },
+    "D": {
+     "same": 0.6572856271273517,
+     "cross": 0.6169298007375161
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 43,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 0,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "mexico",
+    "united states"
+   ],
+   "ner_inj": [
+    "bueno",
+    "tema del mundial",
+    "judit",
+    "estamos teniendo problemas",
+    "vamos",
+    "esquema de trabajo",
+    "con el objetivo de facilitar",
+    "movilidad",
+    "que ya la tenemos de nuevo",
+    "enrique",
+    "muy bien",
+    "como ya lo comentas",
+    "claudia schoenbaum",
+    "hacerle la sugerencia",
+    "empresas",
+    "para",
+    "buena movilidad",
+    "ya que",
+    "mario delgado",
+    "hizo",
+    "gobierno federal",
+    "demandas de los",
+    "al mundo",
+    "empresario",
+    "llamar actos de violencia",
+    "muy importante",
+    "que",
+    "para evitar o",
+    "para mostrar que",
+    "mandataria",
+    "complejo",
+    "pero",
+    "gobierno",
+    "emprendido",
+    "favor de los maestros",
+    "del ejecutivo federal",
+    "turistas",
+    "vallas",
+    "para mantener la",
+    "del lugar",
+    "lamentamos"
+   ],
+   "geo_ms": 21.74,
+   "ner_ms": 158.98,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4412077510942554,
+     "cross": 0.38307441751391647
+    },
+    "B": {
+     "same": 0.4412077510942554,
+     "cross": 0.38307441751391647
+    },
+    "C": {
+     "same": 0.4412077510942554,
+     "cross": 0.38307441751391647
+    },
+    "D": {
+     "same": 0.4412077510942554,
+     "cross": 0.38307441751391647
+    }
+   },
+   "miss_before": 3,
+   "miss_after": {
+    "B": 3,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 2,
+   "miss_wne_after": {
+    "B": 2,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 44,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "asia"
+   ],
+   "ner_inj": [
+    "aspm",
+    "cicd",
+    "soc"
+   ],
+   "geo_ms": 27.13,
+   "ner_ms": 185.84,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6591991956030181,
+     "cross": 0.6069852392202695
+    },
+    "B": {
+     "same": 0.6591991956030181,
+     "cross": 0.6069852392202695
+    },
+    "C": {
+     "same": 0.6591991956030181,
+     "cross": 0.6069852392202695
+    },
+    "D": {
+     "same": 0.6591991956030181,
+     "cross": 0.6069852392202695
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 45,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 2,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "fun spot",
+    "norfolk county",
+    "craig",
+    "howie carr",
+    "haverhill",
+    "america",
+    "lawrence",
+    "lowell",
+    "howie",
+    "howie10",
+    "follow howie",
+    "howie carr show"
+   ],
+   "geo_ms": 22.78,
+   "ner_ms": 160.77,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.37808185889770696,
+     "cross": 0.4085428106512025
+    },
+    "B": {
+     "same": 0.37808185889770696,
+     "cross": 0.4085428106512025
+    },
+    "C": {
+     "same": 0.37808185889770696,
+     "cross": 0.4085428106512025
+    },
+    "D": {
+     "same": 0.37808185889770696,
+     "cross": 0.4085428106512025
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 46,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [
+    "yaml",
+    "haskell",
+    "mongo",
+    "json",
+    "hustle",
+    "javascript"
+   ],
+   "geo_ms": 27.4,
+   "ner_ms": 187.99,
+   "geo_anchored": 0,
+   "ner_anchored": 5,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5627983080886703,
+     "cross": 0.5551056241531394
+    },
+    "B": {
+     "same": 0.5627983080886703,
+     "cross": 0.5551056241531394
+    },
+    "C": {
+     "same": 0.5627983080886703,
+     "cross": 0.5551056241531394
+    },
+    "D": {
+     "same": 0.5627983080886703,
+     "cross": 0.5551056241531394
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 47,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 21.92,
+   "ner_ms": 191.92,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7068745960599624,
+     "cross": 0.6980435308059542
+    },
+    "B": {
+     "same": 0.7068745960599624,
+     "cross": 0.6980435308059542
+    },
+    "C": {
+     "same": 0.7068745960599624,
+     "cross": 0.6980435308059542
+    },
+    "D": {
+     "same": 0.7068745960599624,
+     "cross": 0.6980435308059542
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 48,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "via"
+   ],
+   "geo_ms": 19.77,
+   "ner_ms": 23.28,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7136569474666153,
+     "cross": 0.698799768675928
+    },
+    "B": {
+     "same": 0.7136569474666153,
+     "cross": 0.698799768675928
+    },
+    "C": {
+     "same": 0.7136569474666153,
+     "cross": 0.698799768675928
+    },
+    "D": {
+     "same": 0.7136569474666153,
+     "cross": 0.698799768675928
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 49,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 3,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states",
+    "asia",
+    "europe"
+   ],
+   "ner_inj": [
+    "rome",
+    "indo pacific",
+    "europe",
+    "modi",
+    "giorgia maloney",
+    "ians",
+    "mea india",
+    "alliance",
+    "alabama",
+    "florida",
+    "georgia",
+    "louisiana",
+    "mississippi",
+    "texas",
+    "south carolina",
+    "house",
+    "nil",
+    "utah",
+    "jeffreys with cbc",
+    "capitol",
+    "sabina gebermedin",
+    "james sample"
+   ],
+   "geo_ms": 26.99,
+   "ner_ms": 151.39,
+   "geo_anchored": 1,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.3578739277165397,
+     "cross": 0.3378958142725982
+    },
+    "B": {
+     "same": 0.3578739277165397,
+     "cross": 0.3378958142725982
+    },
+    "C": {
+     "same": 0.3578739277165397,
+     "cross": 0.3378958142725982
+    },
+    "D": {
+     "same": 0.3578739277165397,
+     "cross": 0.3378958142725982
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 1,
+    "C": 2,
+    "D": 1
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 50,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 12,
+   "n_geo_gt": 4,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states",
+    "saudi arabia",
+    "middle east"
+   ],
+   "ner_inj": [
+    "global south",
+    "cristina",
+    "algodones",
+    "europe",
+    "mexicanness",
+    "christina",
+    "jesus medina",
+    "office of defense",
+    "medina",
+    "mariana",
+    "youtube"
+   ],
+   "geo_ms": 29.84,
+   "ner_ms": 174.61,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.713920383199004,
+     "cross": 0.6672999791319664
+    },
+    "B": {
+     "same": 0.713920383199004,
+     "cross": 0.6672999791319664
+    },
+    "C": {
+     "same": 0.713920383199004,
+     "cross": 0.6672999791319664
+    },
+    "D": {
+     "same": 0.713920383199004,
+     "cross": 0.6672999791319664
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 51,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "alberto",
+    "agua dulce",
+    "molar city s",
+    "america",
+    "states"
+   ],
+   "geo_ms": 24.06,
+   "ner_ms": 109.48,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7493234741020165,
+     "cross": 0.717493116364462
+    },
+    "B": {
+     "same": 0.7493234741020165,
+     "cross": 0.717493116364462
+    },
+    "C": {
+     "same": 0.7493234741020165,
+     "cross": 0.717493116364462
+    },
+    "D": {
+     "same": 0.7493234741020165,
+     "cross": 0.717493116364462
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 52,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 2,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states",
+    "united kingdom",
+    "europe",
+    "massachusetts"
+   ],
+   "ner_inj": [
+    "howie",
+    "nick",
+    "new jersey",
+    "chris",
+    "howie carr",
+    "holly",
+    "senate",
+    "plattner"
+   ],
+   "geo_ms": 21.53,
+   "ner_ms": 187.0,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.2451840631517834,
+     "cross": 0.2322191502191458
+    },
+    "B": {
+     "same": 0.2451840631517834,
+     "cross": 0.2322191502191458
+    },
+    "C": {
+     "same": 0.2451840631517834,
+     "cross": 0.2322191502191458
+    },
+    "D": {
+     "same": 0.2451840631517834,
+     "cross": 0.2322191502191458
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 54,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 3,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states",
+    "canada",
+    "saudi arabia",
+    "middle east",
+    "arizona"
+   ],
+   "ner_inj": [
+    "alberto",
+    "algodones",
+    "america",
+    "yuma",
+    "arizona",
+    "agua dulce",
+    "jesus medina"
+   ],
+   "geo_ms": 21.4,
+   "ner_ms": 124.42,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6750790721564562,
+     "cross": 0.666608494023093
+    },
+    "B": {
+     "same": 0.6750790721564562,
+     "cross": 0.666608494023093
+    },
+    "C": {
+     "same": 0.6750790721564562,
+     "cross": 0.666608494023093
+    },
+    "D": {
+     "same": 0.6750790721564562,
+     "cross": 0.666608494023093
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 55,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 21,
+   "n_geo_gt": 1,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "europe",
+    "united states"
+   ],
+   "ner_inj": [
+    "liam",
+    "alex sacco",
+    "c tan",
+    "mordakka",
+    "eldar",
+    "aspect",
+    "wraiths",
+    "serpent",
+    "brood",
+    "aeldar",
+    "deathstrike"
+   ],
+   "geo_ms": 23.51,
+   "ner_ms": 215.32,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6098422525505638,
+     "cross": 0.592531309646326
+    },
+    "B": {
+     "same": 0.6098422525505638,
+     "cross": 0.592531309646326
+    },
+    "C": {
+     "same": 0.6098422525505638,
+     "cross": 0.592531309646326
+    },
+    "D": {
+     "same": 0.6098422525505638,
+     "cross": 0.592531309646326
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 56,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "bob",
+    "tdd"
+   ],
+   "geo_ms": 30.67,
+   "ner_ms": 222.48,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7273125250625724,
+     "cross": 0.708628249614508
+    },
+    "B": {
+     "same": 0.7273125250625724,
+     "cross": 0.708628249614508
+    },
+    "C": {
+     "same": 0.7273125250625724,
+     "cross": 0.708628249614508
+    },
+    "D": {
+     "same": 0.7273125250625724,
+     "cross": 0.708628249614508
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 57,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 5,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states",
+    "israel",
+    "middle east",
+    "united kingdom",
+    "europe"
+   ],
+   "ner_inj": [
+    "iran",
+    "israel",
+    "noah levi"
+   ],
+   "geo_ms": 16.48,
+   "ner_ms": 44.74,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5679493386934475,
+     "cross": 0.5272987450948965
+    },
+    "B": {
+     "same": 0.5679493386934475,
+     "cross": 0.5272987450948965
+    },
+    "C": {
+     "same": 0.5679493386934475,
+     "cross": 0.5272987450948965
+    },
+    "D": {
+     "same": 0.5679493386934475,
+     "cross": 0.5272987450948965
+    }
+   },
+   "miss_before": 3,
+   "miss_after": {
+    "B": 1,
+    "C": 2,
+    "D": 0
+   },
+   "miss_geo_before": 3,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 2,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 58,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 4,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "middle east",
+    "europe",
+    "asia",
+    "iran"
+   ],
+   "ner_inj": [
+    "red sea",
+    "f 18",
+    "jim",
+    "gordon",
+    "rick",
+    "imac",
+    "rick fisher",
+    "international assessment and strategy center"
+   ],
+   "geo_ms": 23.25,
+   "ner_ms": 151.82,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5693286230517921,
+     "cross": 0.5621998123600043
+    },
+    "B": {
+     "same": 0.5693286230517921,
+     "cross": 0.5621998123600043
+    },
+    "C": {
+     "same": 0.5693286230517921,
+     "cross": 0.5621998123600043
+    },
+    "D": {
+     "same": 0.5693286230517921,
+     "cross": 0.5621998123600043
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 59,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 17,
+   "n_geo_gt": 4,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "europe"
+   ],
+   "ner_inj": [
+    "israel katz",
+    "amir baram",
+    "noah levi"
+   ],
+   "geo_ms": 16.27,
+   "ner_ms": 53.41,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4928382118968762,
+     "cross": 0.5020047816116765
+    },
+    "B": {
+     "same": 0.4928382118968762,
+     "cross": 0.5020047816116765
+    },
+    "C": {
+     "same": 0.4928382118968762,
+     "cross": 0.5020047816116765
+    },
+    "D": {
+     "same": 0.4928382118968762,
+     "cross": 0.5020047816116765
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 60,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 3,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "mcnaughton",
+    "bob",
+    "nick reiner",
+    "nima rahmani",
+    "lori levinson",
+    "dan white",
+    "twinkie",
+    "nick reiner s"
+   ],
+   "geo_ms": 30.46,
+   "ner_ms": 156.23,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.2655976505441153,
+     "cross": 0.2519719515351301
+    },
+    "B": {
+     "same": 0.2655976505441153,
+     "cross": 0.2519719515351301
+    },
+    "C": {
+     "same": 0.2655976505441153,
+     "cross": 0.2519719515351301
+    },
+    "D": {
+     "same": 0.2655976505441153,
+     "cross": 0.2519719515351301
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 61,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 7,
+   "n_wne_gt": 12,
+   "geo_inj": [
+    "asia",
+    "europe"
+   ],
+   "ner_inj": [
+    "china",
+    "japan",
+    "south korea",
+    "india",
+    "western europe",
+    "conrad black",
+    "john black"
+   ],
+   "geo_ms": 15.76,
+   "ner_ms": 58.52,
+   "geo_anchored": 2,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4496018818240529,
+     "cross": 0.41263539640669233
+    },
+    "B": {
+     "same": 0.4496018818240529,
+     "cross": 0.41263539640669233
+    },
+    "C": {
+     "same": 0.4496018818240529,
+     "cross": 0.41263539640669233
+    },
+    "D": {
+     "same": 0.4496018818240529,
+     "cross": 0.41263539640669233
+    }
+   },
+   "miss_before": 6,
+   "miss_after": {
+    "B": 4,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 5,
+   "miss_geo_after": {
+    "B": 4,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 5,
+   "miss_wne_after": {
+    "B": 4,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 62,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 2,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "california",
+    "united states",
+    "europe"
+   ],
+   "ner_inj": [
+    "gemini",
+    "rto",
+    "patrick"
+   ],
+   "geo_ms": 29.11,
+   "ner_ms": 186.47,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.376802333463212,
+     "cross": 0.3439541644933195
+    },
+    "B": {
+     "same": 0.376802333463212,
+     "cross": 0.3439541644933195
+    },
+    "C": {
+     "same": 0.376802333463212,
+     "cross": 0.3439541644933195
+    },
+    "D": {
+     "same": 0.376802333463212,
+     "cross": 0.3439541644933195
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 63,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [],
+   "ner_inj": [
+    "mvc",
+    "api"
+   ],
+   "geo_ms": 14.35,
+   "ner_ms": 57.96,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6388478778483055,
+     "cross": 0.6328724420130385
+    },
+    "B": {
+     "same": 0.6388478778483055,
+     "cross": 0.6328724420130385
+    },
+    "C": {
+     "same": 0.6388478778483055,
+     "cross": 0.6328724420130385
+    },
+    "D": {
+     "same": 0.6388478778483055,
+     "cross": 0.6328724420130385
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 64,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 2,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "asia",
+    "united states"
+   ],
+   "ner_inj": [
+    "breakfast",
+    "tiffany s",
+    "clubhouse",
+    "discord",
+    "slack",
+    "zoom",
+    "ul book club"
+   ],
+   "geo_ms": 28.52,
+   "ner_ms": 164.24,
+   "geo_anchored": 1,
+   "ner_anchored": 4,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.49664905674615256,
+     "cross": 0.45423978069009047
+    },
+    "B": {
+     "same": 0.49664905674615256,
+     "cross": 0.45423978069009047
+    },
+    "C": {
+     "same": 0.49664905674615256,
+     "cross": 0.45423978069009047
+    },
+    "D": {
+     "same": 0.49664905674615256,
+     "cross": 0.45423978069009047
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 66,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "google",
+    "pdf"
+   ],
+   "geo_ms": 27.85,
+   "ner_ms": 214.87,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7291164758386626,
+     "cross": 0.700632918219106
+    },
+    "B": {
+     "same": 0.7291164758386626,
+     "cross": 0.700632918219106
+    },
+    "C": {
+     "same": 0.7291164758386626,
+     "cross": 0.700632918219106
+    },
+    "D": {
+     "same": 0.7291164758386626,
+     "cross": 0.700632918219106
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 68,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "spinquest",
+    "cox mobile",
+    "incluye",
+    "de wifi",
+    "velocidad de datos",
+    "bison",
+    "fmne insurance",
+    "super",
+    "athletic",
+    "chris vanini",
+    "chris",
+    "ndsu",
+    "usa women"
+   ],
+   "geo_ms": 23.31,
+   "ner_ms": 121.43,
+   "geo_anchored": 0,
+   "ner_anchored": 8,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5731195830351077,
+     "cross": 0.552409909796099
+    },
+    "B": {
+     "same": 0.5731195830351077,
+     "cross": 0.552409909796099
+    },
+    "C": {
+     "same": 0.5731195830351077,
+     "cross": 0.552409909796099
+    },
+    "D": {
+     "same": 0.5731195830351077,
+     "cross": 0.552409909796099
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 69,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states",
+    "california",
+    "middle east",
+    "asia",
+    "africa",
+    "italy",
+    "europe"
+   ],
+   "ner_inj": [
+    "rome",
+    "anthony",
+    "caesarian",
+    "capetra",
+    "red sea",
+    "india",
+    "caesar",
+    "antony",
+    "hollywood"
+   ],
+   "geo_ms": 25.62,
+   "ner_ms": 170.41,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5610442175385795,
+     "cross": 0.5430392274484233
+    },
+    "B": {
+     "same": 0.5610442175385795,
+     "cross": 0.5430392274484233
+    },
+    "C": {
+     "same": 0.5610442175385795,
+     "cross": 0.5430392274484233
+    },
+    "D": {
+     "same": 0.5610442175385795,
+     "cross": 0.5430392274484233
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 70,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [
+    "talkpython",
+    "itunes",
+    "rss",
+    "youtube",
+    "michael kennedy"
+   ],
+   "geo_ms": 21.07,
+   "ner_ms": 134.37,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6411066910349329,
+     "cross": 0.6248992644137767
+    },
+    "B": {
+     "same": 0.6411066910349329,
+     "cross": 0.6248992644137767
+    },
+    "C": {
+     "same": 0.6411066910349329,
+     "cross": 0.6248992644137767
+    },
+    "D": {
+     "same": 0.6411066910349329,
+     "cross": 0.6248992644137767
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 71,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 1,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states",
+    "europe",
+    "massachusetts",
+    "india"
+   ],
+   "ner_inj": [
+    "pj fitzpatrick home improvement news desk",
+    "new jersey s",
+    "annette petricioni",
+    "newark",
+    "delaney hall",
+    "mikey sherrill",
+    "sherrill",
+    "trinity rehab",
+    "pennsylvania",
+    "air canada",
+    "flight 7664",
+    "halifax",
+    "nova scotia",
+    "newark international",
+    "abc news",
+    "boston",
+    "lisa salvati",
+    "personal consumption expenditures price",
+    "federal reserve s",
+    "edison heating",
+    "cooling weather desk",
+    "dan zaro"
+   ],
+   "geo_ms": 25.61,
+   "ner_ms": 150.21,
+   "geo_anchored": 2,
+   "ner_anchored": 5,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6818107427173424,
+     "cross": 0.6535529521661758
+    },
+    "B": {
+     "same": 0.6818107427173424,
+     "cross": 0.6535529521661758
+    },
+    "C": {
+     "same": 0.6818107427173424,
+     "cross": 0.6535529521661758
+    },
+    "D": {
+     "same": 0.6818107427173424,
+     "cross": 0.6535529521661758
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 73,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 6,
+   "n_geo_gt": 3,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "texas",
+    "united states"
+   ],
+   "ner_inj": [
+    "thailand"
+   ],
+   "geo_ms": 18.77,
+   "ner_ms": 82.54,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4701833572742574,
+     "cross": 0.416094562830286
+    },
+    "B": {
+     "same": 0.4701833572742574,
+     "cross": 0.416094562830286
+    },
+    "C": {
+     "same": 0.4701833572742574,
+     "cross": 0.416094562830286
+    },
+    "D": {
+     "same": 0.4701833572742574,
+     "cross": 0.416094562830286
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 74,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 4,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "california",
+    "united states",
+    "canada"
+   ],
+   "ner_inj": [
+    "joe",
+    "pasadena",
+    "orange county",
+    "blood"
+   ],
+   "geo_ms": 24.6,
+   "ner_ms": 123.38,
+   "geo_anchored": 2,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6450276990354935,
+     "cross": 0.6247976356640979
+    },
+    "B": {
+     "same": 0.6450276990354935,
+     "cross": 0.6247976356640979
+    },
+    "C": {
+     "same": 0.6450276990354935,
+     "cross": 0.6247976356640979
+    },
+    "D": {
+     "same": 0.6450276990354935,
+     "cross": 0.6247976356640979
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 75,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 3,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states",
+    "canada"
+   ],
+   "ner_inj": [
+    "cowboy cerrone",
+    "johnny black",
+    "cowboy",
+    "randy",
+    "tito"
+   ],
+   "geo_ms": 19.61,
+   "ner_ms": 77.07,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5778507032848935,
+     "cross": 0.5598188758915991
+    },
+    "B": {
+     "same": 0.5778507032848935,
+     "cross": 0.5598188758915991
+    },
+    "C": {
+     "same": 0.5778507032848935,
+     "cross": 0.5598188758915991
+    },
+    "D": {
+     "same": 0.5778507032848935,
+     "cross": 0.5598188758915991
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 76,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "pozdravujem",
+    "danielom puhom",
+    "united bratislava",
+    "slovensku",
+    "spp",
+    "kaufland a veolia",
+    "takticky",
+    "nejakou",
+    "rozhodcovi sa",
+    "absolutne",
+    "ani sa mu neargumentuje",
+    "ako",
+    "alebo tu"
+   ],
+   "geo_ms": 24.34,
+   "ner_ms": 153.82,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.2885244881744644,
+     "cross": 0.2727062652605894
+    },
+    "B": {
+     "same": 0.2885244881744644,
+     "cross": 0.2727062652605894
+    },
+    "C": {
+     "same": 0.2885244881744644,
+     "cross": 0.2727062652605894
+    },
+    "D": {
+     "same": 0.2885244881744644,
+     "cross": 0.2727062652605894
+    }
+   },
+   "miss_before": 3,
+   "miss_after": {
+    "B": 3,
+    "C": 3,
+    "D": 3
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 77,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 5,
+   "geo_inj": [],
+   "ner_inj": [
+    "ie6",
+    "node",
+    "preact",
+    "esm"
+   ],
+   "geo_ms": 23.98,
+   "ner_ms": 184.23,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5613131146376402,
+     "cross": 0.5436739755130142
+    },
+    "B": {
+     "same": 0.5613131146376402,
+     "cross": 0.5436739755130142
+    },
+    "C": {
+     "same": 0.5613131146376402,
+     "cross": 0.5436739755130142
+    },
+    "D": {
+     "same": 0.5613131146376402,
+     "cross": 0.5436739755130142
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 79,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "sandy"
+   ],
+   "geo_ms": 11.83,
+   "ner_ms": 60.95,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7395021174262665,
+     "cross": 0.7223122684577186
+    },
+    "B": {
+     "same": 0.7395021174262665,
+     "cross": 0.7223122684577186
+    },
+    "C": {
+     "same": 0.7395021174262665,
+     "cross": 0.7223122684577186
+    },
+    "D": {
+     "same": 0.7395021174262665,
+     "cross": 0.7223122684577186
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 80,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 3,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "middle east",
+    "united states",
+    "asia",
+    "united kingdom",
+    "europe",
+    "texas",
+    "india"
+   ],
+   "ner_inj": [
+    "npr news",
+    "washington",
+    "ryland barton",
+    "defense department",
+    "paul friedman",
+    "new york times",
+    "friedman",
+    "trump",
+    "npr",
+    "michelle kellerman",
+    "spain",
+    "sergio martinez beltran",
+    "miami correctional center",
+    "indiana",
+    "department of homeland security",
+    "camp east montana",
+    "paso",
+    "texas",
+    "dhs",
+    "acquisition logistics",
+    "austin",
+    "institute for american indian arts",
+    "nate rott"
+   ],
+   "geo_ms": 26.13,
+   "ner_ms": 162.67,
+   "geo_anchored": 1,
+   "ner_anchored": 10,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5135746083614947,
+     "cross": 0.49405803339055143
+    },
+    "B": {
+     "same": 0.5135746083614947,
+     "cross": 0.49405803339055143
+    },
+    "C": {
+     "same": 0.5135746083614947,
+     "cross": 0.49405803339055143
+    },
+    "D": {
+     "same": 0.5135746083614947,
+     "cross": 0.49405803339055143
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 81,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 6,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "europe",
+    "united kingdom"
+   ],
+   "ner_inj": [
+    "mova",
+    "engage"
+   ],
+   "geo_ms": 26.99,
+   "ner_ms": 153.31,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4771144870822658,
+     "cross": 0.4279227218344923
+    },
+    "B": {
+     "same": 0.4771144870822658,
+     "cross": 0.4279227218344923
+    },
+    "C": {
+     "same": 0.4771144870822658,
+     "cross": 0.4279227218344923
+    },
+    "D": {
+     "same": 0.4771144870822658,
+     "cross": 0.4279227218344923
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 82,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 0,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "united states",
+    "europe",
+    "france"
+   ],
+   "ner_inj": [
+    "jefferson",
+    "europe",
+    "france",
+    "hamilton",
+    "dovey diggs",
+    "lafayette",
+    "frenchman",
+    "david diggs",
+    "heights"
+   ],
+   "geo_ms": 20.32,
+   "ner_ms": 176.54,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.43041002536188266,
+     "cross": 0.41399988488225614
+    },
+    "B": {
+     "same": 0.43041002536188266,
+     "cross": 0.41399988488225614
+    },
+    "C": {
+     "same": 0.43041002536188266,
+     "cross": 0.41399988488225614
+    },
+    "D": {
+     "same": 0.43041002536188266,
+     "cross": 0.41399988488225614
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 83,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "new jersey",
+    "united states"
+   ],
+   "ner_inj": [
+    "morgen",
+    "aber dann trotzdem",
+    "benzin",
+    "tank von einem rennwagen",
+    "markt",
+    "ein bisschen",
+    "landgrabbing modus",
+    "sagen",
+    "meinen",
+    "das",
+    "produkt",
+    "fall das",
+    "meinung",
+    "kein winner takes",
+    "nischen",
+    "nische",
+    "gefahr",
+    "dann von openai",
+    "teil",
+    "kunden",
+    "vielleicht irgendwann mit",
+    "aber",
+    "trotzdem",
+    "das produkt spitz auf",
+    "da trotzdem langfristig",
+    "letzten endes",
+    "riesen company",
+    "google",
+    "drive",
+    "deswegen",
+    "chance",
+    "neulich mal gesehen",
+    "unternehmen",
+    "viel zugekauft",
+    "playbook",
+    "vielleicht",
+    "das dann irgendwann",
+    "nicht",
+    "hier diese",
+    "das ist",
+    "wachstum",
+    "punkt",
+    "panik",
+    "haben gesagt",
+    "jetzt",
+    "social media content",
+    "jetzt versuchen",
+    "paid ads umzuspielen",
+    "haben dann",
+    "recht schwierig",
+    "fokus",
+    "haben dann letzten endes",
+    "seo",
+    "zu fokussieren",
+    "zum damaligen",
+    "zeitpunkt",
+    "ein kontinuierlich besser",
+    "noch der",
+    "wachstumstreiber",
+    "ein productivity tool",
+    "zum anderen",
+    "von der motion",
+    "nutzer",
+    "b2b komponente",
+    "ein self service",
+    "faktoren"
+   ],
+   "geo_ms": 23.75,
+   "ner_ms": 184.91,
+   "geo_anchored": 0,
+   "ner_anchored": 12,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6394819310202098,
+     "cross": 0.614431194085647
+    },
+    "B": {
+     "same": 0.6394819310202098,
+     "cross": 0.614431194085647
+    },
+    "C": {
+     "same": 0.6394819310202098,
+     "cross": 0.614431194085647
+    },
+    "D": {
+     "same": 0.6394819310202098,
+     "cross": 0.614431194085647
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 85,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "europe"
+   ],
+   "ner_inj": [
+    "huron",
+    "emperor",
+    "cato scarius",
+    "gladius",
+    "cheeky",
+    "liam",
+    "maelstrom"
+   ],
+   "geo_ms": 19.37,
+   "ner_ms": 135.36,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5749126141823131,
+     "cross": 0.5372317866884793
+    },
+    "B": {
+     "same": 0.5749126141823131,
+     "cross": 0.5372317866884793
+    },
+    "C": {
+     "same": 0.5749126141823131,
+     "cross": 0.5372317866884793
+    },
+    "D": {
+     "same": 0.5749126141823131,
+     "cross": 0.5372317866884793
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 86,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "eric",
+    "developer team"
+   ],
+   "geo_ms": 25.75,
+   "ner_ms": 168.5,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5970114600282415,
+     "cross": 0.5791439016599912
+    },
+    "B": {
+     "same": 0.5970114600282415,
+     "cross": 0.5791439016599912
+    },
+    "C": {
+     "same": 0.5970114600282415,
+     "cross": 0.5791439016599912
+    },
+    "D": {
+     "same": 0.5970114600282415,
+     "cross": 0.5791439016599912
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 88,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "trump",
+    "biden",
+    "tucker",
+    "daryl",
+    "super chat",
+    "solidsnake1964",
+    "ryan stone s",
+    "hawk",
+    "son of orion substack"
+   ],
+   "geo_ms": 25.32,
+   "ner_ms": 137.91,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.558782225292484,
+     "cross": 0.5369084199663228
+    },
+    "B": {
+     "same": 0.558782225292484,
+     "cross": 0.5369084199663228
+    },
+    "C": {
+     "same": 0.558782225292484,
+     "cross": 0.5369084199663228
+    },
+    "D": {
+     "same": 0.558782225292484,
+     "cross": 0.5369084199663228
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 89,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "germany",
+    "europe"
+   ],
+   "ner_inj": [
+    "thomas",
+    "pete",
+    "daryl",
+    "tucker",
+    "shabbos",
+    "nuremberg"
+   ],
+   "geo_ms": 25.96,
+   "ner_ms": 165.81,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6608821922202067,
+     "cross": 0.6342137705590879
+    },
+    "B": {
+     "same": 0.6608821922202067,
+     "cross": 0.6342137705590879
+    },
+    "C": {
+     "same": 0.6608821922202067,
+     "cross": 0.6342137705590879
+    },
+    "D": {
+     "same": 0.6608821922202067,
+     "cross": 0.6342137705590879
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 92,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [
+    "ssl",
+    "trafic",
+    "home"
+   ],
+   "geo_ms": 24.07,
+   "ner_ms": 156.64,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6017499291742086,
+     "cross": 0.580669013648808
+    },
+    "B": {
+     "same": 0.6017499291742086,
+     "cross": 0.580669013648808
+    },
+    "C": {
+     "same": 0.6017499291742086,
+     "cross": 0.580669013648808
+    },
+    "D": {
+     "same": 0.6017499291742086,
+     "cross": 0.580669013648808
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 177,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 4,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "terry black s"
+   ],
+   "geo_ms": 18.39,
+   "ner_ms": 48.23,
+   "geo_anchored": 1,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5342511287286866,
+     "cross": 0.503774344287766
+    },
+    "B": {
+     "same": 0.5342511287286866,
+     "cross": 0.503774344287766
+    },
+    "C": {
+     "same": 0.5342511287286866,
+     "cross": 0.503774344287766
+    },
+    "D": {
+     "same": 0.5342511287286866,
+     "cross": 0.503774344287766
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 182,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "sky"
+   ],
+   "geo_ms": 17.83,
+   "ner_ms": 83.95,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7312163027631712,
+     "cross": 0.7045725185476652
+    },
+    "B": {
+     "same": 0.7312163027631712,
+     "cross": 0.7045725185476652
+    },
+    "C": {
+     "same": 0.7312163027631712,
+     "cross": 0.7045725185476652
+    },
+    "D": {
+     "same": 0.7312163027631712,
+     "cross": 0.7045725185476652
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 183,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "somebody"
+   ],
+   "geo_ms": 19.24,
+   "ner_ms": 157.33,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6609075215552903,
+     "cross": 0.6301313708002967
+    },
+    "B": {
+     "same": 0.6609075215552903,
+     "cross": 0.6301313708002967
+    },
+    "C": {
+     "same": 0.6609075215552903,
+     "cross": 0.6301313708002967
+    },
+    "D": {
+     "same": 0.6609075215552903,
+     "cross": 0.6301313708002967
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 185,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 7,
+   "geo_inj": [
+    "united states",
+    "asia",
+    "france",
+    "middle east"
+   ],
+   "ner_inj": [
+    "trump",
+    "leif lemahieu",
+    "united states",
+    "kamala harris"
+   ],
+   "geo_ms": 25.92,
+   "ner_ms": 209.73,
+   "geo_anchored": 3,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5093751612119639,
+     "cross": 0.48856888004041654
+    },
+    "B": {
+     "same": 0.5093751612119639,
+     "cross": 0.48856888004041654
+    },
+    "C": {
+     "same": 0.5093751612119639,
+     "cross": 0.48856888004041654
+    },
+    "D": {
+     "same": 0.5093751612119639,
+     "cross": 0.48856888004041654
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 187,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [],
+   "ner_inj": [
+    "ide",
+    "quorum"
+   ],
+   "geo_ms": 27.51,
+   "ner_ms": 214.57,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6266947555498377,
+     "cross": 0.6103939330510648
+    },
+    "B": {
+     "same": 0.6266947555498377,
+     "cross": 0.6103939330510648
+    },
+    "C": {
+     "same": 0.6266947555498377,
+     "cross": 0.6103939330510648
+    },
+    "D": {
+     "same": 0.6266947555498377,
+     "cross": 0.6103939330510648
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 188,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [],
+   "ner_inj": [
+    "russia",
+    "jpeg",
+    "sql"
+   ],
+   "geo_ms": 27.1,
+   "ner_ms": 216.89,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6544014381392935,
+     "cross": 0.6302652073237645
+    },
+    "B": {
+     "same": 0.6544014381392935,
+     "cross": 0.6302652073237645
+    },
+    "C": {
+     "same": 0.6544014381392935,
+     "cross": 0.6302652073237645
+    },
+    "D": {
+     "same": 0.6544014381392935,
+     "cross": 0.6302652073237645
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 191,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 24,
+   "n_geo_gt": 2,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "newsradio",
+    "nbc",
+    "alabama",
+    "benny"
+   ],
+   "geo_ms": 22.39,
+   "ner_ms": 93.77,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.605566966399774,
+     "cross": 0.5867030078812145
+    },
+    "B": {
+     "same": 0.605566966399774,
+     "cross": 0.5867030078812145
+    },
+    "C": {
+     "same": 0.605566966399774,
+     "cross": 0.5867030078812145
+    },
+    "D": {
+     "same": 0.605566966399774,
+     "cross": 0.5867030078812145
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 192,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 0,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "asia"
+   ],
+   "ner_inj": [
+    "ie6",
+    "china",
+    "mine",
+    "edge"
+   ],
+   "geo_ms": 23.72,
+   "ner_ms": 194.03,
+   "geo_anchored": 1,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5720855133027986,
+     "cross": 0.5192941970524907
+    },
+    "B": {
+     "same": 0.5720855133027986,
+     "cross": 0.5192941970524907
+    },
+    "C": {
+     "same": 0.5720855133027986,
+     "cross": 0.5192941970524907
+    },
+    "D": {
+     "same": 0.5720855133027986,
+     "cross": 0.5192941970524907
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 197,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "jonathan cuttrell"
+   ],
+   "geo_ms": 23.93,
+   "ner_ms": 160.78,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5796032367117636,
+     "cross": 0.5121165087186328
+    },
+    "B": {
+     "same": 0.5796032367117636,
+     "cross": 0.5121165087186328
+    },
+    "C": {
+     "same": 0.5796032367117636,
+     "cross": 0.5121165087186328
+    },
+    "D": {
+     "same": 0.5796032367117636,
+     "cross": 0.5121165087186328
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 208,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 21,
+   "n_geo_gt": 2,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "europe",
+    "united states"
+   ],
+   "ner_inj": [
+    "liam",
+    "huron",
+    "maelstrom",
+    "wardens",
+    "vic"
+   ],
+   "geo_ms": 33.05,
+   "ner_ms": 148.71,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6243954425268493,
+     "cross": 0.5998377904856043
+    },
+    "B": {
+     "same": 0.6243954425268493,
+     "cross": 0.5998377904856043
+    },
+    "C": {
+     "same": 0.6243954425268493,
+     "cross": 0.5998377904856043
+    },
+    "D": {
+     "same": 0.6243954425268493,
+     "cross": 0.5998377904856043
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 212,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "mexico",
+    "united states",
+    "canada",
+    "arizona"
+   ],
+   "ner_inj": [
+    "america",
+    "algodones",
+    "yuma",
+    "alberto"
+   ],
+   "geo_ms": 23.8,
+   "ner_ms": 128.36,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7211963370448982,
+     "cross": 0.7056695126612003
+    },
+    "B": {
+     "same": 0.7211963370448982,
+     "cross": 0.7056695126612003
+    },
+    "C": {
+     "same": 0.7211963370448982,
+     "cross": 0.7056695126612003
+    },
+    "D": {
+     "same": 0.7211963370448982,
+     "cross": 0.7056695126612003
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 220,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "kimo",
+    "royce"
+   ],
+   "geo_ms": 17.75,
+   "ner_ms": 49.38,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5999515924959646,
+     "cross": 0.5770207068221569
+    },
+    "B": {
+     "same": 0.5999515924959646,
+     "cross": 0.5770207068221569
+    },
+    "C": {
+     "same": 0.5999515924959646,
+     "cross": 0.5770207068221569
+    },
+    "D": {
+     "same": 0.5999515924959646,
+     "cross": 0.5770207068221569
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 222,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 17,
+   "n_geo_gt": 2,
+   "n_wne_gt": 8,
+   "geo_inj": [
+    "europe"
+   ],
+   "ner_inj": [
+    "custodes",
+    "necrons",
+    "c tan",
+    "guard",
+    "dave",
+    "grizzle company",
+    "bullgryn",
+    "necron",
+    "ap 1",
+    "aeldari",
+    "eldar",
+    "vic",
+    "csm",
+    "aldar",
+    "corsairs",
+    "seer council",
+    "corsair",
+    "skyreaver",
+    "starfang",
+    "wraithlord"
+   ],
+   "geo_ms": 43.99,
+   "ner_ms": 459.93,
+   "geo_anchored": 0,
+   "ner_anchored": 6,
+   "sel_b": [],
+   "sel_c": [
+    "necrons"
+   ],
+   "sel_d": [
+    "necrons"
+   ],
+   "arms": {
+    "A": {
+     "same": 0.3828270307022056,
+     "cross": 0.43993730900220535
+    },
+    "B": {
+     "same": 0.3828270307022056,
+     "cross": 0.43993730900220535
+    },
+    "C": {
+     "same": 0.38543324813063506,
+     "cross": 0.45917005131333927
+    },
+    "D": {
+     "same": 0.38543324813063506,
+     "cross": 0.45917005131333927
+    }
+   },
+   "miss_before": 4,
+   "miss_after": {
+    "B": 4,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 3,
+   "miss_wne_after": {
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 224,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "europe",
+    "united states"
+   ],
+   "ner_inj": [
+    "liam",
+    "bunch of hawks",
+    "fireside discord",
+    "max",
+    "msu aspect host",
+    "guardian",
+    "vic",
+    "csm"
+   ],
+   "geo_ms": 21.32,
+   "ner_ms": 98.64,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6823526964044182,
+     "cross": 0.6661005095210075
+    },
+    "B": {
+     "same": 0.6823526964044182,
+     "cross": 0.6661005095210075
+    },
+    "C": {
+     "same": 0.6823526964044182,
+     "cross": 0.6661005095210075
+    },
+    "D": {
+     "same": 0.6823526964044182,
+     "cross": 0.6661005095210075
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 228,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 1,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "kimbo",
+    "ransomware"
+   ],
+   "geo_ms": 33.34,
+   "ner_ms": 291.04,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5287899583824758,
+     "cross": 0.4897285974665123
+    },
+    "B": {
+     "same": 0.5287899583824758,
+     "cross": 0.4897285974665123
+    },
+    "C": {
+     "same": 0.5287899583824758,
+     "cross": 0.4897285974665123
+    },
+    "D": {
+     "same": 0.5287899583824758,
+     "cross": 0.4897285974665123
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 229,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 2,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "canada"
+   ],
+   "ner_inj": [
+    "kimbo slice",
+    "kimo"
+   ],
+   "geo_ms": 16.28,
+   "ner_ms": 44.49,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6253733465656389,
+     "cross": 0.6072403434909706
+    },
+    "B": {
+     "same": 0.6253733465656389,
+     "cross": 0.6072403434909706
+    },
+    "C": {
+     "same": 0.6253733465656389,
+     "cross": 0.6072403434909706
+    },
+    "D": {
+     "same": 0.6253733465656389,
+     "cross": 0.6072403434909706
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 253,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 21,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [],
+   "ner_inj": [
+    "infiltrate",
+    "maelstrom",
+    "infiltrating corsairs"
+   ],
+   "geo_ms": 12.54,
+   "ner_ms": 61.14,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.627022109199358,
+     "cross": 0.6080939652499093
+    },
+    "B": {
+     "same": 0.627022109199358,
+     "cross": 0.6080939652499093
+    },
+    "C": {
+     "same": 0.627022109199358,
+     "cross": 0.6080939652499093
+    },
+    "D": {
+     "same": 0.627022109199358,
+     "cross": 0.6080939652499093
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 257,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 5,
+   "geo_inj": [],
+   "ner_inj": [
+    "signal",
+    "sanjay",
+    "chicken",
+    "google"
+   ],
+   "geo_ms": 20.87,
+   "ner_ms": 217.47,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6654939187687079,
+     "cross": 0.6412251260843547
+    },
+    "B": {
+     "same": 0.6654939187687079,
+     "cross": 0.6412251260843547
+    },
+    "C": {
+     "same": 0.6654939187687079,
+     "cross": 0.6412251260843547
+    },
+    "D": {
+     "same": 0.6654939187687079,
+     "cross": 0.6412251260843547
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 258,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 17,
+   "n_geo_gt": 3,
+   "n_wne_gt": 11,
+   "geo_inj": [
+    "south america",
+    "latin america"
+   ],
+   "ner_inj": [
+    "rivera",
+    "state",
+    "miami",
+    "trump",
+    "bamako",
+    "npr",
+    "jewel bright",
+    "segu",
+    "jinim",
+    "tuareg",
+    "jini",
+    "npr news",
+    "lagos",
+    "lakshmi singh",
+    "supreme court",
+    "louisiana",
+    "gop"
+   ],
+   "geo_ms": 17.89,
+   "ner_ms": 89.43,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5416659228553569,
+     "cross": 0.515002538832279
+    },
+    "B": {
+     "same": 0.5416659228553569,
+     "cross": 0.515002538832279
+    },
+    "C": {
+     "same": 0.5416659228553569,
+     "cross": 0.515002538832279
+    },
+    "D": {
+     "same": 0.5416659228553569,
+     "cross": 0.515002538832279
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 1,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 260,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 21,
+   "n_geo_gt": 6,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "iran",
+    "middle east",
+    "united kingdom",
+    "europe"
+   ],
+   "ner_inj": [
+    "maverick 88",
+    "toby",
+    "genie",
+    "howie",
+    "canada",
+    "australia",
+    "great britain",
+    "iran",
+    "iran republic"
+   ],
+   "geo_ms": 31.8,
+   "ner_ms": 224.83,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5027525883128137,
+     "cross": 0.4795883530458944
+    },
+    "B": {
+     "same": 0.5027525883128137,
+     "cross": 0.4795883530458944
+    },
+    "C": {
+     "same": 0.5027525883128137,
+     "cross": 0.4795883530458944
+    },
+    "D": {
+     "same": 0.5027525883128137,
+     "cross": 0.4795883530458944
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 2,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 2,
+   "miss_wne_after": {
+    "B": 1,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 261,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 18,
+   "n_geo_gt": 5,
+   "n_wne_gt": 12,
+   "geo_inj": [],
+   "ner_inj": [
+    "trump",
+    "mariotsu",
+    "white house",
+    "christina corona",
+    "openai",
+    "david lam",
+    "united nations",
+    "capitol hill",
+    "bertha",
+    "louisiana",
+    "jeff",
+    "new york city",
+    "carrie dunst",
+    "ntd",
+    "mari otsu",
+    "north lawn",
+    "delaware",
+    "department of war",
+    "first lieutenant tyler feehan",
+    "ewa beach",
+    "hawaii",
+    "michael swinton",
+    "fayetteville",
+    "north carolina",
+    "sergeant angel rampersad",
+    "new york",
+    "isabella gonzalez",
+    "carrollton",
+    "texas",
+    "fianne",
+    "georgia",
+    "islamic republic of iran",
+    "strait"
+   ],
+   "geo_ms": 32.35,
+   "ner_ms": 176.94,
+   "geo_anchored": 0,
+   "ner_anchored": 9,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4894400894050154,
+     "cross": 0.463531276640612
+    },
+    "B": {
+     "same": 0.4894400894050154,
+     "cross": 0.463531276640612
+    },
+    "C": {
+     "same": 0.4894400894050154,
+     "cross": 0.463531276640612
+    },
+    "D": {
+     "same": 0.4894400894050154,
+     "cross": 0.463531276640612
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 265,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 8,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "tim smith",
+    "center of life",
+    "centeroflife org",
+    "striffler",
+    "white oak",
+    "mckeesport",
+    "dravosburg",
+    "port vue",
+    "design monuments",
+    "strifflers com",
+    "keystone church",
+    "gladstone field",
+    "second avenue",
+    "spartan community center",
+    "st stephen s",
+    "hazelwood avenue",
+    "steelers",
+    "heinz"
+   ],
+   "geo_ms": 25.83,
+   "ner_ms": 202.33,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5045516049015294,
+     "cross": 0.4306688046091836
+    },
+    "B": {
+     "same": 0.5045516049015294,
+     "cross": 0.4306688046091836
+    },
+    "C": {
+     "same": 0.5045516049015294,
+     "cross": 0.4306688046091836
+    },
+    "D": {
+     "same": 0.5045516049015294,
+     "cross": 0.4306688046091836
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 266,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 3,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 21.1,
+   "ner_ms": 76.56,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6464097652520713,
+     "cross": 0.6366342197416939
+    },
+    "B": {
+     "same": 0.6464097652520713,
+     "cross": 0.6366342197416939
+    },
+    "C": {
+     "same": 0.6464097652520713,
+     "cross": 0.6366342197416939
+    },
+    "D": {
+     "same": 0.6464097652520713,
+     "cross": 0.6366342197416939
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 267,
+   "task_type": "conversation_tagging",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 18.02,
+   "ner_ms": 116.07,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6113345941880847,
+     "cross": 0.6007821518731387
+    },
+    "B": {
+     "same": 0.6113345941880847,
+     "cross": 0.6007821518731387
+    },
+    "C": {
+     "same": 0.6113345941880847,
+     "cross": 0.6007821518731387
+    },
+    "D": {
+     "same": 0.6113345941880847,
+     "cross": 0.6007821518731387
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 145,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 16.92,
+   "ner_ms": 48.25,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7118760658310129,
+     "cross": 0.6944242689215143
+    },
+    "B": {
+     "same": 0.7118760658310129,
+     "cross": 0.6944242689215143
+    },
+    "C": {
+     "same": 0.7118760658310129,
+     "cross": 0.6944242689215143
+    },
+    "D": {
+     "same": 0.7118760658310129,
+     "cross": 0.6944242689215143
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 154,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "real estate investment group",
+    "free"
+   ],
+   "geo_ms": 14.04,
+   "ner_ms": 19.89,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7859277132340546,
+     "cross": 0.768114628525054
+    },
+    "B": {
+     "same": 0.7859277132340546,
+     "cross": 0.768114628525054
+    },
+    "C": {
+     "same": 0.7859277132340546,
+     "cross": 0.768114628525054
+    },
+    "D": {
+     "same": 0.7859277132340546,
+     "cross": 0.768114628525054
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 158,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [],
+   "geo_ms": 14.32,
+   "ner_ms": 44.86,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.641325789308534,
+     "cross": 0.6248744297244623
+    },
+    "B": {
+     "same": 0.641325789308534,
+     "cross": 0.6248744297244623
+    },
+    "C": {
+     "same": 0.641325789308534,
+     "cross": 0.6248744297244623
+    },
+    "D": {
+     "same": 0.641325789308534,
+     "cross": 0.6248744297244623
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 170,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "california",
+    "united states",
+    "canada"
+   ],
+   "ner_inj": [
+    "capital city living",
+    "bay living",
+    "rise",
+    "guide for homebuyers mortgage servicer"
+   ],
+   "geo_ms": 14.8,
+   "ner_ms": 53.41,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.46287374632385614,
+     "cross": 0.4081883659994389
+    },
+    "B": {
+     "same": 0.46287374632385614,
+     "cross": 0.4081883659994389
+    },
+    "C": {
+     "same": 0.46287374632385614,
+     "cross": 0.4081883659994389
+    },
+    "D": {
+     "same": 0.46287374632385614,
+     "cross": 0.4081883659994389
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 171,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "real estate investment group",
+    "free"
+   ],
+   "geo_ms": 11.31,
+   "ner_ms": 21.5,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6671956624437526,
+     "cross": 0.650167768905814
+    },
+    "B": {
+     "same": 0.6671956624437526,
+     "cross": 0.650167768905814
+    },
+    "C": {
+     "same": 0.6671956624437526,
+     "cross": 0.650167768905814
+    },
+    "D": {
+     "same": 0.6671956624437526,
+     "cross": 0.650167768905814
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 175,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 2,
+   "n_wne_gt": 9,
+   "geo_inj": [
+    "united states",
+    "united kingdom",
+    "europe"
+   ],
+   "ner_inj": [
+    "alameda contra",
+    "selling",
+    "united states"
+   ],
+   "geo_ms": 16.84,
+   "ner_ms": 48.18,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6694241687064931,
+     "cross": 0.6432640789041827
+    },
+    "B": {
+     "same": 0.6694241687064931,
+     "cross": 0.6432640789041827
+    },
+    "C": {
+     "same": 0.6694241687064931,
+     "cross": 0.6432640789041827
+    },
+    "D": {
+     "same": 0.6694241687064931,
+     "cross": 0.6432640789041827
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 178,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 14.89,
+   "ner_ms": 41.26,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7477179662046319,
+     "cross": 0.6930949682249685
+    },
+    "B": {
+     "same": 0.7477179662046319,
+     "cross": 0.6930949682249685
+    },
+    "C": {
+     "same": 0.7477179662046319,
+     "cross": 0.6930949682249685
+    },
+    "D": {
+     "same": 0.7477179662046319,
+     "cross": 0.6930949682249685
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 179,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 3,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "ada",
+    "louisville",
+    "united states"
+   ],
+   "geo_ms": 19.48,
+   "ner_ms": 42.99,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6045410666778332,
+     "cross": 0.5820085064883933
+    },
+    "B": {
+     "same": 0.6045410666778332,
+     "cross": 0.5820085064883933
+    },
+    "C": {
+     "same": 0.6045410666778332,
+     "cross": 0.5820085064883933
+    },
+    "D": {
+     "same": 0.6045410666778332,
+     "cross": 0.5820085064883933
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 196,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 2,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "real estate investment group",
+    "free"
+   ],
+   "geo_ms": 16.2,
+   "ner_ms": 17.78,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7072313662179961,
+     "cross": 0.6850243981985535
+    },
+    "B": {
+     "same": 0.7072313662179961,
+     "cross": 0.6850243981985535
+    },
+    "C": {
+     "same": 0.7072313662179961,
+     "cross": 0.6850243981985535
+    },
+    "D": {
+     "same": 0.7072313662179961,
+     "cross": 0.6850243981985535
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 203,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 17,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "and n nindustry u2019s",
+    "alex",
+    "florida"
+   ],
+   "geo_ms": 8.06,
+   "ner_ms": 44.64,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7760704567476558,
+     "cross": 0.7650697825568485
+    },
+    "B": {
+     "same": 0.7760704567476558,
+     "cross": 0.7650697825568485
+    },
+    "C": {
+     "same": 0.7760704567476558,
+     "cross": 0.7650697825568485
+    },
+    "D": {
+     "same": 0.7760704567476558,
+     "cross": 0.7650697825568485
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 204,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "google",
+    "ignored",
+    "css",
+    "direc"
+   ],
+   "geo_ms": 11.3,
+   "ner_ms": 40.88,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7064541660513534,
+     "cross": 0.6884390243748331
+    },
+    "B": {
+     "same": 0.7064541660513534,
+     "cross": 0.6884390243748331
+    },
+    "C": {
+     "same": 0.7064541660513534,
+     "cross": 0.6884390243748331
+    },
+    "D": {
+     "same": 0.7064541660513534,
+     "cross": 0.6884390243748331
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 207,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "aclu",
+    "massachusetts",
+    "it u2019s"
+   ],
+   "geo_ms": 13.2,
+   "ner_ms": 33.77,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.688857875614398,
+     "cross": 0.6830295475869395
+    },
+    "B": {
+     "same": 0.688857875614398,
+     "cross": 0.6830295475869395
+    },
+    "C": {
+     "same": 0.688857875614398,
+     "cross": 0.6830295475869395
+    },
+    "D": {
+     "same": 0.688857875614398,
+     "cross": 0.6830295475869395
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 209,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 12,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states",
+    "massachusetts",
+    "india",
+    "asia"
+   ],
+   "ner_inj": [
+    "breaking ndirectory",
+    "ads ncategories nbay state",
+    "local businesses nbutterfield odin public school",
+    "hubbard ave",
+    "butterfield",
+    "secondary schools nherbal power",
+    "columbus avenue",
+    "boston",
+    "federal st",
+    "westport rd elizabethtown",
+    "81401 nair",
+    "transportation nnational",
+    "newport",
+    "boston elder"
+   ],
+   "geo_ms": 17.51,
+   "ner_ms": 36.73,
+   "geo_anchored": 4,
+   "ner_anchored": 4,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7042906550187464,
+     "cross": 0.6633030011511009
+    },
+    "B": {
+     "same": 0.7042906550187464,
+     "cross": 0.6633030011511009
+    },
+    "C": {
+     "same": 0.7042906550187464,
+     "cross": 0.6633030011511009
+    },
+    "D": {
+     "same": 0.7042906550187464,
+     "cross": 0.6633030011511009
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 210,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 2,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "united states",
+    "massachusetts"
+   ],
+   "ner_inj": [
+    "breaking ndirectory",
+    "ads ncategories nbay state",
+    "local businesses nbutterfield odin public school",
+    "hubbard ave",
+    "butterfield",
+    "secondary schools nherbal power",
+    "columbus avenue",
+    "federal st",
+    "westport rd elizabethtown",
+    "81401 nair",
+    "transportation nnational",
+    "newport",
+    "boston elder"
+   ],
+   "geo_ms": 11.72,
+   "ner_ms": 52.53,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.450847976233675,
+     "cross": 0.4441806846667482
+    },
+    "B": {
+     "same": 0.450847976233675,
+     "cross": 0.4441806846667482
+    },
+    "C": {
+     "same": 0.450847976233675,
+     "cross": 0.4441806846667482
+    },
+    "D": {
+     "same": 0.450847976233675,
+     "cross": 0.4441806846667482
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 211,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 14,
+   "n_geo_gt": 1,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "massachusetts",
+    "united states"
+   ],
+   "ner_inj": [
+    "news n nboston",
+    "dylan halky",
+    "dorchester",
+    "bill forry dorchester",
+    "john hilliard",
+    "boston globe",
+    "wu campaign n nby",
+    "boston herald",
+    "elected school committee n nby the editorial board"
+   ],
+   "geo_ms": 15.35,
+   "ner_ms": 49.13,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4030055760282552,
+     "cross": 0.37350687636561986
+    },
+    "B": {
+     "same": 0.4030055760282552,
+     "cross": 0.37350687636561986
+    },
+    "C": {
+     "same": 0.4030055760282552,
+     "cross": 0.37350687636561986
+    },
+    "D": {
+     "same": 0.4030055760282552,
+     "cross": 0.37350687636561986
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 213,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 2,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "united states",
+    "massachusetts",
+    "asia"
+   ],
+   "ner_inj": [
+    "news n nboston",
+    "dylan halky",
+    "dorchester",
+    "bill forry dorchester",
+    "john hilliard",
+    "wu campaign n nby",
+    "elected school committee n nby the editorial board"
+   ],
+   "geo_ms": 17.6,
+   "ner_ms": 41.8,
+   "geo_anchored": 0,
+   "ner_anchored": 3,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4491523233320386,
+     "cross": 0.4273896161458325
+    },
+    "B": {
+     "same": 0.4491523233320386,
+     "cross": 0.4273896161458325
+    },
+    "C": {
+     "same": 0.4491523233320386,
+     "cross": 0.4273896161458325
+    },
+    "D": {
+     "same": 0.4491523233320386,
+     "cross": 0.4273896161458325
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 214,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 2,
+   "n_wne_gt": 2,
+   "geo_inj": [],
+   "ner_inj": [
+    "hud field regional",
+    "field office"
+   ],
+   "geo_ms": 12.76,
+   "ner_ms": 28.52,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.520031084272924,
+     "cross": 0.49952488312910337
+    },
+    "B": {
+     "same": 0.520031084272924,
+     "cross": 0.49952488312910337
+    },
+    "C": {
+     "same": 0.520031084272924,
+     "cross": 0.49952488312910337
+    },
+    "D": {
+     "same": 0.520031084272924,
+     "cross": 0.49952488312910337
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 216,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 2,
+   "n_wne_gt": 8,
+   "geo_inj": [
+    "united states",
+    "europe",
+    "germany"
+   ],
+   "ner_inj": [
+    "palouse",
+    "house",
+    "washington",
+    "weekend n nthe",
+    "gonzaga",
+    "thur",
+    "bulldogs"
+   ],
+   "geo_ms": 15.47,
+   "ner_ms": 45.84,
+   "geo_anchored": 3,
+   "ner_anchored": 4,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5159156644472328,
+     "cross": 0.49527843292251506
+    },
+    "B": {
+     "same": 0.5159156644472328,
+     "cross": 0.49527843292251506
+    },
+    "C": {
+     "same": 0.5159156644472328,
+     "cross": 0.49527843292251506
+    },
+    "D": {
+     "same": 0.5159156644472328,
+     "cross": 0.49527843292251506
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 217,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 11,
+   "n_geo_gt": 2,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "middle east",
+    "united states"
+   ],
+   "ner_inj": [],
+   "geo_ms": 14.3,
+   "ner_ms": 23.48,
+   "geo_anchored": 2,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.30956304583074806,
+     "cross": 0.29113411563296343
+    },
+    "B": {
+     "same": 0.30956304583074806,
+     "cross": 0.29113411563296343
+    },
+    "C": {
+     "same": 0.30956304583074806,
+     "cross": 0.29113411563296343
+    },
+    "D": {
+     "same": 0.30956304583074806,
+     "cross": 0.29113411563296343
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 218,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 1,
+   "n_wne_gt": 8,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "u00bb n nin",
+    "sound transit s",
+    "neighborhood cafe bill",
+    "washington senate",
+    "katie wilson"
+   ],
+   "geo_ms": 14.58,
+   "ner_ms": 49.29,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4007329369709789,
+     "cross": 0.37019218654382036
+    },
+    "B": {
+     "same": 0.4007329369709789,
+     "cross": 0.37019218654382036
+    },
+    "C": {
+     "same": 0.4007329369709789,
+     "cross": 0.37019218654382036
+    },
+    "D": {
+     "same": 0.4007329369709789,
+     "cross": 0.37019218654382036
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 219,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 3,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "levels n nyardi matrix",
+    "united states",
+    "us n nsingle family build"
+   ],
+   "geo_ms": 12.2,
+   "ner_ms": 38.81,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6334423687468738,
+     "cross": 0.6132944328394924
+    },
+    "B": {
+     "same": 0.6334423687468738,
+     "cross": 0.6132944328394924
+    },
+    "C": {
+     "same": 0.6334423687468738,
+     "cross": 0.6132944328394924
+    },
+    "D": {
+     "same": 0.6334423687468738,
+     "cross": 0.6132944328394924
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 223,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [],
+   "ner_inj": [
+    "samara",
+    "ecv"
+   ],
+   "geo_ms": 12.95,
+   "ner_ms": 25.18,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.7797757918930949,
+     "cross": 0.7629816179373871
+    },
+    "B": {
+     "same": 0.7797757918930949,
+     "cross": 0.7629816179373871
+    },
+    "C": {
+     "same": 0.7797757918930949,
+     "cross": 0.7629816179373871
+    },
+    "D": {
+     "same": 0.7797757918930949,
+     "cross": 0.7629816179373871
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 225,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "tanja odzak goppold",
+    "money u2026",
+    "rincon",
+    "piedmont dr",
+    "virginia hills u2013",
+    "martinez",
+    "tanja"
+   ],
+   "geo_ms": 9.24,
+   "ner_ms": 48.39,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6555037770796363,
+     "cross": 0.6362116673729232
+    },
+    "B": {
+     "same": 0.6555037770796363,
+     "cross": 0.6362116673729232
+    },
+    "C": {
+     "same": 0.6555037770796363,
+     "cross": 0.6362116673729232
+    },
+    "D": {
+     "same": 0.6555037770796363,
+     "cross": 0.6362116673729232
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 226,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 4,
+   "n_wne_gt": 5,
+   "geo_inj": [
+    "asia",
+    "united states"
+   ],
+   "ner_inj": [
+    "workforce hyderabad"
+   ],
+   "geo_ms": 17.15,
+   "ner_ms": 45.06,
+   "geo_anchored": 2,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.49012605911652274,
+     "cross": 0.46277634627705744
+    },
+    "B": {
+     "same": 0.49012605911652274,
+     "cross": 0.46277634627705744
+    },
+    "C": {
+     "same": 0.49012605911652274,
+     "cross": 0.46277634627705744
+    },
+    "D": {
+     "same": 0.49012605911652274,
+     "cross": 0.46277634627705744
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 227,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 10.57,
+   "ner_ms": 24.77,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.503946918123689,
+     "cross": 0.5614723346373803
+    },
+    "B": {
+     "same": 0.503946918123689,
+     "cross": 0.5614723346373803
+    },
+    "C": {
+     "same": 0.503946918123689,
+     "cross": 0.5614723346373803
+    },
+    "D": {
+     "same": 0.503946918123689,
+     "cross": 0.5614723346373803
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 230,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 10.32,
+   "ner_ms": 12.53,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5873088334781225,
+     "cross": 0.5699200992096671
+    },
+    "B": {
+     "same": 0.5873088334781225,
+     "cross": 0.5699200992096671
+    },
+    "C": {
+     "same": 0.5873088334781225,
+     "cross": 0.5699200992096671
+    },
+    "D": {
+     "same": 0.5873088334781225,
+     "cross": 0.5699200992096671
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 231,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "ar ap",
+    "aca"
+   ],
+   "geo_ms": 11.48,
+   "ner_ms": 41.17,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.585149800675621,
+     "cross": 0.5665922091131937
+    },
+    "B": {
+     "same": 0.585149800675621,
+     "cross": 0.5665922091131937
+    },
+    "C": {
+     "same": 0.585149800675621,
+     "cross": 0.5665922091131937
+    },
+    "D": {
+     "same": 0.585149800675621,
+     "cross": 0.5665922091131937
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 232,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "ar ap",
+    "aca"
+   ],
+   "geo_ms": 15.78,
+   "ner_ms": 40.27,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6820100906859291,
+     "cross": 0.6619537171832158
+    },
+    "B": {
+     "same": 0.6820100906859291,
+     "cross": 0.6619537171832158
+    },
+    "C": {
+     "same": 0.6820100906859291,
+     "cross": 0.6619537171832158
+    },
+    "D": {
+     "same": 0.6820100906859291,
+     "cross": 0.6619537171832158
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 235,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 7,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 16.34,
+   "ner_ms": 30.71,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4358943205489984,
+     "cross": 0.37930177059927794
+    },
+    "B": {
+     "same": 0.4358943205489984,
+     "cross": 0.37930177059927794
+    },
+    "C": {
+     "same": 0.4358943205489984,
+     "cross": 0.37930177059927794
+    },
+    "D": {
+     "same": 0.4358943205489984,
+     "cross": 0.37930177059927794
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 236,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 2,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [],
+   "geo_ms": 12.87,
+   "ner_ms": 18.59,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.39966041465502716,
+     "cross": 0.3762217762044816
+    },
+    "B": {
+     "same": 0.39966041465502716,
+     "cross": 0.3762217762044816
+    },
+    "C": {
+     "same": 0.39966041465502716,
+     "cross": 0.3762217762044816
+    },
+    "D": {
+     "same": 0.39966041465502716,
+     "cross": 0.3762217762044816
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 1,
+    "C": 2,
+    "D": 1
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 237,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [
+    "fraud",
+    "scams n nspeech",
+    "chair jefferson",
+    "miran",
+    "shared national credit program"
+   ],
+   "geo_ms": 14.86,
+   "ner_ms": 38.09,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5635864886807349,
+     "cross": 0.5467622609394163
+    },
+    "B": {
+     "same": 0.5635864886807349,
+     "cross": 0.5467622609394163
+    },
+    "C": {
+     "same": 0.5635864886807349,
+     "cross": 0.5467622609394163
+    },
+    "D": {
+     "same": 0.5635864886807349,
+     "cross": 0.5467622609394163
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 239,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "massachusetts",
+    "united states"
+   ],
+   "ner_inj": [
+    "potential of those who advance"
+   ],
+   "geo_ms": 17.02,
+   "ner_ms": 37.31,
+   "geo_anchored": 2,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5242162553717515,
+     "cross": 0.4993492353133954
+    },
+    "B": {
+     "same": 0.5242162553717515,
+     "cross": 0.4993492353133954
+    },
+    "C": {
+     "same": 0.5242162553717515,
+     "cross": 0.4993492353133954
+    },
+    "D": {
+     "same": 0.5242162553717515,
+     "cross": 0.4993492353133954
+    }
+   },
+   "miss_before": 2,
+   "miss_after": {
+    "B": 2,
+    "C": 2,
+    "D": 2
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 240,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states",
+    "united kingdom"
+   ],
+   "ner_inj": [],
+   "geo_ms": 13.78,
+   "ner_ms": 38.5,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5850970304957781,
+     "cross": 0.5744907037817503
+    },
+    "B": {
+     "same": 0.5850970304957781,
+     "cross": 0.5744907037817503
+    },
+    "C": {
+     "same": 0.5850970304957781,
+     "cross": 0.5744907037817503
+    },
+    "D": {
+     "same": 0.5850970304957781,
+     "cross": 0.5744907037817503
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 241,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 16,
+   "n_geo_gt": 3,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "existing affordable housing stock",
+    "adam ploetz",
+    "aicp",
+    "housing neighborhood development",
+    "emma battaglia",
+    "their service n nmapc awards",
+    "local u00bb read",
+    "legal notices",
+    "fostering collaborations"
+   ],
+   "geo_ms": 16.07,
+   "ner_ms": 42.5,
+   "geo_anchored": 1,
+   "ner_anchored": 5,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5923216305185168,
+     "cross": 0.5651379705378857
+    },
+    "B": {
+     "same": 0.5923216305185168,
+     "cross": 0.5651379705378857
+    },
+    "C": {
+     "same": 0.5923216305185168,
+     "cross": 0.5651379705378857
+    },
+    "D": {
+     "same": 0.5923216305185168,
+     "cross": 0.5651379705378857
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 242,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 19,
+   "n_geo_gt": 1,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "canada",
+    "united states"
+   ],
+   "ner_inj": [],
+   "geo_ms": 14.0,
+   "ner_ms": 45.89,
+   "geo_anchored": 1,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6246875734073857,
+     "cross": 0.616247677696281
+    },
+    "B": {
+     "same": 0.6246875734073857,
+     "cross": 0.616247677696281
+    },
+    "C": {
+     "same": 0.6246875734073857,
+     "cross": 0.616247677696281
+    },
+    "D": {
+     "same": 0.6246875734073857,
+     "cross": 0.616247677696281
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 244,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "academia edu"
+   ],
+   "geo_ms": 15.17,
+   "ner_ms": 32.65,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6517826366723843,
+     "cross": 0.5947984145081018
+    },
+    "B": {
+     "same": 0.6517826366723843,
+     "cross": 0.5947984145081018
+    },
+    "C": {
+     "same": 0.6517826366723843,
+     "cross": 0.5947984145081018
+    },
+    "D": {
+     "same": 0.6517826366723843,
+     "cross": 0.5947984145081018
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 245,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 9,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "america",
+    "andrews",
+    "certified commercial investment"
+   ],
+   "geo_ms": 32.59,
+   "ner_ms": 43.02,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4122628052785191,
+     "cross": 0.4106995090793587
+    },
+    "B": {
+     "same": 0.4122628052785191,
+     "cross": 0.4106995090793587
+    },
+    "C": {
+     "same": 0.4122628052785191,
+     "cross": 0.4106995090793587
+    },
+    "D": {
+     "same": 0.4122628052785191,
+     "cross": 0.4106995090793587
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 246,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 1,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "anaerobic digester biogas",
+    "sba 504",
+    "sba"
+   ],
+   "geo_ms": 14.71,
+   "ner_ms": 37.87,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6576139022951476,
+     "cross": 0.6278703651151963
+    },
+    "B": {
+     "same": 0.6576139022951476,
+     "cross": 0.6278703651151963
+    },
+    "C": {
+     "same": 0.6576139022951476,
+     "cross": 0.6278703651151963
+    },
+    "D": {
+     "same": 0.6576139022951476,
+     "cross": 0.6278703651151963
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 247,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 8,
+   "n_geo_gt": 0,
+   "n_wne_gt": 0,
+   "geo_inj": [],
+   "ner_inj": [
+    "default",
+    "block"
+   ],
+   "geo_ms": 13.67,
+   "ner_ms": 44.18,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.4553747769774789,
+     "cross": 0.39614374559967436
+    },
+    "B": {
+     "same": 0.4553747769774789,
+     "cross": 0.39614374559967436
+    },
+    "C": {
+     "same": 0.4553747769774789,
+     "cross": 0.39614374559967436
+    },
+    "D": {
+     "same": 0.4553747769774789,
+     "cross": 0.39614374559967436
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 248,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "default",
+    "block"
+   ],
+   "geo_ms": 22.84,
+   "ner_ms": 39.3,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.3795379656124541,
+     "cross": 0.35300202873368486
+    },
+    "B": {
+     "same": 0.3795379656124541,
+     "cross": 0.35300202873368486
+    },
+    "C": {
+     "same": 0.3795379656124541,
+     "cross": 0.35300202873368486
+    },
+    "D": {
+     "same": 0.3795379656124541,
+     "cross": 0.35300202873368486
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 249,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 4,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "boards",
+    "commissions",
+    "board and commission",
+    "officials u2019",
+    "seattle"
+   ],
+   "geo_ms": 15.01,
+   "ner_ms": 40.43,
+   "geo_anchored": 0,
+   "ner_anchored": 4,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6808678925583214,
+     "cross": 0.6602447387429904
+    },
+    "B": {
+     "same": 0.6808678925583214,
+     "cross": 0.6602447387429904
+    },
+    "C": {
+     "same": 0.6808678925583214,
+     "cross": 0.6602447387429904
+    },
+    "D": {
+     "same": 0.6808678925583214,
+     "cross": 0.6602447387429904
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 250,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 3,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states",
+    "asia"
+   ],
+   "ner_inj": [
+    "client service team",
+    "media"
+   ],
+   "geo_ms": 12.4,
+   "ner_ms": 42.29,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6967621239235231,
+     "cross": 0.6858026819392166
+    },
+    "B": {
+     "same": 0.6967621239235231,
+     "cross": 0.6858026819392166
+    },
+    "C": {
+     "same": 0.6967621239235231,
+     "cross": 0.6858026819392166
+    },
+    "D": {
+     "same": 0.6967621239235231,
+     "cross": 0.6858026819392166
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 251,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 2,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "asia"
+   ],
+   "ner_inj": [
+    "client service team",
+    "media"
+   ],
+   "geo_ms": 12.73,
+   "ner_ms": 44.86,
+   "geo_anchored": 1,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5222371044665503,
+     "cross": 0.5148563080930368
+    },
+    "B": {
+     "same": 0.5222371044665503,
+     "cross": 0.5148563080930368
+    },
+    "C": {
+     "same": 0.5222371044665503,
+     "cross": 0.5148563080930368
+    },
+    "D": {
+     "same": 0.5222371044665503,
+     "cross": 0.5148563080930368
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 252,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 12,
+   "n_geo_gt": 7,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "europe",
+    "united states",
+    "belgium",
+    "asia"
+   ],
+   "ner_inj": [
+    "media"
+   ],
+   "geo_ms": 18.19,
+   "ner_ms": 39.25,
+   "geo_anchored": 2,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.46402398122395305,
+     "cross": 0.4357922448633087
+    },
+    "B": {
+     "same": 0.46402398122395305,
+     "cross": 0.4357922448633087
+    },
+    "C": {
+     "same": 0.46402398122395305,
+     "cross": 0.4357922448633087
+    },
+    "D": {
+     "same": 0.46402398122395305,
+     "cross": 0.4357922448633087
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_geo_before": 1,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 1,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": [
+    "xlate"
+   ]
+  },
+  {
+   "map_idx": 254,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 15,
+   "n_geo_gt": 1,
+   "n_wne_gt": 0,
+   "geo_inj": [
+    "united states",
+    "asia"
+   ],
+   "ner_inj": [
+    "client service team",
+    "media"
+   ],
+   "geo_ms": 10.11,
+   "ner_ms": 40.97,
+   "geo_anchored": 2,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6801630136359924,
+     "cross": 0.6631781553526062
+    },
+    "B": {
+     "same": 0.6801630136359924,
+     "cross": 0.6631781553526062
+    },
+    "C": {
+     "same": 0.6801630136359924,
+     "cross": 0.6631781553526062
+    },
+    "D": {
+     "same": 0.6801630136359924,
+     "cross": 0.6631781553526062
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 255,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 13,
+   "n_geo_gt": 1,
+   "n_wne_gt": 6,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "katie b wilson",
+    "wilson",
+    "website n nmayor wilson"
+   ],
+   "geo_ms": 14.13,
+   "ner_ms": 26.51,
+   "geo_anchored": 0,
+   "ner_anchored": 2,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6825660992644134,
+     "cross": 0.6670956796299764
+    },
+    "B": {
+     "same": 0.6825660992644134,
+     "cross": 0.6670956796299764
+    },
+    "C": {
+     "same": 0.6825660992644134,
+     "cross": 0.6670956796299764
+    },
+    "D": {
+     "same": 0.6825660992644134,
+     "cross": 0.6670956796299764
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 259,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 10,
+   "n_geo_gt": 0,
+   "n_wne_gt": 2,
+   "geo_inj": [
+    "united states"
+   ],
+   "ner_inj": [
+    "nursing home rcsc facility",
+    "unlock",
+    "sba",
+    "usda",
+    "moody s analytics",
+    "cms",
+    "location optimization drive time"
+   ],
+   "geo_ms": 15.56,
+   "ner_ms": 50.01,
+   "geo_anchored": 0,
+   "ner_anchored": 6,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.49789292338072055,
+     "cross": 0.4324762163402164
+    },
+    "B": {
+     "same": 0.49789292338072055,
+     "cross": 0.4324762163402164
+    },
+    "C": {
+     "same": 0.49789292338072055,
+     "cross": 0.4324762163402164
+    },
+    "D": {
+     "same": 0.49789292338072055,
+     "cross": 0.4324762163402164
+    }
+   },
+   "miss_before": 1,
+   "miss_after": {
+    "B": 1,
+    "C": 1,
+    "D": 1
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 262,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 12,
+   "n_geo_gt": 5,
+   "n_wne_gt": 1,
+   "geo_inj": [
+    "australia",
+    "south america",
+    "latin america",
+    "asia",
+    "united states"
+   ],
+   "ner_inj": [
+    "real estate investment group",
+    "free"
+   ],
+   "geo_ms": 17.0,
+   "ner_ms": 22.31,
+   "geo_anchored": 0,
+   "ner_anchored": 1,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.5273000142510683,
+     "cross": 0.4746456654888035
+    },
+    "B": {
+     "same": 0.5273000142510683,
+     "cross": 0.4746456654888035
+    },
+    "C": {
+     "same": 0.5273000142510683,
+     "cross": 0.4746456654888035
+    },
+    "D": {
+     "same": 0.5273000142510683,
+     "cross": 0.4746456654888035
+    }
+   },
+   "miss_before": 3,
+   "miss_after": {
+    "B": 2,
+    "C": 3,
+    "D": 2
+   },
+   "miss_geo_before": 3,
+   "miss_geo_after": {
+    "B": 2,
+    "C": 3,
+    "D": 2
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  },
+  {
+   "map_idx": 263,
+   "task_type": "webpage_metadata_generation",
+   "parity": true,
+   "n_gt": 20,
+   "n_geo_gt": 0,
+   "n_wne_gt": 3,
+   "geo_inj": [],
+   "ner_inj": [],
+   "geo_ms": 10.63,
+   "ner_ms": 56.17,
+   "geo_anchored": 0,
+   "ner_anchored": 0,
+   "sel_b": [],
+   "sel_c": [],
+   "sel_d": [],
+   "arms": {
+    "A": {
+     "same": 0.6130720532275838,
+     "cross": 0.6071701032779127
+    },
+    "B": {
+     "same": 0.6130720532275838,
+     "cross": 0.6071701032779127
+    },
+    "C": {
+     "same": 0.6130720532275838,
+     "cross": 0.6071701032779127
+    },
+    "D": {
+     "same": 0.6130720532275838,
+     "cross": 0.6071701032779127
+    }
+   },
+   "miss_before": 0,
+   "miss_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_geo_before": 0,
+   "miss_geo_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "miss_wne_before": 0,
+   "miss_wne_after": {
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "chat_misses": []
+  }
+ ]
+}

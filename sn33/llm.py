@@ -26,6 +26,14 @@ from sn33 import cache
 # The validator hardcodes this; matching it is the whole game for tag ranking.
 # conversationgenome/llm/llm_openai.py:15
 EMBED_MODEL = "text-embedding-3-small"
+
+
+def _embed_model() -> str:
+    """OpenRouter addresses the same model as ``openai/text-embedding-3-small``."""
+    import os as _os
+    if _os.environ.get("SN33_EMBED_BASE_URL", "").find("openrouter") >= 0:
+        return f"openai/{EMBED_MODEL}"
+    return EMBED_MODEL
 EMBED_DIMS = 1536
 
 _client: Optional[AsyncOpenAI] = None
@@ -33,13 +41,29 @@ _chat_client: Optional[AsyncOpenAI] = None
 
 
 def client() -> AsyncOpenAI:
+    """Client for EMBEDDINGS.
+
+    Defaults to OpenAI. SN33_EMBED_BASE_URL + SN33_EMBED_API_KEY redirect it to a
+    compatible provider (OpenRouter serves openai/text-embedding-3-small), which is
+    the failover when the OpenAI balance runs dry - an outage otherwise drops the
+    miner to source=local (~0.2 vs ~0.6). Ranking only needs internal consistency:
+    our candidates and our target come from the same provider, and the validator
+    embeds independently on its side either way.
+    """
     global _client
     if _client is None:
-        api_key = os.environ.get("OPENAI_API_KEY")
-        if not api_key:
-            raise RuntimeError("OPENAI_API_KEY not set")
-        # Keep connections warm; a cold TLS handshake is ~100-200ms we cannot spare.
-        _client = AsyncOpenAI(api_key=api_key, max_retries=0)
+        base = os.environ.get("SN33_EMBED_BASE_URL")
+        if base:
+            key = os.environ.get("SN33_EMBED_API_KEY") or os.environ.get("OPENAI_API_KEY")
+            if not key:
+                raise RuntimeError("SN33_EMBED_BASE_URL set but no SN33_EMBED_API_KEY")
+            _client = AsyncOpenAI(api_key=key, base_url=base, max_retries=0)
+        else:
+            api_key = os.environ.get("OPENAI_API_KEY")
+            if not api_key:
+                raise RuntimeError("OPENAI_API_KEY not set")
+            # Keep connections warm; a cold TLS handshake is ~100-200ms we cannot spare.
+            _client = AsyncOpenAI(api_key=api_key, max_retries=0)
     return _client
 
 
@@ -221,7 +245,7 @@ async def embed(
             resp = await asyncio.wait_for(
                 client().embeddings.create(
                     input=[b.replace("\n", " ") for b in batch],
-                    model=EMBED_MODEL,
+                    model=_embed_model(),
                     dimensions=EMBED_DIMS,
                 ),
                 timeout=tmo,

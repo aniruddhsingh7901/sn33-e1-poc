@@ -1,0 +1,139 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 15 tasks from data/bench/sample_webpage.jsonl
+
+==============================================================================================================
+
+[0] webpage_metadata_generation  final=0.4327 adj=0.4808
+     raw miner tags (20): ['energy efficiency', 'building performance', 'greenhouse gas emissions', 'city policy', 'climate policy', 'building standards', 'building efficiency', 'energy performance']
+     after validate_tag_set (19): ['commercial real estate', 'energy benchmarking', 'lease agreements', 'building performance', 'energy performance', 'climate policy', 'green leases', 'carbon limits']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'market intelligence', 'property data']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['commercial real estate', 'energy benchmarking', 'lease agreements', 'building performance', 'energy performance', 'climate policy']  (19 total)
+     max cosine sim: 0.524
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[1] webpage_metadata_generation  final=0.4090 adj=0.4545
+     raw miner tags (20): ['zoning', 'land use', 'urban planning', 'adaptive reuse', 'parking requirements', 'zoning reform', 'building permits', 'permitting']
+     after validate_tag_set (20): ['building permits', 'permitting', 'housing policy', 'overlay district', 'zoning', 'vacant buildings', 'office conversion', 'redevelopment']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'market trends', 'transaction data']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['building permits', 'permitting', 'housing policy', 'overlay district', 'zoning', 'vacant buildings']  (20 total)
+     max cosine sim: 0.489
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[2] webpage_metadata_generation  final=0.4459 adj=0.4954
+     raw miner tags (20): ['boston', 'downtown boston', 'cambridge', 'massachusetts', 'rhode island', 'new england', 'east providence', 'bellingham']
+     after validate_tag_set (19): ['commercial real estate', 'new england', 'office vacancy', 'boston', 'citizens bank', 'bank branches', 'class a office', 'branch closures']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'market trends', 'property transactions']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['commercial real estate', 'new england', 'office vacancy', 'boston', 'citizens bank', 'bank branches']  (19 total)
+     max cosine sim: 0.569
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[3] webpage_metadata_generation  final=0.5011 adj=0.5011
+     raw miner tags (20): ['wetlands', 'environmental regulation', 'permitting', 'application forms', 'wetlands protection act', 'massachusetts', 'waterways', 'dredging']
+     after validate_tag_set (20): ['construction costs', 'permitting', 'real estate', 'wetlands protection act', 'cost estimating', 'dredging', 'reporting', 'cost index']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'customer service', 'login']
+     BOTH (matching): ['real estate']  (1 total)
+     UNIQUE (not in GT): ['construction costs', 'permitting', 'wetlands protection act', 'cost estimating', 'dredging', 'reporting']  (19 total)
+     max cosine sim: 0.578
+     PENALTIES: none
+
+[4] webpage_metadata_generation  final=0.4139 adj=0.4599
+     raw miner tags (21): ['massachusetts', 'building permits', 'permit application', 'plan review', 'building inspection', 'permit fees', 'fee schedule', 'permitting process']
+     after validate_tag_set (20): ['building permits', 'building codes', 'zoning compliance', 'plan review', 'union labor', 'construction industry', 'permit application', 'collective bargaining']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'market intelligence', 'property data']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['building permits', 'building codes', 'zoning compliance', 'plan review', 'union labor', 'construction industry']  (20 total)
+     max cosine sim: 0.494
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[5] webpage_metadata_generation  final=0.4149 adj=0.4611
+     raw miner tags (21): ['union labor', 'construction industry', 'labor costs', 'collective bargaining', 'wage trends', 'skilled labor', 'labor shortage', 'workforce']
+     after validate_tag_set (20): ['building permits', 'skilled labor', 'plan review', 'union labor', 'inspections', 'construction industry', 'workforce', 'hiring']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'subscriber access', 'login']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['building permits', 'skilled labor', 'plan review', 'union labor', 'inspections', 'construction industry']  (20 total)
+     max cosine sim: 0.498
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[6] webpage_metadata_generation  final=0.5367 adj=0.5367
+     raw miner tags (20): ['construction loans', 'bridge loans', 'project financing', 'real estate finance', 'property development', 'commercial real estate', 'interest rates', 'investment returns']
+     after validate_tag_set (20): ['commercial real estate', 'commercial lending', 'sales volume', 'property valuation', 'real estate finance', 'investment returns', 'bridge loans', 'treasury yields']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'subscriptions', 'market trends', 'transaction data', 'property records']
+     BOTH (matching): ['market trends', 'transaction data']  (2 total)
+     UNIQUE (not in GT): ['bridge loans', 'market uncertainty', 'multifamily housing', 'investment returns', 'commercial real estate', 'treasury yields']  (18 total)
+     max cosine sim: 0.620
+     PENALTIES: none
+
+[7] webpage_metadata_generation  final=0.5196 adj=0.5196
+     raw miner tags (20): ['risk management', 'hedging', 'downside risk', 'asset allocation', 'derivatives', 'portfolio management', 'volatility', 'trading strategies']
+     after validate_tag_set (19): ['options strategies', 'real estate', 'portfolio volatility', 'banking', 'tail risk', 'portfolio management', 'risk management', 'finance']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'customer service', 'login']
+     BOTH (matching): ['finance', 'banking', 'real estate']  (3 total)
+     UNIQUE (not in GT): ['tail risk', 'options strategies', 'wealth management', 'portfolio volatility', 'portfolio management', 'risk management']  (16 total)
+     max cosine sim: 0.649
+     PENALTIES: none
+
+[8] webpage_metadata_generation  final=0.5555 adj=0.5555
+     raw miner tags (20): ['real estate', 'banking', 'finance', 'property data', 'transaction records', 'market trends', 'reo properties', 'foreclosure']
+     after validate_tag_set (18): ['mortgage loans', 'transaction records', 'real estate', 'property data', 'market trends', 'finance', 'banking', 'wholesale pricing']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'market analysis', 'transaction data', 'property records']
+     BOTH (matching): ['finance', 'banking', 'real estate']  (3 total)
+     UNIQUE (not in GT): ['mortgage loans', 'transaction records', 'property data', 'market trends', 'wholesale pricing', 'loan portfolios']  (15 total)
+     max cosine sim: 0.658
+     PENALTIES: none
+
+[9] webpage_metadata_generation  final=0.4474 adj=0.4971
+     raw miner tags (21): ['leed', 'energy star', 'rhode island', 'real estate law', 'property disclosure', 'disclosure requirements', 'buyer rights', 'home inspection']
+     after validate_tag_set (20): ['commercial real estate', 'disclosure requirements', 'green building', 'sales agreement', 'green buildings', 'public agency', 'real estate law', 'real estate finance']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'customer service', 'login']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['commercial real estate', 'disclosure requirements', 'green building', 'sales agreement', 'green buildings', 'public agency']  (20 total)
+     max cosine sim: 0.535
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[10] webpage_metadata_generation  final=0.5697 adj=0.5697
+     raw miner tags (20): ['commercial real estate', 'real estate investment', 'market trends', 'rhode island', 'leasing', 'property sales', 'office market', 'market analysis']
+     after validate_tag_set (20): ['commercial real estate', 'northeast united states', 'property market', 'leasing', 'boston', 'market report', 'quarterly reports', 'real estate trends']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'market trends', 'transaction data']
+     BOTH (matching): ['market trends']  (1 total)
+     UNIQUE (not in GT): ['commercial real estate', 'northeast united states', 'property market', 'leasing', 'boston', 'market report']  (19 total)
+     max cosine sim: 0.638
+     PENALTIES: none
+
+[11] webpage_metadata_generation  final=0.5480 adj=0.5480
+     raw miner tags (20): ['boston', 'real estate', 'rental market', 'multifamily housing', 'property investment', 'housing demand', 'market report', 'property sales']
+     after validate_tag_set (19): ['real estate', 'rental market', 'suburbs', 'metropolitan area', 'market report', 'housing demand', 'urban core', 'city center']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'customer service', 'login']
+     BOTH (matching): ['market trends', 'real estate']  (2 total)
+     UNIQUE (not in GT): ['property investment', 'multifamily housing', 'market report', 'real estate investment', 'housing demand', 'urban core']  (17 total)
+     max cosine sim: 0.606
+     PENALTIES: none
+
+[12] webpage_metadata_generation  final=0.5826 adj=0.5826
+     raw miner tags (20): ['real estate', 'property data', 'foreclosure', 'housing market', 'mortgage', 'sheriff sale', 'auction', 'property listings']
+     after validate_tag_set (20): ['real estate', 'banking', 'auction', 'boston', 'finance', 'mortgage history', 'foreclosure', 'sheriff sale']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'login', 'customer service']
+     BOTH (matching): ['finance', 'banking', 'real estate']  (3 total)
+     UNIQUE (not in GT): ['home buying', 'foreclosure petitions', 'property data', 'mortgage', 'mortgage history', 'investment property']  (17 total)
+     max cosine sim: 0.649
+     PENALTIES: none
+
+[13] webpage_metadata_generation  final=0.4570 adj=0.5078
+     raw miner tags (20): ['affordable housing', 'low-income housing', 'housing development', 'massachusetts', 'inclusionary zoning', 'zoning law', 'housing policy', 'land use']
+     after validate_tag_set (19): ['housing policy', 'development incentives', 'expedited approval', 'housing finance', 'zoning law', 'federal tax credit', 'compliance requirements', 'housing tax credit']
+     GT tags (15): ['real estate', 'banking', 'finance', 'housing', 'property', 'subscriptions', 'login', 'customer service']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['housing policy', 'expedited approval', 'development incentives', 'housing finance', 'zoning law', 'federal tax credit']  (19 total)
+     max cosine sim: 0.586
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']
+
+[14] webpage_metadata_generation  final=0.4264 adj=0.4738
+     raw miner tags (17): ['affordable housing', 'low-income housing', 'inclusionary zoning', 'housing development', 'housing policy', 'zoning law', 'zoning policy', 'land use']
+     after validate_tag_set (15): ['zoning law', 'federal tax credit', 'inclusionary zoning', 'housing policy', 'housing law', 'fair housing', 'housing development', 'housing tax credit']
+     GT tags (15): ['real estate', 'banking', 'finance', 'property', 'housing', 'subscriptions', 'subscriber access', 'login support']
+     BOTH (matching): []  (0 total)
+     UNIQUE (not in GT): ['zoning law', 'federal tax credit', 'inclusionary zoning', 'housing policy', 'housing law', 'fair housing']  (15 total)
+     max cosine sim: 0.557
+     PENALTIES: ['no_both_tags (×0.9) — 0 of our tags exactly match a GT tag']

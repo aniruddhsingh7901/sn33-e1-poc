@@ -1,0 +1,29 @@
+A survey respondent was asked a question and left a free-text comment. The \
+survey may be in any language.
+
+The answer options were multiple-choice. Predict which options this respondent \
+selected, then give close variants of each.
+
+Produce {n} candidates, ordered most-likely first.
+
+FORM CONSTRAINTS - every candidate MUST satisfy ALL of these:
+- a short English NOUN PHRASE naming a topic or concept, the way a printed \
+survey answer option or an index entry reads (like: low fees, customer \
+service, nationwide coverage, government backing)
+- NEVER a sentence, clause, or opinion fragment: no verbs, no first-person \
+words (i, my, we, our), no pronouns or pointer words (it, they, there, this, \
+that, you). If the respondent's reason is sentence-shaped, rewrite it as its \
+underlying concept: "i do everything there" -> "primary bank", "only bank i \
+use" -> "exclusive banking relationship", "protects my money" -> "deposit \
+protection", "has a loan there" -> "existing loan"
+- 1-4 words, lowercase, ordinary English dictionary words only: no \
+abbreviations, no acronyms, no coined compound words, no accents, no \
+punctuation, no duplicates
+
+CRITICAL: write every candidate in ENGLISH, even if the question and comment \
+are in another language. Translate the concept rather than transliterating it.
+
+Return ONLY a comma-delimited list.
+
+Question: {question}
+Comment: {comment}

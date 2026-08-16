@@ -1,0 +1,496 @@
+{
+ "austin": [
+  "texas",
+  "united states"
+ ],
+ "houston": [
+  "texas",
+  "united states"
+ ],
+ "dallas": [
+  "texas",
+  "united states"
+ ],
+ "boston": [
+  "massachusetts",
+  "united states"
+ ],
+ "san francisco": [
+  "california",
+  "united states"
+ ],
+ "los angeles": [
+  "california",
+  "united states"
+ ],
+ "berkeley": [
+  "california",
+  "united states"
+ ],
+ "hollywood": [
+  "california",
+  "united states"
+ ],
+ "orange county": [
+  "california",
+  "united states"
+ ],
+ "bay area": [
+  "california",
+  "united states"
+ ],
+ "silicon valley": [
+  "california",
+  "united states"
+ ],
+ "miami": [
+  "florida",
+  "united states"
+ ],
+ "palm beach county": [
+  "florida",
+  "united states"
+ ],
+ "newark": [
+  "new jersey",
+  "united states"
+ ],
+ "yuma": [
+  "arizona",
+  "united states"
+ ],
+ "seattle": [
+  "united states"
+ ],
+ "tacoma": [
+  "united states"
+ ],
+ "louisville": [
+  "united states"
+ ],
+ "new york": [
+  "united states"
+ ],
+ "washington dc": [
+  "united states"
+ ],
+ "california": [
+  "united states"
+ ],
+ "texas": [
+  "united states"
+ ],
+ "arizona": [
+  "united states"
+ ],
+ "new jersey": [
+  "united states"
+ ],
+ "montana": [
+  "united states"
+ ],
+ "florida": [
+  "united states"
+ ],
+ "michigan": [
+  "united states"
+ ],
+ "north carolina": [
+  "united states"
+ ],
+ "louisiana": [
+  "united states"
+ ],
+ "colorado": [
+  "united states"
+ ],
+ "alabama": [
+  "united states"
+ ],
+ "georgia": [
+  "united states"
+ ],
+ "maine": [
+  "united states"
+ ],
+ "massachusetts": [
+  "united states"
+ ],
+ "pennsylvania": [
+  "united states"
+ ],
+ "hawaii": [
+  "united states"
+ ],
+ "missouri": [
+  "united states"
+ ],
+ "utah": [
+  "united states"
+ ],
+ "delaware": [
+  "united states"
+ ],
+ "minnesota": [
+  "united states"
+ ],
+ "washington": [
+  "united states"
+ ],
+ "america": [
+  "united states"
+ ],
+ "american": [
+  "united states"
+ ],
+ "americans": [
+  "united states"
+ ],
+ "usa": [
+  "united states"
+ ],
+ "u.s.": [
+  "united states"
+ ],
+ "mexico city": [
+  "mexico"
+ ],
+ "los algodones": [
+  "mexico"
+ ],
+ "molar city": [
+  "mexico"
+ ],
+ "tijuana": [
+  "mexico"
+ ],
+ "guadalajara": [
+  "mexico"
+ ],
+ "mexican": [
+  "mexico"
+ ],
+ "méxico": [
+  "mexico"
+ ],
+ "toronto": [
+  "canada"
+ ],
+ "vancouver": [
+  "canada"
+ ],
+ "british columbia": [
+  "canada"
+ ],
+ "ontario": [
+  "canada"
+ ],
+ "quebec": [
+  "canada"
+ ],
+ "canadian": [
+  "canada"
+ ],
+ "canadians": [
+  "canada"
+ ],
+ "china": [
+  "asia"
+ ],
+ "beijing": [
+  "china",
+  "asia"
+ ],
+ "shanghai": [
+  "china",
+  "asia"
+ ],
+ "hong kong": [
+  "china",
+  "asia"
+ ],
+ "chinese": [
+  "china"
+ ],
+ "india": [
+  "asia"
+ ],
+ "delhi": [
+  "india",
+  "asia"
+ ],
+ "mumbai": [
+  "india",
+  "asia"
+ ],
+ "bangalore": [
+  "india",
+  "asia"
+ ],
+ "hyderabad": [
+  "telangana",
+  "india",
+  "asia"
+ ],
+ "telangana": [
+  "india",
+  "asia"
+ ],
+ "indian": [
+  "india"
+ ],
+ "japan": [
+  "asia"
+ ],
+ "tokyo": [
+  "japan",
+  "asia"
+ ],
+ "korea": [
+  "asia"
+ ],
+ "south korea": [
+  "asia"
+ ],
+ "seoul": [
+  "south korea",
+  "asia"
+ ],
+ "korean": [
+  "south korea"
+ ],
+ "bangladesh": [
+  "asia"
+ ],
+ "vietnam": [
+  "asia"
+ ],
+ "singapore": [
+  "asia"
+ ],
+ "taiwan": [
+  "asia"
+ ],
+ "iran": [
+  "middle east"
+ ],
+ "tehran": [
+  "iran",
+  "middle east"
+ ],
+ "iranian": [
+  "iran"
+ ],
+ "islamic republic": [
+  "iran",
+  "middle east"
+ ],
+ "iraq": [
+  "middle east"
+ ],
+ "israel": [
+  "middle east"
+ ],
+ "israeli": [
+  "israel"
+ ],
+ "gaza": [
+  "middle east"
+ ],
+ "lebanon": [
+  "middle east"
+ ],
+ "syria": [
+  "middle east"
+ ],
+ "yemen": [
+  "middle east"
+ ],
+ "qatar": [
+  "middle east"
+ ],
+ "saudi arabia": [
+  "middle east"
+ ],
+ "saudi": [
+  "saudi arabia",
+  "middle east"
+ ],
+ "dubai": [
+  "united arab emirates",
+  "middle east"
+ ],
+ "medina": [
+  "saudi arabia",
+  "middle east"
+ ],
+ "strait of hormuz": [
+  "middle east"
+ ],
+ "red sea": [
+  "middle east"
+ ],
+ "persian gulf": [
+  "middle east"
+ ],
+ "mideast": [
+  "middle east"
+ ],
+ "france": [
+  "europe"
+ ],
+ "paris": [
+  "france",
+  "europe"
+ ],
+ "french": [
+  "france"
+ ],
+ "germany": [
+  "europe"
+ ],
+ "berlin": [
+  "germany",
+  "europe"
+ ],
+ "nuremberg": [
+  "germany",
+  "europe"
+ ],
+ "german": [
+  "germany"
+ ],
+ "belgium": [
+  "europe"
+ ],
+ "brussels": [
+  "belgium",
+  "europe"
+ ],
+ "italy": [
+  "europe"
+ ],
+ "rome": [
+  "italy",
+  "europe"
+ ],
+ "italian": [
+  "italy"
+ ],
+ "spain": [
+  "europe"
+ ],
+ "madrid": [
+  "spain",
+  "europe"
+ ],
+ "united kingdom": [
+  "europe"
+ ],
+ "uk": [
+  "united kingdom",
+  "europe"
+ ],
+ "britain": [
+  "united kingdom",
+  "europe"
+ ],
+ "british": [
+  "united kingdom"
+ ],
+ "england": [
+  "united kingdom",
+  "europe"
+ ],
+ "london": [
+  "united kingdom",
+  "europe"
+ ],
+ "manchester": [
+  "united kingdom",
+  "europe"
+ ],
+ "wales": [
+  "united kingdom",
+  "europe"
+ ],
+ "scotland": [
+  "united kingdom",
+  "europe"
+ ],
+ "cyprus": [
+  "europe"
+ ],
+ "slovakia": [
+  "europe"
+ ],
+ "netherlands": [
+  "europe"
+ ],
+ "amsterdam": [
+  "netherlands",
+  "europe"
+ ],
+ "sweden": [
+  "europe"
+ ],
+ "switzerland": [
+  "europe"
+ ],
+ "poland": [
+  "europe"
+ ],
+ "portugal": [
+  "europe"
+ ],
+ "greece": [
+  "europe"
+ ],
+ "european": [
+  "europe"
+ ],
+ "russian": [
+  "russia"
+ ],
+ "moscow": [
+  "russia"
+ ],
+ "australian": [
+  "australia"
+ ],
+ "sydney": [
+  "australia"
+ ],
+ "melbourne": [
+  "australia"
+ ],
+ "venezuela": [
+  "south america",
+  "latin america"
+ ],
+ "brazil": [
+  "south america",
+  "latin america"
+ ],
+ "argentina": [
+  "south america",
+  "latin america"
+ ],
+ "colombia": [
+  "south america",
+  "latin america"
+ ],
+ "caribbean": [
+  "latin america"
+ ],
+ "nigeria": [
+  "africa"
+ ],
+ "egypt": [
+  "africa",
+  "middle east"
+ ],
+ "south africa": [
+  "africa"
+ ]
+}

@@ -1,0 +1,94 @@
+Backend: LlmOpenAI  Model: gpt-5.2
+Diagnosing 10 tasks from data/bench/v6_test_10.jsonl
+
+==============================================================================================================
+
+[0] conversation_tagging  final=0.6021 adj=0.6021
+     raw miner tags (18): ['state management', 'redux', 'mercury', 'frontend development', 'observables', 'cycle framework', 'boilerplate reduction', 'angular']
+     after validate_tag_set (17): ['mercury', 'react', 'angular', 'cycle framework', 'redux', 'boilerplate reduction', 'logo design', 'technology trends']
+     GT tags (18): ['state management', 'application state', 'redux', 'flux architecture', 'mercury framework', 'frontend frameworks', 'reactive programming', 'observables']
+     BOTH (matching): ['logo design', 'angular', 'redux', 'boilerplate reduction', 'state management', 'observables']  (6 total)
+     UNIQUE (not in GT): ['mercury', 'react', 'cycle framework', 'web development', 'technology trends', 'software architecture']  (11 total)
+     max cosine sim: 0.676
+     PENALTIES: none
+
+[1] conversation_tagging  final=0.5540 adj=0.5540
+     raw miner tags (18): ['artificial intelligence', 'podcasting', 'security ai', 'fiction writing', 'open source models', 'language models', 'lm studio', 'ollama']
+     after validate_tag_set (15): ['model downloading', 'podcasting', 'mac software', 'hugging face', 'open source models', 'fiction writing', 'artificial intelligence', 'llama models']
+     GT tags (18): ['ai fiction writing', 'creative writing', 'storytelling', 'narrative generation', 'open source models', 'local language models', 'model selection', 'large language models']
+     BOTH (matching): ['model downloading', 'hugging face', 'open source models', 'context length', 'creative writing']  (5 total)
+     UNIQUE (not in GT): ['podcasting', 'mac software', 'artificial intelligence', 'llama models', 'fiction writing', 'content moderation']  (10 total)
+     max cosine sim: 0.643
+     PENALTIES: none
+
+[2] conversation_tagging  final=0.5170 adj=0.5170
+     raw miner tags (18): ['dentistry', 'dental tourism', 'border town', 'los algodones', 'molar city', 'americans', 'canadians', 'cotton farming']
+     after validate_tag_set (18): ['military bases', 'molar city', 'bars', 'alcoholism', 'policy changes', 'healthcare', 'tourism industry', 'retirement']
+     GT tags (18): ['dental tourism', 'medical tourism', 'border towns', 'cross border economy', 'mexico united states relations', 'american influence', 'local history', 'community transformation']
+     BOTH (matching): ['colorado river', 'cotton farming', 'dental tourism']  (3 total)
+     UNIQUE (not in GT): ['americans', 'molar city', 'military bases', 'bars', 'alcoholism', 'policy changes']  (15 total)
+     max cosine sim: 0.598
+     PENALTIES: none
+
+[3] conversation_tagging  final=0.6359 adj=0.6359
+     raw miner tags (18): ['software development', 'project estimation', 'time management', 'effort estimation', 'underestimation', 'overestimation', 'relative estimation', 'absolute scale']
+     after validate_tag_set (18): ['time tracking', 'relative estimation', 'integrity', 'cognitive bias', 'overestimation', 'behavioral psychology', 'client expectations', 'software development']
+     GT tags (18): ['software estimation', 'effort forecasting', 'project planning', 'schedule management', 'time tracking', 'productivity measurement', 'cognitive bias', 'decision psychology']
+     BOTH (matching): ['time tracking', 'relative estimation', 'integrity', 'cognitive bias', 'software development', 'project planning']  (6 total)
+     UNIQUE (not in GT): ['overestimation', 'behavioral psychology', 'client expectations', 'absolute scale', 'underestimation', 'billing']  (12 total)
+     max cosine sim: 0.716
+     PENALTIES: none
+
+[4] conversation_tagging  final=0.6324 adj=0.6324
+     raw miner tags (18): ['cost curves', 'healthy habits', 'health investment', 'aging', 'long term costs', 'status quo', 'relative costs', 'absolute costs']
+     after validate_tag_set (18): ['healthy habits', 'health investment', 'real estate', 'aging', 'cost curves', 'relative costs', 'home ownership', 'absolute costs']
+     GT tags (18): ['cost curves', 'long term planning', 'healthy habits', 'preventive health', 'aging', 'lifestyle choices', 'opportunity cost', 'investment tradeoffs']
+     BOTH (matching): ['healthy habits', 'aging', 'personal finance', 'maintenance costs', 'budgeting', 'cost curves']  (7 total)
+     UNIQUE (not in GT): ['decision making', 'health investment', 'relative costs', 'absolute costs', 'status quo', 'risk management']  (11 total)
+     max cosine sim: 0.692
+     PENALTIES: none
+
+[5] conversation_tagging  final=0.6476 adj=0.6476
+     raw miner tags (18): ['offline apps', 'local storage', 'web applications', 'desktop apps', 'electron', 'file system access', 'caching', 'network connectivity']
+     after validate_tag_set (16): ['caching', 'native apps', 'network connectivity', 'ios development', 'software architecture', 'web applications', 'cold start', 'react native']
+     GT tags (18): ['offline apps', 'local-first design', 'desktop applications', 'web technologies', 'electron', 'react', 'react native', 'mobile development']
+     BOTH (matching): ['caching', 'network connectivity', 'ios development', 'cold start', 'react native', 'electron']  (7 total)
+     UNIQUE (not in GT): ['native apps', 'software architecture', 'web applications', 'android porting', 'file system access', 'cross platform development']  (9 total)
+     max cosine sim: 0.729
+     PENALTIES: none
+
+[6] conversation_tagging  final=0.6226 adj=0.6226
+     raw miner tags (18): ['trust', 'relationships', 'trustworthiness', 'dependability', 'commitments', 'follow through', 'reliability', 'overextending']
+     after validate_tag_set (17): ['track record', 'workplace', 'communication', 'trust', 'follow through', 'dependability', 'reliability', 'credit building']
+     GT tags (18): ['trust', 'relationship building', 'dependability', 'reliability', 'commitments', 'follow through', 'honesty', 'transparency']
+     BOTH (matching): ['communication', 'trust', 'follow through', 'dependability', 'reliability', 'honesty']  (9 total)
+     UNIQUE (not in GT): ['decision making', 'track record', 'workplace', 'credit building', 'relationships', 'time management']  (8 total)
+     max cosine sim: 0.778
+     PENALTIES: none
+
+[7] conversation_tagging  final=0.5260 adj=0.5260
+     raw miner tags (18): ['idioms', 'raining cats and dogs', 'language origins', 'radio broadcast', 'live streaming', 'podcasts', 'gratitude', 'positive thinking']
+     after validate_tag_set (17): ['quality time', 'geopolitics', 'consumer price index', 'radio broadcast', 'positive thinking', 'terrorism', 'live streaming', 'strait of hormuz']
+     GT tags (18): ['idioms', 'figures of speech', 'language origins', 'etymology', 'radio broadcasting', 'talk radio', 'media programming', 'live streaming']
+     BOTH (matching): ['geopolitics', 'live streaming', 'gratitude', 'inflation', 'language origins', 'idioms']  (6 total)
+     UNIQUE (not in GT): ['quality time', 'radio broadcast', 'consumer price index', 'positive thinking', 'terrorism', 'strait of hormuz']  (11 total)
+     max cosine sim: 0.582
+     PENALTIES: none
+
+[8] conversation_tagging  final=0.7056 adj=0.7056
+     raw miner tags (18): ['unit tests', 'integration tests', 'test coverage', 'readability', 'test naming', 'test structure', 'clean code', 'mocking']
+     after validate_tag_set (18): ['unit tests', 'assertion', 'readability', 'clarity', 'external dependencies', 'refactoring', 'file system', 'integration tests']
+     GT tags (18): ['unit testing', 'integration testing', 'test readability', 'clear assertions', 'code coverage', 'test naming', 'test structure', 'dependency isolation']
+     BOTH (matching): ['test structure', 'external dependencies', 'test naming', 'mocking']  (4 total)
+     UNIQUE (not in GT): ['unit tests', 'readability', 'clarity', 'refactoring', 'file system', 'integration tests']  (14 total)
+     max cosine sim: 0.810
+     PENALTIES: none
+
+[9] conversation_tagging  final=0.5396 adj=0.5396
+     raw miner tags (18): ['mexico city', 'estadio azteca', 'soccer match', 'mexico portugal', 'security operations', 'crowd control', 'urban mobility', 'world cup 2026']
+     after validate_tag_set (17): ['world cup 2026', 'mexico portugal', 'estadio azteca', 'foreign exchange reserves', 'macroeconomics', 'government evaluation', 'transportation planning', 'mexico city']
+     GT tags (18): ['mexico city government', 'city administration', 'public security', 'crowd control', 'event operations', 'mobility planning', 'stadium access', 'world cup preparations']
+     BOTH (matching): ['crowd control']  (1 total)
+     UNIQUE (not in GT): ['world cup 2026', 'mexico portugal', 'estadio azteca', 'tourism', 'foreign exchange reserves', 'macroeconomics']  (16 total)
+     max cosine sim: 0.644
+     PENALTIES: none

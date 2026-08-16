@@ -1,0 +1,89 @@
+{
+ "arm_a": {
+  "conv_cross": 0.5362934067169141,
+  "web_cross": 0.5585040661505224
+ },
+ "arms": [
+  {
+   "arm": "B",
+   "conv_cross_delta": 0.00022,
+   "web_cross_delta": 0.0,
+   "median_delta": 0.0,
+   "p10_delta": 0.0,
+   "p25_delta": 0.0,
+   "improved": 2,
+   "degraded": 0,
+   "unchanged": 154,
+   "worst_regression": 0.0,
+   "best_improvement": 0.0126,
+   "injected_per_task": 1.63,
+   "selected_per_task": 0.01,
+   "selection_rate": 0.0078,
+   "miss_rate_before": 0.0473,
+   "miss_rate_after": 0.0372,
+   "runtime_ms": 20.7,
+   "_extra": {
+    "all_cross_delta": 0.00015,
+    "same_draw_delta": 0.00013,
+    "changed_tasks_mean_delta": 0.01159,
+    "geo_missrate": "38/237 -> 13/237",
+    "wne_missrate": "40/479 -> 33/479",
+    "anchors": "geo anchored 76/255 (30%)"
+   }
+  },
+  {
+   "arm": "C",
+   "conv_cross_delta": 0.00031,
+   "web_cross_delta": 0.0,
+   "median_delta": 0.0,
+   "p10_delta": 0.0,
+   "p25_delta": 0.0,
+   "improved": 4,
+   "degraded": 0,
+   "unchanged": 152,
+   "worst_regression": 0.0,
+   "best_improvement": 0.01923,
+   "injected_per_task": 6.85,
+   "selected_per_task": 0.03,
+   "selection_rate": 0.0037,
+   "miss_rate_before": 0.0473,
+   "miss_rate_after": 0.0337,
+   "runtime_ms": 116.1,
+   "_extra": {
+    "all_cross_delta": 0.00022,
+    "same_draw_delta": 0.0001,
+    "changed_tasks_mean_delta": 0.00843,
+    "geo_missrate": "38/237 -> 24/237",
+    "wne_missrate": "40/479 -> 8/479",
+    "anchors": "ner anchored 275/1069 (26%)"
+   }
+  },
+  {
+   "arm": "D",
+   "conv_cross_delta": 0.00031,
+   "web_cross_delta": 0.0,
+   "median_delta": 0.0,
+   "p10_delta": 0.0,
+   "p25_delta": 0.0,
+   "improved": 4,
+   "degraded": 0,
+   "unchanged": 152,
+   "worst_regression": 0.0,
+   "best_improvement": 0.01923,
+   "injected_per_task": 8.31,
+   "selected_per_task": 0.03,
+   "selection_rate": 0.0031,
+   "miss_rate_before": 0.0473,
+   "miss_rate_after": 0.0268,
+   "runtime_ms": 136.8,
+   "_extra": {
+    "all_cross_delta": 0.00022,
+    "same_draw_delta": 0.0001,
+    "changed_tasks_mean_delta": 0.00843,
+    "geo_missrate": "38/237 -> 6/237",
+    "wne_missrate": "40/479 -> 8/479",
+    "anchors": "geo anchored 76/255 (30%), ner anchored 275/1069 (26%)"
+   }
+  }
+ ]
+}
